@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 74HC14D
+D Hex inverting Schmitt trigger
+K
+F http://componentsearchengine.com/Datasheets/1/74HC14D.pdf
+$ENDCMP
+#
+#End Doc Library

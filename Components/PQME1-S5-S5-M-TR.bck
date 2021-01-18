@@ -1,0 +1,8 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP PQME1-S5-S5-M-TR
+D Isolated DC/DC Converters isolated, 0.75 W, 4.75~5.25 Vdc input, 5 Vdc, 0.15 A, single regulated output, SMT, T&R
+F https://componentsearchengine.com/Datasheets/1/PQME1-S5-S5-M-TR.pdf
+$ENDCMP
+#
+#End Doc Library

@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP IRLML0060TRPBF
+D MOSFET N-Channel 60V 2.7A SOT23 Infineon IRLML0060TRPBF N-channel MOSFET Transistor, 2.7 A, 60 V, 3-Pin SOT-23
+K
+F https://www.infineon.com/dgdl/irlml0060pbf.pdf?fileId=5546d462533600a40153566493ef25e6
+$ENDCMP
+#
+#End Doc Library

@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP FS8205
+D DUAL N-CHANNEL ENHANCEMENT MODE POWER MOFSET
+K
+F https://www.ic-fortune.com/upload/Download/FS8205-DS-19_EN.pdf
+$ENDCMP
+#
+#End Doc Library

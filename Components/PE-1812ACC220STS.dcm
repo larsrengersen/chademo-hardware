@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP PE-1812ACC220STS
+D Common Mode Chokes / Filters AEC-Q200 Chip Choke 22uH .6Ohms Q200
+K
+F https://productfinder.pulseeng.com/doc_type/WEB301/doc_num/W717/doc_part/W717.pdf
+$ENDCMP
+#
+#End Doc Library

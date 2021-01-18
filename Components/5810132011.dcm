@@ -1,0 +1,8 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 5810132011
+D AUTOMOTIVE CONN, PLUG, 40POS, PCB; Product Range:ModICE ME-MX Series; Automotive Connector Shell Style:Panel Mount Plug; No. of Contacts:40Contacts; Automotive Contact Type:PCB Pin; Connector Body Material:Polymer, Glass Filled Body RoHS Compliant: Yes
+F https://belfuse.com/resources/brochures/cinchconnectivitysolutions/modice/br-ccs-ice-modice-and-shs-brochure.pdf
+$ENDCMP
+#
+#End Doc Library

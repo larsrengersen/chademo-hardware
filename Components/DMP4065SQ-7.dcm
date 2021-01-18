@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP DMP4065SQ-7
+D MOSFET BVDSS: 31V40V SOT23 T&R 3K
+K
+F https://www.arrow.com/en/products/dmp4065sq-7/diodes-incorporated
+$ENDCMP
+#
+#End Doc Library

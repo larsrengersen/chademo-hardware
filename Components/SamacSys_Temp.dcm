@@ -1,0 +1,67 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 172675-0213
+D Power to the Board MF+ HCS VT HDR DR 2CKT GW W/PEG TIN
+F https://componentsearchengine.com/Datasheets/1/172675-0213.pdf
+$ENDCMP
+#
+$CMP 2920L200_24DR
+D PTC 24V POLYFUSE SURF MOUNT 2920 2A
+F https://m.littelfuse.com/~/media/electronics/datasheets/resettable_ptcs/littelfuse_ptc_2920l_datasheet.pdf.pdf
+$ENDCMP
+#
+$CMP MH2029-300Y
+D EMI Filter Beads, Chips & Arrays Impedance 30ohms IDC 3.0
+$ENDCMP
+#
+$CMP NCV8403ADTRKG
+D Self-Protected Low Side Driver with Temperature and Current Limit 42 V, 14 A, Single NChannel, SOT223
+F https://componentsearchengine.com/Datasheets/1/NCV8403ADTRKG.pdf
+$ENDCMP
+#
+$CMP NE555DR
+D Single Precision Timer
+F http://www.ti.com/lit/ds/symlink/ne555.pdf
+$ENDCMP
+#
+$CMP PCH-112L2MH,000
+D SPST-NO PCB Mount Non-Latching Relay Through Hole, 12V dc
+$ENDCMP
+#
+$CMP ROE-3.305S
+D Recom Through Hole 1W Isolated DC-DC Converter, I/O isolation 1kV dc, Vout 5V dc
+F https://www.recom-power.com/pdf/Econoline/ROE.pdf
+$ENDCMP
+#
+$CMP RTE24012
+D DPCO PCB power relay,8A 12Vdc coil
+F https://componentsearchengine.com/Datasheets/1/RTE24012.pdf
+$ENDCMP
+#
+$CMP TR2024S3V3
+D Non-Isolated DC/DC Converters DC-DC Converter, Switching Regulator, 2A
+F https://www.xppower.com/portals/0/pdfs/SF_TR20.pdf
+$ENDCMP
+#
+$CMP V23086C1001A403-EV-BLBOX
+D Automotive Relays V23086C1001A403-EV-BLBOX
+$ENDCMP
+#
+$CMP VEJ-221M1HTR-1010
+D Aluminium Electrolytic Capacitors - SMD 50V 220uF 20% Tol 10x10.3
+F https://www.datasheets360.com/pdf/-2896152917155295236
+$ENDCMP
+#
+$CMP ATSAM3X8EA-AU
+D MCU,SAM3X8C,84MHz,512KB Flash,LQFP144 ATSAM3X8EA-AU, 32 bit ARM Cortex M3 Microcontroller 84MHz 16 kB, 2 x 256 kB Flash, ROM, 64 + 32 kB RAM, USB 144-Pin LQFP
+K
+F 
+$ENDCMP
+#
+$CMP SMBJ18CA
+D Littelfuse SMBJ18CA Bi-Directional TVS Diode, 600W peak, 2-Pin DO-214AA
+K
+F http://www.littelfuse.com/~/media/electronics/datasheets/tvs_diodes/littelfuse_tvs_diode_smbj_datasheet.pdf.pdf
+$ENDCMP
+#
+#End Doc Library

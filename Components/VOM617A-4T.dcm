@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP VOM617A-4T
+D Transistor Output Optocouplers Phototransistor Out CTR 160-320% 5mA
+K
+F https://www.vishay.com/docs/83446/vom617a.pdf
+$ENDCMP
+#
+#End Doc Library

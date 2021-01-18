@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP SMBJ18CA
+D Littelfuse SMBJ18CA Bi-Directional TVS Diode, 600W peak, 2-Pin DO-214AA
+K
+F http://www.littelfuse.com/~/media/electronics/datasheets/tvs_diodes/littelfuse_tvs_diode_smbj_datasheet.pdf.pdf
+$ENDCMP
+#
+#End Doc Library
