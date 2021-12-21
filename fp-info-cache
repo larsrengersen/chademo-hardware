@@ -1,36 +1,169 @@
-7975251871289
-BB_Components
-1751361
-1751361-1
-Connector
-0
-14
-14
-BB_Components
-1985852
-1985852-2
-Connector
-0
-3
-3
-BB_Components
-395443002
-395443002
+38578364998421
+SamacSys_Parts
+1726750213
+172675-0213-1
 Connector
 0
 2
 2
-BB_Components
-SHDR8W50P0X508_1X8_4064X810X1000P
-1729186/
-Connector
+SamacSys_Parts
+ACT45B1012PTL003
+ACT45B-101-2P-TL003-3
+Filter
+0
+4
+4
+SamacSys_Parts
+BEADC2016X130N
+2029 Series
+Ferrite Bead
+0
+2
+2
+SamacSys_Parts
+BGA100C80P10X10_900X900X110
+100-ball TFBGA
+Integrated Circuit
+0
+100
+100
+SamacSys_Parts
+CAPAE1040X1050N
+1mmx0.3mm
+Capacitor Polarised
+0
+2
+2
+SamacSys_Parts
+DIOM5436X261N
+DO-214AA (SMB J-Bend)
+Diode
+0
+2
+2
+SamacSys_Parts
+FUSC7451X125N
+2920L200/24DR
+Fuse
+0
+2
+2
+SamacSys_Parts
+NE555DR
+D (R-PDSO-G8)
+Integrated Circuit
 0
 8
 8
-BB_Components
-TE_776163-1
-
-
+SamacSys_Parts
+NVD5117PLT4GVF01
+DPAK (SINGLE GAUGE) CASE 369C ISSUE F_4
+Integrated Circuit
 0
-35
-35
+3
+3
+SamacSys_Parts
+PCH112L2MH000
+PCH-112L2MH,000-1
+Relay or Contactor
+0
+4
+4
+SamacSys_Parts
+PE1812ACC220STS
+PE-1812ACC220STS-3
+Inductor
+0
+4
+4
+SamacSys_Parts
+PTS645V_31_
+PTS647SM38SMTR2LFS-2
+Switch
+0
+4
+4
+SamacSys_Parts
+QFP50P2200X2200X160-144N
+144-lead LQFP
+Integrated Circuit
+0
+144
+144
+SamacSys_Parts
+RESC3215X80N
+G83270023
+Crystal or Oscillator
+0
+2
+2
+SamacSys_Parts
+ROE3305S
+ROE-3.305S-2
+Power Supply
+0
+4
+4
+SamacSys_Parts
+RTE24012
+RTE24012
+Relay or Contactor
+0
+8
+8
+SamacSys_Parts
+SOIC127P600X175-8N
+SO8 (150 mils width)
+Integrated Circuit
+0
+8
+8
+SamacSys_Parts
+SOP254P1040X485-8N
+DUB (R-PDSO-G8)
+Integrated Circuit
+0
+8
+8
+SamacSys_Parts
+SOT95P230X110-3N
+SOT23, 3leads
+TVS Diode (Bi-directional)
+0
+3
+3
+SamacSys_Parts
+SOT95P237X112-3N
+SOT-23/TO-236AB)
+MOSFET (N-Channel)
+0
+3
+3
+SamacSys_Parts
+SOT96P240X120-3N
+SOT2325
+MOSFET (N-Channel)
+0
+3
+3
+SamacSys_Parts
+TR2024S3V3
+TR2024S3V3-2
+Power Supply
+0
+3
+3
+SamacSys_Parts
+V23086C1001A403EVBLBOX
+V23086C1001A403-EV-BLBOX
+Relay or Contactor
+0
+5
+5
+SamacSys_Parts
+VOM617A8X001T
+VOM617A-8X001T
+Phototransistor
+0
+4
+4

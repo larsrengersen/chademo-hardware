@@ -74,161 +74,96 @@ $EndComp
 $Comp
 L Device:Crystal_GND24 Y1
 U 1 1 5F5FF5EE
-P 1350 1800
-F 0 "Y1" V 900 1750 50  0000 L CNN
-F 1 "CRYSTAL 12MHZ " V 1000 1500 50  0000 L CNN
-F 2 "Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm" H 1350 1800 50  0001 C CNN
-F 3 "https://nl.mouser.com/ProductDetail/ABRACON/ABM8-12000MHz-20-B1U-T?qs=vLWxofP3U2yROOOva%252BwLbA%3D%3D" H 1350 1800 50  0001 C CNN
-F 4 "SMD-3225_4P" H 1350 1800 50  0001 C CNN "JLC Footprint"
-F 5 "https://jlcpcb.com/parts/componentSearch?searchTxt=C9002" H 1350 1800 50  0001 C CNN "JLC-URL"
-F 6 "C9002" H 1350 1800 50  0001 C CNN "LCSC part number"
-F 7 "X322512MSB4SI" H 1350 1800 50  0001 C CNN "Manufacturer_Part_Number"
-F 8 "Basic" H 1350 1800 50  0001 C CNN "Stock type"
-F 9 "815-M812000MHZ20B1UT" H 1350 1800 50  0001 C CNN "Mouser Part Number"
-F 10 "https://nl.mouser.com/ProductDetail/ABRACON/ABM8-12000MHz-20-B1U-T?qs=vLWxofP3U2yROOOva%252BwLbA%3D%3D" H 1350 1800 50  0001 C CNN "Mouser link"
-F 11 "SMD" H 1350 1800 50  0001 C CNN "Type"
-	1    1350 1800
-	0    1    1    0   
+P -7600 4300
+F 0 "Y1" V -8050 4250 50  0000 L CNN
+F 1 "CRYSTAL 12MHZ " V -7950 4000 50  0000 L CNN
+F 2 "Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm" H -7600 4300 50  0001 C CNN
+F 3 "https://nl.mouser.com/ProductDetail/ABRACON/ABM8-12000MHz-20-B1U-T?qs=vLWxofP3U2yROOOva%252BwLbA%3D%3D" H -7600 4300 50  0001 C CNN
+F 4 "SMD-3225_4P" H -7600 4300 50  0001 C CNN "JLC Footprint"
+F 5 "https://jlcpcb.com/parts/componentSearch?searchTxt=C9002" H -7600 4300 50  0001 C CNN "JLC-URL"
+F 6 "C9002" H -7600 4300 50  0001 C CNN "LCSC part number"
+F 7 "X322512MSB4SI" H -7600 4300 50  0001 C CNN "Manufacturer_Part_Number"
+F 8 "Basic" H -7600 4300 50  0001 C CNN "Stock type"
+F 9 "815-M812000MHZ20B1UT" H -7600 4300 50  0001 C CNN "Mouser Part Number"
+F 10 "https://nl.mouser.com/ProductDetail/ABRACON/ABM8-12000MHz-20-B1U-T?qs=vLWxofP3U2yROOOva%252BwLbA%3D%3D" H -7600 4300 50  0001 C CNN "Mouser link"
+F 11 "SMD" H -7600 4300 50  0001 C CNN "Type"
+	1    -7600 4300
+	0    -1   1    0   
 $EndComp
-$Comp
-L Device:Crystal Y2
-U 1 1 5F601D06
-P 1350 2600
-F 0 "Y2" H 1350 2868 50  0000 C CNN
-F 1 "Crystal 32.768kHz" V 1550 2600 50  0000 C CNN
-F 2 "Crystal:Crystal_SMD_3215-2Pin_3.2x1.5mm" H 1350 2600 50  0001 C CNN
-F 3 "https://nl.mouser.com/ProductDetail/ABRACON/ABS07AIG-32768kHz-T?qs=gG6m684uYP5oqwgXl1V4Jg%3D%3D" H 1350 2600 50  0001 C CNN
-F 4 "SMD-3215_2P" H 1350 2600 50  0001 C CNN "JLC Footprint"
-F 5 "https://jlcpcb.com/parts/componentSearch?searchTxt=C32346" H 1350 2600 50  0001 C CNN "JLC-URL"
-F 6 "C32346" H 1350 2600 50  0001 C CNN "LCSC part number"
-F 7 "Q13FC1350000400" H 1350 2600 50  0001 C CNN "Manufacturer_Part_Number"
-F 8 "Basic" H 1350 2600 50  0001 C CNN "Stock type"
-F 9 "815-S07AIG-32.768T" H 1350 2600 50  0001 C CNN "Mouser Part Number"
-F 10 "https://nl.mouser.com/ProductDetail/ABRACON/ABS07AIG-32768kHz-T?qs=gG6m684uYP5oqwgXl1V4Jg%3D%3D" H 1350 2600 50  0001 C CNN "Mouser link"
-F 11 "SMD" H 1350 2600 50  0001 C CNN "Type"
-	1    1350 2600
-	0    -1   -1   0   
-$EndComp
-$Comp
-L power:+3.3V #PWR021
-U 1 1 5F609013
-P 5250 1550
-F 0 "#PWR021" H 5250 1400 50  0001 C CNN
-F 1 "+3.3V" H 5265 1723 50  0000 C CNN
-F 2 "" H 5250 1550 50  0001 C CNN
-F 3 "" H 5250 1550 50  0001 C CNN
-	1    5250 1550
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	5150 1550 5250 1550
-Wire Wire Line
-	5150 1950 5250 1950
-Wire Wire Line
-	5250 1950 5250 1850
-Connection ~ 5250 1550
-Text Label 5300 2150 0    50   ~ 0
+Text Label -10600 6750 0    50   ~ 0
 VDD_ANA
 Wire Wire Line
-	5150 2150 5650 2150
+	-10750 6750 -10250 6750
 Wire Wire Line
-	5150 1650 5750 1650
-Text Label 5300 1650 0    50   ~ 0
+	-10750 3250 -10150 3250
+Text Label -10600 3250 0    50   ~ 0
 VDD_OUT_MI
-Wire Wire Line
-	5150 1750 5200 1750
-Wire Wire Line
-	5200 1750 5200 2250
-Wire Wire Line
-	5150 2250 5200 2250
-Connection ~ 5200 2250
-Wire Wire Line
-	5200 2250 5200 2350
-$Comp
-L Device:L_Core_Ferrite L4
-U 1 1 5F60C9A7
-P 5750 2350
-F 0 "L4" V 5700 2300 50  0000 L CNN
-F 1 "Imp. 30 Ohm" V 5850 2150 50  0000 L CNN
-F 2 "Inductor_SMD:L_0603_1608Metric" H 5750 2350 50  0001 C CNN
-F 3 "https://jlcpcb.com/parts/componentSearch?searchTxt=C24821" H 5750 2350 50  0001 C CNN
-F 4 "https://jlcpcb.com/parts/componentSearch?searchTxt=C24821" H 5750 2350 50  0001 C CNN "JLC-URL"
-F 5 "C24821" H 5750 2350 50  0001 C CNN "LCSC part number"
-F 6 "GZ1608D300TF" H 5750 2350 50  0001 C CNN "Manufacturer_Part_Number"
-F 7 "Extended" H 5750 2350 50  0001 C CNN "Stock type"
-F 8 "0603" H 5750 2350 50  0001 C CNN "JLC Footprint"
-F 9 "810-MAF1608GAD201LTA" H 5750 2350 50  0001 C CNN "Mouser Part Number"
-F 10 "https://nl.mouser.com/ProductDetail/TDK/MAF1608GAD201LTAH0?qs=BJlw7L4Cy79j18hBlf4%2FXA%3D%3D" H 5750 2350 50  0001 C CNN "Mouser link"
-F 11 "SMD" H 5750 2350 50  0001 C CNN "Type"
-	1    5750 2350
-	0    -1   -1   0   
-$EndComp
 Wire Wire Line
 	20250 3700 20750 3700
 Text Label 20300 3700 0    50   ~ 0
 USB_D-
 Wire Wire Line
-	5150 2850 5850 2850
+	-7250 5400 -6350 5400
 $Comp
 L Device:R_Small_US R6
 U 1 1 5F621A98
-P 5600 3050
-F 0 "R6" V 5550 2800 50  0000 C CNN
-F 1 "39 Ohm" V 5650 2800 50  0000 C CNN
-F 2 "Resistor_SMD:R_1206_3216Metric" H 5600 3050 50  0001 C CNN
-F 3 "https://nl.mouser.com/ProductDetail/Panasonic/ERJ-8ENF39R0V?qs=sGAEpiMZZMtG0KNrPCHnjTg0x5DoQJ5PEpbqxKZ1qxQ%3D" H 5600 3050 50  0001 C CNN
-F 4 "1206" H 5600 3050 50  0001 C CNN "JLC Footprint"
-F 5 "https://jlcpcb.com/parts/componentSearch?searchTxt=C22198" H 5600 3050 50  0001 C CNN "JLC-URL"
-F 6 "C22198" H 5600 3050 50  0001 C CNN "LCSC part number"
-F 7 "1206W4F390JT5E" H 5600 3050 50  0001 C CNN "Manufacturer_Part_Number"
-F 8 "Extended" H 5600 3050 50  0001 C CNN "Stock type"
-F 9 "667-ERJ-8ENF39R0V" H 5600 3050 50  0001 C CNN "Mouser Part Number"
-F 10 "https://nl.mouser.com/ProductDetail/Panasonic/ERJ-8ENF39R0V?qs=sGAEpiMZZMtG0KNrPCHnjTg0x5DoQJ5PEpbqxKZ1qxQ%3D" H 5600 3050 50  0001 C CNN "Mouser link"
-F 11 "SMD" H 5600 3050 50  0001 C CNN "Type"
-	1    5600 3050
+P -6600 5600
+F 0 "R6" V -6650 5350 50  0000 C CNN
+F 1 "39 Ohm" V -6550 5350 50  0000 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" H -6600 5600 50  0001 C CNN
+F 3 "https://nl.mouser.com/ProductDetail/Panasonic/ERJ-8ENF39R0V?qs=sGAEpiMZZMtG0KNrPCHnjTg0x5DoQJ5PEpbqxKZ1qxQ%3D" H -6600 5600 50  0001 C CNN
+F 4 "1206" H -6600 5600 50  0001 C CNN "JLC Footprint"
+F 5 "https://jlcpcb.com/parts/componentSearch?searchTxt=C22198" H -6600 5600 50  0001 C CNN "JLC-URL"
+F 6 "C22198" H -6600 5600 50  0001 C CNN "LCSC part number"
+F 7 "1206W4F390JT5E" H -6600 5600 50  0001 C CNN "Manufacturer_Part_Number"
+F 8 "Extended" H -6600 5600 50  0001 C CNN "Stock type"
+F 9 "667-ERJ-8ENF39R0V" H -6600 5600 50  0001 C CNN "Mouser Part Number"
+F 10 "https://nl.mouser.com/ProductDetail/Panasonic/ERJ-8ENF39R0V?qs=sGAEpiMZZMtG0KNrPCHnjTg0x5DoQJ5PEpbqxKZ1qxQ%3D" H -6600 5600 50  0001 C CNN "Mouser link"
+F 11 "SMD" H -6600 5600 50  0001 C CNN "Type"
+	1    -6600 5600
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	5150 3050 5500 3050
+	-7250 5600 -6700 5600
 Wire Wire Line
-	5700 3050 5850 3050
+	-6500 5600 -6350 5600
 Wire Wire Line
-	5850 3050 5850 2850
-Connection ~ 5850 2850
+	-6350 5600 -6350 5400
+Connection ~ -6350 5400
 Wire Wire Line
-	5850 2850 6000 2850
-Text Label 6150 2950 0    50   ~ 0
+	-6350 5400 -6200 5400
+Text Label -6050 5500 0    50   ~ 0
 USB_D+
 $Comp
 L Device:R_Small_US R7
 U 1 1 5F626392
-P 6150 3150
-F 0 "R7" V 6200 3300 50  0000 C CNN
-F 1 "39 Ohm" V 6100 3150 50  0000 C CNN
-F 2 "Resistor_SMD:R_1206_3216Metric" H 6150 3150 50  0001 C CNN
-F 3 "https://nl.mouser.com/ProductDetail/Panasonic/ERJ-8ENF39R0V?qs=sGAEpiMZZMtG0KNrPCHnjTg0x5DoQJ5PEpbqxKZ1qxQ%3D" H 6150 3150 50  0001 C CNN
-F 4 "1206" H 6150 3150 50  0001 C CNN "JLC Footprint"
-F 5 "https://jlcpcb.com/parts/componentSearch?searchTxt=C22198" H 6150 3150 50  0001 C CNN "JLC-URL"
-F 6 "C22198" H 6150 3150 50  0001 C CNN "LCSC part number"
-F 7 "1206W4F390JT5E" H 6150 3150 50  0001 C CNN "Manufacturer_Part_Number"
-F 8 "Extended" H 6150 3150 50  0001 C CNN "Stock type"
-F 9 "667-ERJ-8ENF39R0V" H 6150 3150 50  0001 C CNN "Mouser Part Number"
-F 10 "https://nl.mouser.com/ProductDetail/Panasonic/ERJ-8ENF39R0V?qs=sGAEpiMZZMtG0KNrPCHnjTg0x5DoQJ5PEpbqxKZ1qxQ%3D" H 6150 3150 50  0001 C CNN "Mouser link"
-F 11 "SMD" H 6150 3150 50  0001 C CNN "Type"
-	1    6150 3150
+P -6050 5700
+F 0 "R7" V -6000 5850 50  0000 C CNN
+F 1 "39 Ohm" V -6100 5700 50  0000 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" H -6050 5700 50  0001 C CNN
+F 3 "https://nl.mouser.com/ProductDetail/Panasonic/ERJ-8ENF39R0V?qs=sGAEpiMZZMtG0KNrPCHnjTg0x5DoQJ5PEpbqxKZ1qxQ%3D" H -6050 5700 50  0001 C CNN
+F 4 "1206" H -6050 5700 50  0001 C CNN "JLC Footprint"
+F 5 "https://jlcpcb.com/parts/componentSearch?searchTxt=C22198" H -6050 5700 50  0001 C CNN "JLC-URL"
+F 6 "C22198" H -6050 5700 50  0001 C CNN "LCSC part number"
+F 7 "1206W4F390JT5E" H -6050 5700 50  0001 C CNN "Manufacturer_Part_Number"
+F 8 "Extended" H -6050 5700 50  0001 C CNN "Stock type"
+F 9 "667-ERJ-8ENF39R0V" H -6050 5700 50  0001 C CNN "Mouser Part Number"
+F 10 "https://nl.mouser.com/ProductDetail/Panasonic/ERJ-8ENF39R0V?qs=sGAEpiMZZMtG0KNrPCHnjTg0x5DoQJ5PEpbqxKZ1qxQ%3D" H -6050 5700 50  0001 C CNN "Mouser link"
+F 11 "SMD" H -6050 5700 50  0001 C CNN "Type"
+	1    -6050 5700
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	6250 3150 6400 3150
+	-5950 5700 -5800 5700
 Wire Wire Line
-	6400 3150 6400 2950
-Connection ~ 6400 2950
+	-5800 5700 -5800 5500
+Connection ~ -5800 5500
 Wire Wire Line
-	6400 2950 6550 2950
+	-5800 5500 -5650 5500
 Wire Wire Line
-	5150 3150 6050 3150
+	-7250 5700 -6150 5700
 Wire Wire Line
-	5150 2950 6400 2950
+	-7250 5500 -5800 5500
 Text Label 20300 3800 0    50   ~ 0
 USB_D+
 Wire Wire Line
@@ -238,344 +173,147 @@ CAR-12V_always-on
 $Comp
 L Device:R_Small_US R1
 U 1 1 5F62C716
-P 1700 2850
-F 0 "R1" H 1650 3000 50  0000 C CNN
-F 1 "6.8 kOhm" V 1800 2900 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" H 1700 2850 50  0001 C CNN
-F 3 "https://nl.mouser.com/ProductDetail/Panasonic/ERJ-6ENF6801V?qs=sGAEpiMZZMtG0KNrPCHnjTg0x5DoQJ5P%252B6poaIHrg9A%3D" H 1700 2850 50  0001 C CNN
-F 4 "0805" H 1700 2850 50  0001 C CNN "JLC Footprint"
-F 5 "https://jlcpcb.com/parts/componentSearch?searchTxt=C17772" H 1700 2850 50  0001 C CNN "JLC-URL"
-F 6 "C17772" H 1700 2850 50  0001 C CNN "LCSC part number"
-F 7 "0805W8F6801T5E" H 1700 2850 50  0001 C CNN "Manufacturer_Part_Number"
-F 8 "Basic" H 1700 2850 50  0001 C CNN "Stock type"
-F 9 "667-ERJ-6ENF6801V" H 1700 2850 50  0001 C CNN "Mouser Part Number"
-F 10 "https://nl.mouser.com/ProductDetail/Panasonic/ERJ-6ENF6801V?qs=sGAEpiMZZMtG0KNrPCHnjTg0x5DoQJ5P%252B6poaIHrg9A%3D" H 1700 2850 50  0001 C CNN "Mouser link"
-F 11 "SMD" H 1700 2850 50  0001 C CNN "Type"
-	1    1700 2850
-	-1   0    0    1   
+P -9900 6250
+F 0 "R1" H -9950 6400 50  0000 C CNN
+F 1 "6.8 kOhm" V -9800 6300 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H -9900 6250 50  0001 C CNN
+F 3 "https://nl.mouser.com/ProductDetail/Panasonic/ERJ-6ENF6801V?qs=sGAEpiMZZMtG0KNrPCHnjTg0x5DoQJ5P%252B6poaIHrg9A%3D" H -9900 6250 50  0001 C CNN
+F 4 "0805" H -9900 6250 50  0001 C CNN "JLC Footprint"
+F 5 "https://jlcpcb.com/parts/componentSearch?searchTxt=C17772" H -9900 6250 50  0001 C CNN "JLC-URL"
+F 6 "C17772" H -9900 6250 50  0001 C CNN "LCSC part number"
+F 7 "0805W8F6801T5E" H -9900 6250 50  0001 C CNN "Manufacturer_Part_Number"
+F 8 "Basic" H -9900 6250 50  0001 C CNN "Stock type"
+F 9 "667-ERJ-6ENF6801V" H -9900 6250 50  0001 C CNN "Mouser Part Number"
+F 10 "https://nl.mouser.com/ProductDetail/Panasonic/ERJ-6ENF6801V?qs=sGAEpiMZZMtG0KNrPCHnjTg0x5DoQJ5P%252B6poaIHrg9A%3D" H -9900 6250 50  0001 C CNN "Mouser link"
+F 11 "SMD" H -9900 6250 50  0001 C CNN "Type"
+	1    -9900 6250
+	1    0    0    1   
 $EndComp
 $Comp
 L Device:C C13
 U 1 1 5F62D038
-P 1900 2900
-F 0 "C13" H 2015 2946 50  0000 L CNN
-F 1 "22 pF" H 2015 2855 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 1938 2750 50  0001 C CNN
-F 3 "https://jlcpcb.com/parts/componentSearch?searchTxt=C1653" H 1900 2900 50  0001 C CNN
-F 4 "0603" H 1900 2900 50  0001 C CNN "JLC Footprint"
-F 5 "C1653" H 1900 2900 50  0001 C CNN "LCSC part number"
-F 6 "CL10C220JB8NNNC" H 1900 2900 50  0001 C CNN "Manufacturer_Part_Number"
-F 7 "Basic" H 1900 2900 50  0001 C CNN "Stock type"
-F 8 "603-AC603JRNPO9BN220" H 1900 2900 50  0001 C CNN "Mouser Part Number"
-F 9 "https://nl.mouser.com/ProductDetail/Yageo/AC0603JRNPO9BN220?qs=tS%2FAHvPQ%2F56IhnnTktds4w%3D%3D" H 1900 2900 50  0001 C CNN "Mouser link"
-F 10 "SMD" H 1900 2900 50  0001 C CNN "Type"
-	1    1900 2900
-	1    0    0    -1  
+P -10100 6300
+F 0 "C13" H -9985 6346 50  0000 L CNN
+F 1 "22 pF" H -9985 6255 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H -10062 6150 50  0001 C CNN
+F 3 "https://jlcpcb.com/parts/componentSearch?searchTxt=C1653" H -10100 6300 50  0001 C CNN
+F 4 "0603" H -10100 6300 50  0001 C CNN "JLC Footprint"
+F 5 "C1653" H -10100 6300 50  0001 C CNN "LCSC part number"
+F 6 "CL10C220JB8NNNC" H -10100 6300 50  0001 C CNN "Manufacturer_Part_Number"
+F 7 "Basic" H -10100 6300 50  0001 C CNN "Stock type"
+F 8 "603-AC603JRNPO9BN220" H -10100 6300 50  0001 C CNN "Mouser Part Number"
+F 9 "https://nl.mouser.com/ProductDetail/Yageo/AC0603JRNPO9BN220?qs=tS%2FAHvPQ%2F56IhnnTktds4w%3D%3D" H -10100 6300 50  0001 C CNN "Mouser link"
+F 10 "SMD" H -10100 6300 50  0001 C CNN "Type"
+	1    -10100 6300
+	-1   0    0    -1  
 $EndComp
 Wire Wire Line
-	2550 2750 1900 2750
-Connection ~ 1900 2750
+	-10750 6150 -10100 6150
+Connection ~ -10100 6150
 Wire Wire Line
-	1900 2750 1700 2750
+	-9900 6350 -9900 6450
 Wire Wire Line
-	1700 2950 1700 3050
-Wire Wire Line
-	1700 3050 1900 3050
+	-9900 6450 -10100 6450
 $Comp
 L power:Earth #PWR012
 U 1 1 5F631347
-P 1900 3050
-F 0 "#PWR012" H 1900 2800 50  0001 C CNN
-F 1 "Earth" H 1900 2900 50  0001 C CNN
-F 2 "" H 1900 3050 50  0001 C CNN
-F 3 "~" H 1900 3050 50  0001 C CNN
-	1    1900 3050
-	1    0    0    -1  
+P -10100 6450
+F 0 "#PWR012" H -10100 6200 50  0001 C CNN
+F 1 "Earth" H -10100 6300 50  0001 C CNN
+F 2 "" H -10100 6450 50  0001 C CNN
+F 3 "~" H -10100 6450 50  0001 C CNN
+	1    -10100 6450
+	-1   0    0    -1  
 $EndComp
-Connection ~ 1900 3050
-Wire Wire Line
-	2550 2650 1500 2650
-Wire Wire Line
-	1500 2650 1500 2750
-Wire Wire Line
-	1500 2750 1350 2750
-Wire Wire Line
-	2550 2550 1500 2550
-Wire Wire Line
-	1500 2550 1500 2450
-Wire Wire Line
-	1500 2450 1350 2450
-$Comp
-L Device:C C4
-U 1 1 5F646E62
-P 900 2450
-F 0 "C4" V 650 2400 50  0000 L CNN
-F 1 "22 pF" V 750 2350 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 938 2300 50  0001 C CNN
-F 3 "https://jlcpcb.com/parts/componentSearch?searchTxt=C1653" H 900 2450 50  0001 C CNN
-F 4 "0603" H 900 2450 50  0001 C CNN "JLC Footprint"
-F 5 "C1653" H 900 2450 50  0001 C CNN "LCSC part number"
-F 6 "CL10C220JB8NNNC" H 900 2450 50  0001 C CNN "Manufacturer_Part_Number"
-F 7 "Basic" H 900 2450 50  0001 C CNN "Stock type"
-F 8 "603-AC603JRNPO9BN220" H 900 2450 50  0001 C CNN "Mouser Part Number"
-F 9 "https://nl.mouser.com/ProductDetail/Yageo/AC0603JRNPO9BN220?qs=tS%2FAHvPQ%2F56IhnnTktds4w%3D%3D" H 900 2450 50  0001 C CNN "Mouser link"
-F 10 "SMD" H 900 2450 50  0001 C CNN "Type"
-	1    900  2450
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:C C5
-U 1 1 5F64868A
-P 900 2750
-F 0 "C5" V 1150 2700 50  0000 L CNN
-F 1 "22 pF" V 1050 2650 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 938 2600 50  0001 C CNN
-F 3 "https://jlcpcb.com/parts/componentSearch?searchTxt=C1653" H 900 2750 50  0001 C CNN
-F 4 "0603" H 900 2750 50  0001 C CNN "JLC Footprint"
-F 5 "C1653" H 900 2750 50  0001 C CNN "LCSC part number"
-F 6 "CL10C220JB8NNNC" H 900 2750 50  0001 C CNN "Manufacturer_Part_Number"
-F 7 "Basic" H 900 2750 50  0001 C CNN "Stock type"
-F 8 "603-AC603JRNPO9BN220" H 900 2750 50  0001 C CNN "Mouser Part Number"
-F 9 "https://nl.mouser.com/ProductDetail/Yageo/AC0603JRNPO9BN220?qs=tS%2FAHvPQ%2F56IhnnTktds4w%3D%3D" H 900 2750 50  0001 C CNN "Mouser link"
-F 10 "SMD" H 900 2750 50  0001 C CNN "Type"
-	1    900  2750
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	1050 2450 1350 2450
-Connection ~ 1350 2450
-Wire Wire Line
-	1050 2750 1350 2750
-Connection ~ 1350 2750
-Wire Wire Line
-	750  2450 750  2750
-Connection ~ 750  2750
-Wire Wire Line
-	750  2750 750  3050
-$Comp
-L power:Earth #PWR02
-U 1 1 5F64C065
-P 750 3050
-F 0 "#PWR02" H 750 2800 50  0001 C CNN
-F 1 "Earth" H 750 2900 50  0001 C CNN
-F 2 "" H 750 3050 50  0001 C CNN
-F 3 "~" H 750 3050 50  0001 C CNN
-	1    750  3050
-	1    0    0    -1  
-$EndComp
+Connection ~ -10100 6450
 $Comp
 L Device:C C2
 U 1 1 5F6523FF
-P 900 1650
-F 0 "C2" V 650 1600 50  0000 L CNN
-F 1 "22 pF" V 750 1550 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 938 1500 50  0001 C CNN
-F 3 "https://jlcpcb.com/parts/componentSearch?searchTxt=C1653" H 900 1650 50  0001 C CNN
-F 4 "0603" H 900 1650 50  0001 C CNN "JLC Footprint"
-F 5 "C1653" H 900 1650 50  0001 C CNN "LCSC part number"
-F 6 "CL10C220JB8NNNC" H 900 1650 50  0001 C CNN "Manufacturer_Part_Number"
-F 7 "Basic" H 900 1650 50  0001 C CNN "Stock type"
-F 8 "603-AC603JRNPO9BN220" H 900 1650 50  0001 C CNN "Mouser Part Number"
-F 9 "https://nl.mouser.com/ProductDetail/Yageo/AC0603JRNPO9BN220?qs=tS%2FAHvPQ%2F56IhnnTktds4w%3D%3D" H 900 1650 50  0001 C CNN "Mouser link"
-F 10 "SMD" H 900 1650 50  0001 C CNN "Type"
-	1    900  1650
-	0    1    1    0   
+P -7150 4150
+F 0 "C2" V -7400 4100 50  0000 L CNN
+F 1 "22 pF" V -7300 4050 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H -7112 4000 50  0001 C CNN
+F 3 "https://jlcpcb.com/parts/componentSearch?searchTxt=C1653" H -7150 4150 50  0001 C CNN
+F 4 "0603" H -7150 4150 50  0001 C CNN "JLC Footprint"
+F 5 "C1653" H -7150 4150 50  0001 C CNN "LCSC part number"
+F 6 "CL10C220JB8NNNC" H -7150 4150 50  0001 C CNN "Manufacturer_Part_Number"
+F 7 "Basic" H -7150 4150 50  0001 C CNN "Stock type"
+F 8 "603-AC603JRNPO9BN220" H -7150 4150 50  0001 C CNN "Mouser Part Number"
+F 9 "https://nl.mouser.com/ProductDetail/Yageo/AC0603JRNPO9BN220?qs=tS%2FAHvPQ%2F56IhnnTktds4w%3D%3D" H -7150 4150 50  0001 C CNN "Mouser link"
+F 10 "SMD" H -7150 4150 50  0001 C CNN "Type"
+	1    -7150 4150
+	0    -1   1    0   
 $EndComp
 $Comp
 L Device:C C3
 U 1 1 5F65240D
-P 900 1950
-F 0 "C3" V 1150 1900 50  0000 L CNN
-F 1 "22 pF" V 1050 1850 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 938 1800 50  0001 C CNN
-F 3 "https://jlcpcb.com/parts/componentSearch?searchTxt=C1653" H 900 1950 50  0001 C CNN
-F 4 "0603" H 900 1950 50  0001 C CNN "JLC Footprint"
-F 5 "C1653" H 900 1950 50  0001 C CNN "LCSC part number"
-F 6 "CL10C220JB8NNNC" H 900 1950 50  0001 C CNN "Manufacturer_Part_Number"
-F 7 "Basic" H 900 1950 50  0001 C CNN "Stock type"
-F 8 "603-AC603JRNPO9BN220" H 900 1950 50  0001 C CNN "Mouser Part Number"
-F 9 "https://nl.mouser.com/ProductDetail/Yageo/AC0603JRNPO9BN220?qs=tS%2FAHvPQ%2F56IhnnTktds4w%3D%3D" H 900 1950 50  0001 C CNN "Mouser link"
-F 10 "SMD" H 900 1950 50  0001 C CNN "Type"
-	1    900  1950
-	0    1    1    0   
+P -7150 4450
+F 0 "C3" V -6900 4400 50  0000 L CNN
+F 1 "22 pF" V -7000 4350 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H -7112 4300 50  0001 C CNN
+F 3 "https://jlcpcb.com/parts/componentSearch?searchTxt=C1653" H -7150 4450 50  0001 C CNN
+F 4 "0603" H -7150 4450 50  0001 C CNN "JLC Footprint"
+F 5 "C1653" H -7150 4450 50  0001 C CNN "LCSC part number"
+F 6 "CL10C220JB8NNNC" H -7150 4450 50  0001 C CNN "Manufacturer_Part_Number"
+F 7 "Basic" H -7150 4450 50  0001 C CNN "Stock type"
+F 8 "603-AC603JRNPO9BN220" H -7150 4450 50  0001 C CNN "Mouser Part Number"
+F 9 "https://nl.mouser.com/ProductDetail/Yageo/AC0603JRNPO9BN220?qs=tS%2FAHvPQ%2F56IhnnTktds4w%3D%3D" H -7150 4450 50  0001 C CNN "Mouser link"
+F 10 "SMD" H -7150 4450 50  0001 C CNN "Type"
+	1    -7150 4450
+	0    -1   1    0   
 $EndComp
 Wire Wire Line
-	1050 1650 1350 1650
+	-7300 4150 -7600 4150
 Wire Wire Line
-	1050 1950 1350 1950
+	-7300 4450 -7600 4450
 Wire Wire Line
-	750  1650 750  1950
-Connection ~ 750  1950
+	-7000 4150 -7000 4450
+Connection ~ -7000 4450
 Wire Wire Line
-	750  1950 750  2250
-$Comp
-L power:Earth #PWR01
-U 1 1 5F65241C
-P 750 2250
-F 0 "#PWR01" H 750 2000 50  0001 C CNN
-F 1 "Earth" H 750 2100 50  0001 C CNN
-F 2 "" H 750 2250 50  0001 C CNN
-F 3 "~" H 750 2250 50  0001 C CNN
-	1    750  2250
-	1    0    0    -1  
-$EndComp
+	-7000 4450 -7000 4750
 $Comp
 L power:Earth #PWR05
 U 1 1 5F65638E
-P 1100 1800
-F 0 "#PWR05" H 1100 1550 50  0001 C CNN
-F 1 "Earth" H 1100 1650 50  0001 C CNN
-F 2 "" H 1100 1800 50  0001 C CNN
-F 3 "~" H 1100 1800 50  0001 C CNN
-	1    1100 1800
-	1    0    0    -1  
+P -7350 4300
+F 0 "#PWR05" H -7350 4050 50  0001 C CNN
+F 1 "Earth" H -7350 4150 50  0001 C CNN
+F 2 "" H -7350 4300 50  0001 C CNN
+F 3 "~" H -7350 4300 50  0001 C CNN
+	1    -7350 4300
+	-1   0    0    -1  
 $EndComp
 $Comp
 L power:Earth #PWR09
 U 1 1 5F656C94
-P 1600 1800
-F 0 "#PWR09" H 1600 1550 50  0001 C CNN
-F 1 "Earth" H 1600 1650 50  0001 C CNN
-F 2 "" H 1600 1800 50  0001 C CNN
-F 3 "~" H 1600 1800 50  0001 C CNN
-	1    1600 1800
-	1    0    0    -1  
+P -7850 4300
+F 0 "#PWR09" H -7850 4050 50  0001 C CNN
+F 1 "Earth" H -7850 4150 50  0001 C CNN
+F 2 "" H -7850 4300 50  0001 C CNN
+F 3 "~" H -7850 4300 50  0001 C CNN
+	1    -7850 4300
+	-1   0    0    -1  
 $EndComp
 Wire Wire Line
-	1550 1800 1600 1800
+	-7800 4300 -7850 4300
 Wire Wire Line
-	1100 1800 1150 1800
+	-7350 4300 -7400 4300
 Wire Wire Line
-	2550 2450 1800 2450
+	-8050 4600 -7600 4600
 Wire Wire Line
-	1800 2450 1800 2100
-Wire Wire Line
-	1800 2100 1350 2100
-Wire Wire Line
-	1350 2100 1350 1950
-Connection ~ 1350 1950
-Wire Wire Line
-	1350 1650 1900 1650
-Wire Wire Line
-	1900 1650 1900 2350
-Wire Wire Line
-	1900 2350 2550 2350
-Connection ~ 1350 1650
-Wire Wire Line
-	2550 2050 2450 2050
+	-7600 4600 -7600 4450
+Connection ~ -7600 4450
+Connection ~ -7600 4150
 $Comp
 L power:Earth #PWR015
 U 1 1 5F65DDA9
-P 2450 2050
-F 0 "#PWR015" H 2450 1800 50  0001 C CNN
-F 1 "Earth" H 2450 1900 50  0001 C CNN
-F 2 "" H 2450 2050 50  0001 C CNN
-F 3 "~" H 2450 2050 50  0001 C CNN
-	1    2450 2050
-	1    0    0    -1  
+P -10350 5400
+F 0 "#PWR015" H -10350 5150 50  0001 C CNN
+F 1 "Earth" H -10350 5250 50  0001 C CNN
+F 2 "" H -10350 5400 50  0001 C CNN
+F 3 "~" H -10350 5400 50  0001 C CNN
+	1    -10350 5400
+	-1   0    0    -1  
 $EndComp
-$Comp
-L Device:L_Core_Ferrite L1
-U 1 1 5F65E318
-P 2100 1000
-F 0 "L1" V 2300 900 50  0000 L CNN
-F 1 "Imp. 30 Ohm" V 2200 600 50  0000 L CNN
-F 2 "Inductor_SMD:L_0603_1608Metric" H 2100 1000 50  0001 C CNN
-F 3 "https://jlcpcb.com/parts/componentSearch?searchTxt=C24821" H 2100 1000 50  0001 C CNN
-F 4 "https://jlcpcb.com/parts/componentSearch?searchTxt=C24821" H 2100 1000 50  0001 C CNN "JLC-URL"
-F 5 "C24821" H 2100 1000 50  0001 C CNN "LCSC part number"
-F 6 "GZ1608D300TF" H 2100 1000 50  0001 C CNN "Manufacturer_Part_Number"
-F 7 "Extended" H 2100 1000 50  0001 C CNN "Stock type"
-F 8 "0603" H 2100 1000 50  0001 C CNN "JLC Footprint"
-F 9 "810-MAF1608GAD201LTA" H 2100 1000 50  0001 C CNN "Mouser Part Number"
-F 10 "https://nl.mouser.com/ProductDetail/TDK/MAF1608GAD201LTAH0?qs=BJlw7L4Cy79j18hBlf4%2FXA%3D%3D" H 2100 1000 50  0001 C CNN "Mouser link"
-F 11 "SMD" H 2100 1000 50  0001 C CNN "Type"
-	1    2100 1000
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	2550 1850 2550 1000
-Wire Wire Line
-	2550 1000 2300 1000
-$Comp
-L Device:C C18
-U 1 1 5F696D03
-P 2300 1300
-F 0 "C18" H 2415 1346 50  0000 L CNN
-F 1 "100 nF" H 2415 1255 50  0000 L CNN
-F 2 "Capacitor_SMD:C_1206_3216Metric" H 2338 1150 50  0001 C CNN
-F 3 "https://jlcpcb.com/parts/componentSearch?searchTxt=CL31B104KBCNNNC" H 2300 1300 50  0001 C CNN
-F 4 "1206" H 2300 1300 50  0001 C CNN "JLC Footprint"
-F 5 "C24497" H 2300 1300 50  0001 C CNN "LCSC part number"
-F 6 "CL31B104KBCNNNC" H 2300 1300 50  0001 C CNN "Manufacturer_Part_Number"
-F 7 "Basic" H 2300 1300 50  0001 C CNN "Stock type"
-F 8 "80-C1206C104K5RAUTO" H 2300 1300 50  0001 C CNN "Mouser Part Number"
-F 9 "https://nl.mouser.com/ProductDetail/KEMET/C1206C104K5RACAUTO?qs=8xX%252BF9%252BWV6EfUow3P%252BQkbA%3D%3D" H 2300 1300 50  0001 C CNN "Mouser link"
-F 10 "SMD" H 2300 1300 50  0001 C CNN "Type"
-	1    2300 1300
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2300 1150 2300 1000
-Connection ~ 2300 1000
-Wire Wire Line
-	2300 1000 2250 1000
-$Comp
-L Device:C C11
-U 1 1 5F699CD1
-P 1800 1300
-F 0 "C11" H 1915 1346 50  0000 L CNN
-F 1 "100 nF" H 1915 1255 50  0000 L CNN
-F 2 "Capacitor_SMD:C_1206_3216Metric" H 1838 1150 50  0001 C CNN
-F 3 "https://jlcpcb.com/parts/componentSearch?searchTxt=CL31B104KBCNNNC" H 1800 1300 50  0001 C CNN
-F 4 "1206" H 1800 1300 50  0001 C CNN "JLC Footprint"
-F 5 "C24497" H 1800 1300 50  0001 C CNN "LCSC part number"
-F 6 "CL31B104KBCNNNC" H 1800 1300 50  0001 C CNN "Manufacturer_Part_Number"
-F 7 "Basic" H 1800 1300 50  0001 C CNN "Stock type"
-F 8 "80-C1206C104K5RAUTO" H 1800 1300 50  0001 C CNN "Mouser Part Number"
-F 9 "https://nl.mouser.com/ProductDetail/KEMET/C1206C104K5RACAUTO?qs=8xX%252BF9%252BWV6EfUow3P%252BQkbA%3D%3D" H 1800 1300 50  0001 C CNN "Mouser link"
-F 10 "SMD" H 1800 1300 50  0001 C CNN "Type"
-	1    1800 1300
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:Earth #PWR011
-U 1 1 5F69AAA8
-P 1800 1450
-F 0 "#PWR011" H 1800 1200 50  0001 C CNN
-F 1 "Earth" H 1800 1300 50  0001 C CNN
-F 2 "" H 1800 1450 50  0001 C CNN
-F 3 "~" H 1800 1450 50  0001 C CNN
-	1    1800 1450
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:Earth #PWR014
-U 1 1 5F69B1BE
-P 2300 1450
-F 0 "#PWR014" H 2300 1200 50  0001 C CNN
-F 1 "Earth" H 2300 1300 50  0001 C CNN
-F 2 "" H 2300 1450 50  0001 C CNN
-F 3 "~" H 2300 1450 50  0001 C CNN
-	1    2300 1450
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	1800 1150 1800 1000
-Wire Wire Line
-	1800 1000 1950 1000
-$Comp
-L power:+3.3V #PWR010
-U 1 1 5F69D16E
-P 1800 1000
-F 0 "#PWR010" H 1800 850 50  0001 C CNN
-F 1 "+3.3V" H 1815 1173 50  0000 C CNN
-F 2 "" H 1800 1000 50  0001 C CNN
-F 3 "" H 1800 1000 50  0001 C CNN
-	1    1800 1000
-	1    0    0    -1  
-$EndComp
-Connection ~ 1800 1000
 NoConn ~ 2550 2950
 Text Label 2550 3050 2    50   ~ 0
 MASTER-RESET
@@ -586,40 +324,40 @@ NoConn ~ 2550 3350
 $Comp
 L Device:R_Small_US R3
 U 1 1 5F6A5263
-P 2350 3450
-F 0 "R3" V 2300 3200 50  0000 C CNN
-F 1 "100 kOhm" V 2400 3200 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" H 2350 3450 50  0001 C CNN
-F 3 "https://nl.mouser.com/ProductDetail/Panasonic/ERJ-3EKF1003V?qs=sGAEpiMZZMtG0KNrPCHnjWXb3yLuGJ27MgxoORw4g74%3D" H 2350 3450 50  0001 C CNN
-F 4 "0603" H 2350 3450 50  0001 C CNN "JLC Footprint"
-F 5 "https://jlcpcb.com/parts/componentSearch?searchTxt=C25803" H 2350 3450 50  0001 C CNN "JLC-URL"
-F 6 "C25803" H 2350 3450 50  0001 C CNN "LCSC part number"
-F 7 "0603WAF1003T5E" H 2350 3450 50  0001 C CNN "Manufacturer_Part_Number"
-F 8 "Basic" H 2350 3450 50  0001 C CNN "Stock type"
-F 9 "667-ERJ-3EKF1003V" H 2350 3450 50  0001 C CNN "Mouser Part Number"
-F 10 "https://nl.mouser.com/ProductDetail/Panasonic/ERJ-3EKF1003V?qs=sGAEpiMZZMtG0KNrPCHnjWXb3yLuGJ27MgxoORw4g74%3D" H 2350 3450 50  0001 C CNN "Mouser link"
-F 11 "SMD" H 2350 3450 50  0001 C CNN "Type"
-	1    2350 3450
-	0    1    1    0   
+P -10550 4550
+F 0 "R3" V -10600 4300 50  0000 C CNN
+F 1 "100 kOhm" V -10650 4300 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H -10550 4550 50  0001 C CNN
+F 3 "https://nl.mouser.com/ProductDetail/Panasonic/ERJ-3EKF1003V?qs=sGAEpiMZZMtG0KNrPCHnjWXb3yLuGJ27MgxoORw4g74%3D" H -10550 4550 50  0001 C CNN
+F 4 "0603" H -10550 4550 50  0001 C CNN "JLC Footprint"
+F 5 "https://jlcpcb.com/parts/componentSearch?searchTxt=C25803" H -10550 4550 50  0001 C CNN "JLC-URL"
+F 6 "C25803" H -10550 4550 50  0001 C CNN "LCSC part number"
+F 7 "0603WAF1003T5E" H -10550 4550 50  0001 C CNN "Manufacturer_Part_Number"
+F 8 "Basic" H -10550 4550 50  0001 C CNN "Stock type"
+F 9 "667-ERJ-3EKF1003V" H -10550 4550 50  0001 C CNN "Mouser Part Number"
+F 10 "https://nl.mouser.com/ProductDetail/Panasonic/ERJ-3EKF1003V?qs=sGAEpiMZZMtG0KNrPCHnjWXb3yLuGJ27MgxoORw4g74%3D" H -10550 4550 50  0001 C CNN "Mouser link"
+F 11 "SMD" H -10550 4550 50  0001 C CNN "Type"
+	1    -10550 4550
+	0    -1   -1   0   
 $EndComp
 $Comp
 L power:+3.3V #PWR013
 U 1 1 5F6A5C41
-P 2150 3450
-F 0 "#PWR013" H 2150 3300 50  0001 C CNN
-F 1 "+3.3V" H 2165 3623 50  0000 C CNN
-F 2 "" H 2150 3450 50  0001 C CNN
-F 3 "" H 2150 3450 50  0001 C CNN
-	1    2150 3450
+P -10150 4550
+F 0 "#PWR013" H -10150 4400 50  0001 C CNN
+F 1 "+3.3V" H -10135 4723 50  0000 C CNN
+F 2 "" H -10150 4550 50  0001 C CNN
+F 3 "" H -10150 4550 50  0001 C CNN
+	1    -10150 4550
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2450 3450 2550 3450
+	-10650 4550 -10750 4550
 Wire Wire Line
-	2150 3450 2250 3450
+	-10150 4550 -10450 4550
 Wire Wire Line
-	2550 3850 2000 3850
-Text Label 2400 3850 2    50   ~ 0
+	-12350 5250 -12900 5250
+Text Label -12500 5250 2    50   ~ 0
 CAN0-TX
 Text Notes 8550 13800 0    50   ~ 0
 CAN1 \n(CHAdeMO)
@@ -632,8 +370,8 @@ Wire Wire Line
 Text Label 7850 10050 2    50   ~ 0
 CAN0-RX
 Wire Wire Line
-	2550 3950 2000 3950
-Text Label 2400 3950 2    50   ~ 0
+	-12350 5350 -12900 5350
+Text Label -12500 5350 2    50   ~ 0
 CAN0-RX
 $Comp
 L Device:C C31
@@ -719,10 +457,10 @@ NoConn ~ 2550 7950
 NoConn ~ 2550 8050
 NoConn ~ 2550 8150
 NoConn ~ 2550 8250
-Text Label 2450 8350 2    50   ~ 0
+Text Label -10200 4050 2    50   ~ 0
 EEPROM-SDA
 Wire Wire Line
-	2550 8350 1900 8350
+	-10100 4050 -10750 4050
 Text Label 2750 15500 2    50   ~ 0
 EEPROM-SDA
 Wire Wire Line
@@ -731,10 +469,10 @@ Text Label 2750 15400 2    50   ~ 0
 EEPROM-SCL
 Wire Wire Line
 	2850 15400 2200 15400
-Text Label 2450 8450 2    50   ~ 0
+Text Label -10200 2850 2    50   ~ 0
 EEPROM-SCL
 Wire Wire Line
-	2550 8450 1900 8450
+	-10100 2850 -10750 2850
 $Comp
 L Device:R_Small_US R5
 U 1 1 5F75A1E5
@@ -816,12 +554,12 @@ Connection ~ 3050 14650
 Wire Wire Line
 	2200 15200 3050 15200
 Wire Wire Line
-	2550 8550 2000 8550
-Text Label 2400 8550 2    50   ~ 0
+	-12350 2450 -12900 2450
+Text Label -12500 2450 2    50   ~ 0
 CAN1-TX
 Wire Wire Line
-	2550 8650 2000 8650
-Text Label 2400 8650 2    50   ~ 0
+	-10200 7050 -10750 7050
+Text Label -10350 7050 2    50   ~ 0
 CAN1-RX
 $Comp
 L CHAdeMO_V2.0-rescue:ISO1050DUBR-SamacSys_Parts IC1
@@ -914,60 +652,60 @@ NoConn ~ 2550 9750
 $Comp
 L Device:LED LED1
 U 1 1 5F800B7A
-P 1600 9850
-F 0 "LED1" H 1593 10066 50  0000 C CNN
-F 1 "LED" H 1593 9975 50  0000 C CNN
-F 2 "LED_SMD:LED_0603_1608Metric" H 1600 9850 50  0001 C CNN
-F 3 "https://nl.mouser.com/ProductDetail/Wurth-Elektronik/150060GS84000?qs=GedFDFLaBXH09WUudWKJ5g%3D%3D" H 1600 9850 50  0001 C CNN
-F 4 "LED_0603" H 1600 9850 50  0001 C CNN "JLC Footprint"
-F 5 "https://jlcpcb.com/parts/componentSearch?searchTxt=C72043" H 1600 9850 50  0001 C CNN "JLC-URL"
-F 6 "C72043" H 1600 9850 50  0001 C CNN "LCSC part number"
-F 7 "19-217/GHC-YR1S2/3T" H 1600 9850 50  0001 C CNN "Manufacturer_Part_Number"
-F 8 "Basic" H 1600 9850 50  0001 C CNN "Stock type"
-F 9 "710-150060GS84000" H 1600 9850 50  0001 C CNN "Mouser Part Number"
-F 10 "https://nl.mouser.com/ProductDetail/Wurth-Elektronik/150060GS84000?qs=GedFDFLaBXH09WUudWKJ5g%3D%3D" H 1600 9850 50  0001 C CNN "Mouser link"
-F 11 "SMD" H 1600 9850 50  0001 C CNN "Type"
-	1    1600 9850
-	1    0    0    -1  
+P -9800 3550
+F 0 "LED1" H -9807 3766 50  0000 C CNN
+F 1 "LED" H -9807 3675 50  0000 C CNN
+F 2 "LED_SMD:LED_0603_1608Metric" H -9800 3550 50  0001 C CNN
+F 3 "https://nl.mouser.com/ProductDetail/Wurth-Elektronik/150060GS84000?qs=GedFDFLaBXH09WUudWKJ5g%3D%3D" H -9800 3550 50  0001 C CNN
+F 4 "LED_0603" H -9800 3550 50  0001 C CNN "JLC Footprint"
+F 5 "https://jlcpcb.com/parts/componentSearch?searchTxt=C72043" H -9800 3550 50  0001 C CNN "JLC-URL"
+F 6 "C72043" H -9800 3550 50  0001 C CNN "LCSC part number"
+F 7 "19-217/GHC-YR1S2/3T" H -9800 3550 50  0001 C CNN "Manufacturer_Part_Number"
+F 8 "Basic" H -9800 3550 50  0001 C CNN "Stock type"
+F 9 "710-150060GS84000" H -9800 3550 50  0001 C CNN "Mouser Part Number"
+F 10 "https://nl.mouser.com/ProductDetail/Wurth-Elektronik/150060GS84000?qs=GedFDFLaBXH09WUudWKJ5g%3D%3D" H -9800 3550 50  0001 C CNN "Mouser link"
+F 11 "SMD" H -9800 3550 50  0001 C CNN "Type"
+	1    -9800 3550
+	-1   0    0    1   
 $EndComp
 $Comp
 L Device:R_Small_US R2
 U 1 1 5F814E32
-P 1950 9850
-F 0 "R2" V 1850 9850 50  0000 C CNN
-F 1 "470 Ohm" V 2050 9900 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" H 1950 9850 50  0001 C CNN
-F 3 "https://nl.mouser.com/ProductDetail/Panasonic/ERJ-P06F4700V?qs=sGAEpiMZZMtG0KNrPCHnjYpPrk%252BOMd4bKtwYfDK0FOg%3D" H 1950 9850 50  0001 C CNN
-F 4 "0805" H 1950 9850 50  0001 C CNN "JLC Footprint"
-F 5 "https://jlcpcb.com/parts/componentSearch?searchTxt=C17710" H 1950 9850 50  0001 C CNN "JLC-URL"
-F 6 "C17710" H 1950 9850 50  0001 C CNN "LCSC part number"
-F 7 "0805W8F4700T5E" H 1950 9850 50  0001 C CNN "Manufacturer_Part_Number"
-F 8 "Basic" H 1950 9850 50  0001 C CNN "Stock type"
-F 9 "667-ERJ-P06F4700V" H 1950 9850 50  0001 C CNN "Mouser Part Number"
-F 10 "https://nl.mouser.com/ProductDetail/Panasonic/ERJ-P06F4700V?qs=sGAEpiMZZMtG0KNrPCHnjYpPrk%252BOMd4bKtwYfDK0FOg%3D" H 1950 9850 50  0001 C CNN "Mouser link"
-F 11 "SMD" H 1950 9850 50  0001 C CNN "Type"
-	1    1950 9850
-	0    1    1    0   
+P -10150 3550
+F 0 "R2" V -10250 3550 50  0000 C CNN
+F 1 "470 Ohm" V -10050 3600 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H -10150 3550 50  0001 C CNN
+F 3 "https://nl.mouser.com/ProductDetail/Panasonic/ERJ-P06F4700V?qs=sGAEpiMZZMtG0KNrPCHnjYpPrk%252BOMd4bKtwYfDK0FOg%3D" H -10150 3550 50  0001 C CNN
+F 4 "0805" H -10150 3550 50  0001 C CNN "JLC Footprint"
+F 5 "https://jlcpcb.com/parts/componentSearch?searchTxt=C17710" H -10150 3550 50  0001 C CNN "JLC-URL"
+F 6 "C17710" H -10150 3550 50  0001 C CNN "LCSC part number"
+F 7 "0805W8F4700T5E" H -10150 3550 50  0001 C CNN "Manufacturer_Part_Number"
+F 8 "Basic" H -10150 3550 50  0001 C CNN "Stock type"
+F 9 "667-ERJ-P06F4700V" H -10150 3550 50  0001 C CNN "Mouser Part Number"
+F 10 "https://nl.mouser.com/ProductDetail/Panasonic/ERJ-P06F4700V?qs=sGAEpiMZZMtG0KNrPCHnjYpPrk%252BOMd4bKtwYfDK0FOg%3D" H -10150 3550 50  0001 C CNN "Mouser link"
+F 11 "SMD" H -10150 3550 50  0001 C CNN "Type"
+	1    -10150 3550
+	0    -1   -1   0   
 $EndComp
 $Comp
 L power:Earth #PWR08
 U 1 1 5F816BFA
-P 1250 9900
-F 0 "#PWR08" H 1250 9650 50  0001 C CNN
-F 1 "Earth" H 1250 9750 50  0001 C CNN
-F 2 "" H 1250 9900 50  0001 C CNN
-F 3 "~" H 1250 9900 50  0001 C CNN
-	1    1250 9900
+P -9450 3600
+F 0 "#PWR08" H -9450 3350 50  0001 C CNN
+F 1 "Earth" H -9450 3450 50  0001 C CNN
+F 2 "" H -9450 3600 50  0001 C CNN
+F 3 "~" H -9450 3600 50  0001 C CNN
+	1    -9450 3600
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1250 9900 1250 9850
+	-9450 3600 -9450 3550
 Wire Wire Line
-	1250 9850 1450 9850
+	-9450 3550 -9650 3550
 Wire Wire Line
-	1750 9850 1850 9850
+	-9950 3550 -10050 3550
 Wire Wire Line
-	2550 9850 2050 9850
+	-10750 3550 -10250 3550
 $Comp
 L power:Earth #PWR07
 U 1 1 5F75D1EA
@@ -1055,21 +793,6 @@ NoConn ~ 2550 9950
 NoConn ~ 2550 10050
 NoConn ~ 2550 10150
 NoConn ~ 2550 10250
-$Comp
-L power:+3.3V #PWR024
-U 1 1 5F8B551D
-P 6600 3750
-F 0 "#PWR024" H 6600 3600 50  0001 C CNN
-F 1 "+3.3V" H 6615 3923 50  0000 C CNN
-F 2 "" H 6600 3750 50  0001 C CNN
-F 3 "" H 6600 3750 50  0001 C CNN
-	1    6600 3750
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	5150 3850 5550 3850
-Wire Wire Line
-	6600 3850 6600 3750
 NoConn ~ 5150 3950
 NoConn ~ 5150 4050
 NoConn ~ 5150 4150
@@ -1087,15 +810,15 @@ Text Label 11450 7600 2    50   ~ 0
 CHAdeMO_charge_enable
 Text Label 9900 8000 2    50   ~ 0
 CHAdeMO-charge-enable-signal_D48
-Text Label 5250 5350 0    50   ~ 0
+Text Label -12450 4550 2    50   ~ 0
 CHAdeMO-charge-enable-signal_D48
 Wire Wire Line
-	5150 5350 6700 5350
+	-12350 4550 -13900 4550
 Wire Wire Line
-	5150 5250 6700 5250
+	-12350 6250 -13900 6250
 Text Label 15500 7700 2    50   ~ 0
 Relay_CHAdeMO_contactors_GND
-Text Label 5250 5250 0    50   ~ 0
+Text Label -12450 6250 2    50   ~ 0
 relay-CHAdeMO-contactors-signal_D49
 NoConn ~ 5150 5550
 NoConn ~ 5150 5650
@@ -1103,10 +826,10 @@ NoConn ~ 5150 5750
 NoConn ~ 5150 5850
 NoConn ~ 5150 5950
 NoConn ~ 5150 6050
-Text Label 5250 6250 0    50   ~ 0
+Text Label -12450 3950 2    50   ~ 0
 CHAdeMO-charge-start1_3.3Vsignal_IN1_D6
 Wire Wire Line
-	5150 6250 6900 6250
+	-12350 3950 -14100 3950
 $Comp
 L CHAdeMO_V2.0-rescue:EL817S(TU)-EL817S_TU_ U4
 U 1 1 5F5AFE18
@@ -1213,10 +936,10 @@ F 3 "" H 13150 1250 50  0001 C CNN
 	1    13150 1250
 	1    0    0    -1  
 $EndComp
-Text Label 5250 6150 0    50   ~ 0
+Text Label -12450 4250 2    50   ~ 0
 CHAdeMO-charge-start2_3.3Vsignal_IN2_D7
 Wire Wire Line
-	5150 6150 6900 6150
+	-12350 4250 -14100 4250
 NoConn ~ 5150 6350
 NoConn ~ 5150 6450
 NoConn ~ 5150 6550
@@ -1919,16 +1642,16 @@ CAN-BUS
 Text Notes 7450 9650 0    50   ~ 0
 CAN0 = Car\nCAN1 = CHAdeMO\n\nH = P\nL = N
 Wire Wire Line
-	5150 2750 5250 2750
+	-10750 5150 -10450 5150
 $Comp
 L power:+5V_USB #PWR022
 U 1 1 5F9A5BD0
-P 5250 2750
-F 0 "#PWR022" H 5250 2600 50  0001 C CNN
-F 1 "+5V_USB" H 5265 2923 50  0000 C CNN
-F 2 "" H 5250 2750 50  0001 C CNN
-F 3 "" H 5250 2750 50  0001 C CNN
-	1    5250 2750
+P -10450 5150
+F 0 "#PWR022" H -10450 5000 50  0001 C CNN
+F 1 "+5V_USB" H -10435 5323 50  0000 C CNN
+F 2 "" H -10450 5150 50  0001 C CNN
+F 3 "" H -10450 5150 50  0001 C CNN
+	1    -10450 5150
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -2255,72 +1978,8 @@ Wire Wire Line
 Wire Wire Line
 	9150 9950 9350 9950
 Connection ~ 9150 9950
-Wire Wire Line
-	5150 1850 5250 1850
-Connection ~ 5250 1850
-Wire Wire Line
-	5250 1850 5250 1550
-Text Label 5600 2850 0    50   ~ 0
+Text Label -6600 5400 0    50   ~ 0
 USB_D-
-Connection ~ 6450 2350
-Wire Wire Line
-	6450 2050 5150 2050
-Wire Wire Line
-	6450 2350 6450 2050
-Text Label 5900 2350 0    50   ~ 0
-VDD_PLL
-Wire Wire Line
-	5900 2350 6250 2350
-Connection ~ 5900 2650
-Wire Wire Line
-	6450 2650 5900 2650
-$Comp
-L Device:C C29
-U 1 1 5F617554
-P 6450 2500
-F 0 "C29" H 6565 2546 50  0000 L CNN
-F 1 "10 uF" H 6565 2455 50  0000 L CNN
-F 2 "Capacitor_SMD:C_1206_3216Metric" H 6488 2350 50  0001 C CNN
-F 3 "https://jlcpcb.com/parts/componentSearch?searchTxt=C13585" H 6450 2500 50  0001 C CNN
-F 4 "1206" H 6450 2500 50  0001 C CNN "JLC Footprint"
-F 5 "C13585" H 6450 2500 50  0001 C CNN "LCSC part number"
-F 6 "CL31A106KBHNNNE" H 6450 2500 50  0001 C CNN "Manufacturer_Part_Number"
-F 7 "Basic" H 6450 2500 50  0001 C CNN "Stock type"
-F 8 "810-CGA5L3X5R1H106K" H 6450 2500 50  0001 C CNN "Mouser Part Number"
-F 9 "https://nl.mouser.com/ProductDetail/TDK/CGA5L3X5R1H106K160AB?qs=NRhsANhppD8pTJR%2Fk9qJww%3D%3D" H 6450 2500 50  0001 C CNN "Mouser link"
-F 10 "SMD" H 6450 2500 50  0001 C CNN "Type"
-	1    6450 2500
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:Earth #PWR027
-U 1 1 5F6129BB
-P 5900 2650
-F 0 "#PWR027" H 5900 2400 50  0001 C CNN
-F 1 "Earth" H 5900 2500 50  0001 C CNN
-F 2 "" H 5900 2650 50  0001 C CNN
-F 3 "~" H 5900 2650 50  0001 C CNN
-	1    5900 2650
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C C28
-U 1 1 5F611856
-P 5900 2500
-F 0 "C28" H 6015 2546 50  0000 L CNN
-F 1 "100 nF" H 6015 2455 50  0000 L CNN
-F 2 "Capacitor_SMD:C_1206_3216Metric" H 5938 2350 50  0001 C CNN
-F 3 "https://jlcpcb.com/parts/componentSearch?searchTxt=CL31B104KBCNNNC" H 5900 2500 50  0001 C CNN
-F 4 "1206" H 5900 2500 50  0001 C CNN "JLC Footprint"
-F 5 "C24497" H 5900 2500 50  0001 C CNN "LCSC part number"
-F 6 "CL31B104KBCNNNC" H 5900 2500 50  0001 C CNN "Manufacturer_Part_Number"
-F 7 "Basic" H 5900 2500 50  0001 C CNN "Stock type"
-F 8 "80-C1206C104K5RAUTO" H 5900 2500 50  0001 C CNN "Mouser Part Number"
-F 9 "https://nl.mouser.com/ProductDetail/KEMET/C1206C104K5RACAUTO?qs=8xX%252BF9%252BWV6EfUow3P%252BQkbA%3D%3D" H 5900 2500 50  0001 C CNN "Mouser link"
-F 10 "SMD" H 5900 2500 50  0001 C CNN "Type"
-	1    5900 2500
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	11400 1600 11900 1600
 Wire Wire Line
@@ -2847,11 +2506,6 @@ Wire Wire Line
 Connection ~ 2550 12800
 Wire Wire Line
 	2550 12800 2850 12800
-Connection ~ 5900 2350
-Text Label 5250 2350 0    50   ~ 0
-VDD_OUT
-Wire Wire Line
-	5200 2350 5600 2350
 Text Label 2550 12800 0    50   ~ 0
 VDD_OUT
 Text Notes 17100 850  0    89   ~ 0
@@ -2942,20 +2596,6 @@ $EndComp
 Connection ~ 3500 11150
 Wire Wire Line
 	3500 11150 4000 11150
-$Comp
-L power:PWR_FLAG #FLG05
-U 1 1 5F741A8C
-P 6250 2350
-F 0 "#FLG05" H 6250 2425 50  0001 C CNN
-F 1 "PWR_FLAG" H 6250 2500 50  0000 C CNN
-F 2 "" H 6250 2350 50  0001 C CNN
-F 3 "~" H 6250 2350 50  0001 C CNN
-	1    6250 2350
-	1    0    0    -1  
-$EndComp
-Connection ~ 6250 2350
-Wire Wire Line
-	6250 2350 6450 2350
 NoConn ~ 10200 2300
 Wire Wire Line
 	18300 12050 18350 12050
@@ -4306,28 +3946,6 @@ F 10 "https://nl.mouser.com/ProductDetail/CK/PTS647SM38SMTR2LFS?qs=%2Fha2pyFadug
 $EndComp
 NoConn ~ 6100 13550
 NoConn ~ 5300 13550
-$Comp
-L CHAdeMO_V2.0-rescue:PTS647SM38SMTR2LFS-PTS647SM38SMTR2LFS S2
-U 1 1 6025062A
-P 5550 3850
-F 0 "S2" H 5950 4115 50  0000 C CNN
-F 1 "PTS647SM38SMTR2LFS" H 5950 4024 50  0000 C CNN
-F 2 "Components:PTS647SK38SMTR2LFS" H 6200 3950 50  0001 L CNN
-F 3 "https://nl.mouser.com/ProductDetail/CK/PTS647SM38SMTR2LFS?qs=%2Fha2pyFadug0Azfe8RMwGeMURFOF4lLShtoDs41xX9HDzDA4uhrRnYE8%2F53wapal" H 6200 3850 50  0001 L CNN
-F 4 "Tactile Switches 50mA 12VDC, 1.8N 3.8mm H, G leads" H 6200 3750 50  0001 L CNN "Description"
-F 5 "" H 6200 3650 50  0001 L CNN "Height"
-F 6 "611-PTS647SM38SMTR2L" H 6200 3550 50  0001 L CNN "Mouser Part Number"
-F 7 "https://nl.mouser.com/ProductDetail/611-PTS647SM38SMTR2L" H 6200 3450 50  0001 L CNN "Mouser Price/Stock"
-F 8 "C & K COMPONENTS" H 6200 3350 50  0001 L CNN "Manufacturer_Name"
-F 9 "PTS647SM38SMTR2LFS" H 6200 3250 50  0001 L CNN "Manufacturer_Part_Number"
-F 10 "https://nl.mouser.com/ProductDetail/CK/PTS647SM38SMTR2LFS?qs=%2Fha2pyFadug0Azfe8RMwGeMURFOF4lLShtoDs41xX9HDzDA4uhrRnYE8%2F53wapal" H 5550 3850 50  0001 C CNN "Mouser link"
-	1    5550 3850
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	6600 3850 6350 3850
-NoConn ~ 6350 3950
-NoConn ~ 5550 3950
 Wire Wire Line
 	18250 3400 19250 3400
 Wire Wire Line
@@ -4718,14 +4336,14 @@ F 3 "" H 11250 5650 50  0001 C CNN
 	1    11250 5650
 	1    0    0    -1  
 $EndComp
-Text Label 5250 7350 0    50   ~ 0
+Text Label -10150 4750 0    50   ~ 0
 CHAdeMO_contactor1-feedback_D27
 Wire Wire Line
-	6650 7350 5150 7350
-Text Label 5250 7850 0    50   ~ 0
+	-8750 4750 -10750 4750
+Text Label -12450 7050 2    50   ~ 0
 CHAdeMO_contactor2-feedback_D11
 Wire Wire Line
-	6650 7850 5150 7850
+	-13850 7050 -12350 7050
 Text Label 19150 3900 2    50   ~ 0
 CHAdeMO_contactor1-feedbackIN
 Wire Wire Line
@@ -4960,4 +4578,565 @@ F 3 "" H 22100 11100 50  0001 C CNN
 	1    22100 11100
 	1    0    0    -1  
 $EndComp
+$Comp
+L SamacSys_Parts:ATSAM3X8CA-CU IC3
+U 1 1 61C2749C
+P -12350 2150
+F 0 "IC3" H -11550 2415 50  0000 C CNN
+F 1 "ATSAM3X8CA-CU" H -11550 2324 50  0000 C CNN
+F 2 "SamacSys_Parts:BGA100C80P10X10_900X900X110" H -10900 2250 50  0001 L CNN
+F 3 "https://componentsearchengine.com/Datasheets/1/ATSAM3X8CA-CU.pdf" H -10900 2150 50  0001 L CNN
+F 4 "ARM Microcontrollers - MCU BGA100,GREEN IND TEMP, MRLA" H -10900 2050 50  0001 L CNN "Description"
+F 5 "1.1" H -10900 1950 50  0001 L CNN "Height"
+F 6 "556-ATSAM3X8CA-CU" H -10900 1850 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.co.uk/ProductDetail/Microchip-Technology-Atmel/ATSAM3X8CA-CU?qs=rNaVQffb%252BtepOcsNQ2uA4A%3D%3D" H -10900 1750 50  0001 L CNN "Mouser Price/Stock"
+F 8 "Microchip" H -10900 1650 50  0001 L CNN "Manufacturer_Name"
+F 9 "ATSAM3X8CA-CU" H -10900 1550 50  0001 L CNN "Manufacturer_Part_Number"
+	1    -12350 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:Earth #PWR01
+U 1 1 5F65241C
+P -7000 4750
+F 0 "#PWR01" H -7000 4500 50  0001 C CNN
+F 1 "Earth" H -7000 4600 50  0001 C CNN
+F 2 "" H -7000 4750 50  0001 C CNN
+F 3 "~" H -7000 4750 50  0001 C CNN
+	1    -7000 4750
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:Earth #PWR02
+U 1 1 5F64C065
+P -8450 6050
+F 0 "#PWR02" H -8450 5800 50  0001 C CNN
+F 1 "Earth" H -8450 5900 50  0001 C CNN
+F 2 "" H -8450 6050 50  0001 C CNN
+F 3 "~" H -8450 6050 50  0001 C CNN
+	1    -8450 6050
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	-8450 5750 -8450 6050
+Connection ~ -8450 5750
+Wire Wire Line
+	-8450 5450 -8450 5750
+Connection ~ -9050 5750
+Wire Wire Line
+	-8750 5750 -9050 5750
+Connection ~ -9050 5450
+Wire Wire Line
+	-8750 5450 -9050 5450
+$Comp
+L Device:C C5
+U 1 1 5F64868A
+P -8600 5750
+F 0 "C5" V -8350 5700 50  0000 L CNN
+F 1 "22 pF" V -8450 5650 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H -8562 5600 50  0001 C CNN
+F 3 "https://jlcpcb.com/parts/componentSearch?searchTxt=C1653" H -8600 5750 50  0001 C CNN
+F 4 "0603" H -8600 5750 50  0001 C CNN "JLC Footprint"
+F 5 "C1653" H -8600 5750 50  0001 C CNN "LCSC part number"
+F 6 "CL10C220JB8NNNC" H -8600 5750 50  0001 C CNN "Manufacturer_Part_Number"
+F 7 "Basic" H -8600 5750 50  0001 C CNN "Stock type"
+F 8 "603-AC603JRNPO9BN220" H -8600 5750 50  0001 C CNN "Mouser Part Number"
+F 9 "https://nl.mouser.com/ProductDetail/Yageo/AC0603JRNPO9BN220?qs=tS%2FAHvPQ%2F56IhnnTktds4w%3D%3D" H -8600 5750 50  0001 C CNN "Mouser link"
+F 10 "SMD" H -8600 5750 50  0001 C CNN "Type"
+	1    -8600 5750
+	0    -1   1    0   
+$EndComp
+$Comp
+L Device:C C4
+U 1 1 5F646E62
+P -8600 5450
+F 0 "C4" V -8850 5400 50  0000 L CNN
+F 1 "22 pF" V -8750 5350 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H -8562 5300 50  0001 C CNN
+F 3 "https://jlcpcb.com/parts/componentSearch?searchTxt=C1653" H -8600 5450 50  0001 C CNN
+F 4 "0603" H -8600 5450 50  0001 C CNN "JLC Footprint"
+F 5 "C1653" H -8600 5450 50  0001 C CNN "LCSC part number"
+F 6 "CL10C220JB8NNNC" H -8600 5450 50  0001 C CNN "Manufacturer_Part_Number"
+F 7 "Basic" H -8600 5450 50  0001 C CNN "Stock type"
+F 8 "603-AC603JRNPO9BN220" H -8600 5450 50  0001 C CNN "Mouser Part Number"
+F 9 "https://nl.mouser.com/ProductDetail/Yageo/AC0603JRNPO9BN220?qs=tS%2FAHvPQ%2F56IhnnTktds4w%3D%3D" H -8600 5450 50  0001 C CNN "Mouser link"
+F 10 "SMD" H -8600 5450 50  0001 C CNN "Type"
+	1    -8600 5450
+	0    -1   1    0   
+$EndComp
+Wire Wire Line
+	-9200 5450 -9050 5450
+Wire Wire Line
+	-9200 5550 -9200 5450
+Wire Wire Line
+	-10750 5550 -9200 5550
+$Comp
+L Device:Crystal Y2
+U 1 1 5F601D06
+P -9050 5600
+F 0 "Y2" H -9050 5868 50  0000 C CNN
+F 1 "Crystal 32.768kHz" V -8850 5600 50  0000 C CNN
+F 2 "Crystal:Crystal_SMD_3215-2Pin_3.2x1.5mm" H -9050 5600 50  0001 C CNN
+F 3 "https://nl.mouser.com/ProductDetail/ABRACON/ABS07AIG-32768kHz-T?qs=gG6m684uYP5oqwgXl1V4Jg%3D%3D" H -9050 5600 50  0001 C CNN
+F 4 "SMD-3215_2P" H -9050 5600 50  0001 C CNN "JLC Footprint"
+F 5 "https://jlcpcb.com/parts/componentSearch?searchTxt=C32346" H -9050 5600 50  0001 C CNN "JLC-URL"
+F 6 "C32346" H -9050 5600 50  0001 C CNN "LCSC part number"
+F 7 "Q13FC1350000400" H -9050 5600 50  0001 C CNN "Manufacturer_Part_Number"
+F 8 "Basic" H -9050 5600 50  0001 C CNN "Stock type"
+F 9 "815-S07AIG-32.768T" H -9050 5600 50  0001 C CNN "Mouser Part Number"
+F 10 "https://nl.mouser.com/ProductDetail/ABRACON/ABS07AIG-32768kHz-T?qs=gG6m684uYP5oqwgXl1V4Jg%3D%3D" H -9050 5600 50  0001 C CNN "Mouser link"
+F 11 "SMD" H -9050 5600 50  0001 C CNN "Type"
+	1    -9050 5600
+	0    1    -1   0   
+$EndComp
+Wire Wire Line
+	-10750 6550 -9050 6550
+Wire Wire Line
+	-9050 6550 -9050 5750
+Wire Wire Line
+	-10750 4150 -7600 4150
+Wire Wire Line
+	-10750 3150 -10300 3150
+Text Label -10300 3150 2    50   ~ 0
+Xout
+Text Label -7900 4600 2    50   ~ 0
+Xout
+Wire Wire Line
+	-10750 5450 -10550 5450
+Wire Wire Line
+	-10550 5450 -10550 5400
+Wire Wire Line
+	-10550 5400 -10350 5400
+Wire Wire Line
+	-10100 6150 -9900 6150
+Connection ~ -9300 6950
+$Comp
+L power:+3.3V #PWR010
+U 1 1 5F69D16E
+P -9300 6950
+F 0 "#PWR010" H -9300 6800 50  0001 C CNN
+F 1 "+3.3V" H -9285 7123 50  0000 C CNN
+F 2 "" H -9300 6950 50  0001 C CNN
+F 3 "" H -9300 6950 50  0001 C CNN
+	1    -9300 6950
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	-9300 6950 -9450 6950
+Wire Wire Line
+	-9300 7100 -9300 6950
+$Comp
+L power:Earth #PWR014
+U 1 1 5F69B1BE
+P -9800 7400
+F 0 "#PWR014" H -9800 7150 50  0001 C CNN
+F 1 "Earth" H -9800 7250 50  0001 C CNN
+F 2 "" H -9800 7400 50  0001 C CNN
+F 3 "~" H -9800 7400 50  0001 C CNN
+	1    -9800 7400
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:Earth #PWR011
+U 1 1 5F69AAA8
+P -9300 7400
+F 0 "#PWR011" H -9300 7150 50  0001 C CNN
+F 1 "Earth" H -9300 7250 50  0001 C CNN
+F 2 "" H -9300 7400 50  0001 C CNN
+F 3 "~" H -9300 7400 50  0001 C CNN
+	1    -9300 7400
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:C C11
+U 1 1 5F699CD1
+P -9300 7250
+F 0 "C11" H -9185 7296 50  0000 L CNN
+F 1 "100 nF" H -9185 7205 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric" H -9262 7100 50  0001 C CNN
+F 3 "https://jlcpcb.com/parts/componentSearch?searchTxt=CL31B104KBCNNNC" H -9300 7250 50  0001 C CNN
+F 4 "1206" H -9300 7250 50  0001 C CNN "JLC Footprint"
+F 5 "C24497" H -9300 7250 50  0001 C CNN "LCSC part number"
+F 6 "CL31B104KBCNNNC" H -9300 7250 50  0001 C CNN "Manufacturer_Part_Number"
+F 7 "Basic" H -9300 7250 50  0001 C CNN "Stock type"
+F 8 "80-C1206C104K5RAUTO" H -9300 7250 50  0001 C CNN "Mouser Part Number"
+F 9 "https://nl.mouser.com/ProductDetail/KEMET/C1206C104K5RACAUTO?qs=8xX%252BF9%252BWV6EfUow3P%252BQkbA%3D%3D" H -9300 7250 50  0001 C CNN "Mouser link"
+F 10 "SMD" H -9300 7250 50  0001 C CNN "Type"
+	1    -9300 7250
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	-9800 6950 -9750 6950
+Connection ~ -9800 6950
+Wire Wire Line
+	-9800 7100 -9800 6950
+$Comp
+L Device:C C18
+U 1 1 5F696D03
+P -9800 7250
+F 0 "C18" H -9685 7296 50  0000 L CNN
+F 1 "100 nF" H -9685 7205 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric" H -9762 7100 50  0001 C CNN
+F 3 "https://jlcpcb.com/parts/componentSearch?searchTxt=CL31B104KBCNNNC" H -9800 7250 50  0001 C CNN
+F 4 "1206" H -9800 7250 50  0001 C CNN "JLC Footprint"
+F 5 "C24497" H -9800 7250 50  0001 C CNN "LCSC part number"
+F 6 "CL31B104KBCNNNC" H -9800 7250 50  0001 C CNN "Manufacturer_Part_Number"
+F 7 "Basic" H -9800 7250 50  0001 C CNN "Stock type"
+F 8 "80-C1206C104K5RAUTO" H -9800 7250 50  0001 C CNN "Mouser Part Number"
+F 9 "https://nl.mouser.com/ProductDetail/KEMET/C1206C104K5RACAUTO?qs=8xX%252BF9%252BWV6EfUow3P%252BQkbA%3D%3D" H -9800 7250 50  0001 C CNN "Mouser link"
+F 10 "SMD" H -9800 7250 50  0001 C CNN "Type"
+	1    -9800 7250
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	-10750 6950 -9800 6950
+$Comp
+L Device:L_Core_Ferrite L1
+U 1 1 5F65E318
+P -9600 6950
+F 0 "L1" V -9400 6850 50  0000 L CNN
+F 1 "Imp. 30 Ohm" V -9500 6550 50  0000 L CNN
+F 2 "Inductor_SMD:L_0603_1608Metric" H -9600 6950 50  0001 C CNN
+F 3 "https://jlcpcb.com/parts/componentSearch?searchTxt=C24821" H -9600 6950 50  0001 C CNN
+F 4 "https://jlcpcb.com/parts/componentSearch?searchTxt=C24821" H -9600 6950 50  0001 C CNN "JLC-URL"
+F 5 "C24821" H -9600 6950 50  0001 C CNN "LCSC part number"
+F 6 "GZ1608D300TF" H -9600 6950 50  0001 C CNN "Manufacturer_Part_Number"
+F 7 "Extended" H -9600 6950 50  0001 C CNN "Stock type"
+F 8 "0603" H -9600 6950 50  0001 C CNN "JLC Footprint"
+F 9 "810-MAF1608GAD201LTA" H -9600 6950 50  0001 C CNN "Mouser Part Number"
+F 10 "https://nl.mouser.com/ProductDetail/TDK/MAF1608GAD201LTAH0?qs=BJlw7L4Cy79j18hBlf4%2FXA%3D%3D" H -9600 6950 50  0001 C CNN "Mouser link"
+F 11 "SMD" H -9600 6950 50  0001 C CNN "Type"
+	1    -9600 6950
+	0    1    -1   0   
+$EndComp
+$Comp
+L power:+3.3V #PWR?
+U 1 1 62467BDF
+P -13100 5550
+F 0 "#PWR?" H -13100 5400 50  0001 C CNN
+F 1 "+3.3V" H -13085 5723 50  0000 C CNN
+F 2 "" H -13100 5550 50  0001 C CNN
+F 3 "" H -13100 5550 50  0001 C CNN
+	1    -13100 5550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	-12350 5550 -13100 5550
+$Comp
+L power:+3.3V #PWR?
+U 1 1 6249B64D
+P -13050 6750
+F 0 "#PWR?" H -13050 6600 50  0001 C CNN
+F 1 "+3.3V" H -13035 6923 50  0000 C CNN
+F 2 "" H -13050 6750 50  0001 C CNN
+F 3 "" H -13050 6750 50  0001 C CNN
+	1    -13050 6750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	-12350 6750 -13050 6750
+$Comp
+L power:+3.3V #PWR?
+U 1 1 624CC2A2
+P -10000 2750
+F 0 "#PWR?" H -10000 2600 50  0001 C CNN
+F 1 "+3.3V" H -9985 2923 50  0000 C CNN
+F 2 "" H -10000 2750 50  0001 C CNN
+F 3 "" H -10000 2750 50  0001 C CNN
+	1    -10000 2750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	-10750 2750 -10000 2750
+$Comp
+L power:+3.3V #PWR?
+U 1 1 624FCDC8
+P -10450 4450
+F 0 "#PWR?" H -10450 4300 50  0001 C CNN
+F 1 "+3.3V" H -10435 4623 50  0000 C CNN
+F 2 "" H -10450 4450 50  0001 C CNN
+F 3 "" H -10450 4450 50  0001 C CNN
+	1    -10450 4450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	-10750 4450 -10450 4450
+$Comp
+L power:+3.3V #PWR?
+U 1 1 6252D963
+P -10450 5700
+F 0 "#PWR?" H -10450 5550 50  0001 C CNN
+F 1 "+3.3V" H -10350 5750 50  0000 C CNN
+F 2 "" H -10450 5700 50  0001 C CNN
+F 3 "" H -10450 5700 50  0001 C CNN
+	1    -10450 5700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	-10450 5700 -10550 5700
+Wire Wire Line
+	-10550 5700 -10550 5650
+Wire Wire Line
+	-10550 5650 -10750 5650
+$Comp
+L Device:L_Core_Ferrite L4
+U 1 1 6255F107
+P -8750 2450
+F 0 "L4" V -8800 2400 50  0000 L CNN
+F 1 "Imp. 30 Ohm" V -8650 2250 50  0000 L CNN
+F 2 "Inductor_SMD:L_0603_1608Metric" H -8750 2450 50  0001 C CNN
+F 3 "https://jlcpcb.com/parts/componentSearch?searchTxt=C24821" H -8750 2450 50  0001 C CNN
+F 4 "https://jlcpcb.com/parts/componentSearch?searchTxt=C24821" H -8750 2450 50  0001 C CNN "JLC-URL"
+F 5 "C24821" H -8750 2450 50  0001 C CNN "LCSC part number"
+F 6 "GZ1608D300TF" H -8750 2450 50  0001 C CNN "Manufacturer_Part_Number"
+F 7 "Extended" H -8750 2450 50  0001 C CNN "Stock type"
+F 8 "0603" H -8750 2450 50  0001 C CNN "JLC Footprint"
+F 9 "810-MAF1608GAD201LTA" H -8750 2450 50  0001 C CNN "Mouser Part Number"
+F 10 "https://nl.mouser.com/ProductDetail/TDK/MAF1608GAD201LTAH0?qs=BJlw7L4Cy79j18hBlf4%2FXA%3D%3D" H -8750 2450 50  0001 C CNN "Mouser link"
+F 11 "SMD" H -8750 2450 50  0001 C CNN "Type"
+	1    -8750 2450
+	0    -1   -1   0   
+$EndComp
+Connection ~ -8050 2450
+Wire Wire Line
+	-8050 2150 -10750 2150
+Wire Wire Line
+	-8050 2450 -8050 2150
+Text Label -8600 2450 0    50   ~ 0
+VDD_PLL
+Wire Wire Line
+	-8600 2450 -8250 2450
+Connection ~ -8600 2750
+Wire Wire Line
+	-8050 2750 -8600 2750
+$Comp
+L Device:C C29
+U 1 1 6255F129
+P -8050 2600
+F 0 "C29" H -7935 2646 50  0000 L CNN
+F 1 "10 uF" H -7935 2555 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric" H -8012 2450 50  0001 C CNN
+F 3 "https://jlcpcb.com/parts/componentSearch?searchTxt=C13585" H -8050 2600 50  0001 C CNN
+F 4 "1206" H -8050 2600 50  0001 C CNN "JLC Footprint"
+F 5 "C13585" H -8050 2600 50  0001 C CNN "LCSC part number"
+F 6 "CL31A106KBHNNNE" H -8050 2600 50  0001 C CNN "Manufacturer_Part_Number"
+F 7 "Basic" H -8050 2600 50  0001 C CNN "Stock type"
+F 8 "810-CGA5L3X5R1H106K" H -8050 2600 50  0001 C CNN "Mouser Part Number"
+F 9 "https://nl.mouser.com/ProductDetail/TDK/CGA5L3X5R1H106K160AB?qs=NRhsANhppD8pTJR%2Fk9qJww%3D%3D" H -8050 2600 50  0001 C CNN "Mouser link"
+F 10 "SMD" H -8050 2600 50  0001 C CNN "Type"
+	1    -8050 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:Earth #PWR?
+U 1 1 6255F133
+P -8600 2750
+F 0 "#PWR?" H -8600 2500 50  0001 C CNN
+F 1 "Earth" H -8600 2600 50  0001 C CNN
+F 2 "" H -8600 2750 50  0001 C CNN
+F 3 "~" H -8600 2750 50  0001 C CNN
+	1    -8600 2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C28
+U 1 1 6255F144
+P -8600 2600
+F 0 "C28" H -8485 2646 50  0000 L CNN
+F 1 "100 nF" H -8485 2555 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric" H -8562 2450 50  0001 C CNN
+F 3 "https://jlcpcb.com/parts/componentSearch?searchTxt=CL31B104KBCNNNC" H -8600 2600 50  0001 C CNN
+F 4 "1206" H -8600 2600 50  0001 C CNN "JLC Footprint"
+F 5 "C24497" H -8600 2600 50  0001 C CNN "LCSC part number"
+F 6 "CL31B104KBCNNNC" H -8600 2600 50  0001 C CNN "Manufacturer_Part_Number"
+F 7 "Basic" H -8600 2600 50  0001 C CNN "Stock type"
+F 8 "80-C1206C104K5RAUTO" H -8600 2600 50  0001 C CNN "Mouser Part Number"
+F 9 "https://nl.mouser.com/ProductDetail/KEMET/C1206C104K5RACAUTO?qs=8xX%252BF9%252BWV6EfUow3P%252BQkbA%3D%3D" H -8600 2600 50  0001 C CNN "Mouser link"
+F 10 "SMD" H -8600 2600 50  0001 C CNN "Type"
+	1    -8600 2600
+	1    0    0    -1  
+$EndComp
+Connection ~ -8600 2450
+Text Label -9250 2450 0    50   ~ 0
+VDD_OUT
+Wire Wire Line
+	-9300 2450 -8900 2450
+$Comp
+L power:PWR_FLAG #FLG?
+U 1 1 6255F151
+P -8250 2450
+F 0 "#FLG?" H -8250 2525 50  0001 C CNN
+F 1 "PWR_FLAG" H -8250 2600 50  0000 C CNN
+F 2 "" H -8250 2450 50  0001 C CNN
+F 3 "~" H -8250 2450 50  0001 C CNN
+	1    -8250 2450
+	1    0    0    -1  
+$EndComp
+Connection ~ -8250 2450
+Wire Wire Line
+	-8250 2450 -8050 2450
+Text Label -12400 5450 2    50   ~ 0
+VDD_OUT
+Wire Wire Line
+	-12350 5450 -12750 5450
+Text Label -12400 5650 2    50   ~ 0
+VDD_OUT
+Wire Wire Line
+	-12350 5650 -12750 5650
+Text Label -12400 5750 2    50   ~ 0
+VDD_OUT
+Wire Wire Line
+	-12350 5750 -12750 5750
+Text Label -12400 6450 2    50   ~ 0
+VDD_OUT
+Wire Wire Line
+	-12350 6450 -12750 6450
+Text Label -10400 6450 2    50   ~ 0
+VDD_OUT
+Wire Wire Line
+	-10350 6450 -10750 6450
+Text Label -10400 6650 2    50   ~ 0
+VDD_OUT
+Wire Wire Line
+	-10350 6650 -10750 6650
+Text Label -7250 5400 0    50   ~ 0
+DHSDM
+Text Label -7250 5500 0    50   ~ 0
+DHSDP
+Text Label -7250 5600 0    50   ~ 0
+DFSDM
+Text Label -7250 5700 0    50   ~ 0
+DFSDP
+Text Label -10750 5350 0    50   ~ 0
+DHSDM
+Wire Wire Line
+	-10750 5350 -10500 5350
+Text Label -10750 5250 0    50   ~ 0
+DHSDP
+Wire Wire Line
+	-10750 5250 -10500 5250
+Text Label -10750 6350 0    50   ~ 0
+DFSDM
+Wire Wire Line
+	-10750 6350 -10500 6350
+Text Label -10750 6250 0    50   ~ 0
+DFSDP
+Wire Wire Line
+	-10750 6250 -10500 6250
+NoConn ~ -13150 2650
+NoConn ~ -13950 2650
+Wire Wire Line
+	-14200 2550 -13950 2550
+$Comp
+L CHAdeMO_V2.0-rescue:PTS647SM38SMTR2LFS-PTS647SM38SMTR2LFS S2
+U 1 1 6025062A
+P -13150 2550
+F 0 "S2" H -12750 2815 50  0000 C CNN
+F 1 "PTS647SM38SMTR2LFS" H -12750 2724 50  0000 C CNN
+F 2 "Components:PTS647SK38SMTR2LFS" H -12500 2650 50  0001 L CNN
+F 3 "https://nl.mouser.com/ProductDetail/CK/PTS647SM38SMTR2LFS?qs=%2Fha2pyFadug0Azfe8RMwGeMURFOF4lLShtoDs41xX9HDzDA4uhrRnYE8%2F53wapal" H -12500 2550 50  0001 L CNN
+F 4 "Tactile Switches 50mA 12VDC, 1.8N 3.8mm H, G leads" H -12500 2450 50  0001 L CNN "Description"
+F 5 "" H -12500 2350 50  0001 L CNN "Height"
+F 6 "611-PTS647SM38SMTR2L" H -12500 2250 50  0001 L CNN "Mouser Part Number"
+F 7 "https://nl.mouser.com/ProductDetail/611-PTS647SM38SMTR2L" H -12500 2150 50  0001 L CNN "Mouser Price/Stock"
+F 8 "C & K COMPONENTS" H -12500 2050 50  0001 L CNN "Manufacturer_Name"
+F 9 "PTS647SM38SMTR2LFS" H -12500 1950 50  0001 L CNN "Manufacturer_Part_Number"
+F 10 "https://nl.mouser.com/ProductDetail/CK/PTS647SM38SMTR2LFS?qs=%2Fha2pyFadug0Azfe8RMwGeMURFOF4lLShtoDs41xX9HDzDA4uhrRnYE8%2F53wapal" H -13150 2550 50  0001 C CNN "Mouser link"
+	1    -13150 2550
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	-14200 2550 -14200 2450
+Wire Wire Line
+	-12350 2550 -13150 2550
+$Comp
+L power:+3.3V #PWR024
+U 1 1 5F8B551D
+P -14200 2450
+F 0 "#PWR024" H -14200 2300 50  0001 C CNN
+F 1 "+3.3V" H -14185 2623 50  0000 C CNN
+F 2 "" H -14200 2450 50  0001 C CNN
+F 3 "" H -14200 2450 50  0001 C CNN
+	1    -14200 2450
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:Earth #PWR?
+U 1 1 62CBF776
+P -13150 6800
+F 0 "#PWR?" H -13150 6550 50  0001 C CNN
+F 1 "Earth" H -13150 6650 50  0001 C CNN
+F 2 "" H -13150 6800 50  0001 C CNN
+F 3 "~" H -13150 6800 50  0001 C CNN
+	1    -13150 6800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	-12350 6550 -12650 6550
+Wire Wire Line
+	-12650 6550 -12650 6650
+Wire Wire Line
+	-12350 6650 -12650 6650
+Connection ~ -12650 6650
+Wire Wire Line
+	-12650 6650 -12650 6800
+$Comp
+L power:Earth #PWR?
+U 1 1 62D2886D
+P -10500 2550
+F 0 "#PWR?" H -10500 2300 50  0001 C CNN
+F 1 "Earth" H -10500 2400 50  0001 C CNN
+F 2 "" H -10500 2550 50  0001 C CNN
+F 3 "~" H -10500 2550 50  0001 C CNN
+	1    -10500 2550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	-10750 2650 -10650 2650
+Wire Wire Line
+	-10650 2650 -10650 2550
+Wire Wire Line
+	-10650 2550 -10500 2550
+Wire Wire Line
+	-10650 2550 -10750 2550
+Connection ~ -10650 2550
+$Comp
+L power:Earth #PWR?
+U 1 1 62D93963
+P -10650 6800
+F 0 "#PWR?" H -10650 6550 50  0001 C CNN
+F 1 "Earth" H -10650 6650 50  0001 C CNN
+F 2 "" H -10650 6800 50  0001 C CNN
+F 3 "~" H -10650 6800 50  0001 C CNN
+	1    -10650 6800
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	-10750 6850 -10750 6800
+Wire Wire Line
+	-10750 6800 -10650 6800
+Wire Wire Line
+	-10750 2250 -10650 2250
+Wire Wire Line
+	-10650 2250 -10650 2550
+Wire Wire Line
+	-9450 3550 -9450 3450
+Wire Wire Line
+	-9450 3450 -10750 3450
+Connection ~ -9450 3550
+$Comp
+L power:Earth #PWR?
+U 1 1 62E6D286
+P -10650 4250
+F 0 "#PWR?" H -10650 4000 50  0001 C CNN
+F 1 "Earth" H -10650 4100 50  0001 C CNN
+F 2 "" H -10650 4250 50  0001 C CNN
+F 3 "~" H -10650 4250 50  0001 C CNN
+	1    -10650 4250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	-10750 4250 -10650 4250
+Wire Wire Line
+	-13150 6800 -12650 6800
 $EndSCHEMATC

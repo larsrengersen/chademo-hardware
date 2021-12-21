@@ -6,4 +6,10 @@ K
 F http://www.ti.com/lit/ds/symlink/ne555.pdf
 $ENDCMP
 #
+$CMP ATSAM3X8CA-CU
+D ARM Microcontrollers - MCU BGA100,GREEN IND TEMP, MRLA
+K
+F https://componentsearchengine.com/Datasheets/1/ATSAM3X8CA-CU.pdf
+$ENDCMP
+#
 #End Doc Library
