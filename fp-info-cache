@@ -1,4 +1,4 @@
-16132324268385469
+16155286694849469
 39-30-2040
 39302040
 39-30-2040-1
@@ -5992,6 +5992,111 @@ Diode
 2
 2
 Components
+DummyC1206_C_1206_3216Metric
+Capacitor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator
+capacitor
+0
+2
+2
+Components
+Dummy_C0805_210x135
+Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator
+capacitor
+0
+2
+2
+Components
+Dummy_C_0603_1608Metric
+Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator
+capacitor
+0
+2
+2
+Components
+Dummy_Crystal_SMD_3215-2Pin_3.2x1.5mm
+SMD Crystal FC-135 https://support.epson.biz/td/api/doc_check.php?dl=brief_FC-135R_en.pdf
+SMD SMT Crystal
+0
+2
+2
+Components
+Dummy_Crystal_SMD_3225-4Pin_3.2x2.5mm
+SMD Crystal SERIES SMD3225/4 http://www.txccrystal.com/images/pdf/7m-accuracy.pdf, 3.2x2.5mm^2 package
+SMD SMT crystal
+0
+4
+4
+Components
+Dummy_D_SOD-123
+SOD-123
+SOD-123
+0
+2
+2
+Components
+Dummy_ECAP_CAPAE1040X1050N
+1mmx0.3mm
+Capacitor Polarised
+0
+2
+2
+Components
+Dummy_L420_INDPM4442X200N
+MWSA0402
+Inductor
+0
+2
+2
+Components
+Dummy_LED_0603_1608Metric
+LED SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator
+diode
+0
+2
+2
+Components
+Dummy_L_0603_1608Metric
+Inductor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator
+inductor
+0
+2
+2
+Components
+Dummy_R_0603_1608Metric
+Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator
+resistor
+0
+2
+2
+Components
+Dummy_R_0805_325x280_2012Metric
+Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator
+resistor
+0
+2
+2
+Components
+Dummy_R_0805_2012Metric
+Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator
+resistor
+0
+2
+2
+Components
+Dummy_R_1206_3216Metric
+Resistor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator
+resistor
+0
+2
+2
+Components
+Dummy_SOIC8_SOIC127P600X175-8N
+SO8 (150 mils width)
+Integrated Circuit
+0
+8
+8
+Components
 EVcreate
 
 
@@ -6040,13 +6145,6 @@ EVcreate_2500
 0
 0
 0
-Components
-FLIP-n-CLICK_SAM3X
-
-
-0
-144
-144
 Components
 FS8205
 FS8205
