@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <export version="D">
   <design>
-    <source>/Users/lars/Documents/GitHub/CHAdeMO-hardware/CHAdeMO_V2.0.sch</source>
-    <date>2021 December 21, Tuesday 23:54:29</date>
+    <source>/Users/lars/Documents/GitHub/CHAdeMO-private/PCB/CHAdeMO_V2.0.sch</source>
+    <date>2020 November 30, Monday 11:38:12</date>
     <tool>Eeschema (5.1.6-0-10_14)</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -29,13 +29,14 @@
         <field name="JLC Footprint">LQFP-144_20.0x20.0x0.5P</field>
         <field name="JLC-URL">https://jlcpcb.com/parts/componentSearch?searchTxt=C79305</field>
         <field name="LCSC">C79305</field>
+        <field name="LCSC part number">C79305</field>
         <field name="Manufacturer_Part_Number">ATSAM3X8EA-AU</field>
         <field name="Mouser Part Number">556-ATSAM3X8EA-AU</field>
         <field name="Mouser link">https://nl.mouser.com/ProductDetail/Microchip-Technology-Atmel/ATSAM3X8EA-AU?qs=%2Fha2pyFaduj4BDYKUP%2FSQhCiTCGVcoWQGoQ7Os3E%2FXyOKg4rbckNMw%3D%3D</field>
         <field name="Stock type">Extended</field>
         <field name="Type">SMD</field>
       </fields>
-      <libsource lib="CHAdeMO_V2.0-rescue" part="ATSAM3X8EA-AU-ATSAM3X8EA-AU" description=""/>
+      <libsource lib="ATSAM3X8EA-AU" part="ATSAM3X8EA-AU" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5F5000D4</tstamp>
     </comp>
@@ -52,7 +53,7 @@
         <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/CUI-Devices/UJ2-BV-1-TH?qs=5mqXD9RfOg3Kkui4GUMMeg%3D%3D</field>
         <field name="Type">THT</field>
       </fields>
-      <libsource lib="CHAdeMO_V2.0-rescue" part="UJ2-BV-1-TH-UJ2-BV-1-TH" description=""/>
+      <libsource lib="UJ2-BV-1-TH" part="UJ2-BV-1-TH" description="USB Connectors USB 2.0 type B jack 4 pin Vertical TH"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5F546FB3</tstamp>
     </comp>
@@ -69,7 +70,7 @@
         <field name="Mouser Price/Stock">https://www.mouser.com/Search/Refine.aspx?Keyword=N%2FA</field>
         <field name="Type">THT</field>
       </fields>
-      <libsource lib="CHAdeMO_V2.0-rescue" part="5810132011-5810132011" description=""/>
+      <libsource lib="5810132011" part="5810132011" description="AUTOMOTIVE CONN, PLUG, 40POS, PCB; Product Range:ModICE ME-MX Series; Automotive Connector Shell Style:Panel Mount Plug; No. of Contacts:40Contacts; Automotive Contact Type:PCB Pin; Connector Body Material:Polymer, Glass Filled Body RoHS Compliant: Yes"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5F5B340F</tstamp>
     </comp>
@@ -424,7 +425,7 @@
         <field name="Stock type">Basic</field>
         <field name="Type">SMD</field>
       </fields>
-      <libsource lib="CHAdeMO_V2.0-rescue" part="ISO1050DUBR-SamacSys_Parts" description=""/>
+      <libsource lib="SamacSys_Parts" part="ISO1050DUBR" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5F78C590</tstamp>
     </comp>
@@ -495,7 +496,7 @@
         <field name="Stock type">Extended</field>
         <field name="Type">SMD</field>
       </fields>
-      <libsource lib="CHAdeMO_V2.0-rescue" part="M24M02-DRMN6TP-SamacSys_Parts" description=""/>
+      <libsource lib="SamacSys_Parts" part="M24M02-DRMN6TP" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5F7438B6</tstamp>
     </comp>
@@ -532,7 +533,7 @@
         <field name="Stock type">Basic</field>
         <field name="Type">SMD</field>
       </fields>
-      <libsource lib="CHAdeMO_V2.0-rescue" part="EL817S(TU)-EL817S_TU_" description=""/>
+      <libsource lib="EL817S_TU_" part="EL817S(TU)" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5F5AFE18</tstamp>
     </comp>
@@ -560,12 +561,12 @@
       <datasheet>https://nl.mouser.com/ProductDetail/Panasonic/ERJ-6ENF1002V?qs=4WZYzuGhm5pfKPfuMiCO5g%3D%3D</datasheet>
       <fields>
         <field name="JLC Footprint">0805</field>
-        <field name="JLC-URL">https://jlcpcb.com/parts/componentSearch?searchTxt=C38522</field>
-        <field name="LCSC part number">C38522</field>
+        <field name="JLC-URL">https://jlcpcb.com/parts/componentSearch?searchTxt=C25744</field>
+        <field name="LCSC part number">C25744</field>
         <field name="Manufacturer_Part_Number">ERJ-6ENF1002V</field>
         <field name="Mouser Part Number">667-ERJ-6ENF1002V</field>
         <field name="Mouser link">https://nl.mouser.com/ProductDetail/Panasonic/ERJ-6ENF1002V?qs=4WZYzuGhm5pfKPfuMiCO5g%3D%3D</field>
-        <field name="Stock type">Extended</field>
+        <field name="Stock type">Basic</field>
         <field name="Type">SMD</field>
       </fields>
       <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
@@ -585,7 +586,7 @@
         <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/TE-Connectivity-AMP/V23086C1001A403-EV-BLBOX?qs=0kFKDc1CZSmi6Mk74Rg5kg%3D%3D</field>
         <field name="Type">THT</field>
       </fields>
-      <libsource lib="CHAdeMO_V2.0-rescue" part="V23086C1001A403-EV-BLBOX-SamacSys_Parts" description=""/>
+      <libsource lib="SamacSys_Parts" part="V23086C1001A403-EV-BLBOX" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5F63B9E1</tstamp>
     </comp>
@@ -622,7 +623,7 @@
         <field name="Mouser link">https://nl.mouser.com/ProductDetail/RECOM-Power/ROE-3305S?qs=%2Fha2pyFadui8DrpX4CFO0oSW4HPKP0QPOSHbdRFVYVDaumpNTGL2kQ%3D%3D</field>
         <field name="Type">THT</field>
       </fields>
-      <libsource lib="CHAdeMO_V2.0-rescue" part="ROE-3.305S-SamacSys_Parts" description=""/>
+      <libsource lib="SamacSys_Parts" part="ROE-3.305S" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5F67334D</tstamp>
     </comp>
@@ -680,7 +681,7 @@
     <comp ref="L9">
       <value>22 uH</value>
       <footprint>Components:INDPM4442X200N</footprint>
-      <datasheet>https://jlcpcb.com/parts/componentSearch?searchTxt=C408340</datasheet>
+      <datasheet>https://nl.mouser.com/ProductDetail/Sumida/0420CDMCCDS-220MC?qs=%2Fha2pyFadugqX7ide%252BmDWYLBiwd9hTgArsnq5o9n14VrJzsLwHlPZw%3D%3D</datasheet>
       <fields>
         <field name="JLC Footprint">SMD-PIND-4.2x4.4x2.0_0.8x2.0</field>
         <field name="JLC-URL">https://jlcpcb.com/parts/componentSearch?searchTxt=C408340</field>
@@ -716,7 +717,7 @@
     <comp ref="D6">
       <value>D_TVS</value>
       <footprint>Components:DIOM5436X261N</footprint>
-      <datasheet>https://jlcpcb.com/parts/componentSearch?searchTxt=C83327</datasheet>
+      <datasheet>https://nl.mouser.com/ProductDetail/Littelfuse/SMBJ18CA?qs=%2Fha2pyFadujTLE5PdsD8k%252BKNvCbBqEMOxNF4nJsLbzk%3D</datasheet>
       <fields>
         <field name="JLC Footprint">SMB,DO-214AA</field>
         <field name="JLC-URL">https://jlcpcb.com/parts/componentSearch?searchTxt=C83327</field>
@@ -867,7 +868,7 @@
         <field name="Mouser link">https://nl.mouser.com/ProductDetail/XP-Power/TR2024S3V3?qs=%2Fha2pyFaduifXUBcauaJWz30UGOuXHfepqSpojquB9W2BKqb3MlDbA%3D%3D</field>
         <field name="Type">THT</field>
       </fields>
-      <libsource lib="CHAdeMO_V2.0-rescue" part="TR2024S3V3-SamacSys_Parts" description=""/>
+      <libsource lib="SamacSys_Parts" part="TR2024S3V3" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5F9A9035</tstamp>
     </comp>
@@ -1343,7 +1344,7 @@
         <field name="Stock type">Basic</field>
         <field name="Type">SMD</field>
       </fields>
-      <libsource lib="CHAdeMO_V2.0-rescue" part="ISO1050DUBR-SamacSys_Parts" description=""/>
+      <libsource lib="SamacSys_Parts" part="ISO1050DUBR" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5F9261A7</tstamp>
     </comp>
@@ -1362,7 +1363,7 @@
         <field name="Mouser link">https://nl.mouser.com/ProductDetail/RECOM-Power/ROE-3305S?qs=%2Fha2pyFadui8DrpX4CFO0oSW4HPKP0QPOSHbdRFVYVDaumpNTGL2kQ%3D%3D</field>
         <field name="Type">THT</field>
       </fields>
-      <libsource lib="CHAdeMO_V2.0-rescue" part="ROE-3.305S-SamacSys_Parts" description=""/>
+      <libsource lib="SamacSys_Parts" part="ROE-3.305S" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5F8ABED4</tstamp>
     </comp>
@@ -1496,12 +1497,12 @@
       <datasheet>https://nl.mouser.com/ProductDetail/Panasonic/ERJ-6ENF1002V?qs=4WZYzuGhm5pfKPfuMiCO5g%3D%3D</datasheet>
       <fields>
         <field name="JLC Footprint">0805</field>
-        <field name="JLC-URL">https://jlcpcb.com/parts/componentSearch?searchTxt=C38522</field>
-        <field name="LCSC part number">C38522</field>
+        <field name="JLC-URL">https://jlcpcb.com/parts/componentSearch?searchTxt=C25744</field>
+        <field name="LCSC part number">C25744</field>
         <field name="Manufacturer_Part_Number">ERJ-6ENF1002V</field>
         <field name="Mouser Part Number">667-ERJ-6ENF1002V</field>
         <field name="Mouser link">https://nl.mouser.com/ProductDetail/Panasonic/ERJ-6ENF1002V?qs=4WZYzuGhm5pfKPfuMiCO5g%3D%3D</field>
-        <field name="Stock type">Extended</field>
+        <field name="Stock type">Basic</field>
         <field name="Type">SMD</field>
       </fields>
       <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
@@ -1560,7 +1561,7 @@
         <field name="Stock type">Basic</field>
         <field name="Type">SMD</field>
       </fields>
-      <libsource lib="CHAdeMO_V2.0-rescue" part="EL817S(TU)-EL817S_TU_" description=""/>
+      <libsource lib="EL817S_TU_" part="EL817S(TU)" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5F987C54</tstamp>
     </comp>
@@ -1577,7 +1578,7 @@
         <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Molex/39-28-8020?qs=ZZBj1wiNDbnzWLcHr%2Fqwqw%3D%3D</field>
         <field name="Type">THT</field>
       </fields>
-      <libsource lib="CHAdeMO_V2.0-rescue" part="39-28-8020-39-28-8020" description=""/>
+      <libsource lib="39-28-8020" part="39-28-8020" description="Header 4.20mm, dual row, vert, 2w, (sn) Molex MINI-FIT JR. Series, Series Number 5566, 4.2mm Pitch 2 Way 2 Row Shrouded Straight PCB Header, Through Hole"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>6023F688</tstamp>
     </comp>
@@ -1615,7 +1616,7 @@
         <field name="Stock type">Basic</field>
         <field name="Type">SMD</field>
       </fields>
-      <libsource lib="CHAdeMO_V2.0-rescue" part="EL817S(TU)-EL817S_TU_" description=""/>
+      <libsource lib="EL817S_TU_" part="EL817S(TU)" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>60860C58</tstamp>
     </comp>
@@ -1624,13 +1625,13 @@
       <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
       <datasheet>https://nl.mouser.com/ProductDetail/Panasonic/ERJ-6ENF1002V?qs=4WZYzuGhm5pfKPfuMiCO5g%3D%3D</datasheet>
       <fields>
-        <field name="JLC Footprint">0805</field>
-        <field name="JLC-URL">https://jlcpcb.com/parts/componentSearch?searchTxt=C38522</field>
-        <field name="LCSC part number">C38522</field>
+        <field name="JLC Footprint">0402</field>
+        <field name="JLC-URL">https://jlcpcb.com/parts/componentSearch?searchTxt=C25744</field>
+        <field name="LCSC part number">C25744</field>
         <field name="Manufacturer_Part_Number">ERJ-6ENF1002V</field>
         <field name="Mouser Part Number">667-ERJ-6ENF1002V</field>
         <field name="Mouser link">https://nl.mouser.com/ProductDetail/Panasonic/ERJ-6ENF1002V?qs=4WZYzuGhm5pfKPfuMiCO5g%3D%3D</field>
-        <field name="Stock type">Extended</field>
+        <field name="Stock type">Basic</field>
         <field name="Type">SMD</field>
       </fields>
       <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
@@ -1642,13 +1643,13 @@
       <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
       <datasheet>https://nl.mouser.com/ProductDetail/Panasonic/ERJ-6ENF1002V?qs=4WZYzuGhm5pfKPfuMiCO5g%3D%3D</datasheet>
       <fields>
-        <field name="JLC Footprint">0805</field>
-        <field name="JLC-URL">https://jlcpcb.com/parts/componentSearch?searchTxt=C38522</field>
-        <field name="LCSC part number">C38522</field>
+        <field name="JLC Footprint">0402</field>
+        <field name="JLC-URL">https://jlcpcb.com/parts/componentSearch?searchTxt=C25744</field>
+        <field name="LCSC part number">C25744</field>
         <field name="Manufacturer_Part_Number">ERJ-6ENF1002V</field>
         <field name="Mouser Part Number">667-ERJ-6ENF1002V</field>
         <field name="Mouser link">https://nl.mouser.com/ProductDetail/Panasonic/ERJ-6ENF1002V?qs=4WZYzuGhm5pfKPfuMiCO5g%3D%3D</field>
-        <field name="Stock type">Extended</field>
+        <field name="Stock type">Basic</field>
         <field name="Type">SMD</field>
       </fields>
       <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
@@ -1660,13 +1661,13 @@
       <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
       <datasheet>https://nl.mouser.com/ProductDetail/Panasonic/ERJ-6ENF1002V?qs=4WZYzuGhm5pfKPfuMiCO5g%3D%3D</datasheet>
       <fields>
-        <field name="JLC Footprint">0805</field>
-        <field name="JLC-URL">https://jlcpcb.com/parts/componentSearch?searchTxt=C38522</field>
-        <field name="LCSC part number">C38522</field>
+        <field name="JLC Footprint">0402</field>
+        <field name="JLC-URL">https://jlcpcb.com/parts/componentSearch?searchTxt=C25744</field>
+        <field name="LCSC part number">C25744</field>
         <field name="Manufacturer_Part_Number">ERJ-6ENF1002V</field>
         <field name="Mouser Part Number">667-ERJ-6ENF1002V</field>
         <field name="Mouser link">https://nl.mouser.com/ProductDetail/Panasonic/ERJ-6ENF1002V?qs=4WZYzuGhm5pfKPfuMiCO5g%3D%3D</field>
-        <field name="Stock type">Extended</field>
+        <field name="Stock type">Basic</field>
         <field name="Type">SMD</field>
       </fields>
       <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
@@ -1714,13 +1715,13 @@
       <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
       <datasheet>https://nl.mouser.com/ProductDetail/Panasonic/ERJ-6ENF1002V?qs=4WZYzuGhm5pfKPfuMiCO5g%3D%3D</datasheet>
       <fields>
-        <field name="JLC Footprint">0805</field>
-        <field name="JLC-URL">https://jlcpcb.com/parts/componentSearch?searchTxt=C38522</field>
-        <field name="LCSC part number">C38522</field>
+        <field name="JLC Footprint">0402</field>
+        <field name="JLC-URL">https://jlcpcb.com/parts/componentSearch?searchTxt=C25744</field>
+        <field name="LCSC part number">C25744</field>
         <field name="Manufacturer_Part_Number">ERJ-6ENF1002V</field>
         <field name="Mouser Part Number">667-ERJ-6ENF1002V</field>
         <field name="Mouser link">https://nl.mouser.com/ProductDetail/Panasonic/ERJ-6ENF1002V?qs=4WZYzuGhm5pfKPfuMiCO5g%3D%3D</field>
-        <field name="Stock type">Extended</field>
+        <field name="Stock type">Basic</field>
         <field name="Type">SMD</field>
       </fields>
       <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
@@ -1732,13 +1733,13 @@
       <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
       <datasheet>https://nl.mouser.com/ProductDetail/Panasonic/ERJ-6ENF1002V?qs=4WZYzuGhm5pfKPfuMiCO5g%3D%3D</datasheet>
       <fields>
-        <field name="JLC Footprint">0805</field>
-        <field name="JLC-URL">https://jlcpcb.com/parts/componentSearch?searchTxt=C38522</field>
-        <field name="LCSC part number">C38522</field>
+        <field name="JLC Footprint">0402</field>
+        <field name="JLC-URL">https://jlcpcb.com/parts/componentSearch?searchTxt=C25744</field>
+        <field name="LCSC part number">C25744</field>
         <field name="Manufacturer_Part_Number">ERJ-6ENF1002V</field>
         <field name="Mouser Part Number">667-ERJ-6ENF1002V</field>
         <field name="Mouser link">https://nl.mouser.com/ProductDetail/Panasonic/ERJ-6ENF1002V?qs=4WZYzuGhm5pfKPfuMiCO5g%3D%3D</field>
-        <field name="Stock type">Extended</field>
+        <field name="Stock type">Basic</field>
         <field name="Type">SMD</field>
       </fields>
       <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
@@ -1776,7 +1777,7 @@
         <field name="Mouser link">https://nl.mouser.com/ProductDetail/771-PESD2CANFD24V-TR</field>
         <field name="Type">SMD</field>
       </fields>
-      <libsource lib="CHAdeMO_V2.0-rescue" part="PESD2CANFD24V-TR-PESD2CANFD24V-TR" description=""/>
+      <libsource lib="PESD2CANFD24V-TR" part="PESD2CANFD24V-TR" description="ESD Suppressors / TVS Diodes DIODE ESD PROT"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>6020FA00</tstamp>
     </comp>
@@ -1793,7 +1794,7 @@
         <field name="Mouser link">https://nl.mouser.com/ProductDetail/810-ACT45B1012PTL003</field>
         <field name="Type">SMD</field>
       </fields>
-      <libsource lib="CHAdeMO_V2.0-rescue" part="PE-1812ACC220STS-PE-1812ACC220STS" description=""/>
+      <libsource lib="PE-1812ACC220STS" part="PE-1812ACC220STS" description="Common Mode Chokes / Filters AEC-Q200 Chip Choke 22uH .6Ohms Q200"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>602151D0</tstamp>
     </comp>
@@ -1826,7 +1827,7 @@
         <field name="Mouser link">https://nl.mouser.com/ProductDetail/810-ACT45B1012PTL003</field>
         <field name="Type">SMD</field>
       </fields>
-      <libsource lib="CHAdeMO_V2.0-rescue" part="PE-1812ACC220STS-PE-1812ACC220STS" description=""/>
+      <libsource lib="PE-1812ACC220STS" part="PE-1812ACC220STS" description="Common Mode Chokes / Filters AEC-Q200 Chip Choke 22uH .6Ohms Q200"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>6060111E</tstamp>
     </comp>
@@ -1876,7 +1877,7 @@
         <field name="Mouser link">https://nl.mouser.com/ProductDetail/771-PESD2CANFD24V-TR</field>
         <field name="Type">SMD</field>
       </fields>
-      <libsource lib="CHAdeMO_V2.0-rescue" part="PESD2CANFD24V-TR-PESD2CANFD24V-TR" description=""/>
+      <libsource lib="PESD2CANFD24V-TR" part="PESD2CANFD24V-TR" description="ESD Suppressors / TVS Diodes DIODE ESD PROT"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>60697A99</tstamp>
     </comp>
@@ -1915,7 +1916,7 @@
         <field name="Mouser Price/Stock">https://nl.mouser.com/ProductDetail/611-PTS647SM38SMTR2L</field>
         <field name="Mouser link">https://nl.mouser.com/ProductDetail/CK/PTS647SM38SMTR2LFS?qs=%2Fha2pyFadug0Azfe8RMwGeMURFOF4lLShtoDs41xX9HDzDA4uhrRnYE8%2F53wapal</field>
       </fields>
-      <libsource lib="CHAdeMO_V2.0-rescue" part="PTS647SM38SMTR2LFS-PTS647SM38SMTR2LFS" description=""/>
+      <libsource lib="PTS647SM38SMTR2LFS" part="PTS647SM38SMTR2LFS" description="Tactile Switches 50mA 12VDC, 1.8N 3.8mm H, G leads"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>6013313A</tstamp>
     </comp>
@@ -1931,7 +1932,7 @@
         <field name="Mouser Price/Stock">https://nl.mouser.com/ProductDetail/611-PTS647SM38SMTR2L</field>
         <field name="Mouser link">https://nl.mouser.com/ProductDetail/CK/PTS647SM38SMTR2LFS?qs=%2Fha2pyFadug0Azfe8RMwGeMURFOF4lLShtoDs41xX9HDzDA4uhrRnYE8%2F53wapal</field>
       </fields>
-      <libsource lib="CHAdeMO_V2.0-rescue" part="PTS647SM38SMTR2LFS-PTS647SM38SMTR2LFS" description=""/>
+      <libsource lib="PTS647SM38SMTR2LFS" part="PTS647SM38SMTR2LFS" description="Tactile Switches 50mA 12VDC, 1.8N 3.8mm H, G leads"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>6025062A</tstamp>
     </comp>
@@ -1963,7 +1964,7 @@
         <field name="Mouser link">https://nl.mouser.com/ProductDetail/Infineon-IR/IRLML0060TRPBF?qs=%2Fha2pyFaduhyxTHJ4eRB4Ob7c7xw%252B%252Bj1E7NBIFJv%252BeOHJMIp%252BS34Uzpwcws7%2FKTI</field>
         <field name="Type">SMD</field>
       </fields>
-      <libsource lib="CHAdeMO_V2.0-rescue" part="IRLML0060TRPBF-IRLML0060TRPBF" description=""/>
+      <libsource lib="IRLML0060TRPBF" part="IRLML0060TRPBF" description="MOSFET N-Channel 60V 2.7A SOT23 Infineon IRLML0060TRPBF N-channel MOSFET Transistor, 2.7 A, 60 V, 3-Pin SOT-23"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>606578BF</tstamp>
     </comp>
@@ -1982,7 +1983,7 @@
         <field name="Mouser link">https://nl.mouser.com/ProductDetail/Infineon-IR/IRLML0060TRPBF?qs=%2Fha2pyFaduhyxTHJ4eRB4Ob7c7xw%252B%252Bj1E7NBIFJv%252BeOHJMIp%252BS34Uzpwcws7%2FKTI</field>
         <field name="Type">SMD</field>
       </fields>
-      <libsource lib="CHAdeMO_V2.0-rescue" part="IRLML0060TRPBF-IRLML0060TRPBF" description=""/>
+      <libsource lib="IRLML0060TRPBF" part="IRLML0060TRPBF" description="MOSFET N-Channel 60V 2.7A SOT23 Infineon IRLML0060TRPBF N-channel MOSFET Transistor, 2.7 A, 60 V, 3-Pin SOT-23"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>606DCFAB</tstamp>
     </comp>
@@ -2001,7 +2002,7 @@
         <field name="Mouser link">https://nl.mouser.com/ProductDetail/Infineon-IR/IRLML0060TRPBF?qs=%2Fha2pyFaduhyxTHJ4eRB4Ob7c7xw%252B%252Bj1E7NBIFJv%252BeOHJMIp%252BS34Uzpwcws7%2FKTI</field>
         <field name="Type">SMD</field>
       </fields>
-      <libsource lib="CHAdeMO_V2.0-rescue" part="IRLML0060TRPBF-IRLML0060TRPBF" description=""/>
+      <libsource lib="IRLML0060TRPBF" part="IRLML0060TRPBF" description="MOSFET N-Channel 60V 2.7A SOT23 Infineon IRLML0060TRPBF N-channel MOSFET Transistor, 2.7 A, 60 V, 3-Pin SOT-23"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>6075DD3A</tstamp>
     </comp>
@@ -2020,7 +2021,7 @@
         <field name="Mouser link">https://nl.mouser.com/ProductDetail/Infineon-IR/IRLML0060TRPBF?qs=%2Fha2pyFaduhyxTHJ4eRB4Ob7c7xw%252B%252Bj1E7NBIFJv%252BeOHJMIp%252BS34Uzpwcws7%2FKTI</field>
         <field name="Type">SMD</field>
       </fields>
-      <libsource lib="CHAdeMO_V2.0-rescue" part="IRLML0060TRPBF-IRLML0060TRPBF" description=""/>
+      <libsource lib="IRLML0060TRPBF" part="IRLML0060TRPBF" description="MOSFET N-Channel 60V 2.7A SOT23 Infineon IRLML0060TRPBF N-channel MOSFET Transistor, 2.7 A, 60 V, 3-Pin SOT-23"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>6082D5D3</tstamp>
     </comp>
@@ -2029,13 +2030,13 @@
       <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
       <datasheet>https://nl.mouser.com/ProductDetail/Panasonic/ERJ-6ENF1002V?qs=4WZYzuGhm5pfKPfuMiCO5g%3D%3D</datasheet>
       <fields>
-        <field name="JLC Footprint">0805</field>
-        <field name="JLC-URL">https://jlcpcb.com/parts/componentSearch?searchTxt=C38522</field>
-        <field name="LCSC part number">C38522</field>
+        <field name="JLC Footprint">0402</field>
+        <field name="JLC-URL">https://jlcpcb.com/parts/componentSearch?searchTxt=C25744</field>
+        <field name="LCSC part number">C25744</field>
         <field name="Manufacturer_Part_Number">ERJ-6ENF1002V</field>
         <field name="Mouser Part Number">667-ERJ-6ENF1002V</field>
         <field name="Mouser link">https://nl.mouser.com/ProductDetail/Panasonic/ERJ-6ENF1002V?qs=4WZYzuGhm5pfKPfuMiCO5g%3D%3D</field>
-        <field name="Stock type">Extended</field>
+        <field name="Stock type">Basic</field>
         <field name="Type">SMD</field>
       </fields>
       <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
@@ -2076,7 +2077,7 @@
         <field name="Stock type">Basic</field>
         <field name="Type">SMD</field>
       </fields>
-      <libsource lib="CHAdeMO_V2.0-rescue" part="EL817S(TU)-EL817S_TU_" description=""/>
+      <libsource lib="EL817S_TU_" part="EL817S(TU)" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>6093315D</tstamp>
     </comp>
@@ -2094,7 +2095,7 @@
         <field name="Mouser link">https://nl.mouser.com/ProductDetail/Diodes-Incorporated/DMP4065SQ-7?qs=W0yvOO0ixfEjdY1la3hi%2FQ%3D%3D</field>
         <field name="Type">SMD</field>
       </fields>
-      <libsource lib="CHAdeMO_V2.0-rescue" part="DMP4065SQ-7-DMP4065SQ-7" description=""/>
+      <libsource lib="DMP4065SQ-7" part="DMP4065SQ-7" description="MOSFET BVDSS: 31V40V SOT23 T&amp;R 3K"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5F6E2FD1</tstamp>
     </comp>
@@ -2103,13 +2104,13 @@
       <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
       <datasheet>https://nl.mouser.com/ProductDetail/Panasonic/ERJ-6ENF1002V?qs=4WZYzuGhm5pfKPfuMiCO5g%3D%3D</datasheet>
       <fields>
-        <field name="JLC Footprint">0805</field>
-        <field name="JLC-URL">https://jlcpcb.com/parts/componentSearch?searchTxt=C38522</field>
-        <field name="LCSC part number">C38522</field>
+        <field name="JLC Footprint">0402</field>
+        <field name="JLC-URL">https://jlcpcb.com/parts/componentSearch?searchTxt=C25744</field>
+        <field name="LCSC part number">C25744</field>
         <field name="Manufacturer_Part_Number">ERJ-6ENF1002V</field>
         <field name="Mouser Part Number">667-ERJ-6ENF1002V</field>
         <field name="Mouser link">https://nl.mouser.com/ProductDetail/Panasonic/ERJ-6ENF1002V?qs=4WZYzuGhm5pfKPfuMiCO5g%3D%3D</field>
-        <field name="Stock type">Extended</field>
+        <field name="Stock type">Basic</field>
         <field name="Type">SMD</field>
       </fields>
       <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
@@ -2150,7 +2151,7 @@
         <field name="Stock type">Basic</field>
         <field name="Type">SMD</field>
       </fields>
-      <libsource lib="CHAdeMO_V2.0-rescue" part="EL817S(TU)-EL817S_TU_" description=""/>
+      <libsource lib="EL817S_TU_" part="EL817S(TU)" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5F75DCCF</tstamp>
     </comp>
@@ -2167,7 +2168,7 @@
         <field name="Field8">455-1704-ND</field>
         <field name="Field9">N/A</field>
       </fields>
-      <libsource lib="CHAdeMO_V2.0-rescue" part="B2B-PH-K-S(LF)(SN)-B2B-PH-K-S_LF__SN_" description=""/>
+      <libsource lib="B2B-PH-K-S_LF__SN_" part="B2B-PH-K-S(LF)(SN)" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5F8C9289</tstamp>
     </comp>
@@ -2177,8 +2178,6 @@
       <datasheet>https://nl.mouser.com/ProductDetail/Panasonic/ERJ-6ENF5101V?qs=50QC8w71jAvpGnVxshBP5A%3D%3D</datasheet>
       <fields>
         <field name="JLC Footprint">0805</field>
-        <field name="JLC-URL">https://jlcpcb.com/parts/componentSearch?searchTxt=C27834</field>
-        <field name="LCSC part number">C27834</field>
         <field name="Mouser Part Number">667-ERJ-6ENF5101V</field>
         <field name="Mouser link">https://nl.mouser.com/ProductDetail/Panasonic/ERJ-6ENF5101V?qs=50QC8w71jAvpGnVxshBP5A%3D%3D</field>
         <field name="Stock type">Basic</field>
@@ -2194,8 +2193,6 @@
       <datasheet>https://nl.mouser.com/ProductDetail/Panasonic/ERJ-6ENF5101V?qs=50QC8w71jAvpGnVxshBP5A%3D%3D</datasheet>
       <fields>
         <field name="JLC Footprint">0805</field>
-        <field name="JLC-URL">https://jlcpcb.com/parts/componentSearch?searchTxt=C27834</field>
-        <field name="LCSC part number">C27834</field>
         <field name="Mouser Part Number">667-ERJ-6ENF5101V</field>
         <field name="Mouser link">https://nl.mouser.com/ProductDetail/Panasonic/ERJ-6ENF5101V?qs=50QC8w71jAvpGnVxshBP5A%3D%3D</field>
         <field name="Stock type">Basic</field>
@@ -2261,10 +2258,12 @@
     </comp>
   </components>
   <libparts>
-    <libpart lib="CHAdeMO_V2.0-rescue" part="39-28-8020-39-28-8020">
+    <libpart lib="39-28-8020" part="39-28-8020">
+      <description>Header 4.20mm, dual row, vert, 2w, (sn) Molex MINI-FIT JR. Series, Series Number 5566, 4.2mm Pitch 2 Way 2 Row Shrouded Straight PCB Header, Through Hole</description>
+      <docs>http://www.molex.com/molex/products/datasheet.jsp?part=active/0039288020_PCB_HEADERS.xml</docs>
       <fields>
         <field name="Reference">J</field>
-        <field name="Value">39-28-8020-39-28-8020</field>
+        <field name="Value">39-28-8020</field>
         <field name="Footprint">SHDR2W125P550X420_2X1_540X960X1310P</field>
         <field name="Datasheet">http://www.molex.com/molex/products/datasheet.jsp?part=active/0039288020_PCB_HEADERS.xml</field>
         <field name="Description">Header 4.20mm, dual row, vert, 2w, (sn) Molex MINI-FIT JR. Series, Series Number 5566, 4.2mm Pitch 2 Way 2 Row Shrouded Straight PCB Header, Through Hole</field>
@@ -2279,10 +2278,12 @@
         <pin num="2" name="2" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="CHAdeMO_V2.0-rescue" part="5810132011-5810132011">
+    <libpart lib="5810132011" part="5810132011">
+      <description>AUTOMOTIVE CONN, PLUG, 40POS, PCB; Product Range:ModICE ME-MX Series; Automotive Connector Shell Style:Panel Mount Plug; No. of Contacts:40Contacts; Automotive Contact Type:PCB Pin; Connector Body Material:Polymer, Glass Filled Body RoHS Compliant: Yes</description>
+      <docs>https://belfuse.com/resources/brochures/cinchconnectivitysolutions/modice/br-ccs-ice-modice-and-shs-brochure.pdf</docs>
       <fields>
         <field name="Reference">J</field>
-        <field name="Value">5810132011-5810132011</field>
+        <field name="Value">5810132011</field>
         <field name="Footprint">5810132011</field>
         <field name="Datasheet">https://www.belfuse.com/product/part-details?partn=5810132011</field>
         <field name="Description">AUTOMOTIVE CONN, PLUG, 40POS, PCB; Product Range:ModICE ME-MX Series; Automotive Connector Shell Style:Panel Mount Plug; No. of Contacts:40Contacts; Automotive Contact Type:PCB Pin; Connector Body Material:Polymer, Glass Filled Body RoHS Compliant: Yes</field>
@@ -2328,10 +2329,10 @@
         <pin num="MH1" name="MH1" type="NotConnected"/>
       </pins>
     </libpart>
-    <libpart lib="CHAdeMO_V2.0-rescue" part="ATSAM3X8EA-AU-ATSAM3X8EA-AU">
+    <libpart lib="ATSAM3X8EA-AU" part="ATSAM3X8EA-AU">
       <fields>
         <field name="Reference">U</field>
-        <field name="Value">ATSAM3X8EA-AU-ATSAM3X8EA-AU</field>
+        <field name="Value">ATSAM3X8EA-AU</field>
         <field name="Footprint">QFP50P2200X2200X145-144N</field>
         <field name="Datasheet">IPC-7351B</field>
         <field name="Field4">MICROCHIP</field>
@@ -2484,10 +2485,10 @@
         <pin num="144" name="PB25" type="BiDi"/>
       </pins>
     </libpart>
-    <libpart lib="CHAdeMO_V2.0-rescue" part="B2B-PH-K-S(LF)(SN)-B2B-PH-K-S_LF__SN_">
+    <libpart lib="B2B-PH-K-S_LF__SN_" part="B2B-PH-K-S(LF)(SN)">
       <fields>
         <field name="Reference">J</field>
-        <field name="Value">B2B-PH-K-S(LF)(SN)-B2B-PH-K-S_LF__SN_</field>
+        <field name="Value">B2B-PH-K-S(LF)(SN)</field>
         <field name="Footprint">JST_B2B-PH-K-S(LF)(SN)</field>
         <field name="Datasheet">B2B-PH-K-S_LF__SN_</field>
         <field name="Field4">IPC-7251</field>
@@ -2503,10 +2504,12 @@
         <pin num="2" name="2" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="CHAdeMO_V2.0-rescue" part="DMP4065SQ-7-DMP4065SQ-7">
+    <libpart lib="DMP4065SQ-7" part="DMP4065SQ-7">
+      <description>MOSFET BVDSS: 31V40V SOT23 T&amp;R 3K</description>
+      <docs>https://www.arrow.com/en/products/dmp4065sq-7/diodes-incorporated</docs>
       <fields>
         <field name="Reference">Q</field>
-        <field name="Value">DMP4065SQ-7-DMP4065SQ-7</field>
+        <field name="Value">DMP4065SQ-7</field>
         <field name="Footprint">SOT96P240X110-3N</field>
         <field name="Datasheet">https://www.arrow.com/en/products/dmp4065sq-7/diodes-incorporated</field>
         <field name="Description">MOSFET BVDSS: 31V40V SOT23 T&amp;R 3K</field>
@@ -2520,229 +2523,6 @@
         <pin num="1" name="~" type="input"/>
         <pin num="2" name="~" type="passive"/>
         <pin num="3" name="~" type="passive"/>
-      </pins>
-    </libpart>
-    <libpart lib="CHAdeMO_V2.0-rescue" part="EL817S(TU)-EL817S_TU_">
-      <fields>
-        <field name="Reference">U</field>
-        <field name="Value">EL817S(TU)-EL817S_TU_</field>
-        <field name="Footprint">SOIC254P1030X460-4N</field>
-        <field name="Datasheet">Everlight</field>
-        <field name="Field4">7</field>
-        <field name="Field5">IPC-7351B</field>
-      </fields>
-      <pins>
-        <pin num="1" name="~" type="passive"/>
-        <pin num="2" name="~" type="passive"/>
-        <pin num="3" name="~" type="passive"/>
-        <pin num="4" name="~" type="passive"/>
-      </pins>
-    </libpart>
-    <libpart lib="CHAdeMO_V2.0-rescue" part="IRLML0060TRPBF-IRLML0060TRPBF">
-      <fields>
-        <field name="Reference">Q</field>
-        <field name="Value">IRLML0060TRPBF-IRLML0060TRPBF</field>
-        <field name="Footprint">SOT95P237X112-3N</field>
-        <field name="Datasheet">https://www.infineon.com/dgdl/irlml0060pbf.pdf?fileId=5546d462533600a40153566493ef25e6</field>
-        <field name="Description">MOSFET N-Channel 60V 2.7A SOT23 Infineon IRLML0060TRPBF N-channel MOSFET Transistor, 2.7 A, 60 V, 3-Pin SOT-23</field>
-        <field name="Height">1.12</field>
-        <field name="Mouser Part Number">942-IRLML0060TRPBF</field>
-        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Infineon-IR/IRLML0060TRPBF?qs=9%252BKlkBgLFf3sC4ri8n%252Bt9Q%3D%3D</field>
-        <field name="Manufacturer_Name">Infineon</field>
-        <field name="Manufacturer_Part_Number">IRLML0060TRPBF</field>
-      </fields>
-      <pins>
-        <pin num="1" name="~" type="passive"/>
-        <pin num="2" name="~" type="passive"/>
-        <pin num="3" name="~" type="passive"/>
-      </pins>
-    </libpart>
-    <libpart lib="CHAdeMO_V2.0-rescue" part="ISO1050DUBR-SamacSys_Parts">
-      <fields>
-        <field name="Reference">IC</field>
-        <field name="Value">ISO1050DUBR-SamacSys_Parts</field>
-        <field name="Footprint">SOP254P1040X485-8N</field>
-        <field name="Datasheet">http://www.ti.com/lit/ds/symlink/iso1050.pdf</field>
-        <field name="Description">Digital Isolators Iso 5V CAN Xcvr</field>
-        <field name="Height">4.85</field>
-        <field name="Mouser Part Number">595-ISO1050DUBR</field>
-        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Texas-Instruments/ISO1050DUBR?qs=IK5e5L0zOXhhp9hdAolE%252BA%3D%3D</field>
-        <field name="Manufacturer_Name">Texas Instruments</field>
-        <field name="Manufacturer_Part_Number">ISO1050DUBR</field>
-      </fields>
-      <pins>
-        <pin num="1" name="VCC1" type="power_in"/>
-        <pin num="2" name="RXD" type="passive"/>
-        <pin num="3" name="TXD" type="passive"/>
-        <pin num="4" name="GND1" type="passive"/>
-        <pin num="5" name="GND2" type="passive"/>
-        <pin num="6" name="CANL" type="passive"/>
-        <pin num="7" name="CANH" type="passive"/>
-        <pin num="8" name="VCC2" type="power_in"/>
-      </pins>
-    </libpart>
-    <libpart lib="CHAdeMO_V2.0-rescue" part="M24M02-DRMN6TP-SamacSys_Parts">
-      <fields>
-        <field name="Reference">IC</field>
-        <field name="Value">M24M02-DRMN6TP-SamacSys_Parts</field>
-        <field name="Footprint">SOIC127P600X175-8N</field>
-        <field name="Datasheet">http://www.st.com/content/ccc/resource/technical/document/datasheet/b7/de/9b/f6/03/28/4e/8e/CD00290537.pdf/files/CD00290537.pdf/jcr:content/translations/en.CD00290537.pdf</field>
-        <field name="Description">STMicroelectronics M24M02-DRMN6TP EEPROM Memory, 2Mbit, 450ns, 1.8  5.5 V 8-Pin SOIC</field>
-        <field name="Height">1.75</field>
-        <field name="Mouser Part Number">511-M24M02-DRMN6TP</field>
-        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/STMicroelectronics/M24M02-DRMN6TP?qs=0gj%2FgiofzsPtgZ8EdVfF5w%3D%3D</field>
-        <field name="Manufacturer_Name">STMicroelectronics</field>
-        <field name="Manufacturer_Part_Number">M24M02-DRMN6TP</field>
-      </fields>
-      <pins>
-        <pin num="1" name="DU_1" type="passive"/>
-        <pin num="2" name="DU_2" type="passive"/>
-        <pin num="3" name="E2" type="passive"/>
-        <pin num="4" name="VSS" type="passive"/>
-        <pin num="5" name="SDA" type="passive"/>
-        <pin num="6" name="SCL" type="passive"/>
-        <pin num="7" name="~WC" type="passive"/>
-        <pin num="8" name="VCC" type="passive"/>
-      </pins>
-    </libpart>
-    <libpart lib="CHAdeMO_V2.0-rescue" part="PE-1812ACC220STS-PE-1812ACC220STS">
-      <fields>
-        <field name="Reference">L</field>
-        <field name="Value">PE-1812ACC220STS-PE-1812ACC220STS</field>
-        <field name="Footprint">PE1812ACC220STS</field>
-        <field name="Datasheet">https://productfinder.pulseeng.com/doc_type/WEB301/doc_num/W717/doc_part/W717.pdf</field>
-        <field name="Description">Common Mode Chokes / Filters AEC-Q200 Chip Choke 22uH .6Ohms Q200</field>
-        <field name="Height">3</field>
-        <field name="Mouser Part Number">673-PE-1812ACC220STS</field>
-        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Pulse-Electronics/PE-1812ACC220STS?qs=ar8LaIfZsbE4xU%2FWclqUyA%3D%3D</field>
-        <field name="Manufacturer_Name">Pulse</field>
-        <field name="Manufacturer_Part_Number">PE-1812ACC220STS</field>
-      </fields>
-      <pins>
-        <pin num="1" name="1" type="passive"/>
-        <pin num="2" name="2" type="passive"/>
-        <pin num="3" name="3" type="passive"/>
-        <pin num="4" name="4" type="passive"/>
-      </pins>
-    </libpart>
-    <libpart lib="CHAdeMO_V2.0-rescue" part="PESD2CANFD24V-TR-PESD2CANFD24V-TR">
-      <fields>
-        <field name="Reference">D</field>
-        <field name="Value">PESD2CANFD24V-TR-PESD2CANFD24V-TR</field>
-        <field name="Footprint">SOT95P230X110-3N</field>
-        <field name="Datasheet">https://assets.nexperia.com/documents/data-sheet/PESD2CANFD24V-T.pdf</field>
-        <field name="Description">ESD Suppressors / TVS Diodes DIODE ESD PROT</field>
-        <field name="Height">1.1</field>
-        <field name="Mouser Part Number">771-PESD2CANFD24V-TR</field>
-        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Nexperia/PESD2CANFD24V-TR?qs=xZ%2FP%252Ba9zWqbW0qDIUI%252BQ%2FA%3D%3D</field>
-        <field name="Manufacturer_Name">Nexperia</field>
-        <field name="Manufacturer_Part_Number">PESD2CANFD24V-TR</field>
-      </fields>
-      <pins>
-        <pin num="1" name="K1" type="passive"/>
-        <pin num="2" name="K2" type="passive"/>
-        <pin num="3" name="CC" type="passive"/>
-      </pins>
-    </libpart>
-    <libpart lib="CHAdeMO_V2.0-rescue" part="PTS647SM38SMTR2LFS-PTS647SM38SMTR2LFS">
-      <fields>
-        <field name="Reference">S</field>
-        <field name="Value">PTS647SM38SMTR2LFS-PTS647SM38SMTR2LFS</field>
-        <field name="Footprint">PTS645V(31)</field>
-        <field name="Datasheet">https://www.ckswitches.com/media/2567/pts647.pdf</field>
-        <field name="Description">Tactile Switches 50mA 12VDC, 1.8N 3.8mm H, G leads</field>
-        <field name="Manufacturer_Name">C &amp; K COMPONENTS</field>
-        <field name="Manufacturer_Part_Number">PTS647SM38SMTR2LFS</field>
-        <field name="Arrow Part Number">PTS647SM38SMTR2LFS</field>
-        <field name="Mouser Part Number">611-PTS647SM38SMTR2L</field>
-        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/CK/PTS647SM38SMTR2LFS?qs=PqoDHHvF648URW%252BUYk9ZBg%3D%3D</field>
-      </fields>
-      <pins>
-        <pin num="1" name="1" type="passive"/>
-        <pin num="2" name="2" type="passive"/>
-        <pin num="3" name="3" type="passive"/>
-        <pin num="4" name="4" type="passive"/>
-      </pins>
-    </libpart>
-    <libpart lib="CHAdeMO_V2.0-rescue" part="ROE-3.305S-SamacSys_Parts">
-      <fields>
-        <field name="Reference">PS</field>
-        <field name="Value">ROE-3.305S-SamacSys_Parts</field>
-        <field name="Footprint">ROE3305S</field>
-        <field name="Datasheet">https://www.recom-power.com/pdf/Econoline/ROE.pdf</field>
-        <field name="Description">Recom Through Hole 1W Isolated DC-DC Converter, I/O isolation 1kV dc, Vout 5V dc</field>
-        <field name="Height">10.5</field>
-        <field name="Mouser Part Number">919-ROE-3.305S</field>
-        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/RECOM-Power/ROE-3305S?qs=wlO1EFRhkBCdowjFZq2Hcg%3D%3D</field>
-        <field name="Manufacturer_Name">RECOM Power</field>
-        <field name="Manufacturer_Part_Number">ROE-3.305S</field>
-      </fields>
-      <pins>
-        <pin num="1" name="-VIN" type="passive"/>
-        <pin num="2" name="+VIN" type="passive"/>
-        <pin num="3" name="-VOUT" type="passive"/>
-        <pin num="4" name="+VOUT" type="passive"/>
-      </pins>
-    </libpart>
-    <libpart lib="CHAdeMO_V2.0-rescue" part="TR2024S3V3-SamacSys_Parts">
-      <fields>
-        <field name="Reference">PS</field>
-        <field name="Value">TR2024S3V3-SamacSys_Parts</field>
-        <field name="Footprint">TR2024S3V3</field>
-        <field name="Datasheet">https://www.xppower.com/portals/0/pdfs/SF_TR20.pdf</field>
-        <field name="Description">Non-Isolated DC/DC Converters DC-DC Converter, Switching Regulator, 2A</field>
-        <field name="Height">10.1</field>
-        <field name="Mouser Part Number">209-TR2024S3V3</field>
-        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/XP-Power/TR2024S3V3?qs=xZ%2FP%252Ba9zWqaTWxzsWP9Idw%3D%3D</field>
-        <field name="Manufacturer_Name">XP POWER</field>
-        <field name="Manufacturer_Part_Number">TR2024S3V3</field>
-      </fields>
-      <pins>
-        <pin num="1" name="+VIN" type="passive"/>
-        <pin num="2" name="GROUND" type="passive"/>
-        <pin num="3" name="+VOUT" type="passive"/>
-      </pins>
-    </libpart>
-    <libpart lib="CHAdeMO_V2.0-rescue" part="UJ2-BV-1-TH-UJ2-BV-1-TH">
-      <fields>
-        <field name="Reference">J</field>
-        <field name="Value">UJ2-BV-1-TH-UJ2-BV-1-TH</field>
-        <field name="Footprint">UJ2BV1TH</field>
-        <field name="Datasheet">https://www.cui.com/product/resource/uj2-bv-1-th.pdf</field>
-        <field name="Description">USB Connectors USB 2.0 type B jack 4 pin Vertical TH</field>
-        <field name="Height">15.8</field>
-        <field name="Manufacturer_Name">CUI Devices</field>
-        <field name="Manufacturer_Part_Number">UJ2-BV-1-TH</field>
-        <field name="Mouser Part Number">490-UJ2-BV-1-TH</field>
-        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/CUI-Devices/UJ2-BV-1-TH?qs=5mqXD9RfOg3Kkui4GUMMeg%3D%3D</field>
-      </fields>
-      <pins>
-        <pin num="1" name="1" type="power_in"/>
-        <pin num="2" name="2" type="BiDi"/>
-        <pin num="3" name="3" type="BiDi"/>
-        <pin num="4" name="4" type="passive"/>
-        <pin num="5" name="5" type="passive"/>
-        <pin num="6" name="6" type="passive"/>
-      </pins>
-    </libpart>
-    <libpart lib="CHAdeMO_V2.0-rescue" part="V23086C1001A403-EV-BLBOX-SamacSys_Parts">
-      <fields>
-        <field name="Reference">K</field>
-        <field name="Value">V23086C1001A403-EV-BLBOX-SamacSys_Parts</field>
-        <field name="Footprint">V23086C1001A403EVBLBOX</field>
-        <field name="Description">Automotive Relays V23086C1001A403-EV-BLBOX</field>
-        <field name="Height">10</field>
-        <field name="Mouser Part Number">655-1-1414761-0</field>
-        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/TE-Connectivity-AMP/V23086C1001A403-EV-BLBOX?qs=0kFKDc1CZSmi6Mk74Rg5kg%3D%3D</field>
-        <field name="Manufacturer_Name">TE Connectivity</field>
-        <field name="Manufacturer_Part_Number">V23086C1001A403-EV-BLBOX</field>
-      </fields>
-      <pins>
-        <pin num="1" name="COIL_1" type="passive"/>
-        <pin num="2" name="COIL_2" type="passive"/>
-        <pin num="3" name="N.C." type="passive"/>
-        <pin num="4" name="COM" type="passive"/>
-        <pin num="5" name="N.O." type="passive"/>
       </pins>
     </libpart>
     <libpart lib="Device" part="C">
@@ -2909,6 +2689,43 @@
         <pin num="2" name="~" type="passive"/>
       </pins>
     </libpart>
+    <libpart lib="EL817S_TU_" part="EL817S(TU)">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">EL817S(TU)</field>
+        <field name="Footprint">SOIC254P1030X460-4N</field>
+        <field name="Datasheet">Everlight</field>
+        <field name="Field4">7</field>
+        <field name="Field5">IPC-7351B</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+        <pin num="3" name="~" type="passive"/>
+        <pin num="4" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="IRLML0060TRPBF" part="IRLML0060TRPBF">
+      <description>MOSFET N-Channel 60V 2.7A SOT23 Infineon IRLML0060TRPBF N-channel MOSFET Transistor, 2.7 A, 60 V, 3-Pin SOT-23</description>
+      <docs>https://www.infineon.com/dgdl/irlml0060pbf.pdf?fileId=5546d462533600a40153566493ef25e6</docs>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">IRLML0060TRPBF</field>
+        <field name="Footprint">SOT95P237X112-3N</field>
+        <field name="Datasheet">https://www.infineon.com/dgdl/irlml0060pbf.pdf?fileId=5546d462533600a40153566493ef25e6</field>
+        <field name="Description">MOSFET N-Channel 60V 2.7A SOT23 Infineon IRLML0060TRPBF N-channel MOSFET Transistor, 2.7 A, 60 V, 3-Pin SOT-23</field>
+        <field name="Height">1.12</field>
+        <field name="Mouser Part Number">942-IRLML0060TRPBF</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Infineon-IR/IRLML0060TRPBF?qs=9%252BKlkBgLFf3sC4ri8n%252Bt9Q%3D%3D</field>
+        <field name="Manufacturer_Name">Infineon</field>
+        <field name="Manufacturer_Part_Number">IRLML0060TRPBF</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+        <pin num="3" name="~" type="passive"/>
+      </pins>
+    </libpart>
     <libpart lib="Jumper" part="SolderJumper_2_Open">
       <description>Solder Jumper, 2-pole, open</description>
       <docs>~</docs>
@@ -2935,6 +2752,202 @@
         <field name="Value">MountingHole</field>
       </fields>
     </libpart>
+    <libpart lib="PE-1812ACC220STS" part="PE-1812ACC220STS">
+      <description>Common Mode Chokes / Filters AEC-Q200 Chip Choke 22uH .6Ohms Q200</description>
+      <docs>https://productfinder.pulseeng.com/doc_type/WEB301/doc_num/W717/doc_part/W717.pdf</docs>
+      <fields>
+        <field name="Reference">L</field>
+        <field name="Value">PE-1812ACC220STS</field>
+        <field name="Footprint">PE1812ACC220STS</field>
+        <field name="Datasheet">https://productfinder.pulseeng.com/doc_type/WEB301/doc_num/W717/doc_part/W717.pdf</field>
+        <field name="Description">Common Mode Chokes / Filters AEC-Q200 Chip Choke 22uH .6Ohms Q200</field>
+        <field name="Height">3</field>
+        <field name="Mouser Part Number">673-PE-1812ACC220STS</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Pulse-Electronics/PE-1812ACC220STS?qs=ar8LaIfZsbE4xU%2FWclqUyA%3D%3D</field>
+        <field name="Manufacturer_Name">Pulse</field>
+        <field name="Manufacturer_Part_Number">PE-1812ACC220STS</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="PESD2CANFD24V-TR" part="PESD2CANFD24V-TR">
+      <description>ESD Suppressors / TVS Diodes DIODE ESD PROT</description>
+      <docs>https://assets.nexperia.com/documents/data-sheet/PESD2CANFD24V-T.pdf</docs>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">PESD2CANFD24V-TR</field>
+        <field name="Footprint">SOT95P230X110-3N</field>
+        <field name="Datasheet">https://assets.nexperia.com/documents/data-sheet/PESD2CANFD24V-T.pdf</field>
+        <field name="Description">ESD Suppressors / TVS Diodes DIODE ESD PROT</field>
+        <field name="Height">1.1</field>
+        <field name="Mouser Part Number">771-PESD2CANFD24V-TR</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Nexperia/PESD2CANFD24V-TR?qs=xZ%2FP%252Ba9zWqbW0qDIUI%252BQ%2FA%3D%3D</field>
+        <field name="Manufacturer_Name">Nexperia</field>
+        <field name="Manufacturer_Part_Number">PESD2CANFD24V-TR</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K1" type="passive"/>
+        <pin num="2" name="K2" type="passive"/>
+        <pin num="3" name="CC" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="PTS647SM38SMTR2LFS" part="PTS647SM38SMTR2LFS">
+      <description>Tactile Switches 50mA 12VDC, 1.8N 3.8mm H, G leads</description>
+      <docs>https://www.ckswitches.com/media/2567/pts647.pdf</docs>
+      <fields>
+        <field name="Reference">S</field>
+        <field name="Value">PTS647SM38SMTR2LFS</field>
+        <field name="Footprint">PTS645V(31)</field>
+        <field name="Datasheet">https://www.ckswitches.com/media/2567/pts647.pdf</field>
+        <field name="Description">Tactile Switches 50mA 12VDC, 1.8N 3.8mm H, G leads</field>
+        <field name="Manufacturer_Name">C &amp; K COMPONENTS</field>
+        <field name="Manufacturer_Part_Number">PTS647SM38SMTR2LFS</field>
+        <field name="Arrow Part Number">PTS647SM38SMTR2LFS</field>
+        <field name="Mouser Part Number">611-PTS647SM38SMTR2L</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/CK/PTS647SM38SMTR2LFS?qs=PqoDHHvF648URW%252BUYk9ZBg%3D%3D</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SamacSys_Parts" part="ISO1050DUBR">
+      <fields>
+        <field name="Reference">IC</field>
+        <field name="Value">ISO1050DUBR</field>
+        <field name="Footprint">SOP254P1040X485-8N</field>
+        <field name="Datasheet">http://www.ti.com/lit/ds/symlink/iso1050.pdf</field>
+        <field name="Description">Digital Isolators Iso 5V CAN Xcvr</field>
+        <field name="Height">4.85</field>
+        <field name="Mouser Part Number">595-ISO1050DUBR</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Texas-Instruments/ISO1050DUBR?qs=IK5e5L0zOXhhp9hdAolE%252BA%3D%3D</field>
+        <field name="Manufacturer_Name">Texas Instruments</field>
+        <field name="Manufacturer_Part_Number">ISO1050DUBR</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VCC1" type="power_in"/>
+        <pin num="2" name="RXD" type="passive"/>
+        <pin num="3" name="TXD" type="passive"/>
+        <pin num="4" name="GND1" type="passive"/>
+        <pin num="5" name="GND2" type="passive"/>
+        <pin num="6" name="CANL" type="passive"/>
+        <pin num="7" name="CANH" type="passive"/>
+        <pin num="8" name="VCC2" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="SamacSys_Parts" part="M24M02-DRMN6TP">
+      <fields>
+        <field name="Reference">IC</field>
+        <field name="Value">M24M02-DRMN6TP</field>
+        <field name="Footprint">SOIC127P600X175-8N</field>
+        <field name="Datasheet">http://www.st.com/content/ccc/resource/technical/document/datasheet/b7/de/9b/f6/03/28/4e/8e/CD00290537.pdf/files/CD00290537.pdf/jcr:content/translations/en.CD00290537.pdf</field>
+        <field name="Description">STMicroelectronics M24M02-DRMN6TP EEPROM Memory, 2Mbit, 450ns, 1.8  5.5 V 8-Pin SOIC</field>
+        <field name="Height">1.75</field>
+        <field name="Mouser Part Number">511-M24M02-DRMN6TP</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/STMicroelectronics/M24M02-DRMN6TP?qs=0gj%2FgiofzsPtgZ8EdVfF5w%3D%3D</field>
+        <field name="Manufacturer_Name">STMicroelectronics</field>
+        <field name="Manufacturer_Part_Number">M24M02-DRMN6TP</field>
+      </fields>
+      <pins>
+        <pin num="1" name="DU_1" type="passive"/>
+        <pin num="2" name="DU_2" type="passive"/>
+        <pin num="3" name="E2" type="passive"/>
+        <pin num="4" name="VSS" type="passive"/>
+        <pin num="5" name="SDA" type="passive"/>
+        <pin num="6" name="SCL" type="passive"/>
+        <pin num="7" name="~WC" type="passive"/>
+        <pin num="8" name="VCC" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SamacSys_Parts" part="ROE-3.305S">
+      <fields>
+        <field name="Reference">PS</field>
+        <field name="Value">ROE-3.305S</field>
+        <field name="Footprint">ROE3305S</field>
+        <field name="Datasheet">https://www.recom-power.com/pdf/Econoline/ROE.pdf</field>
+        <field name="Description">Recom Through Hole 1W Isolated DC-DC Converter, I/O isolation 1kV dc, Vout 5V dc</field>
+        <field name="Height">10.5</field>
+        <field name="Mouser Part Number">919-ROE-3.305S</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/RECOM-Power/ROE-3305S?qs=wlO1EFRhkBCdowjFZq2Hcg%3D%3D</field>
+        <field name="Manufacturer_Name">RECOM Power</field>
+        <field name="Manufacturer_Part_Number">ROE-3.305S</field>
+      </fields>
+      <pins>
+        <pin num="1" name="-VIN" type="passive"/>
+        <pin num="2" name="+VIN" type="passive"/>
+        <pin num="3" name="-VOUT" type="passive"/>
+        <pin num="4" name="+VOUT" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SamacSys_Parts" part="TR2024S3V3">
+      <fields>
+        <field name="Reference">PS</field>
+        <field name="Value">TR2024S3V3</field>
+        <field name="Footprint">TR2024S3V3</field>
+        <field name="Datasheet">https://www.xppower.com/portals/0/pdfs/SF_TR20.pdf</field>
+        <field name="Description">Non-Isolated DC/DC Converters DC-DC Converter, Switching Regulator, 2A</field>
+        <field name="Height">10.1</field>
+        <field name="Mouser Part Number">209-TR2024S3V3</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/XP-Power/TR2024S3V3?qs=xZ%2FP%252Ba9zWqaTWxzsWP9Idw%3D%3D</field>
+        <field name="Manufacturer_Name">XP POWER</field>
+        <field name="Manufacturer_Part_Number">TR2024S3V3</field>
+      </fields>
+      <pins>
+        <pin num="1" name="+VIN" type="passive"/>
+        <pin num="2" name="GROUND" type="passive"/>
+        <pin num="3" name="+VOUT" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SamacSys_Parts" part="V23086C1001A403-EV-BLBOX">
+      <fields>
+        <field name="Reference">K</field>
+        <field name="Value">V23086C1001A403-EV-BLBOX</field>
+        <field name="Footprint">V23086C1001A403EVBLBOX</field>
+        <field name="Description">Automotive Relays V23086C1001A403-EV-BLBOX</field>
+        <field name="Height">10</field>
+        <field name="Mouser Part Number">655-1-1414761-0</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/TE-Connectivity-AMP/V23086C1001A403-EV-BLBOX?qs=0kFKDc1CZSmi6Mk74Rg5kg%3D%3D</field>
+        <field name="Manufacturer_Name">TE Connectivity</field>
+        <field name="Manufacturer_Part_Number">V23086C1001A403-EV-BLBOX</field>
+      </fields>
+      <pins>
+        <pin num="1" name="COIL_1" type="passive"/>
+        <pin num="2" name="COIL_2" type="passive"/>
+        <pin num="3" name="N.C." type="passive"/>
+        <pin num="4" name="COM" type="passive"/>
+        <pin num="5" name="N.O." type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="UJ2-BV-1-TH" part="UJ2-BV-1-TH">
+      <description>USB Connectors USB 2.0 type B jack 4 pin Vertical TH</description>
+      <docs>https://www.cui.com/product/resource/uj2-bv-1-th.pdf</docs>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">UJ2-BV-1-TH</field>
+        <field name="Footprint">UJ2BV1TH</field>
+        <field name="Datasheet">https://www.cui.com/product/resource/uj2-bv-1-th.pdf</field>
+        <field name="Description">USB Connectors USB 2.0 type B jack 4 pin Vertical TH</field>
+        <field name="Height">15.8</field>
+        <field name="Manufacturer_Name">CUI Devices</field>
+        <field name="Manufacturer_Part_Number">UJ2-BV-1-TH</field>
+        <field name="Mouser Part Number">490-UJ2-BV-1-TH</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/CUI-Devices/UJ2-BV-1-TH?qs=5mqXD9RfOg3Kkui4GUMMeg%3D%3D</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="power_in"/>
+        <pin num="2" name="2" type="BiDi"/>
+        <pin num="3" name="3" type="BiDi"/>
+        <pin num="4" name="4" type="passive"/>
+        <pin num="5" name="5" type="passive"/>
+        <pin num="6" name="6" type="passive"/>
+      </pins>
+    </libpart>
     <libpart lib="pspice" part="INDUCTOR">
       <description>Capacitor symbol for simulation only</description>
       <docs>~</docs>
@@ -2949,11 +2962,29 @@
     </libpart>
   </libparts>
   <libraries>
-    <library logical="CHAdeMO_V2.0-rescue">
-      <uri>/Users/lars/Documents/GitHub/CHAdeMO-hardware/CHAdeMO_V2.0-rescue.lib</uri>
+    <library logical="39-28-8020">
+      <uri>/Users/lars/Documents/GitHub/CHAdeMO-private/PCB/Components/39-28-8020.lib</uri>
+    </library>
+    <library logical="5810132011">
+      <uri>/Users/lars/Documents/GitHub/CHAdeMO-private/PCB/Components/5810132011.lib</uri>
+    </library>
+    <library logical="ATSAM3X8EA-AU">
+      <uri>/Users/lars/Documents/GitHub/CHAdeMO-private/PCB/Components/ATSAM3X8EA-AU.lib</uri>
+    </library>
+    <library logical="B2B-PH-K-S_LF__SN_">
+      <uri>/Users/lars/Documents/GitHub/CHAdeMO-private/PCB/Components/B2B-PH-K-S_LF__SN_.lib</uri>
+    </library>
+    <library logical="DMP4065SQ-7">
+      <uri>/Users/lars/Documents/GitHub/CHAdeMO-private/PCB/Components/DMP4065SQ-7.lib</uri>
     </library>
     <library logical="Device">
       <uri>/Library/Application Support/kicad/library/Device.lib</uri>
+    </library>
+    <library logical="EL817S_TU_">
+      <uri>/Users/lars/Documents/GitHub/CHAdeMO-private/PCB/Components/EL817S_TU_.lib</uri>
+    </library>
+    <library logical="IRLML0060TRPBF">
+      <uri>/Users/lars/Documents/GitHub/CHAdeMO-private/PCB/Components/IRLML0060TRPBF.lib</uri>
     </library>
     <library logical="Jumper">
       <uri>/Library/Application Support/kicad/library/Jumper.lib</uri>
@@ -2961,350 +2992,365 @@
     <library logical="Mechanical">
       <uri>/Library/Application Support/kicad/library/Mechanical.lib</uri>
     </library>
+    <library logical="PE-1812ACC220STS">
+      <uri>/Users/lars/Documents/GitHub/CHAdeMO-private/PCB/Components/PE-1812ACC220STS.lib</uri>
+    </library>
+    <library logical="PESD2CANFD24V-TR">
+      <uri>/Users/lars/Documents/GitHub/CHAdeMO-private/PCB/Components/PESD2CANFD24V-TR.lib</uri>
+    </library>
+    <library logical="PTS647SM38SMTR2LFS">
+      <uri>/Users/lars/Documents/GitHub/CHAdeMO-private/PCB/Components/PTS647SM38SMTR2LFS.lib</uri>
+    </library>
+    <library logical="SamacSys_Parts">
+      <uri>/Users/lars/Documents/GitHub/CHAdeMO-private/PCB/Components/SamacSys_Parts.lib</uri>
+    </library>
+    <library logical="UJ2-BV-1-TH">
+      <uri>/Users/lars/Documents/GitHub/CHAdeMO-private/PCB/Components/UJ2-BV-1-TH.lib</uri>
+    </library>
     <library logical="pspice">
       <uri>/Library/Application Support/kicad/library/pspice.lib</uri>
     </library>
   </libraries>
   <nets>
-    <net code="1" name="Net-(U2-Pad1)">
-      <node ref="U2" pin="1"/>
+    <net code="1" name="Net-(U2-Pad85)">
+      <node ref="U2" pin="85"/>
     </net>
-    <net code="2" name="Net-(U2-Pad100)">
-      <node ref="U2" pin="100"/>
+    <net code="2" name="Net-(U2-Pad84)">
+      <node ref="U2" pin="84"/>
     </net>
-    <net code="3" name="Net-(U2-Pad101)">
-      <node ref="U2" pin="101"/>
+    <net code="3" name="Net-(U2-Pad83)">
+      <node ref="U2" pin="83"/>
     </net>
-    <net code="4" name="Net-(U2-Pad102)">
-      <node ref="U2" pin="102"/>
-    </net>
-    <net code="5" name="Net-(U2-Pad103)">
-      <node ref="U2" pin="103"/>
-    </net>
-    <net code="6" name="Net-(U2-Pad107)">
-      <node ref="U2" pin="107"/>
-    </net>
-    <net code="7" name="Net-(U2-Pad108)">
-      <node ref="U2" pin="108"/>
-    </net>
-    <net code="8" name="Net-(U2-Pad109)">
-      <node ref="U2" pin="109"/>
-    </net>
-    <net code="9" name="Net-(U2-Pad110)">
-      <node ref="U2" pin="110"/>
-    </net>
-    <net code="10" name="Net-(U2-Pad111)">
-      <node ref="U2" pin="111"/>
-    </net>
-    <net code="11" name="Net-(U2-Pad112)">
-      <node ref="U2" pin="112"/>
-    </net>
-    <net code="12" name="Net-(U2-Pad113)">
-      <node ref="U2" pin="113"/>
-    </net>
-    <net code="13" name="Net-(U2-Pad114)">
-      <node ref="U2" pin="114"/>
-    </net>
-    <net code="14" name="Net-(U2-Pad115)">
-      <node ref="U2" pin="115"/>
-    </net>
-    <net code="15" name="Net-(U2-Pad116)">
-      <node ref="U2" pin="116"/>
-    </net>
-    <net code="16" name="Net-(U2-Pad117)">
-      <node ref="U2" pin="117"/>
-    </net>
-    <net code="17" name="Net-(U2-Pad118)">
-      <node ref="U2" pin="118"/>
-    </net>
-    <net code="18" name="Net-(U2-Pad119)">
-      <node ref="U2" pin="119"/>
-    </net>
-    <net code="19" name="Net-(U2-Pad120)">
-      <node ref="U2" pin="120"/>
-    </net>
-    <net code="20" name="Net-(U2-Pad121)">
-      <node ref="U2" pin="121"/>
-    </net>
-    <net code="21" name="Net-(U2-Pad122)">
-      <node ref="U2" pin="122"/>
-    </net>
-    <net code="22" name="Net-(U2-Pad123)">
-      <node ref="U2" pin="123"/>
-    </net>
-    <net code="23" name="Net-(U2-Pad127)">
-      <node ref="U2" pin="127"/>
-    </net>
-    <net code="24" name="Net-(U2-Pad128)">
-      <node ref="U2" pin="128"/>
-    </net>
-    <net code="25" name="Net-(U2-Pad129)">
-      <node ref="U2" pin="129"/>
-    </net>
-    <net code="26" name="Net-(U2-Pad13)">
-      <node ref="U2" pin="13"/>
-    </net>
-    <net code="27" name="Net-(S2-Pad4)">
-      <node ref="U2" pin="130"/>
-      <node ref="S2" pin="4"/>
-    </net>
-    <net code="28" name="Net-(U2-Pad131)">
-      <node ref="U2" pin="131"/>
-    </net>
-    <net code="29" name="Net-(U2-Pad132)">
-      <node ref="U2" pin="132"/>
-    </net>
-    <net code="30" name="Net-(U2-Pad133)">
-      <node ref="U2" pin="133"/>
-    </net>
-    <net code="31" name="Net-(U2-Pad136)">
-      <node ref="U2" pin="136"/>
-    </net>
-    <net code="32" name="Net-(U2-Pad137)">
-      <node ref="U2" pin="137"/>
-    </net>
-    <net code="33" name="Net-(U2-Pad138)">
-      <node ref="U2" pin="138"/>
-    </net>
-    <net code="34" name="Net-(U2-Pad139)">
-      <node ref="U2" pin="139"/>
-    </net>
-    <net code="35" name="Net-(U2-Pad14)">
-      <node ref="U2" pin="14"/>
-    </net>
-    <net code="36" name="Net-(U2-Pad141)">
-      <node ref="U2" pin="141"/>
-    </net>
-    <net code="37" name="Net-(U2-Pad142)">
-      <node ref="U2" pin="142"/>
-    </net>
-    <net code="38" name="Net-(U2-Pad143)">
-      <node ref="U2" pin="143"/>
-    </net>
-    <net code="39" name="Net-(U2-Pad144)">
-      <node ref="U2" pin="144"/>
-    </net>
-    <net code="40" name="Net-(U2-Pad16)">
-      <node ref="U2" pin="16"/>
-    </net>
-    <net code="41" name="Net-(U2-Pad17)">
-      <node ref="U2" pin="17"/>
-    </net>
-    <net code="42" name="Net-(U2-Pad18)">
-      <node ref="U2" pin="18"/>
-    </net>
-    <net code="43" name="Net-(U2-Pad19)">
-      <node ref="U2" pin="19"/>
-    </net>
-    <net code="44" name="Net-(U2-Pad2)">
-      <node ref="U2" pin="2"/>
-    </net>
-    <net code="45" name="Net-(U2-Pad21)">
-      <node ref="U2" pin="21"/>
-    </net>
-    <net code="46" name="Net-(U2-Pad22)">
-      <node ref="U2" pin="22"/>
-    </net>
-    <net code="47" name="Net-(U2-Pad25)">
+    <net code="4" name="Net-(U2-Pad25)">
       <node ref="U2" pin="25"/>
     </net>
-    <net code="48" name="Net-(U2-Pad26)">
+    <net code="5" name="Net-(U2-Pad82)">
+      <node ref="U2" pin="82"/>
+    </net>
+    <net code="6" name="Net-(U2-Pad26)">
       <node ref="U2" pin="26"/>
     </net>
-    <net code="49" name="Net-(U2-Pad27)">
+    <net code="7" name="Net-(U2-Pad27)">
       <node ref="U2" pin="27"/>
     </net>
-    <net code="50" name="Net-(U2-Pad28)">
-      <node ref="U2" pin="28"/>
+    <net code="8" name="Net-(U2-Pad2)">
+      <node ref="U2" pin="2"/>
     </net>
-    <net code="51" name="Net-(U2-Pad29)">
-      <node ref="U2" pin="29"/>
-    </net>
-    <net code="52" name="Net-(U2-Pad3)">
+    <net code="9" name="Net-(U2-Pad3)">
       <node ref="U2" pin="3"/>
     </net>
-    <net code="53" name="Net-(U2-Pad30)">
+    <net code="10" name="Net-(U2-Pad4)">
+      <node ref="U2" pin="4"/>
+    </net>
+    <net code="11" name="Net-(U2-Pad5)">
+      <node ref="U2" pin="5"/>
+    </net>
+    <net code="12" name="Net-(U2-Pad6)">
+      <node ref="U2" pin="6"/>
+    </net>
+    <net code="13" name="Net-(U2-Pad7)">
+      <node ref="U2" pin="7"/>
+    </net>
+    <net code="14" name="Net-(U2-Pad8)">
+      <node ref="U2" pin="8"/>
+    </net>
+    <net code="15" name="Net-(U2-Pad78)">
+      <node ref="U2" pin="78"/>
+    </net>
+    <net code="16" name="Net-(U2-Pad9)">
+      <node ref="U2" pin="9"/>
+    </net>
+    <net code="17" name="Net-(U2-Pad70)">
+      <node ref="U2" pin="70"/>
+    </net>
+    <net code="18" name="Net-(U2-Pad71)">
+      <node ref="U2" pin="71"/>
+    </net>
+    <net code="19" name="Net-(U2-Pad72)">
+      <node ref="U2" pin="72"/>
+    </net>
+    <net code="20" name="Net-(U2-Pad107)">
+      <node ref="U2" pin="107"/>
+    </net>
+    <net code="21" name="Net-(U2-Pad81)">
+      <node ref="U2" pin="81"/>
+    </net>
+    <net code="22" name="Net-(U2-Pad80)">
+      <node ref="U2" pin="80"/>
+    </net>
+    <net code="23" name="Net-(U2-Pad79)">
+      <node ref="U2" pin="79"/>
+    </net>
+    <net code="24" name="Net-(U2-Pad108)">
+      <node ref="U2" pin="108"/>
+    </net>
+    <net code="25" name="Net-(U2-Pad109)">
+      <node ref="U2" pin="109"/>
+    </net>
+    <net code="26" name="Net-(U2-Pad110)">
+      <node ref="U2" pin="110"/>
+    </net>
+    <net code="27" name="Net-(U2-Pad111)">
+      <node ref="U2" pin="111"/>
+    </net>
+    <net code="28" name="Net-(U2-Pad112)">
+      <node ref="U2" pin="112"/>
+    </net>
+    <net code="29" name="Net-(U2-Pad113)">
+      <node ref="U2" pin="113"/>
+    </net>
+    <net code="30" name="Net-(U2-Pad114)">
+      <node ref="U2" pin="114"/>
+    </net>
+    <net code="31" name="Net-(U2-Pad115)">
+      <node ref="U2" pin="115"/>
+    </net>
+    <net code="32" name="Net-(U2-Pad118)">
+      <node ref="U2" pin="118"/>
+    </net>
+    <net code="33" name="Net-(U2-Pad119)">
+      <node ref="U2" pin="119"/>
+    </net>
+    <net code="34" name="Net-(U2-Pad120)">
+      <node ref="U2" pin="120"/>
+    </net>
+    <net code="35" name="Net-(U2-Pad121)">
+      <node ref="U2" pin="121"/>
+    </net>
+    <net code="36" name="Net-(U2-Pad122)">
+      <node ref="U2" pin="122"/>
+    </net>
+    <net code="37" name="Net-(U2-Pad123)">
+      <node ref="U2" pin="123"/>
+    </net>
+    <net code="38" name="Net-(U2-Pad127)">
+      <node ref="U2" pin="127"/>
+    </net>
+    <net code="39" name="Net-(U2-Pad128)">
+      <node ref="U2" pin="128"/>
+    </net>
+    <net code="40" name="Net-(U2-Pad129)">
+      <node ref="U2" pin="129"/>
+    </net>
+    <net code="41" name="Net-(U2-Pad77)">
+      <node ref="U2" pin="77"/>
+    </net>
+    <net code="42" name="Net-(U2-Pad88)">
+      <node ref="U2" pin="88"/>
+    </net>
+    <net code="43" name="Net-(U2-Pad89)">
+      <node ref="U2" pin="89"/>
+    </net>
+    <net code="44" name="Net-(U2-Pad90)">
+      <node ref="U2" pin="90"/>
+    </net>
+    <net code="45" name="Net-(U2-Pad91)">
+      <node ref="U2" pin="91"/>
+    </net>
+    <net code="46" name="Net-(U2-Pad92)">
+      <node ref="U2" pin="92"/>
+    </net>
+    <net code="47" name="Net-(U2-Pad141)">
+      <node ref="U2" pin="141"/>
+    </net>
+    <net code="48" name="Net-(U2-Pad142)">
+      <node ref="U2" pin="142"/>
+    </net>
+    <net code="49" name="Net-(U2-Pad143)">
+      <node ref="U2" pin="143"/>
+    </net>
+    <net code="50" name="Net-(U2-Pad144)">
+      <node ref="U2" pin="144"/>
+    </net>
+    <net code="51" name="Net-(U2-Pad1)">
+      <node ref="U2" pin="1"/>
+    </net>
+    <net code="52" name="Net-(U2-Pad28)">
+      <node ref="U2" pin="28"/>
+    </net>
+    <net code="53" name="Net-(U2-Pad29)">
+      <node ref="U2" pin="29"/>
+    </net>
+    <net code="54" name="Net-(U2-Pad30)">
       <node ref="U2" pin="30"/>
     </net>
-    <net code="54" name="Net-(U2-Pad31)">
+    <net code="55" name="Net-(U2-Pad31)">
       <node ref="U2" pin="31"/>
     </net>
-    <net code="55" name="Net-(U2-Pad32)">
-      <node ref="U2" pin="32"/>
+    <net code="56" name="Net-(S2-Pad4)">
+      <node ref="S2" pin="4"/>
+      <node ref="U2" pin="130"/>
     </net>
-    <net code="56" name="Net-(C3-Pad1)">
+    <net code="57" name="Net-(U2-Pad55)">
+      <node ref="U2" pin="55"/>
+    </net>
+    <net code="58" name="Net-(U2-Pad59)">
+      <node ref="U2" pin="59"/>
+    </net>
+    <net code="59" name="Net-(U2-Pad60)">
+      <node ref="U2" pin="60"/>
+    </net>
+    <net code="60" name="Net-(U2-Pad116)">
+      <node ref="U2" pin="116"/>
+    </net>
+    <net code="61" name="Net-(U2-Pad63)">
+      <node ref="U2" pin="63"/>
+    </net>
+    <net code="62" name="Net-(U2-Pad64)">
+      <node ref="U2" pin="64"/>
+    </net>
+    <net code="63" name="Net-(U2-Pad65)">
+      <node ref="U2" pin="65"/>
+    </net>
+    <net code="64" name="Net-(U2-Pad66)">
+      <node ref="U2" pin="66"/>
+    </net>
+    <net code="65" name="Net-(U2-Pad67)">
+      <node ref="U2" pin="67"/>
+    </net>
+    <net code="66" name="Net-(U2-Pad117)">
+      <node ref="U2" pin="117"/>
+    </net>
+    <net code="67" name="Net-(U2-Pad93)">
+      <node ref="U2" pin="93"/>
+    </net>
+    <net code="68" name="Net-(U2-Pad94)">
+      <node ref="U2" pin="94"/>
+    </net>
+    <net code="69" name="Net-(U2-Pad95)">
+      <node ref="U2" pin="95"/>
+    </net>
+    <net code="70" name="Net-(U2-Pad98)">
+      <node ref="U2" pin="98"/>
+    </net>
+    <net code="71" name="Net-(U2-Pad99)">
+      <node ref="U2" pin="99"/>
+    </net>
+    <net code="72" name="Net-(U2-Pad100)">
+      <node ref="U2" pin="100"/>
+    </net>
+    <net code="73" name="Net-(U2-Pad101)">
+      <node ref="U2" pin="101"/>
+    </net>
+    <net code="74" name="Net-(U2-Pad131)">
+      <node ref="U2" pin="131"/>
+    </net>
+    <net code="75" name="Net-(U2-Pad132)">
+      <node ref="U2" pin="132"/>
+    </net>
+    <net code="76" name="Net-(U2-Pad133)">
+      <node ref="U2" pin="133"/>
+    </net>
+    <net code="77" name="Net-(U2-Pad136)">
+      <node ref="U2" pin="136"/>
+    </net>
+    <net code="78" name="Net-(U2-Pad137)">
+      <node ref="U2" pin="137"/>
+    </net>
+    <net code="79" name="Net-(U2-Pad138)">
+      <node ref="U2" pin="138"/>
+    </net>
+    <net code="80" name="Net-(U2-Pad139)">
+      <node ref="U2" pin="139"/>
+    </net>
+    <net code="81" name="Net-(U2-Pad102)">
+      <node ref="U2" pin="102"/>
+    </net>
+    <net code="82" name="Net-(U2-Pad103)">
+      <node ref="U2" pin="103"/>
+    </net>
+    <net code="83" name="Net-(U2-Pad13)">
+      <node ref="U2" pin="13"/>
+    </net>
+    <net code="84" name="Net-(U2-Pad14)">
+      <node ref="U2" pin="14"/>
+    </net>
+    <net code="85" name="Net-(U2-Pad16)">
+      <node ref="U2" pin="16"/>
+    </net>
+    <net code="86" name="Net-(U2-Pad17)">
+      <node ref="U2" pin="17"/>
+    </net>
+    <net code="87" name="Net-(U2-Pad18)">
+      <node ref="U2" pin="18"/>
+    </net>
+    <net code="88" name="Net-(U2-Pad19)">
+      <node ref="U2" pin="19"/>
+    </net>
+    <net code="89" name="Net-(U2-Pad21)">
+      <node ref="U2" pin="21"/>
+    </net>
+    <net code="90" name="Net-(U2-Pad22)">
+      <node ref="U2" pin="22"/>
+    </net>
+    <net code="91" name="Net-(C3-Pad1)">
       <node ref="Y1" pin="3"/>
       <node ref="C3" pin="1"/>
       <node ref="U2" pin="35"/>
     </net>
-    <net code="57" name="+5V_USB">
-      <node ref="J1" pin="1"/>
-      <node ref="R21" pin="1"/>
+    <net code="92" name="+5V_USB">
       <node ref="U2" pin="39"/>
+      <node ref="R21" pin="1"/>
       <node ref="J2" pin="A15"/>
+      <node ref="J1" pin="1"/>
     </net>
-    <net code="58" name="Net-(U2-Pad4)">
-      <node ref="U2" pin="4"/>
-    </net>
-    <net code="59" name="/MASTER-RESET">
-      <node ref="S1" pin="4"/>
+    <net code="93" name="/MASTER-RESET">
       <node ref="C27" pin="2"/>
       <node ref="U2" pin="47"/>
+      <node ref="S1" pin="4"/>
     </net>
-    <net code="60" name="Net-(U2-Pad5)">
-      <node ref="U2" pin="5"/>
-    </net>
-    <net code="61" name="Net-(U2-Pad50)">
+    <net code="94" name="Net-(U2-Pad50)">
       <node ref="U2" pin="50"/>
     </net>
-    <net code="62" name="Net-(U2-Pad51)">
+    <net code="95" name="Net-(U2-Pad51)">
       <node ref="U2" pin="51"/>
     </net>
-    <net code="63" name="+3V3">
-      <node ref="C31" pin="1"/>
-      <node ref="C27" pin="1"/>
-      <node ref="U2" pin="105"/>
-      <node ref="R18" pin="1"/>
-      <node ref="U1" pin="8"/>
-      <node ref="R17" pin="1"/>
-      <node ref="R30" pin="1"/>
-      <node ref="R27" pin="1"/>
-      <node ref="L3" pin="1"/>
-      <node ref="U2" pin="125"/>
-      <node ref="R3" pin="2"/>
-      <node ref="U2" pin="62"/>
-      <node ref="C1" pin="1"/>
-      <node ref="IC2" pin="1"/>
-      <node ref="C30" pin="1"/>
-      <node ref="C47" pin="1"/>
-      <node ref="L7" pin="1"/>
-      <node ref="C36" pin="1"/>
-      <node ref="L8" pin="1"/>
-      <node ref="IC1" pin="1"/>
-      <node ref="S2" pin="1"/>
-      <node ref="C37" pin="1"/>
-      <node ref="R28" pin="1"/>
-      <node ref="U2" pin="11"/>
+    <net code="96" name="+3V3">
       <node ref="C7" pin="1"/>
-      <node ref="C12" pin="1"/>
-      <node ref="U2" pin="57"/>
-      <node ref="R4" pin="1"/>
-      <node ref="PS3" pin="3"/>
-      <node ref="R5" pin="1"/>
+      <node ref="R30" pin="1"/>
       <node ref="L2" pin="1"/>
-      <node ref="L1" pin="1"/>
+      <node ref="C47" pin="1"/>
       <node ref="C21" pin="1"/>
-      <node ref="C11" pin="1"/>
       <node ref="C19" pin="1"/>
       <node ref="C16" pin="1"/>
       <node ref="C14" pin="1"/>
       <node ref="C9" pin="1"/>
+      <node ref="L7" pin="1"/>
+      <node ref="IC1" pin="1"/>
+      <node ref="C1" pin="1"/>
+      <node ref="L1" pin="1"/>
+      <node ref="L3" pin="1"/>
+      <node ref="C36" pin="1"/>
+      <node ref="R28" pin="1"/>
+      <node ref="C11" pin="1"/>
+      <node ref="R17" pin="1"/>
+      <node ref="R3" pin="2"/>
+      <node ref="L8" pin="1"/>
+      <node ref="C27" pin="1"/>
+      <node ref="C31" pin="1"/>
+      <node ref="U1" pin="8"/>
+      <node ref="R18" pin="1"/>
+      <node ref="IC2" pin="1"/>
+      <node ref="C12" pin="1"/>
+      <node ref="R4" pin="1"/>
+      <node ref="C37" pin="1"/>
+      <node ref="R5" pin="1"/>
+      <node ref="U2" pin="57"/>
       <node ref="U2" pin="52"/>
+      <node ref="S2" pin="1"/>
+      <node ref="PS3" pin="3"/>
+      <node ref="U2" pin="125"/>
+      <node ref="U2" pin="105"/>
+      <node ref="U2" pin="62"/>
+      <node ref="U2" pin="11"/>
+      <node ref="R27" pin="1"/>
+      <node ref="C30" pin="1"/>
     </net>
-    <net code="64" name="Net-(U2-Pad55)">
-      <node ref="U2" pin="55"/>
-    </net>
-    <net code="65" name="Net-(U2-Pad59)">
-      <node ref="U2" pin="59"/>
-    </net>
-    <net code="66" name="Net-(U2-Pad6)">
-      <node ref="U2" pin="6"/>
-    </net>
-    <net code="67" name="Net-(U2-Pad60)">
-      <node ref="U2" pin="60"/>
-    </net>
-    <net code="68" name="Net-(U2-Pad63)">
-      <node ref="U2" pin="63"/>
-    </net>
-    <net code="69" name="Net-(U2-Pad64)">
-      <node ref="U2" pin="64"/>
-    </net>
-    <net code="70" name="Net-(U2-Pad65)">
-      <node ref="U2" pin="65"/>
-    </net>
-    <net code="71" name="Net-(U2-Pad66)">
-      <node ref="U2" pin="66"/>
-    </net>
-    <net code="72" name="Net-(U2-Pad67)">
-      <node ref="U2" pin="67"/>
-    </net>
-    <net code="73" name="Net-(U2-Pad69)">
+    <net code="97" name="Net-(U2-Pad69)">
       <node ref="U2" pin="69"/>
     </net>
-    <net code="74" name="Net-(U2-Pad7)">
-      <node ref="U2" pin="7"/>
-    </net>
-    <net code="75" name="Net-(U2-Pad70)">
-      <node ref="U2" pin="70"/>
-    </net>
-    <net code="76" name="Net-(U2-Pad71)">
-      <node ref="U2" pin="71"/>
-    </net>
-    <net code="77" name="Net-(U2-Pad72)">
-      <node ref="U2" pin="72"/>
-    </net>
-    <net code="78" name="Net-(U2-Pad77)">
-      <node ref="U2" pin="77"/>
-    </net>
-    <net code="79" name="Net-(U2-Pad78)">
-      <node ref="U2" pin="78"/>
-    </net>
-    <net code="80" name="Net-(U2-Pad79)">
-      <node ref="U2" pin="79"/>
-    </net>
-    <net code="81" name="Net-(U2-Pad8)">
-      <node ref="U2" pin="8"/>
-    </net>
-    <net code="82" name="Net-(U2-Pad80)">
-      <node ref="U2" pin="80"/>
-    </net>
-    <net code="83" name="Net-(U2-Pad81)">
-      <node ref="U2" pin="81"/>
-    </net>
-    <net code="84" name="Net-(U2-Pad82)">
-      <node ref="U2" pin="82"/>
-    </net>
-    <net code="85" name="Net-(U2-Pad83)">
-      <node ref="U2" pin="83"/>
-    </net>
-    <net code="86" name="Net-(U2-Pad84)">
-      <node ref="U2" pin="84"/>
-    </net>
-    <net code="87" name="Net-(U2-Pad85)">
-      <node ref="U2" pin="85"/>
-    </net>
-    <net code="88" name="Net-(U2-Pad88)">
-      <node ref="U2" pin="88"/>
-    </net>
-    <net code="89" name="Net-(U2-Pad89)">
-      <node ref="U2" pin="89"/>
-    </net>
-    <net code="90" name="Net-(U2-Pad9)">
-      <node ref="U2" pin="9"/>
-    </net>
-    <net code="91" name="Net-(U2-Pad90)">
-      <node ref="U2" pin="90"/>
-    </net>
-    <net code="92" name="Net-(U2-Pad91)">
-      <node ref="U2" pin="91"/>
-    </net>
-    <net code="93" name="Net-(U2-Pad92)">
-      <node ref="U2" pin="92"/>
-    </net>
-    <net code="94" name="Net-(U2-Pad93)">
-      <node ref="U2" pin="93"/>
-    </net>
-    <net code="95" name="Net-(U2-Pad94)">
-      <node ref="U2" pin="94"/>
-    </net>
-    <net code="96" name="Net-(U2-Pad95)">
-      <node ref="U2" pin="95"/>
-    </net>
-    <net code="97" name="Net-(U2-Pad98)">
-      <node ref="U2" pin="98"/>
-    </net>
-    <net code="98" name="Net-(U2-Pad99)">
-      <node ref="U2" pin="99"/>
+    <net code="98" name="Net-(U2-Pad32)">
+      <node ref="U2" pin="32"/>
     </net>
     <net code="99" name="Net-(J2-PadA1)">
       <node ref="J2" pin="A1"/>
@@ -3334,37 +3380,37 @@
       <node ref="J2" pin="MH1"/>
     </net>
     <net code="108" name="/VDD_ANA">
-      <node ref="L2" pin="2"/>
       <node ref="U2" pin="73"/>
       <node ref="C26" pin="1"/>
+      <node ref="L2" pin="2"/>
       <node ref="C25" pin="1"/>
     </net>
     <net code="109" name="/VDD_OUT_MI">
+      <node ref="C24" pin="1"/>
+      <node ref="C23" pin="1"/>
       <node ref="L3" pin="2"/>
       <node ref="U2" pin="41"/>
-      <node ref="C23" pin="1"/>
-      <node ref="C24" pin="1"/>
     </net>
     <net code="110" name="/VDD_PLL">
-      <node ref="C29" pin="1"/>
       <node ref="C28" pin="1"/>
-      <node ref="U2" pin="34"/>
       <node ref="L4" pin="2"/>
+      <node ref="U2" pin="34"/>
+      <node ref="C29" pin="1"/>
     </net>
     <net code="111" name="/USB_D-">
-      <node ref="J1" pin="2"/>
       <node ref="R6" pin="1"/>
-      <node ref="J2" pin="A4"/>
+      <node ref="J1" pin="2"/>
       <node ref="U2" pin="38"/>
+      <node ref="J2" pin="A4"/>
     </net>
     <net code="112" name="Net-(R6-Pad2)">
       <node ref="R6" pin="2"/>
       <node ref="U2" pin="43"/>
     </net>
     <net code="113" name="/USB_D+">
-      <node ref="U2" pin="37"/>
-      <node ref="J2" pin="A5"/>
       <node ref="R7" pin="1"/>
+      <node ref="J2" pin="A5"/>
+      <node ref="U2" pin="37"/>
       <node ref="J1" pin="3"/>
     </net>
     <net code="114" name="Net-(R7-Pad2)">
@@ -3372,104 +3418,104 @@
       <node ref="R7" pin="2"/>
     </net>
     <net code="115" name="/CAR-12V_always-on">
-      <node ref="J2" pin="A8"/>
       <node ref="F1" pin="1"/>
+      <node ref="J2" pin="A8"/>
       <node ref="J3" pin="1"/>
     </net>
     <net code="116" name="Earth">
-      <node ref="R22" pin="2"/>
-      <node ref="D7" pin="2"/>
       <node ref="C8" pin="2"/>
+      <node ref="C10" pin="2"/>
       <node ref="C6" pin="2"/>
-      <node ref="U2" pin="74"/>
-      <node ref="J3" pin="2"/>
-      <node ref="U4" pin="2"/>
-      <node ref="U4" pin="3"/>
-      <node ref="Y1" pin="2"/>
-      <node ref="Y1" pin="4"/>
-      <node ref="C2" pin="2"/>
-      <node ref="U3" pin="3"/>
+      <node ref="C15" pin="2"/>
+      <node ref="C13" pin="2"/>
       <node ref="U1" pin="7"/>
-      <node ref="U3" pin="2"/>
+      <node ref="LED2" pin="1"/>
+      <node ref="U4" pin="2"/>
+      <node ref="R29" pin="2"/>
+      <node ref="U4" pin="3"/>
       <node ref="C26" pin="2"/>
-      <node ref="C3" pin="2"/>
       <node ref="U1" pin="4"/>
+      <node ref="U7" pin="3"/>
       <node ref="U1" pin="3"/>
       <node ref="U1" pin="2"/>
       <node ref="U1" pin="1"/>
       <node ref="C25" pin="2"/>
-      <node ref="D3" pin="2"/>
-      <node ref="R9" pin="2"/>
-      <node ref="LED2" pin="1"/>
-      <node ref="U7" pin="3"/>
-      <node ref="J2" pin="B1"/>
       <node ref="LED1" pin="1"/>
-      <node ref="C30" pin="2"/>
-      <node ref="PS1" pin="1"/>
-      <node ref="C46" pin="2"/>
-      <node ref="C47" pin="2"/>
-      <node ref="C45" pin="2"/>
-      <node ref="R1" pin="1"/>
-      <node ref="C13" pin="2"/>
-      <node ref="C24" pin="2"/>
-      <node ref="R19" pin="2"/>
-      <node ref="C44" pin="2"/>
-      <node ref="D6" pin="2"/>
-      <node ref="C41" pin="1"/>
-      <node ref="C7" pin="2"/>
-      <node ref="C36" pin="2"/>
-      <node ref="PS2" pin="1"/>
-      <node ref="C40" pin="1"/>
-      <node ref="IC2" pin="4"/>
-      <node ref="C23" pin="2"/>
-      <node ref="IC1" pin="4"/>
-      <node ref="R29" pin="2"/>
-      <node ref="C10" pin="2"/>
-      <node ref="C37" pin="2"/>
-      <node ref="C18" pin="2"/>
-      <node ref="C21" pin="2"/>
-      <node ref="U2" pin="44"/>
-      <node ref="C4" pin="2"/>
-      <node ref="C19" pin="2"/>
-      <node ref="C5" pin="2"/>
-      <node ref="C12" pin="2"/>
-      <node ref="U2" pin="58"/>
-      <node ref="C11" pin="2"/>
-      <node ref="U2" pin="12"/>
-      <node ref="PS3" pin="2"/>
-      <node ref="C16" pin="2"/>
-      <node ref="U2" pin="54"/>
-      <node ref="C14" pin="2"/>
-      <node ref="C9" pin="2"/>
-      <node ref="U2" pin="46"/>
-      <node ref="J2" pin="A2"/>
-      <node ref="C15" pin="2"/>
-      <node ref="U2" pin="33"/>
-      <node ref="J1" pin="4"/>
-      <node ref="J1" pin="5"/>
-      <node ref="J1" pin="6"/>
-      <node ref="S1" pin="1"/>
-      <node ref="U2" pin="126"/>
-      <node ref="C1" pin="2"/>
       <node ref="U6" pin="3"/>
-      <node ref="U2" pin="106"/>
-      <node ref="J2" pin="A14"/>
-      <node ref="J2" pin="A19"/>
+      <node ref="U2" pin="12"/>
+      <node ref="U2" pin="58"/>
       <node ref="Q1" pin="2"/>
       <node ref="Q2" pin="2"/>
       <node ref="Q3" pin="2"/>
       <node ref="Q4" pin="2"/>
-      <node ref="C28" pin="2"/>
+      <node ref="C24" pin="2"/>
+      <node ref="C7" pin="2"/>
+      <node ref="C4" pin="2"/>
+      <node ref="U2" pin="106"/>
+      <node ref="U2" pin="126"/>
+      <node ref="U2" pin="33"/>
+      <node ref="C30" pin="2"/>
+      <node ref="S1" pin="1"/>
+      <node ref="C23" pin="2"/>
+      <node ref="C5" pin="2"/>
+      <node ref="PS1" pin="1"/>
+      <node ref="U2" pin="44"/>
+      <node ref="U2" pin="46"/>
+      <node ref="C2" pin="2"/>
+      <node ref="C3" pin="2"/>
+      <node ref="C46" pin="2"/>
+      <node ref="U2" pin="54"/>
+      <node ref="C47" pin="2"/>
+      <node ref="U2" pin="74"/>
+      <node ref="C45" pin="2"/>
+      <node ref="J1" pin="4"/>
+      <node ref="C44" pin="2"/>
+      <node ref="D6" pin="2"/>
+      <node ref="R19" pin="2"/>
+      <node ref="IC1" pin="4"/>
+      <node ref="C21" pin="2"/>
+      <node ref="C36" pin="2"/>
+      <node ref="R9" pin="2"/>
+      <node ref="C40" pin="1"/>
+      <node ref="J1" pin="5"/>
+      <node ref="J1" pin="6"/>
+      <node ref="D7" pin="2"/>
+      <node ref="R22" pin="2"/>
+      <node ref="J3" pin="2"/>
+      <node ref="J2" pin="A14"/>
+      <node ref="U3" pin="3"/>
+      <node ref="U3" pin="2"/>
+      <node ref="C12" pin="2"/>
+      <node ref="C37" pin="2"/>
+      <node ref="C19" pin="2"/>
+      <node ref="D3" pin="2"/>
+      <node ref="J2" pin="A19"/>
+      <node ref="J2" pin="A2"/>
+      <node ref="C16" pin="2"/>
+      <node ref="PS3" pin="2"/>
+      <node ref="C14" pin="2"/>
+      <node ref="C31" pin="2"/>
+      <node ref="C9" pin="2"/>
+      <node ref="J2" pin="B1"/>
+      <node ref="C41" pin="1"/>
+      <node ref="PS2" pin="1"/>
+      <node ref="IC2" pin="4"/>
+      <node ref="C1" pin="2"/>
+      <node ref="Y1" pin="2"/>
+      <node ref="Y1" pin="4"/>
+      <node ref="R1" pin="1"/>
+      <node ref="C17" pin="2"/>
       <node ref="C22" pin="2"/>
       <node ref="C20" pin="2"/>
-      <node ref="C17" pin="2"/>
-      <node ref="C31" pin="2"/>
+      <node ref="C11" pin="2"/>
+      <node ref="C28" pin="2"/>
+      <node ref="C18" pin="2"/>
       <node ref="C29" pin="2"/>
     </net>
     <net code="117" name="Net-(C13-Pad1)">
+      <node ref="C13" pin="1"/>
       <node ref="R1" pin="2"/>
       <node ref="U2" pin="40"/>
-      <node ref="C13" pin="1"/>
     </net>
     <net code="118" name="Net-(C4-Pad1)">
       <node ref="Y2" pin="2"/>
@@ -3483,35 +3529,35 @@
     </net>
     <net code="120" name="Net-(C2-Pad1)">
       <node ref="Y1" pin="1"/>
-      <node ref="C2" pin="1"/>
       <node ref="U2" pin="36"/>
+      <node ref="C2" pin="1"/>
     </net>
     <net code="121" name="Net-(C18-Pad1)">
+      <node ref="C18" pin="1"/>
       <node ref="L1" pin="2"/>
       <node ref="U2" pin="75"/>
-      <node ref="C18" pin="1"/>
     </net>
     <net code="122" name="Net-(R3-Pad1)">
-      <node ref="U2" pin="53"/>
       <node ref="R3" pin="1"/>
+      <node ref="U2" pin="53"/>
     </net>
     <net code="123" name="/CAN0-TX">
-      <node ref="IC1" pin="3"/>
       <node ref="U2" pin="23"/>
+      <node ref="IC1" pin="3"/>
     </net>
     <net code="124" name="/CAN0-RX">
       <node ref="U2" pin="24"/>
       <node ref="IC1" pin="2"/>
     </net>
     <net code="125" name="/EEPROM-SDA">
-      <node ref="R5" pin="2"/>
-      <node ref="U1" pin="5"/>
       <node ref="U2" pin="86"/>
+      <node ref="U1" pin="5"/>
+      <node ref="R5" pin="2"/>
     </net>
     <net code="126" name="/EEPROM-SCL">
       <node ref="U2" pin="87"/>
-      <node ref="R4" pin="2"/>
       <node ref="U1" pin="6"/>
+      <node ref="R4" pin="2"/>
     </net>
     <net code="127" name="/CAN1-TX">
       <node ref="IC2" pin="3"/>
@@ -3526,164 +3572,164 @@
       <node ref="L6" pin="1"/>
     </net>
     <net code="130" name="/NCCAN0_P">
-      <node ref="IC1" pin="7"/>
       <node ref="L6" pin="2"/>
+      <node ref="IC1" pin="7"/>
     </net>
     <net code="131" name="Net-(R2-Pad1)">
-      <node ref="U2" pin="68"/>
       <node ref="R2" pin="1"/>
+      <node ref="U2" pin="68"/>
     </net>
     <net code="132" name="Net-(LED1-Pad2)">
       <node ref="LED1" pin="2"/>
       <node ref="R2" pin="2"/>
     </net>
     <net code="133" name="/CHAdeMO_charge_enable">
-      <node ref="J2" pin="B4"/>
       <node ref="R8" pin="1"/>
+      <node ref="J2" pin="B4"/>
     </net>
     <net code="134" name="/Relay_CHAdeMO_contactors_GND">
       <node ref="K1" pin="2"/>
-      <node ref="D1" pin="2"/>
       <node ref="Q2" pin="3"/>
+      <node ref="D1" pin="2"/>
     </net>
     <net code="135" name="/relay-CHAdeMO-contactors-signal_D49">
-      <node ref="Q2" pin="1"/>
       <node ref="R19" pin="1"/>
       <node ref="U2" pin="96"/>
+      <node ref="Q2" pin="1"/>
     </net>
     <net code="136" name="/CHAdeMO-charge-start1_3.3Vsignal_IN1_D6">
-      <node ref="R17" pin="2"/>
       <node ref="U2" pin="135"/>
       <node ref="U3" pin="4"/>
+      <node ref="R17" pin="2"/>
     </net>
     <net code="137" name="Net-(R16-Pad1)">
-      <node ref="R16" pin="1"/>
       <node ref="U4" pin="1"/>
+      <node ref="R16" pin="1"/>
     </net>
     <net code="138" name="/CHAdeMO-charge-start2_3.3Vsignal_IN2_D7">
-      <node ref="U2" pin="134"/>
       <node ref="R18" pin="2"/>
       <node ref="U4" pin="4"/>
+      <node ref="U2" pin="134"/>
     </net>
     <net code="139" name="+12V">
       <node ref="Q5" pin="3"/>
-      <node ref="C44" pin="1"/>
       <node ref="U7" pin="1"/>
-      <node ref="F2" pin="2"/>
       <node ref="K1" pin="1"/>
-      <node ref="D1" pin="1"/>
-      <node ref="R14" pin="1"/>
-      <node ref="L9" pin="1"/>
-      <node ref="C45" pin="1"/>
-      <node ref="C46" pin="1"/>
-      <node ref="D7" pin="1"/>
       <node ref="U6" pin="1"/>
+      <node ref="D7" pin="1"/>
+      <node ref="F2" pin="2"/>
+      <node ref="R14" pin="1"/>
+      <node ref="C44" pin="1"/>
+      <node ref="C46" pin="1"/>
+      <node ref="C45" pin="1"/>
+      <node ref="D1" pin="1"/>
+      <node ref="L9" pin="1"/>
     </net>
     <net code="140" name="Net-(K1-Pad3)">
       <node ref="K1" pin="3"/>
     </net>
     <net code="141" name="/CHAdeMO_contactors_GND">
+      <node ref="J2" pin="A6"/>
       <node ref="K1" pin="5"/>
       <node ref="D2" pin="2"/>
-      <node ref="J2" pin="A6"/>
     </net>
     <net code="142" name="/CHAdeMO-CHARGE-START2_IN2">
-      <node ref="R14" pin="2"/>
-      <node ref="K1" pin="4"/>
       <node ref="J2" pin="B10"/>
       <node ref="R16" pin="2"/>
+      <node ref="R14" pin="2"/>
+      <node ref="K1" pin="4"/>
     </net>
     <net code="143" name="Net-(L9-Pad2)">
-      <node ref="L9" pin="2"/>
       <node ref="PS3" pin="1"/>
+      <node ref="L9" pin="2"/>
     </net>
     <net code="144" name="Net-(C38-Pad2)">
-      <node ref="PS1" pin="2"/>
-      <node ref="L7" pin="2"/>
       <node ref="C38" pin="2"/>
+      <node ref="L7" pin="2"/>
+      <node ref="PS1" pin="2"/>
     </net>
     <net code="145" name="Net-(C39-Pad2)">
       <node ref="PS2" pin="2"/>
-      <node ref="L8" pin="2"/>
       <node ref="C39" pin="2"/>
+      <node ref="L8" pin="2"/>
     </net>
     <net code="146" name="GND_CAN1">
       <node ref="IC2" pin="5"/>
-      <node ref="C43" pin="1"/>
       <node ref="PS2" pin="3"/>
       <node ref="C34" pin="2"/>
+      <node ref="D5" pin="3"/>
+      <node ref="C43" pin="1"/>
       <node ref="C41" pin="2"/>
       <node ref="C33" pin="1"/>
-      <node ref="D5" pin="3"/>
     </net>
     <net code="147" name="+5V_0">
-      <node ref="C32" pin="2"/>
-      <node ref="IC1" pin="8"/>
-      <node ref="PS1" pin="4"/>
-      <node ref="C42" pin="1"/>
       <node ref="C38" pin="1"/>
+      <node ref="IC1" pin="8"/>
+      <node ref="C42" pin="1"/>
+      <node ref="C32" pin="2"/>
+      <node ref="PS1" pin="4"/>
     </net>
     <net code="148" name="GND_CAN0">
       <node ref="C35" pin="2"/>
       <node ref="D4" pin="3"/>
-      <node ref="C40" pin="2"/>
       <node ref="IC1" pin="5"/>
+      <node ref="C32" pin="1"/>
+      <node ref="C40" pin="2"/>
       <node ref="C42" pin="2"/>
       <node ref="PS1" pin="3"/>
-      <node ref="C32" pin="1"/>
     </net>
     <net code="149" name="/NCCAN1_P">
       <node ref="L5" pin="1"/>
       <node ref="IC2" pin="7"/>
     </net>
     <net code="150" name="Net-(F2-Pad1)">
-      <node ref="F2" pin="1"/>
       <node ref="J2" pin="A7"/>
+      <node ref="F2" pin="1"/>
     </net>
     <net code="151" name="/CHAdeMO-CHARGE-START1_IN1">
-      <node ref="R15" pin="2"/>
-      <node ref="D3" pin="1"/>
       <node ref="J2" pin="A9"/>
-      <node ref="D2" pin="1"/>
+      <node ref="D3" pin="1"/>
+      <node ref="R15" pin="2"/>
       <node ref="J2" pin="B2"/>
+      <node ref="D2" pin="1"/>
     </net>
     <net code="152" name="/CHAdeMO_PROXIMITY">
-      <node ref="J2" pin="B7"/>
       <node ref="R20" pin="2"/>
+      <node ref="J2" pin="B7"/>
     </net>
     <net code="153" name="/VDD_OUT">
-      <node ref="U2" pin="124"/>
-      <node ref="U2" pin="56"/>
-      <node ref="U2" pin="61"/>
-      <node ref="U2" pin="104"/>
-      <node ref="U2" pin="10"/>
-      <node ref="L4" pin="1"/>
-      <node ref="C6" pin="1"/>
       <node ref="C8" pin="1"/>
       <node ref="C10" pin="1"/>
       <node ref="C15" pin="1"/>
+      <node ref="C6" pin="1"/>
       <node ref="C17" pin="1"/>
       <node ref="C20" pin="1"/>
       <node ref="C22" pin="1"/>
+      <node ref="U2" pin="124"/>
+      <node ref="U2" pin="104"/>
+      <node ref="U2" pin="61"/>
       <node ref="U2" pin="45"/>
+      <node ref="U2" pin="10"/>
+      <node ref="L4" pin="1"/>
+      <node ref="U2" pin="56"/>
     </net>
     <net code="154" name="+12VA">
-      <node ref="R23" pin="1"/>
+      <node ref="D6" pin="1"/>
       <node ref="U5" pin="1"/>
+      <node ref="Q5" pin="2"/>
+      <node ref="R23" pin="1"/>
       <node ref="F1" pin="2"/>
       <node ref="R24" pin="1"/>
-      <node ref="Q5" pin="2"/>
-      <node ref="D6" pin="1"/>
     </net>
     <net code="155" name="/NCCAN1_N">
-      <node ref="L5" pin="2"/>
       <node ref="IC2" pin="6"/>
+      <node ref="L5" pin="2"/>
     </net>
     <net code="156" name="+5V_1">
-      <node ref="IC2" pin="8"/>
       <node ref="C33" pin="2"/>
-      <node ref="PS2" pin="4"/>
       <node ref="C43" pin="2"/>
+      <node ref="IC2" pin="8"/>
+      <node ref="PS2" pin="4"/>
       <node ref="C39" pin="1"/>
     </net>
     <net code="157" name="Net-(JP1-Pad2)">
@@ -3691,33 +3737,33 @@
       <node ref="JP1" pin="2"/>
     </net>
     <net code="158" name="Net-(R15-Pad1)">
-      <node ref="R15" pin="1"/>
       <node ref="U3" pin="1"/>
+      <node ref="R15" pin="1"/>
     </net>
     <net code="159" name="/ACTIVE-LOW-WAKEUP">
-      <node ref="J2" pin="A17"/>
       <node ref="F3" pin="2"/>
+      <node ref="J2" pin="A17"/>
     </net>
     <net code="160" name="Net-(R20-Pad1)">
-      <node ref="U5" pin="2"/>
       <node ref="R20" pin="1"/>
+      <node ref="U5" pin="2"/>
     </net>
     <net code="161" name="Net-(D8-Pad1)">
       <node ref="R22" pin="1"/>
-      <node ref="U5" pin="3"/>
       <node ref="D8" pin="1"/>
-      <node ref="Q4" pin="1"/>
       <node ref="Q3" pin="1"/>
+      <node ref="Q4" pin="1"/>
+      <node ref="U5" pin="3"/>
     </net>
     <net code="162" name="Net-(R23-Pad2)">
       <node ref="R29" pin="1"/>
-      <node ref="R23" pin="2"/>
       <node ref="U5" pin="4"/>
+      <node ref="R23" pin="2"/>
     </net>
     <net code="163" name="/PROXIMITY-PRESENT">
-      <node ref="Q3" pin="3"/>
-      <node ref="R24" pin="2"/>
       <node ref="Q5" pin="1"/>
+      <node ref="R24" pin="2"/>
+      <node ref="Q3" pin="3"/>
     </net>
     <net code="164" name="Net-(D8-Pad2)">
       <node ref="D8" pin="2"/>
@@ -3728,9 +3774,9 @@
       <node ref="Q1" pin="3"/>
     </net>
     <net code="166" name="/CHAdeMO-charge-enable-signal_D48">
-      <node ref="U2" pin="97"/>
-      <node ref="Q1" pin="1"/>
       <node ref="R9" pin="1"/>
+      <node ref="Q1" pin="1"/>
+      <node ref="U2" pin="97"/>
     </net>
     <net code="167" name="Net-(C34-Pad1)">
       <node ref="R11" pin="1"/>
@@ -3742,23 +3788,23 @@
       <node ref="R13" pin="2"/>
     </net>
     <net code="169" name="Net-(C35-Pad1)">
-      <node ref="R13" pin="1"/>
       <node ref="R12" pin="2"/>
       <node ref="C35" pin="1"/>
+      <node ref="R13" pin="1"/>
     </net>
     <net code="170" name="/CAN0_N">
-      <node ref="D4" pin="1"/>
+      <node ref="J2" pin="A12"/>
       <node ref="L6" pin="4"/>
       <node ref="J2" pin="A20"/>
-      <node ref="J2" pin="A12"/>
+      <node ref="D4" pin="1"/>
       <node ref="JP1" pin="1"/>
     </net>
     <net code="171" name="/CAN0_P">
-      <node ref="J2" pin="A10"/>
       <node ref="J2" pin="A11"/>
-      <node ref="L6" pin="3"/>
-      <node ref="D4" pin="2"/>
       <node ref="JP2" pin="2"/>
+      <node ref="J2" pin="A10"/>
+      <node ref="D4" pin="2"/>
+      <node ref="L6" pin="3"/>
     </net>
     <net code="176" name="Net-(S1-Pad2)">
       <node ref="S1" pin="2"/>
@@ -3773,47 +3819,47 @@
       <node ref="S2" pin="3"/>
     </net>
     <net code="180" name="Net-(F3-Pad1)">
-      <node ref="Q4" pin="3"/>
       <node ref="F3" pin="1"/>
+      <node ref="Q4" pin="3"/>
     </net>
     <net code="181" name="/CHAdeMO_contactor1-feedbackIN">
-      <node ref="J2" pin="A16"/>
       <node ref="R25" pin="2"/>
+      <node ref="J2" pin="A16"/>
     </net>
     <net code="182" name="Net-(R25-Pad1)">
       <node ref="U6" pin="2"/>
       <node ref="R25" pin="1"/>
     </net>
     <net code="183" name="/CHAdeMO_contactor1-feedback_D27">
-      <node ref="R27" pin="2"/>
-      <node ref="U2" pin="15"/>
       <node ref="U6" pin="4"/>
+      <node ref="U2" pin="15"/>
+      <node ref="R27" pin="2"/>
     </net>
     <net code="188" name="/CHAdeMO_contactor2-feedbackIN">
       <node ref="R26" pin="2"/>
       <node ref="J2" pin="A18"/>
     </net>
     <net code="189" name="Net-(R26-Pad1)">
-      <node ref="R26" pin="1"/>
       <node ref="U7" pin="2"/>
+      <node ref="R26" pin="1"/>
     </net>
     <net code="190" name="/CHAdeMO_contactor2-feedback_D11">
+      <node ref="U7" pin="4"/>
       <node ref="R28" pin="2"/>
       <node ref="U2" pin="20"/>
-      <node ref="U7" pin="4"/>
     </net>
     <net code="191" name="/CAN1_N">
-      <node ref="J2" pin="B9"/>
       <node ref="R11" pin="2"/>
-      <node ref="D5" pin="2"/>
-      <node ref="L5" pin="3"/>
       <node ref="J4" pin="1"/>
+      <node ref="L5" pin="3"/>
+      <node ref="J2" pin="B9"/>
+      <node ref="D5" pin="2"/>
     </net>
     <net code="192" name="/CAN1_P">
       <node ref="J4" pin="2"/>
-      <node ref="R10" pin="1"/>
-      <node ref="L5" pin="4"/>
       <node ref="D5" pin="1"/>
+      <node ref="L5" pin="4"/>
+      <node ref="R10" pin="1"/>
       <node ref="J2" pin="B8"/>
     </net>
     <net code="193" name="Net-(LED2-Pad2)">

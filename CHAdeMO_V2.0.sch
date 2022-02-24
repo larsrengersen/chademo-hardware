@@ -27,7 +27,7 @@ F 6 "C79305" H 3850 5950 50  0001 C CNN "LCSC"
 F 7 "SMD" H 3850 5950 50  0001 C CNN "Type"
 F 8 "https://jlcpcb.com/parts/componentSearch?searchTxt=C79305" H 3850 5950 50  0001 C CNN "JLC-URL"
 F 9 "LQFP-144_20.0x20.0x0.5P" H 3850 5950 50  0001 C CNN "JLC Footprint"
-F 10 "" H 3850 5950 50  0001 C CNN "LCSC part number"
+F 10 "C79305" H 3850 5950 50  0001 C CNN "LCSC part number"
 F 11 "Extended" H 3850 5950 50  0001 C CNN "Stock type"
 F 12 "ATSAM3X8EA-AU" H 3850 5950 50  0001 C CNN "Manufacturer_Part_Number"
 F 13 "556-ATSAM3X8EA-AU" H 3850 5950 50  0001 C CNN "Mouser Part Number"
@@ -1190,10 +1190,10 @@ F 1 "10 kOhm" V 13250 1400 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric" H 13150 1350 50  0001 C CNN
 F 3 "https://nl.mouser.com/ProductDetail/Panasonic/ERJ-6ENF1002V?qs=4WZYzuGhm5pfKPfuMiCO5g%3D%3D" H 13150 1350 50  0001 C CNN
 F 4 "0805" H 13150 1350 50  0001 C CNN "JLC Footprint"
-F 5 "https://jlcpcb.com/parts/componentSearch?searchTxt=C38522" H 13150 1350 50  0001 C CNN "JLC-URL"
-F 6 "C38522" H 13150 1350 50  0001 C CNN "LCSC part number"
+F 5 "https://jlcpcb.com/parts/componentSearch?searchTxt=C25744" H 13150 1350 50  0001 C CNN "JLC-URL"
+F 6 "C25744" H 13150 1350 50  0001 C CNN "LCSC part number"
 F 7 "ERJ-6ENF1002V" H 13150 1350 50  0001 C CNN "Manufacturer_Part_Number"
-F 8 "Extended" H 13150 1350 50  0001 C CNN "Stock type"
+F 8 "Basic" H 13150 1350 50  0001 C CNN "Stock type"
 F 9 "667-ERJ-6ENF1002V" H 13150 1350 50  0001 C CNN "Mouser Part Number"
 F 10 "https://nl.mouser.com/ProductDetail/Panasonic/ERJ-6ENF1002V?qs=4WZYzuGhm5pfKPfuMiCO5g%3D%3D" H 13150 1350 50  0001 C CNN "Mouser link"
 F 11 "SMD" H 13150 1350 50  0001 C CNN "Type"
@@ -1498,7 +1498,7 @@ P 20300 13650
 F 0 "L9" H 20300 13865 50  0000 C CNN
 F 1 "22 uH" H 20300 13774 50  0000 C CNN
 F 2 "Components:INDPM4442X200N" H 20300 13650 50  0001 C CNN
-F 3 "https://jlcpcb.com/parts/componentSearch?searchTxt=C408340" H 20300 13650 50  0001 C CNN
+F 3 "https://nl.mouser.com/ProductDetail/Sumida/0420CDMCCDS-220MC?qs=%2Fha2pyFadugqX7ide%252BmDWYLBiwd9hTgArsnq5o9n14VrJzsLwHlPZw%3D%3D" H 20300 13650 50  0001 C CNN
 F 4 "SMD-PIND-4.2x4.4x2.0_0.8x2.0" H 20300 13650 50  0001 C CNN "JLC Footprint"
 F 5 "https://jlcpcb.com/parts/componentSearch?searchTxt=C408340" H 20300 13650 50  0001 C CNN "JLC-URL"
 F 6 "C408340" H 20300 13650 50  0001 C CNN "LCSC part number"
@@ -1586,7 +1586,7 @@ P 18150 12200
 F 0 "D6" V 18104 12279 50  0000 L CNN
 F 1 "D_TVS" V 18300 12250 50  0000 L CNN
 F 2 "Components:DIOM5436X261N" H 18150 12200 50  0001 C CNN
-F 3 "https://jlcpcb.com/parts/componentSearch?searchTxt=C83327" H 18150 12200 50  0001 C CNN
+F 3 "https://nl.mouser.com/ProductDetail/Littelfuse/SMBJ18CA?qs=%2Fha2pyFadujTLE5PdsD8k%252BKNvCbBqEMOxNF4nJsLbzk%3D" H 18150 12200 50  0001 C CNN
 F 4 "SMB,DO-214AA" H 18150 12200 50  0001 C CNN "JLC Footprint"
 F 5 "https://jlcpcb.com/parts/componentSearch?searchTxt=C83327" H 18150 12200 50  0001 C CNN "JLC-URL"
 F 6 "C83327" H 18150 12200 50  0001 C CNN "LCSC part number"
@@ -3412,10 +3412,10 @@ F 1 "10 kOhm" V 13050 2800 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric" H 12950 2750 50  0001 C CNN
 F 3 "https://nl.mouser.com/ProductDetail/Panasonic/ERJ-6ENF1002V?qs=4WZYzuGhm5pfKPfuMiCO5g%3D%3D" H 12950 2750 50  0001 C CNN
 F 4 "0805" H 12950 2750 50  0001 C CNN "JLC Footprint"
-F 5 "https://jlcpcb.com/parts/componentSearch?searchTxt=C38522" H 12950 2750 50  0001 C CNN "JLC-URL"
-F 6 "C38522" H 12950 2750 50  0001 C CNN "LCSC part number"
+F 5 "https://jlcpcb.com/parts/componentSearch?searchTxt=C25744" H 12950 2750 50  0001 C CNN "JLC-URL"
+F 6 "C25744" H 12950 2750 50  0001 C CNN "LCSC part number"
 F 7 "ERJ-6ENF1002V" H 12950 2750 50  0001 C CNN "Manufacturer_Part_Number"
-F 8 "Extended" H 12950 2750 50  0001 C CNN "Stock type"
+F 8 "Basic" H 12950 2750 50  0001 C CNN "Stock type"
 F 9 "667-ERJ-6ENF1002V" H 12950 2750 50  0001 C CNN "Mouser Part Number"
 F 10 "https://nl.mouser.com/ProductDetail/Panasonic/ERJ-6ENF1002V?qs=4WZYzuGhm5pfKPfuMiCO5g%3D%3D" H 12950 2750 50  0001 C CNN "Mouser link"
 F 11 "SMD" H 12950 2750 50  0001 C CNN "Type"
@@ -3661,11 +3661,11 @@ F 0 "R23" V 19400 8200 50  0000 C CNN
 F 1 "10 kOhm" V 19600 8250 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric" H 19500 8200 50  0001 C CNN
 F 3 "https://nl.mouser.com/ProductDetail/Panasonic/ERJ-6ENF1002V?qs=4WZYzuGhm5pfKPfuMiCO5g%3D%3D" H 19500 8200 50  0001 C CNN
-F 4 "0805" H 19500 8200 50  0001 C CNN "JLC Footprint"
-F 5 "https://jlcpcb.com/parts/componentSearch?searchTxt=C38522" H 19500 8200 50  0001 C CNN "JLC-URL"
-F 6 "C38522" H 19500 8200 50  0001 C CNN "LCSC part number"
+F 4 "0402" H 19500 8200 50  0001 C CNN "JLC Footprint"
+F 5 "https://jlcpcb.com/parts/componentSearch?searchTxt=C25744" H 19500 8200 50  0001 C CNN "JLC-URL"
+F 6 "C25744" H 19500 8200 50  0001 C CNN "LCSC part number"
 F 7 "ERJ-6ENF1002V" H 19500 8200 50  0001 C CNN "Manufacturer_Part_Number"
-F 8 "Extended" H 19500 8200 50  0001 C CNN "Stock type"
+F 8 "Basic" H 19500 8200 50  0001 C CNN "Stock type"
 F 9 "667-ERJ-6ENF1002V" H 19500 8200 50  0001 C CNN "Mouser Part Number"
 F 10 "https://nl.mouser.com/ProductDetail/Panasonic/ERJ-6ENF1002V?qs=4WZYzuGhm5pfKPfuMiCO5g%3D%3D" H 19500 8200 50  0001 C CNN "Mouser link"
 F 11 "SMD" H 19500 8200 50  0001 C CNN "Type"
@@ -3697,11 +3697,11 @@ F 0 "R22" V 19400 10500 50  0000 C CNN
 F 1 "10 kOhm" V 19300 10400 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric" H 19500 10500 50  0001 C CNN
 F 3 "https://nl.mouser.com/ProductDetail/Panasonic/ERJ-6ENF1002V?qs=4WZYzuGhm5pfKPfuMiCO5g%3D%3D" H 19500 10500 50  0001 C CNN
-F 4 "0805" H 19500 10500 50  0001 C CNN "JLC Footprint"
-F 5 "https://jlcpcb.com/parts/componentSearch?searchTxt=C38522" H 19500 10500 50  0001 C CNN "JLC-URL"
-F 6 "C38522" H 19500 10500 50  0001 C CNN "LCSC part number"
+F 4 "0402" H 19500 10500 50  0001 C CNN "JLC Footprint"
+F 5 "https://jlcpcb.com/parts/componentSearch?searchTxt=C25744" H 19500 10500 50  0001 C CNN "JLC-URL"
+F 6 "C25744" H 19500 10500 50  0001 C CNN "LCSC part number"
 F 7 "ERJ-6ENF1002V" H 19500 10500 50  0001 C CNN "Manufacturer_Part_Number"
-F 8 "Extended" H 19500 10500 50  0001 C CNN "Stock type"
+F 8 "Basic" H 19500 10500 50  0001 C CNN "Stock type"
 F 9 "667-ERJ-6ENF1002V" H 19500 10500 50  0001 C CNN "Mouser Part Number"
 F 10 "https://nl.mouser.com/ProductDetail/Panasonic/ERJ-6ENF1002V?qs=4WZYzuGhm5pfKPfuMiCO5g%3D%3D" H 19500 10500 50  0001 C CNN "Mouser link"
 F 11 "SMD" H 19500 10500 50  0001 C CNN "Type"
@@ -3727,11 +3727,11 @@ F 0 "R24" H 21000 9100 50  0000 C CNN
 F 1 "10 kOhm" H 20900 9000 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric" H 21150 8950 50  0001 C CNN
 F 3 "https://nl.mouser.com/ProductDetail/Panasonic/ERJ-6ENF1002V?qs=4WZYzuGhm5pfKPfuMiCO5g%3D%3D" H 21150 8950 50  0001 C CNN
-F 4 "0805" H 21150 8950 50  0001 C CNN "JLC Footprint"
-F 5 "https://jlcpcb.com/parts/componentSearch?searchTxt=C38522" H 21150 8950 50  0001 C CNN "JLC-URL"
-F 6 "C38522" H 21150 8950 50  0001 C CNN "LCSC part number"
+F 4 "0402" H 21150 8950 50  0001 C CNN "JLC Footprint"
+F 5 "https://jlcpcb.com/parts/componentSearch?searchTxt=C25744" H 21150 8950 50  0001 C CNN "JLC-URL"
+F 6 "C25744" H 21150 8950 50  0001 C CNN "LCSC part number"
 F 7 "ERJ-6ENF1002V" H 21150 8950 50  0001 C CNN "Manufacturer_Part_Number"
-F 8 "Extended" H 21150 8950 50  0001 C CNN "Stock type"
+F 8 "Basic" H 21150 8950 50  0001 C CNN "Stock type"
 F 9 "667-ERJ-6ENF1002V" H 21150 8950 50  0001 C CNN "Mouser Part Number"
 F 10 "https://nl.mouser.com/ProductDetail/Panasonic/ERJ-6ENF1002V?qs=4WZYzuGhm5pfKPfuMiCO5g%3D%3D" H 21150 8950 50  0001 C CNN "Mouser link"
 F 11 "SMD" H 21150 8950 50  0001 C CNN "Type"
@@ -3879,11 +3879,11 @@ F 0 "R9" H 9650 8000 50  0000 C CNN
 F 1 "10 kOhm" H 9700 8100 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric" H 9450 8100 50  0001 C CNN
 F 3 "https://nl.mouser.com/ProductDetail/Panasonic/ERJ-6ENF1002V?qs=4WZYzuGhm5pfKPfuMiCO5g%3D%3D" H 9450 8100 50  0001 C CNN
-F 4 "0805" H 9450 8100 50  0001 C CNN "JLC Footprint"
-F 5 "https://jlcpcb.com/parts/componentSearch?searchTxt=C38522" H 9450 8100 50  0001 C CNN "JLC-URL"
-F 6 "C38522" H 9450 8100 50  0001 C CNN "LCSC part number"
+F 4 "0402" H 9450 8100 50  0001 C CNN "JLC Footprint"
+F 5 "https://jlcpcb.com/parts/componentSearch?searchTxt=C25744" H 9450 8100 50  0001 C CNN "JLC-URL"
+F 6 "C25744" H 9450 8100 50  0001 C CNN "LCSC part number"
 F 7 "ERJ-6ENF1002V" H 9450 8100 50  0001 C CNN "Manufacturer_Part_Number"
-F 8 "Extended" H 9450 8100 50  0001 C CNN "Stock type"
+F 8 "Basic" H 9450 8100 50  0001 C CNN "Stock type"
 F 9 "667-ERJ-6ENF1002V" H 9450 8100 50  0001 C CNN "Mouser Part Number"
 F 10 "https://nl.mouser.com/ProductDetail/Panasonic/ERJ-6ENF1002V?qs=4WZYzuGhm5pfKPfuMiCO5g%3D%3D" H 9450 8100 50  0001 C CNN "Mouser link"
 F 11 "SMD" H 9450 8100 50  0001 C CNN "Type"
@@ -3925,11 +3925,11 @@ F 0 "R19" H 13550 8100 50  0000 C CNN
 F 1 "10 kOhm" H 13600 8200 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric" H 13350 8200 50  0001 C CNN
 F 3 "https://nl.mouser.com/ProductDetail/Panasonic/ERJ-6ENF1002V?qs=4WZYzuGhm5pfKPfuMiCO5g%3D%3D" H 13350 8200 50  0001 C CNN
-F 4 "0805" H 13350 8200 50  0001 C CNN "JLC Footprint"
-F 5 "https://jlcpcb.com/parts/componentSearch?searchTxt=C38522" H 13350 8200 50  0001 C CNN "JLC-URL"
-F 6 "C38522" H 13350 8200 50  0001 C CNN "LCSC part number"
+F 4 "0402" H 13350 8200 50  0001 C CNN "JLC Footprint"
+F 5 "https://jlcpcb.com/parts/componentSearch?searchTxt=C25744" H 13350 8200 50  0001 C CNN "JLC-URL"
+F 6 "C25744" H 13350 8200 50  0001 C CNN "LCSC part number"
 F 7 "ERJ-6ENF1002V" H 13350 8200 50  0001 C CNN "Manufacturer_Part_Number"
-F 8 "Extended" H 13350 8200 50  0001 C CNN "Stock type"
+F 8 "Basic" H 13350 8200 50  0001 C CNN "Stock type"
 F 9 "667-ERJ-6ENF1002V" H 13350 8200 50  0001 C CNN "Mouser Part Number"
 F 10 "https://nl.mouser.com/ProductDetail/Panasonic/ERJ-6ENF1002V?qs=4WZYzuGhm5pfKPfuMiCO5g%3D%3D" H 13350 8200 50  0001 C CNN "Mouser link"
 F 11 "SMD" H 13350 8200 50  0001 C CNN "Type"
@@ -4478,11 +4478,11 @@ F 0 "R27" V 12250 4550 50  0000 C CNN
 F 1 "10 kOhm" V 12450 4600 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric" H 12350 4550 50  0001 C CNN
 F 3 "https://nl.mouser.com/ProductDetail/Panasonic/ERJ-6ENF1002V?qs=4WZYzuGhm5pfKPfuMiCO5g%3D%3D" H 12350 4550 50  0001 C CNN
-F 4 "0805" H 12350 4550 50  0001 C CNN "JLC Footprint"
-F 5 "https://jlcpcb.com/parts/componentSearch?searchTxt=C38522" H 12350 4550 50  0001 C CNN "JLC-URL"
-F 6 "C38522" H 12350 4550 50  0001 C CNN "LCSC part number"
+F 4 "0402" H 12350 4550 50  0001 C CNN "JLC Footprint"
+F 5 "https://jlcpcb.com/parts/componentSearch?searchTxt=C25744" H 12350 4550 50  0001 C CNN "JLC-URL"
+F 6 "C25744" H 12350 4550 50  0001 C CNN "LCSC part number"
 F 7 "ERJ-6ENF1002V" H 12350 4550 50  0001 C CNN "Manufacturer_Part_Number"
-F 8 "Extended" H 12350 4550 50  0001 C CNN "Stock type"
+F 8 "Basic" H 12350 4550 50  0001 C CNN "Stock type"
 F 9 "667-ERJ-6ENF1002V" H 12350 4550 50  0001 C CNN "Mouser Part Number"
 F 10 "https://nl.mouser.com/ProductDetail/Panasonic/ERJ-6ENF1002V?qs=4WZYzuGhm5pfKPfuMiCO5g%3D%3D" H 12350 4550 50  0001 C CNN "Mouser link"
 F 11 "SMD" H 12350 4550 50  0001 C CNN "Type"
@@ -4626,11 +4626,11 @@ F 0 "R28" V 12250 5600 50  0000 C CNN
 F 1 "10 kOhm" V 12450 5650 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric" H 12350 5600 50  0001 C CNN
 F 3 "https://nl.mouser.com/ProductDetail/Panasonic/ERJ-6ENF1002V?qs=4WZYzuGhm5pfKPfuMiCO5g%3D%3D" H 12350 5600 50  0001 C CNN
-F 4 "0805" H 12350 5600 50  0001 C CNN "JLC Footprint"
-F 5 "https://jlcpcb.com/parts/componentSearch?searchTxt=C38522" H 12350 5600 50  0001 C CNN "JLC-URL"
-F 6 "C38522" H 12350 5600 50  0001 C CNN "LCSC part number"
+F 4 "0402" H 12350 5600 50  0001 C CNN "JLC Footprint"
+F 5 "https://jlcpcb.com/parts/componentSearch?searchTxt=C25744" H 12350 5600 50  0001 C CNN "JLC-URL"
+F 6 "C25744" H 12350 5600 50  0001 C CNN "LCSC part number"
 F 7 "ERJ-6ENF1002V" H 12350 5600 50  0001 C CNN "Manufacturer_Part_Number"
-F 8 "Extended" H 12350 5600 50  0001 C CNN "Stock type"
+F 8 "Basic" H 12350 5600 50  0001 C CNN "Stock type"
 F 9 "667-ERJ-6ENF1002V" H 12350 5600 50  0001 C CNN "Mouser Part Number"
 F 10 "https://nl.mouser.com/ProductDetail/Panasonic/ERJ-6ENF1002V?qs=4WZYzuGhm5pfKPfuMiCO5g%3D%3D" H 12350 5600 50  0001 C CNN "Mouser link"
 F 11 "SMD" H 12350 5600 50  0001 C CNN "Type"
@@ -4828,8 +4828,8 @@ F 1 "5.1 kOhm" V 19600 8800 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric" H 19500 8750 50  0001 C CNN
 F 3 "https://nl.mouser.com/ProductDetail/Panasonic/ERJ-6ENF5101V?qs=50QC8w71jAvpGnVxshBP5A%3D%3D" H 19500 8750 50  0001 C CNN
 F 4 "0805" H 19500 8750 50  0001 C CNN "JLC Footprint"
-F 5 "https://jlcpcb.com/parts/componentSearch?searchTxt=C27834" H 19500 8750 50  0001 C CNN "JLC-URL"
-F 6 "C27834" H 19500 8750 50  0001 C CNN "LCSC part number"
+F 5 "" H 19500 8750 50  0001 C CNN "JLC-URL"
+F 6 "" H 19500 8750 50  0001 C CNN "LCSC part number"
 F 7 "" H 19500 8750 50  0001 C CNN "Manufacturer_Part_Number"
 F 8 "Basic" H 19500 8750 50  0001 C CNN "Stock type"
 F 9 "667-ERJ-6ENF5101V" H 19500 8750 50  0001 C CNN "Mouser Part Number"
@@ -4847,8 +4847,8 @@ F 1 "5.1 kOhm" V 19050 10100 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric" H 18950 10050 50  0001 C CNN
 F 3 "https://nl.mouser.com/ProductDetail/Panasonic/ERJ-6ENF5101V?qs=50QC8w71jAvpGnVxshBP5A%3D%3D" H 18950 10050 50  0001 C CNN
 F 4 "0805" H 18950 10050 50  0001 C CNN "JLC Footprint"
-F 5 "https://jlcpcb.com/parts/componentSearch?searchTxt=C27834" H 18950 10050 50  0001 C CNN "JLC-URL"
-F 6 "C27834" H 18950 10050 50  0001 C CNN "LCSC part number"
+F 5 "" H 18950 10050 50  0001 C CNN "JLC-URL"
+F 6 "" H 18950 10050 50  0001 C CNN "LCSC part number"
 F 7 "" H 18950 10050 50  0001 C CNN "Manufacturer_Part_Number"
 F 8 "Basic" H 18950 10050 50  0001 C CNN "Stock type"
 F 9 "667-ERJ-6ENF5101V" H 18950 10050 50  0001 C CNN "Mouser Part Number"
