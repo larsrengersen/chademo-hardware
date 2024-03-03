@@ -1,0 +1,3821 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>/Users/lars/Documents/GitHub/CHAdeMO-hardware/CHAdeMO_V2.0.sch</source>
+    <date>2022 February 26, Saturday 11:12:40</date>
+    <tool>Eeschema (5.1.6-0-10_14)</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>CHAdeMO Controller V2.0</title>
+        <company>EVcreate</company>
+        <rev>0.1</rev>
+        <date>2020-09-22</date>
+        <source>CHAdeMO_V2.0.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="U2">
+      <value>ATSAM3X8EA-AU</value>
+      <footprint>Components:QFP50P2200X2200X145-144N</footprint>
+      <datasheet>https://nl.mouser.com/ProductDetail/Microchip-Technology-Atmel/ATSAM3X8EA-AU?qs=%2Fha2pyFaduj4BDYKUP%2FSQhCiTCGVcoWQGoQ7Os3E%2FXyOKg4rbckNMw%3D%3D</datasheet>
+      <fields>
+        <field name="Field4">MICROCHIP</field>
+        <field name="Field5">11057C</field>
+        <field name="JLC Footprint">LQFP-144_20.0x20.0x0.5P</field>
+        <field name="JLC-URL">https://jlcpcb.com/parts/componentSearch?searchTxt=C79305</field>
+        <field name="LCSC">C79305</field>
+        <field name="LCSC part number">C79305</field>
+        <field name="Manufacturer_Part_Number">ATSAM3X8EA-AU</field>
+        <field name="Mouser Part Number">556-ATSAM3X8EA-AU</field>
+        <field name="Mouser link">https://nl.mouser.com/ProductDetail/Microchip-Technology-Atmel/ATSAM3X8EA-AU?qs=%2Fha2pyFaduj4BDYKUP%2FSQhCiTCGVcoWQGoQ7Os3E%2FXyOKg4rbckNMw%3D%3D</field>
+        <field name="Stock type">Extended</field>
+        <field name="Type">SMD</field>
+      </fields>
+      <libsource lib="CHAdeMO_V2.0-rescue" part="ATSAM3X8EA-AU-ATSAM3X8EA-AU" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F5000D4</tstamp>
+    </comp>
+    <comp ref="J1">
+      <value>UJ2-BV-1-TH</value>
+      <footprint>Components:UJ2BV1TH</footprint>
+      <datasheet>https://www.cui.com/product/resource/uj2-bv-1-th.pdf</datasheet>
+      <fields>
+        <field name="Description">USB Connectors USB 2.0 type B jack 4 pin Vertical TH</field>
+        <field name="Height">15.8</field>
+        <field name="Manufacturer_Name">CUI Devices</field>
+        <field name="Manufacturer_Part_Number">UJ2-BV-1-TH</field>
+        <field name="Mouser Part Number">490-UJ2-BV-1-TH</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/CUI-Devices/UJ2-BV-1-TH?qs=5mqXD9RfOg3Kkui4GUMMeg%3D%3D</field>
+        <field name="Type">THT</field>
+      </fields>
+      <libsource lib="CHAdeMO_V2.0-rescue" part="UJ2-BV-1-TH-UJ2-BV-1-TH" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F546FB3</tstamp>
+    </comp>
+    <comp ref="J2">
+      <value>5810132011</value>
+      <footprint>Components:5810132011_CHadeMO_v2</footprint>
+      <datasheet>https://belfuse.com/resources/brochures/cinchconnectivitysolutions/modice/br-ccs-ice-modice-and-shs-brochure.pdf</datasheet>
+      <fields>
+        <field name="Description">AUTOMOTIVE CONN, PLUG, 40POS, PCB; Product Range:ModICE ME-MX Series; Automotive Connector Shell Style:Panel Mount Plug; No. of Contacts:40Contacts; Automotive Contact Type:PCB Pin; Connector Body Material:Polymer, Glass Filled Body RoHS Compliant: Yes</field>
+        <field name="Height">40.9</field>
+        <field name="Manufacturer_Name">Cinch</field>
+        <field name="Manufacturer_Part_Number">5810132011</field>
+        <field name="Mouser Part Number">N/A</field>
+        <field name="Mouser Price/Stock">https://www.mouser.com/Search/Refine.aspx?Keyword=N%2FA</field>
+        <field name="Type">THT</field>
+      </fields>
+      <libsource lib="CHAdeMO_V2.0-rescue" part="5810132011-5810132011" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F5B340F</tstamp>
+    </comp>
+    <comp ref="Y1">
+      <value>CRYSTAL 12MHZ </value>
+      <footprint>Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm</footprint>
+      <datasheet>https://nl.mouser.com/ProductDetail/ABRACON/ABM8-12000MHz-20-B1U-T?qs=vLWxofP3U2yROOOva%252BwLbA%3D%3D</datasheet>
+      <fields>
+        <field name="JLC Footprint">SMD-3225_4P</field>
+        <field name="JLC-URL">https://jlcpcb.com/parts/componentSearch?searchTxt=C9002</field>
+        <field name="LCSC part number">C9002</field>
+        <field name="Manufacturer_Part_Number">X322512MSB4SI</field>
+        <field name="Mouser Part Number">815-M812000MHZ20B1UT</field>
+        <field name="Mouser link">https://nl.mouser.com/ProductDetail/ABRACON/ABM8-12000MHz-20-B1U-T?qs=vLWxofP3U2yROOOva%252BwLbA%3D%3D</field>
+        <field name="Stock type">Basic</field>
+        <field name="Type">SMD</field>
+      </fields>
+      <libsource lib="Device" part="Crystal_GND24" description="Four pin crystal, GND on pins 2 and 4"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F5FF5EE</tstamp>
+    </comp>
+    <comp ref="Y2">
+      <value>Crystal 32.768kHz</value>
+      <footprint>Crystal:Crystal_SMD_3215-2Pin_3.2x1.5mm</footprint>
+      <datasheet>https://nl.mouser.com/ProductDetail/ABRACON/ABS07AIG-32768kHz-T?qs=gG6m684uYP5oqwgXl1V4Jg%3D%3D</datasheet>
+      <fields>
+        <field name="JLC Footprint">SMD-3215_2P</field>
+        <field name="JLC-URL">https://jlcpcb.com/parts/componentSearch?searchTxt=C32346</field>
+        <field name="LCSC part number">C32346</field>
+        <field name="Manufacturer_Part_Number">Q13FC1350000400</field>
+        <field name="Mouser Part Number">815-S07AIG-32.768T</field>
+        <field name="Mouser link">https://nl.mouser.com/ProductDetail/ABRACON/ABS07AIG-32768kHz-T?qs=gG6m684uYP5oqwgXl1V4Jg%3D%3D</field>
+        <field name="Stock type">Basic</field>
+        <field name="Type">SMD</field>
+      </fields>
+      <libsource lib="Device" part="Crystal" description="Two pin crystal"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F601D06</tstamp>
+    </comp>
+    <comp ref="L4">
+      <value>Imp. 30 Ohm</value>
+      <footprint>Inductor_SMD:L_0603_1608Metric</footprint>
+      <datasheet>https://jlcpcb.com/parts/componentSearch?searchTxt=C24821</datasheet>
+      <fields>
+        <field name="JLC Footprint">0603</field>
+        <field name="JLC-URL">https://jlcpcb.com/parts/componentSearch?searchTxt=C24821</field>
+        <field name="LCSC part number">C24821</field>
+        <field name="Manufacturer_Part_Number">GZ1608D300TF</field>
+        <field name="Mouser Part Number">810-MAF1608GAD201LTA</field>
+        <field name="Mouser link">https://nl.mouser.com/ProductDetail/TDK/MAF1608GAD201LTAH0?qs=BJlw7L4Cy79j18hBlf4%2FXA%3D%3D</field>
+        <field name="Stock type">Extended</field>
+        <field name="Type">SMD</field>
+      </fields>
+      <libsource lib="Device" part="L_Core_Ferrite" description="Inductor with ferrite core"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F60C9A7</tstamp>
+    </comp>
+    <comp ref="R6">
+      <value>39 Ohm</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <datasheet>https://nl.mouser.com/ProductDetail/Panasonic/ERJ-8ENF39R0V?qs=sGAEpiMZZMtG0KNrPCHnjTg0x5DoQJ5PEpbqxKZ1qxQ%3D</datasheet>
+      <fields>
+        <field name="JLC Footprint">1206</field>
+        <field name="JLC-URL">https://jlcpcb.com/parts/componentSearch?searchTxt=C22198</field>
+        <field name="LCSC part number">C22198</field>
+        <field name="Manufacturer_Part_Number">1206W4F390JT5E</field>
+        <field name="Mouser Part Number">667-ERJ-8ENF39R0V</field>
+        <field name="Mouser link">https://nl.mouser.com/ProductDetail/Panasonic/ERJ-8ENF39R0V?qs=sGAEpiMZZMtG0KNrPCHnjTg0x5DoQJ5PEpbqxKZ1qxQ%3D</field>
+        <field name="Stock type">Extended</field>
+        <field name="Type">SMD</field>
+      </fields>
+      <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F621A98</tstamp>
+    </comp>
+    <comp ref="R7">
+      <value>39 Ohm</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <datasheet>https://nl.mouser.com/ProductDetail/Panasonic/ERJ-8ENF39R0V?qs=sGAEpiMZZMtG0KNrPCHnjTg0x5DoQJ5PEpbqxKZ1qxQ%3D</datasheet>
+      <fields>
+        <field name="JLC Footprint">1206</field>
+        <field name="JLC-URL">https://jlcpcb.com/parts/componentSearch?searchTxt=C22198</field>
+        <field name="LCSC part number">C22198</field>
+        <field name="Manufacturer_Part_Number">1206W4F390JT5E</field>
+        <field name="Mouser Part Number">667-ERJ-8ENF39R0V</field>
+        <field name="Mouser link">https://nl.mouser.com/ProductDetail/Panasonic/ERJ-8ENF39R0V?qs=sGAEpiMZZMtG0KNrPCHnjTg0x5DoQJ5PEpbqxKZ1qxQ%3D</field>
+        <field name="Stock type">Extended</field>
+        <field name="Type">SMD</field>
+      </fields>
+      <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F626392</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>6.8 kOhm</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>https://nl.mouser.com/ProductDetail/Panasonic/ERJ-6ENF6801V?qs=sGAEpiMZZMtG0KNrPCHnjTg0x5DoQJ5P%252B6poaIHrg9A%3D</datasheet>
+      <fields>
+        <field name="JLC Footprint">0805</field>
+        <field name="JLC-URL">https://jlcpcb.com/parts/componentSearch?searchTxt=C17772</field>
+        <field name="LCSC part number">C17772</field>
+        <field name="Manufacturer_Part_Number">0805W8F6801T5E</field>
+        <field name="Mouser Part Number">667-ERJ-6ENF6801V</field>
+        <field name="Mouser link">https://nl.mouser.com/ProductDetail/Panasonic/ERJ-6ENF6801V?qs=sGAEpiMZZMtG0KNrPCHnjTg0x5DoQJ5P%252B6poaIHrg9A%3D</field>
+        <field name="Stock type">Basic</field>
+        <field name="Type">SMD</field>
+      </fields>
+      <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F62C716</tstamp>
+    </comp>
+    <comp ref="C13">
+      <value>22 pF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>https://jlcpcb.com/parts/componentSearch?searchTxt=C1653</datasheet>
+      <fields>
+        <field name="JLC Footprint">0603</field>
+        <field name="LCSC part number">C1653</field>
+        <field name="Manufacturer_Part_Number">CL10C220JB8NNNC</field>
+        <field name="Mouser Part Number">603-AC603JRNPO9BN220</field>
+        <field name="Mouser link">https://nl.mouser.com/ProductDetail/Yageo/AC0603JRNPO9BN220?qs=tS%2FAHvPQ%2F56IhnnTktds4w%3D%3D</field>
+        <field name="Stock type">Basic</field>
+        <field name="Type">SMD</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F62D038</tstamp>
+    </comp>
+    <comp ref="C4">
+      <value>22 pF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>https://jlcpcb.com/parts/componentSearch?searchTxt=C1653</datasheet>
+      <fields>
+        <field name="JLC Footprint">0603</field>
+        <field name="LCSC part number">C1653</field>
+        <field name="Manufacturer_Part_Number">CL10C220JB8NNNC</field>
+        <field name="Mouser Part Number">603-AC603JRNPO9BN220</field>
+        <field name="Mouser link">https://nl.mouser.com/ProductDetail/Yageo/AC0603JRNPO9BN220?qs=tS%2FAHvPQ%2F56IhnnTktds4w%3D%3D</field>
+        <field name="Stock type">Basic</field>
+        <field name="Type">SMD</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F646E62</tstamp>
+    </comp>
+    <comp ref="C5">
+      <value>22 pF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>https://jlcpcb.com/parts/componentSearch?searchTxt=C1653</datasheet>
+      <fields>
+        <field name="JLC Footprint">0603</field>
+        <field name="LCSC part number">C1653</field>
+        <field name="Manufacturer_Part_Number">CL10C220JB8NNNC</field>
+        <field name="Mouser Part Number">603-AC603JRNPO9BN220</field>
+        <field name="Mouser link">https://nl.mouser.com/ProductDetail/Yageo/AC0603JRNPO9BN220?qs=tS%2FAHvPQ%2F56IhnnTktds4w%3D%3D</field>
+        <field name="Stock type">Basic</field>
+        <field name="Type">SMD</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F64868A</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>22 pF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>https://jlcpcb.com/parts/componentSearch?searchTxt=C1653</datasheet>
+      <fields>
+        <field name="JLC Footprint">0603</field>
+        <field name="LCSC part number">C1653</field>
+        <field name="Manufacturer_Part_Number">CL10C220JB8NNNC</field>
+        <field name="Mouser Part Number">603-AC603JRNPO9BN220</field>
+        <field name="Mouser link">https://nl.mouser.com/ProductDetail/Yageo/AC0603JRNPO9BN220?qs=tS%2FAHvPQ%2F56IhnnTktds4w%3D%3D</field>
+        <field name="Stock type">Basic</field>
+        <field name="Type">SMD</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F6523FF</tstamp>
+    </comp>
+    <comp ref="C3">
+      <value>22 pF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>https://jlcpcb.com/parts/componentSearch?searchTxt=C1653</datasheet>
+      <fields>
+        <field name="JLC Footprint">0603</field>
+        <field name="LCSC part number">C1653</field>
+        <field name="Manufacturer_Part_Number">CL10C220JB8NNNC</field>
+        <field name="Mouser Part Number">603-AC603JRNPO9BN220</field>
+        <field name="Mouser link">https://nl.mouser.com/ProductDetail/Yageo/AC0603JRNPO9BN220?qs=tS%2FAHvPQ%2F56IhnnTktds4w%3D%3D</field>
+        <field name="Stock type">Basic</field>
+        <field name="Type">SMD</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F65240D</tstamp>
+    </comp>
+    <comp ref="L1">
+      <value>Imp. 30 Ohm</value>
+      <footprint>Inductor_SMD:L_0603_1608Metric</footprint>
+      <datasheet>https://jlcpcb.com/parts/componentSearch?searchTxt=C24821</datasheet>
+      <fields>
+        <field name="JLC Footprint">0603</field>
+        <field name="JLC-URL">https://jlcpcb.com/parts/componentSearch?searchTxt=C24821</field>
+        <field name="LCSC part number">C24821</field>
+        <field name="Manufacturer_Part_Number">GZ1608D300TF</field>
+        <field name="Mouser Part Number">810-MAF1608GAD201LTA</field>
+        <field name="Mouser link">https://nl.mouser.com/ProductDetail/TDK/MAF1608GAD201LTAH0?qs=BJlw7L4Cy79j18hBlf4%2FXA%3D%3D</field>
+        <field name="Stock type">Extended</field>
+        <field name="Type">SMD</field>
+      </fields>
+      <libsource lib="Device" part="L_Core_Ferrite" description="Inductor with ferrite core"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F65E318</tstamp>
+    </comp>
+    <comp ref="C18">
+      <value>100 nF</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric</footprint>
+      <datasheet>https://jlcpcb.com/parts/componentSearch?searchTxt=CL31B104KBCNNNC</datasheet>
+      <fields>
+        <field name="JLC Footprint">1206</field>
+        <field name="LCSC part number">C24497</field>
+        <field name="Manufacturer_Part_Number">CL31B104KBCNNNC</field>
+        <field name="Mouser Part Number">80-C1206C104K5RAUTO</field>
+        <field name="Mouser link">https://nl.mouser.com/ProductDetail/KEMET/C1206C104K5RACAUTO?qs=8xX%252BF9%252BWV6EfUow3P%252BQkbA%3D%3D</field>
+        <field name="Stock type">Basic</field>
+        <field name="Type">SMD</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F696D03</tstamp>
+    </comp>
+    <comp ref="C11">
+      <value>100 nF</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric</footprint>
+      <datasheet>https://jlcpcb.com/parts/componentSearch?searchTxt=CL31B104KBCNNNC</datasheet>
+      <fields>
+        <field name="JLC Footprint">1206</field>
+        <field name="LCSC part number">C24497</field>
+        <field name="Manufacturer_Part_Number">CL31B104KBCNNNC</field>
+        <field name="Mouser Part Number">80-C1206C104K5RAUTO</field>
+        <field name="Mouser link">https://nl.mouser.com/ProductDetail/KEMET/C1206C104K5RACAUTO?qs=8xX%252BF9%252BWV6EfUow3P%252BQkbA%3D%3D</field>
+        <field name="Stock type">Basic</field>
+        <field name="Type">SMD</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F699CD1</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>100 kOhm</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>https://nl.mouser.com/ProductDetail/Panasonic/ERJ-3EKF1003V?qs=sGAEpiMZZMtG0KNrPCHnjWXb3yLuGJ27MgxoORw4g74%3D</datasheet>
+      <fields>
+        <field name="JLC Footprint">0603</field>
+        <field name="JLC-URL">https://jlcpcb.com/parts/componentSearch?searchTxt=C25803</field>
+        <field name="LCSC part number">C25803</field>
+        <field name="Manufacturer_Part_Number">0603WAF1003T5E</field>
+        <field name="Mouser Part Number">667-ERJ-3EKF1003V</field>
+        <field name="Mouser link">https://nl.mouser.com/ProductDetail/Panasonic/ERJ-3EKF1003V?qs=sGAEpiMZZMtG0KNrPCHnjWXb3yLuGJ27MgxoORw4g74%3D</field>
+        <field name="Stock type">Basic</field>
+        <field name="Type">SMD</field>
+      </fields>
+      <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F6A5263</tstamp>
+    </comp>
+    <comp ref="C31">
+      <value>100 nF</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric</footprint>
+      <datasheet>https://jlcpcb.com/parts/componentSearch?searchTxt=CL31B104KBCNNNC</datasheet>
+      <fields>
+        <field name="JLC Footprint">1206</field>
+        <field name="LCSC part number">C24497</field>
+        <field name="Manufacturer_Part_Number">CL31B104KBCNNNC</field>
+        <field name="Mouser Part Number">80-C1206C104K5RAUTO</field>
+        <field name="Mouser link">https://nl.mouser.com/ProductDetail/KEMET/C1206C104K5RACAUTO?qs=8xX%252BF9%252BWV6EfUow3P%252BQkbA%3D%3D</field>
+        <field name="Stock type">Basic</field>
+        <field name="Type">SMD</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F6ED0C0</tstamp>
+    </comp>
+    <comp ref="R5">
+      <value>4.7 kOhm</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>https://nl.mouser.com/ProductDetail/Panasonic/ERJ-6ENF4701V?qs=sGAEpiMZZMtG0KNrPCHnjTg0x5DoQJ5P11vp1EH6kOI%3D</datasheet>
+      <fields>
+        <field name="JLC Footprint">0805</field>
+        <field name="JLC-URL">https://jlcpcb.com/parts/componentSearch?searchTxt=C17673</field>
+        <field name="LCSC part number">C17673</field>
+        <field name="Manufacturer_Part_Number">0805W8F4701T5E</field>
+        <field name="Mouser Part Number">667-ERJ-6ENF4701V</field>
+        <field name="Mouser link">https://nl.mouser.com/ProductDetail/Panasonic/ERJ-6ENF4701V?qs=sGAEpiMZZMtG0KNrPCHnjTg0x5DoQJ5P11vp1EH6kOI%3D</field>
+        <field name="Stock type">Basic</field>
+        <field name="Type">SMD</field>
+      </fields>
+      <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F75A1E5</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>4.7 kOhm</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>https://nl.mouser.com/ProductDetail/Panasonic/ERJ-6ENF4701V?qs=sGAEpiMZZMtG0KNrPCHnjTg0x5DoQJ5P11vp1EH6kOI%3D</datasheet>
+      <fields>
+        <field name="JLC Footprint">0805</field>
+        <field name="JLC-URL">https://jlcpcb.com/parts/componentSearch?searchTxt=C17673</field>
+        <field name="LCSC part number">C17673</field>
+        <field name="Manufacturer_Part_Number">0805W8F4701T5E</field>
+        <field name="Mouser Part Number">667-ERJ-6ENF4701V</field>
+        <field name="Mouser link">https://nl.mouser.com/ProductDetail/Panasonic/ERJ-6ENF4701V?qs=sGAEpiMZZMtG0KNrPCHnjTg0x5DoQJ5P11vp1EH6kOI%3D</field>
+        <field name="Stock type">Basic</field>
+        <field name="Type">SMD</field>
+      </fields>
+      <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F75CAAC</tstamp>
+    </comp>
+    <comp ref="C12">
+      <value>100 nF</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric</footprint>
+      <datasheet>https://jlcpcb.com/parts/componentSearch?searchTxt=CL31B104KBCNNNC</datasheet>
+      <fields>
+        <field name="JLC Footprint">1206</field>
+        <field name="LCSC part number">C24497</field>
+        <field name="Manufacturer_Part_Number">CL31B104KBCNNNC</field>
+        <field name="Mouser Part Number">80-C1206C104K5RAUTO</field>
+        <field name="Mouser link">https://nl.mouser.com/ProductDetail/KEMET/C1206C104K5RACAUTO?qs=8xX%252BF9%252BWV6EfUow3P%252BQkbA%3D%3D</field>
+        <field name="Stock type">Basic</field>
+        <field name="Type">SMD</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F76ADBF</tstamp>
+    </comp>
+    <comp ref="IC1">
+      <value>ISO1050DUBR</value>
+      <footprint>SamacSys_Parts:SOP254P1040X485-8N</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/iso1050.pdf</datasheet>
+      <fields>
+        <field name="Description">Digital Isolators Iso 5V CAN Xcvr</field>
+        <field name="Height">4.85</field>
+        <field name="JLC Footprint">SMD-8_6.6x9.5x2.54P</field>
+        <field name="JLC-URL">https://jlcpcb.com/parts/componentSearch?searchTxt=C16428</field>
+        <field name="LCSC part number">C16428</field>
+        <field name="Manufacturer_Name">Texas Instruments</field>
+        <field name="Manufacturer_Part_Number">ISO1050DUBR</field>
+        <field name="Mouser Part Number">595-ISO1050DUBR</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Texas-Instruments/ISO1050DUBR?qs=IK5e5L0zOXhhp9hdAolE%252BA%3D%3D</field>
+        <field name="Mouser link">https://nl.mouser.com/ProductDetail/Texas-Instruments/ISO1050DUBR?qs=IK5e5L0zOXhhp9hdAolE%252BA%3D%3D</field>
+        <field name="Stock type">Basic</field>
+        <field name="Type">SMD</field>
+      </fields>
+      <libsource lib="CHAdeMO_V2.0-rescue" part="ISO1050DUBR-SamacSys_Parts" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F78C590</tstamp>
+    </comp>
+    <comp ref="C30">
+      <value>100 nF</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric</footprint>
+      <datasheet>https://jlcpcb.com/parts/componentSearch?searchTxt=CL31B104KBCNNNC</datasheet>
+      <fields>
+        <field name="JLC Footprint">1206</field>
+        <field name="LCSC part number">C24497</field>
+        <field name="Manufacturer_Part_Number">CL31B104KBCNNNC</field>
+        <field name="Mouser Part Number">80-C1206C104K5RAUTO</field>
+        <field name="Mouser link">https://nl.mouser.com/ProductDetail/KEMET/C1206C104K5RACAUTO?qs=8xX%252BF9%252BWV6EfUow3P%252BQkbA%3D%3D</field>
+        <field name="Stock type">Basic</field>
+        <field name="Type">SMD</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F78C5AD</tstamp>
+    </comp>
+    <comp ref="LED1">
+      <value>LED</value>
+      <footprint>LED_SMD:LED_0603_1608Metric</footprint>
+      <datasheet>https://nl.mouser.com/ProductDetail/Wurth-Elektronik/150060GS84000?qs=GedFDFLaBXH09WUudWKJ5g%3D%3D</datasheet>
+      <fields>
+        <field name="JLC Footprint">LED_0603</field>
+        <field name="JLC-URL">https://jlcpcb.com/parts/componentSearch?searchTxt=C72043</field>
+        <field name="LCSC part number">C72043</field>
+        <field name="Manufacturer_Part_Number">19-217/GHC-YR1S2/3T</field>
+        <field name="Mouser Part Number">710-150060GS84000</field>
+        <field name="Mouser link">https://nl.mouser.com/ProductDetail/Wurth-Elektronik/150060GS84000?qs=GedFDFLaBXH09WUudWKJ5g%3D%3D</field>
+        <field name="Stock type">Basic</field>
+        <field name="Type">SMD</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F800B7A</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>470 Ohm</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>https://nl.mouser.com/ProductDetail/Panasonic/ERJ-P06F4700V?qs=sGAEpiMZZMtG0KNrPCHnjYpPrk%252BOMd4bKtwYfDK0FOg%3D</datasheet>
+      <fields>
+        <field name="JLC Footprint">0805</field>
+        <field name="JLC-URL">https://jlcpcb.com/parts/componentSearch?searchTxt=C17710</field>
+        <field name="LCSC part number">C17710</field>
+        <field name="Manufacturer_Part_Number">0805W8F4700T5E</field>
+        <field name="Mouser Part Number">667-ERJ-P06F4700V</field>
+        <field name="Mouser link">https://nl.mouser.com/ProductDetail/Panasonic/ERJ-P06F4700V?qs=sGAEpiMZZMtG0KNrPCHnjYpPrk%252BOMd4bKtwYfDK0FOg%3D</field>
+        <field name="Stock type">Basic</field>
+        <field name="Type">SMD</field>
+      </fields>
+      <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F814E32</tstamp>
+    </comp>
+    <comp ref="U1">
+      <value>M24M02-DRMN6TP</value>
+      <footprint>SamacSys_Parts:SOIC127P600X175-8N</footprint>
+      <datasheet>https://nl.mouser.com/ProductDetail/STMicroelectronics/M24M02-DRMN6TP?qs=%2Fha2pyFaduhhkqSvZDSJHpfkB04qbmGNzbzD1NxPMz2njpxq91INcQ%3D%3D</datasheet>
+      <fields>
+        <field name="JLC Footprint">SOIC-8_3.9x4.9x1.27P</field>
+        <field name="JLC-URL">https://jlcpcb.com/parts/componentSearch?searchTxt=C115042</field>
+        <field name="LCSC part number">C115042</field>
+        <field name="Manufacturer_Part_Number">M24M02-DRMN6TP</field>
+        <field name="Mouser Part Number">511-M24M02-DRMN6TP</field>
+        <field name="Mouser link">https://nl.mouser.com/ProductDetail/STMicroelectronics/M24M02-DRMN6TP?qs=%2Fha2pyFaduhhkqSvZDSJHpfkB04qbmGNzbzD1NxPMz2njpxq91INcQ%3D%3D</field>
+        <field name="Stock type">Extended</field>
+        <field name="Type">SMD</field>
+      </fields>
+      <libsource lib="CHAdeMO_V2.0-rescue" part="M24M02-DRMN6TP-SamacSys_Parts" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F7438B6</tstamp>
+    </comp>
+    <comp ref="C27">
+      <value>100 nF</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric</footprint>
+      <datasheet>https://jlcpcb.com/parts/componentSearch?searchTxt=CL31B104KBCNNNC</datasheet>
+      <fields>
+        <field name="JLC Footprint">1206</field>
+        <field name="LCSC part number">C24497</field>
+        <field name="Manufacturer_Part_Number">CL31B104KBCNNNC</field>
+        <field name="Mouser Part Number">80-C1206C104K5RAUTO</field>
+        <field name="Mouser link">https://nl.mouser.com/ProductDetail/KEMET/C1206C104K5RACAUTO?qs=8xX%252BF9%252BWV6EfUow3P%252BQkbA%3D%3D</field>
+        <field name="Stock type">Basic</field>
+        <field name="Type">SMD</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F89170C</tstamp>
+    </comp>
+    <comp ref="U4">
+      <value>VOM617A-4T</value>
+      <footprint>Components:VOM617A8X001T</footprint>
+      <datasheet>https://nl.mouser.com/ProductDetail/78-VOM617A-4T</datasheet>
+      <fields>
+        <field name="Field4">7</field>
+        <field name="Field5">IPC-7351B</field>
+        <field name="JLC Footprint">SMD-4_4.6x6.5x2.54P</field>
+        <field name="JLC-URL">https://jlcpcb.com/parts/componentSearch?searchTxt=C106900</field>
+        <field name="LCSC part number">C106900</field>
+        <field name="Manufacturer_Part_Number">VOM617A-4T</field>
+        <field name="Mouser Part Number">78-VOM617A-4T</field>
+        <field name="Mouser link">https://nl.mouser.com/ProductDetail/78-VOM617A-4T</field>
+        <field name="Stock type">Basic</field>
+        <field name="Type">SMD</field>
+      </fields>
+      <libsource lib="CHAdeMO_V2.0-rescue" part="EL817S(TU)-EL817S_TU_" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F5AFE18</tstamp>
+    </comp>
+    <comp ref="R16">
+      <value>470 Ohm</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>https://nl.mouser.com/ProductDetail/Panasonic/ERJ-P06F4700V?qs=sGAEpiMZZMtG0KNrPCHnjYpPrk%252BOMd4bKtwYfDK0FOg%3D</datasheet>
+      <fields>
+        <field name="JLC Footprint">0805</field>
+        <field name="JLC-URL">https://jlcpcb.com/parts/componentSearch?searchTxt=C17710</field>
+        <field name="LCSC part number">C17710</field>
+        <field name="Manufacturer_Part_Number">0805W8F4700T5E</field>
+        <field name="Mouser Part Number">667-ERJ-P06F4700V</field>
+        <field name="Mouser link">https://nl.mouser.com/ProductDetail/Panasonic/ERJ-P06F4700V?qs=sGAEpiMZZMtG0KNrPCHnjYpPrk%252BOMd4bKtwYfDK0FOg%3D</field>
+        <field name="Stock type">Basic</field>
+        <field name="Type">SMD</field>
+      </fields>
+      <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F5AFE39</tstamp>
+    </comp>
+    <comp ref="R18">
+      <value>10 kOhm</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>https://nl.mouser.com/ProductDetail/Panasonic/ERJ-6ENF1002V?qs=4WZYzuGhm5pfKPfuMiCO5g%3D%3D</datasheet>
+      <fields>
+        <field name="JLC Footprint">0805</field>
+        <field name="JLC-URL">https://jlcpcb.com/parts/componentSearch?searchTxt=C25744</field>
+        <field name="LCSC part number">C25744</field>
+        <field name="Manufacturer_Part_Number">ERJ-6ENF1002V</field>
+        <field name="Mouser Part Number">667-ERJ-6ENF1002V</field>
+        <field name="Mouser link">https://nl.mouser.com/ProductDetail/Panasonic/ERJ-6ENF1002V?qs=4WZYzuGhm5pfKPfuMiCO5g%3D%3D</field>
+        <field name="Stock type">Basic</field>
+        <field name="Type">SMD</field>
+      </fields>
+      <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F5AFE67</tstamp>
+    </comp>
+    <comp ref="K1">
+      <value>V23086C1001A403-EV-BLBOX</value>
+      <footprint>SamacSys_Parts:V23086C1001A403EVBLBOX</footprint>
+      <datasheet>https://nl.mouser.com/ProductDetail/TE-Connectivity-AMP/V23086C1001A403-EV-BLBOX?qs=%2Fha2pyFaduiyCf0nu%252B%2FzxD2Z98dj0ewwvYmn1Z84d3wLAJpAKpkT%2F1hVahEYYzzV</datasheet>
+      <fields>
+        <field name="Description">Automotive Relays V23086C1001A403-EV-BLBOX</field>
+        <field name="Height">10</field>
+        <field name="Manufacturer_Name">TE Connectivity</field>
+        <field name="Manufacturer_Part_Number">V23086C1001A403-EV-BLBOX</field>
+        <field name="Mouser Part Number">655-1-1414761-0</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/TE-Connectivity-AMP/V23086C1001A403-EV-BLBOX?qs=0kFKDc1CZSmi6Mk74Rg5kg%3D%3D</field>
+        <field name="Type">THT</field>
+      </fields>
+      <libsource lib="CHAdeMO_V2.0-rescue" part="V23086C1001A403-EV-BLBOX-SamacSys_Parts" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F63B9E1</tstamp>
+    </comp>
+    <comp ref="R14">
+      <value>1 kOhm</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>https://nl.mouser.com/ProductDetail/Panasonic/ERJ-6ENF1001V?qs=sGAEpiMZZMtG0KNrPCHnjWXb3yLuGJ27akbDirKvTYA%3D</datasheet>
+      <fields>
+        <field name="JLC Footprint">0805</field>
+        <field name="JLC-URL">https://jlcpcb.com/parts/componentSearch?searchTxt=C17513</field>
+        <field name="LCSC part number">C17513</field>
+        <field name="Manufacturer_Part_Number">0805W8F1001T5E</field>
+        <field name="Mouser Part Number">667-ERJ-6ENF1001V</field>
+        <field name="Mouser link">https://nl.mouser.com/ProductDetail/Panasonic/ERJ-6ENF1001V?qs=sGAEpiMZZMtG0KNrPCHnjWXb3yLuGJ27akbDirKvTYA%3D</field>
+        <field name="Stock type">Basic</field>
+        <field name="Type">SMD</field>
+      </fields>
+      <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F54ADE4</tstamp>
+    </comp>
+    <comp ref="PS1">
+      <value>ROE-3.305S</value>
+      <footprint>SamacSys_Parts:ROE3305S</footprint>
+      <datasheet>https://nl.mouser.com/ProductDetail/RECOM-Power/ROE-3305S?qs=%2Fha2pyFadui8DrpX4CFO0oSW4HPKP0QPOSHbdRFVYVDaumpNTGL2kQ%3D%3D</datasheet>
+      <fields>
+        <field name="Description">Recom Through Hole 1W Isolated DC-DC Converter, I/O isolation 1kV dc, Vout 5V dc</field>
+        <field name="Field10">https://www.recom-power.com/pdf/Econoline/ROE.pdf</field>
+        <field name="Height">10.5</field>
+        <field name="Manufacturer_Name">RECOM Power</field>
+        <field name="Manufacturer_Part_Number">ROE-3.305S</field>
+        <field name="Mouser Part Number">919-ROE-3.305S</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/RECOM-Power/ROE-3305S?qs=wlO1EFRhkBCdowjFZq2Hcg%3D%3D</field>
+        <field name="Mouser link">https://nl.mouser.com/ProductDetail/RECOM-Power/ROE-3305S?qs=%2Fha2pyFadui8DrpX4CFO0oSW4HPKP0QPOSHbdRFVYVDaumpNTGL2kQ%3D%3D</field>
+        <field name="Type">THT</field>
+      </fields>
+      <libsource lib="CHAdeMO_V2.0-rescue" part="ROE-3.305S-SamacSys_Parts" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F67334D</tstamp>
+    </comp>
+    <comp ref="C46">
+      <value>10 uF</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric</footprint>
+      <datasheet>https://jlcpcb.com/parts/componentSearch?searchTxt=C13585</datasheet>
+      <fields>
+        <field name="JLC Footprint">1206</field>
+        <field name="LCSC part number">C13585</field>
+        <field name="Manufacturer_Part_Number">CL31A106KBHNNNE</field>
+        <field name="Mouser Part Number">810-CGA5L3X5R1H106K</field>
+        <field name="Mouser link">https://nl.mouser.com/ProductDetail/TDK/CGA5L3X5R1H106K160AB?qs=NRhsANhppD8pTJR%2Fk9qJww%3D%3D</field>
+        <field name="Stock type">Basic</field>
+        <field name="Type">SMD</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F6AB364</tstamp>
+    </comp>
+    <comp ref="C47">
+      <value>10 uF</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric</footprint>
+      <datasheet>https://jlcpcb.com/parts/componentSearch?searchTxt=C13585</datasheet>
+      <fields>
+        <field name="JLC Footprint">1206</field>
+        <field name="LCSC part number">C13585</field>
+        <field name="Manufacturer_Part_Number">CL31A106KBHNNNE</field>
+        <field name="Mouser Part Number">810-CGA5L3X5R1H106K</field>
+        <field name="Mouser link">https://nl.mouser.com/ProductDetail/TDK/CGA5L3X5R1H106K160AB?qs=NRhsANhppD8pTJR%2Fk9qJww%3D%3D</field>
+        <field name="Stock type">Basic</field>
+        <field name="Type">SMD</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F6C0053</tstamp>
+    </comp>
+    <comp ref="C45">
+      <value>10 uF</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric</footprint>
+      <datasheet>https://jlcpcb.com/parts/componentSearch?searchTxt=C13585</datasheet>
+      <fields>
+        <field name="JLC Footprint">1206</field>
+        <field name="LCSC part number">C13585</field>
+        <field name="Manufacturer_Part_Number">CL31A106KBHNNNE</field>
+        <field name="Mouser Part Number">810-CGA5L3X5R1H106K</field>
+        <field name="Mouser link">https://nl.mouser.com/ProductDetail/TDK/CGA5L3X5R1H106K160AB?qs=NRhsANhppD8pTJR%2Fk9qJww%3D%3D</field>
+        <field name="Stock type">Basic</field>
+        <field name="Type">SMD</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F6C0789</tstamp>
+    </comp>
+    <comp ref="L9">
+      <value>22 uH</value>
+      <footprint>Components:INDPM4442X200N</footprint>
+      <datasheet>https://nl.mouser.com/ProductDetail/Sumida/0420CDMCCDS-220MC?qs=%2Fha2pyFadugqX7ide%252BmDWYLBiwd9hTgArsnq5o9n14VrJzsLwHlPZw%3D%3D</datasheet>
+      <fields>
+        <field name="JLC Footprint">SMD-PIND-4.2x4.4x2.0_0.8x2.0</field>
+        <field name="JLC-URL">https://jlcpcb.com/parts/componentSearch?searchTxt=C408340</field>
+        <field name="LCSC part number">C408340</field>
+        <field name="Manufacturer_Part_Number">MWSA0402S-220MT</field>
+        <field name="Mouser Part Number">851-0420CDMCCDS220MC</field>
+        <field name="Mouser link">https://nl.mouser.com/ProductDetail/Sumida/0420CDMCCDS-220MC?qs=%2Fha2pyFadugqX7ide%252BmDWYLBiwd9hTgArsnq5o9n14VrJzsLwHlPZw%3D%3D</field>
+        <field name="Stock type">Extended</field>
+        <field name="Type">SMD</field>
+      </fields>
+      <libsource lib="pspice" part="INDUCTOR" description="Capacitor symbol for simulation only"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F6D449A</tstamp>
+    </comp>
+    <comp ref="C44">
+      <value>220 uF</value>
+      <footprint>SamacSys_Parts:CAPAE1040X1050N</footprint>
+      <datasheet>https://jlcpcb.com/parts/componentSearch?searchTxt=C176670</datasheet>
+      <fields>
+        <field name="JLC Footprint">SMD-ECAP-10x10</field>
+        <field name="JLC-URL">https://jlcpcb.com/parts/componentSearch?searchTxt=C176670</field>
+        <field name="LCSC part number">C176670</field>
+        <field name="Manufacturer_Part_Number">VEJ221M1HTR-1010</field>
+        <field name="Mouser Part Number">647-UCW1H221MNL1GS</field>
+        <field name="Mouser link">https://nl.mouser.com/ProductDetail/Nichicon/UCW1H221MNL1GS?qs=CjLBVBdJVbSEcvg%2FZ%252BfP6A%3D%3D</field>
+        <field name="Stock type">Extended</field>
+        <field name="Type">SMD</field>
+      </fields>
+      <libsource lib="Device" part="CP1" description="Polarized capacitor, US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F708884</tstamp>
+    </comp>
+    <comp ref="D6">
+      <value>D_TVS</value>
+      <footprint>Components:DIOM5436X261N</footprint>
+      <datasheet>https://nl.mouser.com/ProductDetail/Littelfuse/SMBJ18CA?qs=%2Fha2pyFadujTLE5PdsD8k%252BKNvCbBqEMOxNF4nJsLbzk%3D</datasheet>
+      <fields>
+        <field name="JLC Footprint">SMB,DO-214AA</field>
+        <field name="JLC-URL">https://jlcpcb.com/parts/componentSearch?searchTxt=C83327</field>
+        <field name="LCSC part number">C83327</field>
+        <field name="Manufacturer_Part_Number">SMBJ18CA</field>
+        <field name="Mouser Part Number">576-SMBJ18CA</field>
+        <field name="Mouser link">https://nl.mouser.com/ProductDetail/Littelfuse/SMBJ18CA?qs=%2Fha2pyFadujTLE5PdsD8k%252BKNvCbBqEMOxNF4nJsLbzk%3D</field>
+        <field name="Stock type">Extended</field>
+        <field name="Type">SMD</field>
+      </fields>
+      <libsource lib="Device" part="D_TVS" description="Bidirectional transient-voltage-suppression diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F71EB43</tstamp>
+    </comp>
+    <comp ref="L7">
+      <value>22 uH</value>
+      <footprint>Components:INDPM4442X200N</footprint>
+      <datasheet>https://jlcpcb.com/parts/componentSearch?searchTxt=C408340</datasheet>
+      <fields>
+        <field name="JLC Footprint">SMD-PIND-4.2x4.4x2.0_0.8x2.0</field>
+        <field name="JLC-URL">https://jlcpcb.com/parts/componentSearch?searchTxt=C408340</field>
+        <field name="LCSC part number">C408340</field>
+        <field name="Manufacturer_Part_Number">MWSA0402S-220MT</field>
+        <field name="Mouser Part Number">851-0420CDMCCDS220MC</field>
+        <field name="Mouser link">https://nl.mouser.com/ProductDetail/Sumida/0420CDMCCDS-220MC?qs=%2Fha2pyFadugqX7ide%252BmDWYLBiwd9hTgArsnq5o9n14VrJzsLwHlPZw%3D%3D</field>
+        <field name="Stock type">Extended</field>
+        <field name="Type">SMD</field>
+      </fields>
+      <libsource lib="pspice" part="INDUCTOR" description="Capacitor symbol for simulation only"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F7DB844</tstamp>
+    </comp>
+    <comp ref="C36">
+      <value>10 uF</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric</footprint>
+      <datasheet>https://jlcpcb.com/parts/componentSearch?searchTxt=C13585</datasheet>
+      <fields>
+        <field name="JLC Footprint">1206</field>
+        <field name="LCSC part number">C13585</field>
+        <field name="Manufacturer_Part_Number">CL31A106KBHNNNE</field>
+        <field name="Mouser Part Number">810-CGA5L3X5R1H106K</field>
+        <field name="Mouser link">https://nl.mouser.com/ProductDetail/TDK/CGA5L3X5R1H106K160AB?qs=NRhsANhppD8pTJR%2Fk9qJww%3D%3D</field>
+        <field name="Stock type">Basic</field>
+        <field name="Type">SMD</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F80C603</tstamp>
+    </comp>
+    <comp ref="C38">
+      <value>330 pF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>https://jlcpcb.com/parts/componentSearch?searchTxt=C51207</datasheet>
+      <fields>
+        <field name="JLC Footprint">0805</field>
+        <field name="LCSC part number">C51207</field>
+        <field name="Manufacturer_Part_Number">CL21B331KBANNNC</field>
+        <field name="Mouser Part Number">80-C0805C331K5RAUTO</field>
+        <field name="Mouser link">https://nl.mouser.com/ProductDetail/KEMET/C0805C331K5RACAUTO?qs=2FIyTMJ0hNmLvA9xBDqn5g%3D%3D</field>
+        <field name="Stock type">Basic</field>
+        <field name="Type">SMD</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F80E0CB</tstamp>
+    </comp>
+    <comp ref="C40">
+      <value>330 pF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>https://jlcpcb.com/parts/componentSearch?searchTxt=C51207</datasheet>
+      <fields>
+        <field name="JLC Footprint">0805</field>
+        <field name="LCSC part number">C51207</field>
+        <field name="Manufacturer_Part_Number">CL21B331KBANNNC</field>
+        <field name="Mouser Part Number">80-C0805C331K5RAUTO</field>
+        <field name="Mouser link">https://nl.mouser.com/ProductDetail/KEMET/C0805C331K5RACAUTO?qs=2FIyTMJ0hNmLvA9xBDqn5g%3D%3D</field>
+        <field name="Stock type">Basic</field>
+        <field name="Type">SMD</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F82CE78</tstamp>
+    </comp>
+    <comp ref="L8">
+      <value>22 uH</value>
+      <footprint>Components:INDPM4442X200N</footprint>
+      <datasheet>https://jlcpcb.com/parts/componentSearch?searchTxt=C408340</datasheet>
+      <fields>
+        <field name="JLC Footprint">SMD-PIND-4.2x4.4x2.0_0.8x2.0</field>
+        <field name="JLC-URL">https://jlcpcb.com/parts/componentSearch?searchTxt=C408340</field>
+        <field name="LCSC part number">C408340</field>
+        <field name="Manufacturer_Part_Number">MWSA0402S-220MT</field>
+        <field name="Mouser Part Number">851-0420CDMCCDS220MC</field>
+        <field name="Mouser link">https://nl.mouser.com/ProductDetail/Sumida/0420CDMCCDS-220MC?qs=%2Fha2pyFadugqX7ide%252BmDWYLBiwd9hTgArsnq5o9n14VrJzsLwHlPZw%3D%3D</field>
+        <field name="Stock type">Extended</field>
+        <field name="Type">SMD</field>
+      </fields>
+      <libsource lib="pspice" part="INDUCTOR" description="Capacitor symbol for simulation only"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F8ABEEF</tstamp>
+    </comp>
+    <comp ref="C37">
+      <value>10 uF</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric</footprint>
+      <datasheet>https://jlcpcb.com/parts/componentSearch?searchTxt=C13585</datasheet>
+      <fields>
+        <field name="JLC Footprint">1206</field>
+        <field name="LCSC part number">C13585</field>
+        <field name="Manufacturer_Part_Number">CL31A106KBHNNNE</field>
+        <field name="Mouser Part Number">810-CGA5L3X5R1H106K</field>
+        <field name="Mouser link">https://nl.mouser.com/ProductDetail/TDK/CGA5L3X5R1H106K160AB?qs=NRhsANhppD8pTJR%2Fk9qJww%3D%3D</field>
+        <field name="Stock type">Basic</field>
+        <field name="Type">SMD</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F8ABF09</tstamp>
+    </comp>
+    <comp ref="C39">
+      <value>330 pF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>https://jlcpcb.com/parts/componentSearch?searchTxt=C51207</datasheet>
+      <fields>
+        <field name="JLC Footprint">0805</field>
+        <field name="LCSC part number">C51207</field>
+        <field name="Manufacturer_Part_Number">CL21B331KBANNNC</field>
+        <field name="Mouser Part Number">80-C0805C331K5RAUTO</field>
+        <field name="Mouser link">https://nl.mouser.com/ProductDetail/KEMET/C0805C331K5RACAUTO?qs=2FIyTMJ0hNmLvA9xBDqn5g%3D%3D</field>
+        <field name="Stock type">Basic</field>
+        <field name="Type">SMD</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F8ABF22</tstamp>
+    </comp>
+    <comp ref="PS3">
+      <value>TR2024S3V3</value>
+      <footprint>SamacSys_Parts:TR2024S3V3</footprint>
+      <datasheet>https://nl.mouser.com/ProductDetail/XP-Power/TR2024S3V3?qs=%2Fha2pyFaduifXUBcauaJWz30UGOuXHfepqSpojquB9W2BKqb3MlDbA%3D%3D</datasheet>
+      <fields>
+        <field name="Description">Non-Isolated DC/DC Converters DC-DC Converter, Switching Regulator, 2A</field>
+        <field name="Field10">https://www.xppower.com/portals/0/pdfs/SF_TR20.pdf</field>
+        <field name="Height">10.1</field>
+        <field name="Manufacturer_Name">XP POWER</field>
+        <field name="Manufacturer_Part_Number">TR2024S3V3</field>
+        <field name="Mouser Part Number">209-TR2024S3V3</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/XP-Power/TR2024S3V3?qs=xZ%2FP%252Ba9zWqaTWxzsWP9Idw%3D%3D</field>
+        <field name="Mouser link">https://nl.mouser.com/ProductDetail/XP-Power/TR2024S3V3?qs=%2Fha2pyFaduifXUBcauaJWz30UGOuXHfepqSpojquB9W2BKqb3MlDbA%3D%3D</field>
+        <field name="Type">THT</field>
+      </fields>
+      <libsource lib="CHAdeMO_V2.0-rescue" part="TR2024S3V3-SamacSys_Parts" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F9A9035</tstamp>
+    </comp>
+    <comp ref="F2">
+      <value>500 mA</value>
+      <footprint>Fuse:Fuse_1206_3216Metric</footprint>
+      <datasheet>https://nl.mouser.com/ProductDetail/652-MF-NSHT050KX-2</datasheet>
+      <fields>
+        <field name="Mouser Part Number">652-MF-NSHT050KX-2</field>
+        <field name="Mouser link">https://nl.mouser.com/ProductDetail/652-MF-NSHT050KX-2</field>
+        <field name="Type">SMD</field>
+      </fields>
+      <libsource lib="Device" part="Polyfuse" description="Resettable fuse, polymeric positive temperature coefficient"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FDC9FD9</tstamp>
+    </comp>
+    <comp ref="F1">
+      <value>2 A</value>
+      <footprint>SamacSys_Parts:FUSC7451X125N</footprint>
+      <datasheet>https://nl.mouser.com/ProductDetail/Littelfuse/2920L200-24DR?qs=PWhpLWeW8wffSOrwZt6C2Q%3D%3D</datasheet>
+      <fields>
+        <field name="Mouser Part Number">576-2920L200/24DR</field>
+        <field name="Mouser link">https://nl.mouser.com/ProductDetail/Littelfuse/2920L200-24DR?qs=PWhpLWeW8wffSOrwZt6C2Q%3D%3D</field>
+        <field name="Type">SMD</field>
+      </fields>
+      <libsource lib="Device" part="Polyfuse" description="Resettable fuse, polymeric positive temperature coefficient"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FE07EAC</tstamp>
+    </comp>
+    <comp ref="D2">
+      <value>1N4148W</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <datasheet>https://jlcpcb.com/parts/componentSearch?searchTxt=C81598</datasheet>
+      <fields>
+        <field name="JLC Footprint">SOD-123</field>
+        <field name="JLC-URL">https://jlcpcb.com/parts/componentSearch?searchTxt=C81598</field>
+        <field name="LCSC part number">C81598</field>
+        <field name="Manufacturer_Part_Number">1N4148W</field>
+        <field name="Mouser Part Number">621-1N4148W-F</field>
+        <field name="Mouser link">https://nl.mouser.com/ProductDetail/Diodes-Incorporated/1N4148W-7-F?qs=%2Fha2pyFadujYbUVm%252BOEfeV5LQgnaBS8zAQJ9gwbNRK0%3D</field>
+        <field name="Stock type">Basic</field>
+        <field name="Type">SMD</field>
+      </fields>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6000036F</tstamp>
+    </comp>
+    <comp ref="C33">
+      <value>10 uF</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric</footprint>
+      <datasheet>https://jlcpcb.com/parts/componentSearch?searchTxt=C13585</datasheet>
+      <fields>
+        <field name="JLC Footprint">1206</field>
+        <field name="LCSC part number">C13585</field>
+        <field name="Manufacturer_Part_Number">CL31A106KBHNNNE</field>
+        <field name="Mouser Part Number">810-CGA5L3X5R1H106K</field>
+        <field name="Mouser link">https://nl.mouser.com/ProductDetail/TDK/CGA5L3X5R1H106K160AB?qs=NRhsANhppD8pTJR%2Fk9qJww%3D%3D</field>
+        <field name="Stock type">Basic</field>
+        <field name="Type">SMD</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6009830C</tstamp>
+    </comp>
+    <comp ref="C32">
+      <value>10 uF</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric</footprint>
+      <datasheet>https://jlcpcb.com/parts/componentSearch?searchTxt=C13585</datasheet>
+      <fields>
+        <field name="JLC Footprint">1206</field>
+        <field name="LCSC part number">C13585</field>
+        <field name="Manufacturer_Part_Number">CL31A106KBHNNNE</field>
+        <field name="Mouser Part Number">810-CGA5L3X5R1H106K</field>
+        <field name="Mouser link">https://nl.mouser.com/ProductDetail/TDK/CGA5L3X5R1H106K160AB?qs=NRhsANhppD8pTJR%2Fk9qJww%3D%3D</field>
+        <field name="Stock type">Basic</field>
+        <field name="Type">SMD</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>600BFB6B</tstamp>
+    </comp>
+    <comp ref="C29">
+      <value>10 uF</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric</footprint>
+      <datasheet>https://jlcpcb.com/parts/componentSearch?searchTxt=C13585</datasheet>
+      <fields>
+        <field name="JLC Footprint">1206</field>
+        <field name="LCSC part number">C13585</field>
+        <field name="Manufacturer_Part_Number">CL31A106KBHNNNE</field>
+        <field name="Mouser Part Number">810-CGA5L3X5R1H106K</field>
+        <field name="Mouser link">https://nl.mouser.com/ProductDetail/TDK/CGA5L3X5R1H106K160AB?qs=NRhsANhppD8pTJR%2Fk9qJww%3D%3D</field>
+        <field name="Stock type">Basic</field>
+        <field name="Type">SMD</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F617554</tstamp>
+    </comp>
+    <comp ref="C28">
+      <value>100 nF</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric</footprint>
+      <datasheet>https://jlcpcb.com/parts/componentSearch?searchTxt=CL31B104KBCNNNC</datasheet>
+      <fields>
+        <field name="JLC Footprint">1206</field>
+        <field name="LCSC part number">C24497</field>
+        <field name="Manufacturer_Part_Number">CL31B104KBCNNNC</field>
+        <field name="Mouser Part Number">80-C1206C104K5RAUTO</field>
+        <field name="Mouser link">https://nl.mouser.com/ProductDetail/KEMET/C1206C104K5RACAUTO?qs=8xX%252BF9%252BWV6EfUow3P%252BQkbA%3D%3D</field>
+        <field name="Stock type">Basic</field>
+        <field name="Type">SMD</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F611856</tstamp>
+    </comp>
+    <comp ref="L3">
+      <value>Imp. 30 Ohm</value>
+      <footprint>Inductor_SMD:L_0603_1608Metric</footprint>
+      <datasheet>https://jlcpcb.com/parts/componentSearch?searchTxt=C24821</datasheet>
+      <fields>
+        <field name="JLC Footprint">0603</field>
+        <field name="JLC-URL">https://jlcpcb.com/parts/componentSearch?searchTxt=C24821</field>
+        <field name="LCSC part number">C24821</field>
+        <field name="Manufacturer_Part_Number">GZ1608D300TF</field>
+        <field name="Mouser Part Number">810-MAF1608GAD201LTA</field>
+        <field name="Mouser link">https://nl.mouser.com/ProductDetail/TDK/MAF1608GAD201LTAH0?qs=BJlw7L4Cy79j18hBlf4%2FXA%3D%3D</field>
+        <field name="Stock type">Extended</field>
+        <field name="Type">SMD</field>
+      </fields>
+      <libsource lib="Device" part="L_Core_Ferrite" description="Inductor with ferrite core"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6015989A</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>10 uF</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric</footprint>
+      <datasheet>https://jlcpcb.com/parts/componentSearch?searchTxt=C13585</datasheet>
+      <fields>
+        <field name="JLC Footprint">1206</field>
+        <field name="LCSC part number">C13585</field>
+        <field name="Manufacturer_Part_Number">CL31A106KBHNNNE</field>
+        <field name="Mouser Part Number">810-CGA5L3X5R1H106K</field>
+        <field name="Mouser link">https://nl.mouser.com/ProductDetail/TDK/CGA5L3X5R1H106K160AB?qs=NRhsANhppD8pTJR%2Fk9qJww%3D%3D</field>
+        <field name="Stock type">Basic</field>
+        <field name="Type">SMD</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6015E144</tstamp>
+    </comp>
+    <comp ref="C9">
+      <value>100 nF</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric</footprint>
+      <datasheet>https://jlcpcb.com/parts/componentSearch?searchTxt=CL31B104KBCNNNC</datasheet>
+      <fields>
+        <field name="JLC Footprint">1206</field>
+        <field name="LCSC part number">C24497</field>
+        <field name="Manufacturer_Part_Number">CL31B104KBCNNNC</field>
+        <field name="Mouser Part Number">80-C1206C104K5RAUTO</field>
+        <field name="Mouser link">https://nl.mouser.com/ProductDetail/KEMET/C1206C104K5RACAUTO?qs=8xX%252BF9%252BWV6EfUow3P%252BQkbA%3D%3D</field>
+        <field name="Stock type">Basic</field>
+        <field name="Type">SMD</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>601EA97D</tstamp>
+    </comp>
+    <comp ref="C14">
+      <value>100 nF</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric</footprint>
+      <datasheet>https://jlcpcb.com/parts/componentSearch?searchTxt=CL31B104KBCNNNC</datasheet>
+      <fields>
+        <field name="JLC Footprint">1206</field>
+        <field name="LCSC part number">C24497</field>
+        <field name="Manufacturer_Part_Number">CL31B104KBCNNNC</field>
+        <field name="Mouser Part Number">80-C1206C104K5RAUTO</field>
+        <field name="Mouser link">https://nl.mouser.com/ProductDetail/KEMET/C1206C104K5RACAUTO?qs=8xX%252BF9%252BWV6EfUow3P%252BQkbA%3D%3D</field>
+        <field name="Stock type">Basic</field>
+        <field name="Type">SMD</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>601EB02E</tstamp>
+    </comp>
+    <comp ref="C16">
+      <value>100 nF</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric</footprint>
+      <datasheet>https://jlcpcb.com/parts/componentSearch?searchTxt=CL31B104KBCNNNC</datasheet>
+      <fields>
+        <field name="JLC Footprint">1206</field>
+        <field name="LCSC part number">C24497</field>
+        <field name="Manufacturer_Part_Number">CL31B104KBCNNNC</field>
+        <field name="Mouser Part Number">80-C1206C104K5RAUTO</field>
+        <field name="Mouser link">https://nl.mouser.com/ProductDetail/KEMET/C1206C104K5RACAUTO?qs=8xX%252BF9%252BWV6EfUow3P%252BQkbA%3D%3D</field>
+        <field name="Stock type">Basic</field>
+        <field name="Type">SMD</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>601EB1CF</tstamp>
+    </comp>
+    <comp ref="C19">
+      <value>100 nF</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric</footprint>
+      <datasheet>https://jlcpcb.com/parts/componentSearch?searchTxt=CL31B104KBCNNNC</datasheet>
+      <fields>
+        <field name="JLC Footprint">1206</field>
+        <field name="LCSC part number">C24497</field>
+        <field name="Manufacturer_Part_Number">CL31B104KBCNNNC</field>
+        <field name="Mouser Part Number">80-C1206C104K5RAUTO</field>
+        <field name="Mouser link">https://nl.mouser.com/ProductDetail/KEMET/C1206C104K5RACAUTO?qs=8xX%252BF9%252BWV6EfUow3P%252BQkbA%3D%3D</field>
+        <field name="Stock type">Basic</field>
+        <field name="Type">SMD</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>601EB58C</tstamp>
+    </comp>
+    <comp ref="C21">
+      <value>100 nF</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric</footprint>
+      <datasheet>https://jlcpcb.com/parts/componentSearch?searchTxt=CL31B104KBCNNNC</datasheet>
+      <fields>
+        <field name="JLC Footprint">1206</field>
+        <field name="LCSC part number">C24497</field>
+        <field name="Manufacturer_Part_Number">CL31B104KBCNNNC</field>
+        <field name="Mouser Part Number">80-C1206C104K5RAUTO</field>
+        <field name="Mouser link">https://nl.mouser.com/ProductDetail/KEMET/C1206C104K5RACAUTO?qs=8xX%252BF9%252BWV6EfUow3P%252BQkbA%3D%3D</field>
+        <field name="Stock type">Basic</field>
+        <field name="Type">SMD</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>601EB712</tstamp>
+    </comp>
+    <comp ref="L2">
+      <value>Imp. 30 Ohm</value>
+      <footprint>Inductor_SMD:L_0603_1608Metric</footprint>
+      <datasheet>https://jlcpcb.com/parts/componentSearch?searchTxt=C24821</datasheet>
+      <fields>
+        <field name="JLC Footprint">0603</field>
+        <field name="JLC-URL">https://jlcpcb.com/parts/componentSearch?searchTxt=C24821</field>
+        <field name="LCSC part number">C24821</field>
+        <field name="Manufacturer_Part_Number">GZ1608D300TF</field>
+        <field name="Mouser Part Number">810-MAF1608GAD201LTA</field>
+        <field name="Mouser link">https://nl.mouser.com/ProductDetail/TDK/MAF1608GAD201LTAH0?qs=BJlw7L4Cy79j18hBlf4%2FXA%3D%3D</field>
+        <field name="Stock type">Extended</field>
+        <field name="Type">SMD</field>
+      </fields>
+      <libsource lib="Device" part="L_Core_Ferrite" description="Inductor with ferrite core"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60219E66</tstamp>
+    </comp>
+    <comp ref="C23">
+      <value>100 nF</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric</footprint>
+      <datasheet>https://jlcpcb.com/parts/componentSearch?searchTxt=CL31B104KBCNNNC</datasheet>
+      <fields>
+        <field name="JLC Footprint">1206</field>
+        <field name="LCSC part number">C24497</field>
+        <field name="Manufacturer_Part_Number">CL31B104KBCNNNC</field>
+        <field name="Mouser Part Number">80-C1206C104K5RAUTO</field>
+        <field name="Mouser link">https://nl.mouser.com/ProductDetail/KEMET/C1206C104K5RACAUTO?qs=8xX%252BF9%252BWV6EfUow3P%252BQkbA%3D%3D</field>
+        <field name="Stock type">Basic</field>
+        <field name="Type">SMD</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60284135</tstamp>
+    </comp>
+    <comp ref="C7">
+      <value>100 nF</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric</footprint>
+      <datasheet>https://jlcpcb.com/parts/componentSearch?searchTxt=CL31B104KBCNNNC</datasheet>
+      <fields>
+        <field name="JLC Footprint">1206</field>
+        <field name="LCSC part number">C24497</field>
+        <field name="Manufacturer_Part_Number">CL31B104KBCNNNC</field>
+        <field name="Mouser Part Number">80-C1206C104K5RAUTO</field>
+        <field name="Mouser link">https://nl.mouser.com/ProductDetail/KEMET/C1206C104K5RACAUTO?qs=8xX%252BF9%252BWV6EfUow3P%252BQkbA%3D%3D</field>
+        <field name="Stock type">Basic</field>
+        <field name="Type">SMD</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6015D346</tstamp>
+    </comp>
+    <comp ref="C24">
+      <value>10 uF</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric</footprint>
+      <datasheet>https://jlcpcb.com/parts/componentSearch?searchTxt=C13585</datasheet>
+      <fields>
+        <field name="JLC Footprint">1206</field>
+        <field name="LCSC part number">C13585</field>
+        <field name="Manufacturer_Part_Number">CL31A106KBHNNNE</field>
+        <field name="Mouser Part Number">810-CGA5L3X5R1H106K</field>
+        <field name="Mouser link">https://nl.mouser.com/ProductDetail/TDK/CGA5L3X5R1H106K160AB?qs=NRhsANhppD8pTJR%2Fk9qJww%3D%3D</field>
+        <field name="Stock type">Basic</field>
+        <field name="Type">SMD</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>602D189B</tstamp>
+    </comp>
+    <comp ref="C25">
+      <value>100 nF</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric</footprint>
+      <datasheet>https://jlcpcb.com/parts/componentSearch?searchTxt=CL31B104KBCNNNC</datasheet>
+      <fields>
+        <field name="JLC Footprint">1206</field>
+        <field name="LCSC part number">C24497</field>
+        <field name="Manufacturer_Part_Number">CL31B104KBCNNNC</field>
+        <field name="Mouser Part Number">80-C1206C104K5RAUTO</field>
+        <field name="Mouser link">https://nl.mouser.com/ProductDetail/KEMET/C1206C104K5RACAUTO?qs=8xX%252BF9%252BWV6EfUow3P%252BQkbA%3D%3D</field>
+        <field name="Stock type">Basic</field>
+        <field name="Type">SMD</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>603025B0</tstamp>
+    </comp>
+    <comp ref="C26">
+      <value>10 uF</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric</footprint>
+      <datasheet>https://jlcpcb.com/parts/componentSearch?searchTxt=C13585</datasheet>
+      <fields>
+        <field name="JLC Footprint">1206</field>
+        <field name="LCSC part number">C13585</field>
+        <field name="Manufacturer_Part_Number">CL31A106KBHNNNE</field>
+        <field name="Mouser Part Number">810-CGA5L3X5R1H106K</field>
+        <field name="Mouser link">https://nl.mouser.com/ProductDetail/TDK/CGA5L3X5R1H106K160AB?qs=NRhsANhppD8pTJR%2Fk9qJww%3D%3D</field>
+        <field name="Stock type">Basic</field>
+        <field name="Type">SMD</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60302C46</tstamp>
+    </comp>
+    <comp ref="C6">
+      <value>10 uF</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric</footprint>
+      <datasheet>https://jlcpcb.com/parts/componentSearch?searchTxt=C13585</datasheet>
+      <fields>
+        <field name="JLC Footprint">1206</field>
+        <field name="LCSC part number">C13585</field>
+        <field name="Manufacturer_Part_Number">CL31A106KBHNNNE</field>
+        <field name="Mouser Part Number">810-CGA5L3X5R1H106K</field>
+        <field name="Mouser link">https://nl.mouser.com/ProductDetail/TDK/CGA5L3X5R1H106K160AB?qs=NRhsANhppD8pTJR%2Fk9qJww%3D%3D</field>
+        <field name="Stock type">Basic</field>
+        <field name="Type">SMD</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>603366D0</tstamp>
+    </comp>
+    <comp ref="C8">
+      <value>100 nF</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric</footprint>
+      <datasheet>https://jlcpcb.com/parts/componentSearch?searchTxt=CL31B104KBCNNNC</datasheet>
+      <fields>
+        <field name="JLC Footprint">1206</field>
+        <field name="LCSC part number">C24497</field>
+        <field name="Manufacturer_Part_Number">CL31B104KBCNNNC</field>
+        <field name="Mouser Part Number">80-C1206C104K5RAUTO</field>
+        <field name="Mouser link">https://nl.mouser.com/ProductDetail/KEMET/C1206C104K5RACAUTO?qs=8xX%252BF9%252BWV6EfUow3P%252BQkbA%3D%3D</field>
+        <field name="Stock type">Basic</field>
+        <field name="Type">SMD</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6033720C</tstamp>
+    </comp>
+    <comp ref="C10">
+      <value>100 nF</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric</footprint>
+      <datasheet>https://jlcpcb.com/parts/componentSearch?searchTxt=CL31B104KBCNNNC</datasheet>
+      <fields>
+        <field name="JLC Footprint">1206</field>
+        <field name="LCSC part number">C24497</field>
+        <field name="Manufacturer_Part_Number">CL31B104KBCNNNC</field>
+        <field name="Mouser Part Number">80-C1206C104K5RAUTO</field>
+        <field name="Mouser link">https://nl.mouser.com/ProductDetail/KEMET/C1206C104K5RACAUTO?qs=8xX%252BF9%252BWV6EfUow3P%252BQkbA%3D%3D</field>
+        <field name="Stock type">Basic</field>
+        <field name="Type">SMD</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60337F8D</tstamp>
+    </comp>
+    <comp ref="C15">
+      <value>100 nF</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric</footprint>
+      <datasheet>https://jlcpcb.com/parts/componentSearch?searchTxt=CL31B104KBCNNNC</datasheet>
+      <fields>
+        <field name="JLC Footprint">1206</field>
+        <field name="LCSC part number">C24497</field>
+        <field name="Manufacturer_Part_Number">CL31B104KBCNNNC</field>
+        <field name="Mouser Part Number">80-C1206C104K5RAUTO</field>
+        <field name="Mouser link">https://nl.mouser.com/ProductDetail/KEMET/C1206C104K5RACAUTO?qs=8xX%252BF9%252BWV6EfUow3P%252BQkbA%3D%3D</field>
+        <field name="Stock type">Basic</field>
+        <field name="Type">SMD</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60338471</tstamp>
+    </comp>
+    <comp ref="C17">
+      <value>100 nF</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric</footprint>
+      <datasheet>https://jlcpcb.com/parts/componentSearch?searchTxt=CL31B104KBCNNNC</datasheet>
+      <fields>
+        <field name="JLC Footprint">1206</field>
+        <field name="LCSC part number">C24497</field>
+        <field name="Manufacturer_Part_Number">CL31B104KBCNNNC</field>
+        <field name="Mouser Part Number">80-C1206C104K5RAUTO</field>
+        <field name="Mouser link">https://nl.mouser.com/ProductDetail/KEMET/C1206C104K5RACAUTO?qs=8xX%252BF9%252BWV6EfUow3P%252BQkbA%3D%3D</field>
+        <field name="Stock type">Basic</field>
+        <field name="Type">SMD</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6033876F</tstamp>
+    </comp>
+    <comp ref="C20">
+      <value>100 nF</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric</footprint>
+      <datasheet>https://jlcpcb.com/parts/componentSearch?searchTxt=CL31B104KBCNNNC</datasheet>
+      <fields>
+        <field name="JLC Footprint">1206</field>
+        <field name="LCSC part number">C24497</field>
+        <field name="Manufacturer_Part_Number">CL31B104KBCNNNC</field>
+        <field name="Mouser Part Number">80-C1206C104K5RAUTO</field>
+        <field name="Mouser link">https://nl.mouser.com/ProductDetail/KEMET/C1206C104K5RACAUTO?qs=8xX%252BF9%252BWV6EfUow3P%252BQkbA%3D%3D</field>
+        <field name="Stock type">Basic</field>
+        <field name="Type">SMD</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60338995</tstamp>
+    </comp>
+    <comp ref="C22">
+      <value>100 nF</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric</footprint>
+      <datasheet>https://jlcpcb.com/parts/componentSearch?searchTxt=CL31B104KBCNNNC</datasheet>
+      <fields>
+        <field name="JLC Footprint">1206</field>
+        <field name="LCSC part number">C24497</field>
+        <field name="Manufacturer_Part_Number">CL31B104KBCNNNC</field>
+        <field name="Mouser Part Number">80-C1206C104K5RAUTO</field>
+        <field name="Mouser link">https://nl.mouser.com/ProductDetail/KEMET/C1206C104K5RACAUTO?qs=8xX%252BF9%252BWV6EfUow3P%252BQkbA%3D%3D</field>
+        <field name="Stock type">Basic</field>
+        <field name="Type">SMD</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60338CAE</tstamp>
+    </comp>
+    <comp ref="IC2">
+      <value>ISO1050DUBR</value>
+      <footprint>SamacSys_Parts:SOP254P1040X485-8N</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/iso1050.pdf</datasheet>
+      <fields>
+        <field name="Description">Digital Isolators Iso 5V CAN Xcvr</field>
+        <field name="Height">4.85</field>
+        <field name="JLC Footprint">SMD-8_6.6x9.5x2.54P</field>
+        <field name="JLC-URL">https://jlcpcb.com/parts/componentSearch?searchTxt=C16428</field>
+        <field name="LCSC part number">C16428</field>
+        <field name="Manufacturer_Name">Texas Instruments</field>
+        <field name="Manufacturer_Part_Number">ISO1050DUBR</field>
+        <field name="Mouser Part Number">595-ISO1050DUBR</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Texas-Instruments/ISO1050DUBR?qs=IK5e5L0zOXhhp9hdAolE%252BA%3D%3D</field>
+        <field name="Mouser link">https://nl.mouser.com/ProductDetail/Texas-Instruments/ISO1050DUBR?qs=IK5e5L0zOXhhp9hdAolE%252BA%3D%3D</field>
+        <field name="Stock type">Basic</field>
+        <field name="Type">SMD</field>
+      </fields>
+      <libsource lib="CHAdeMO_V2.0-rescue" part="ISO1050DUBR-SamacSys_Parts" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F9261A7</tstamp>
+    </comp>
+    <comp ref="PS2">
+      <value>ROE-3.305S</value>
+      <footprint>SamacSys_Parts:ROE3305S</footprint>
+      <datasheet>https://nl.mouser.com/ProductDetail/RECOM-Power/ROE-3305S?qs=%2Fha2pyFadui8DrpX4CFO0oSW4HPKP0QPOSHbdRFVYVDaumpNTGL2kQ%3D%3D</datasheet>
+      <fields>
+        <field name="Description">Recom Through Hole 1W Isolated DC-DC Converter, I/O isolation 1kV dc, Vout 5V dc</field>
+        <field name="Field10">https://www.recom-power.com/pdf/Econoline/ROE.pdf</field>
+        <field name="Height">10.5</field>
+        <field name="Manufacturer_Name">RECOM Power</field>
+        <field name="Manufacturer_Part_Number">ROE-3.305S</field>
+        <field name="Mouser Part Number">919-ROE-3.305S</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/RECOM-Power/ROE-3305S?qs=wlO1EFRhkBCdowjFZq2Hcg%3D%3D</field>
+        <field name="Mouser link">https://nl.mouser.com/ProductDetail/RECOM-Power/ROE-3305S?qs=%2Fha2pyFadui8DrpX4CFO0oSW4HPKP0QPOSHbdRFVYVDaumpNTGL2kQ%3D%3D</field>
+        <field name="Type">THT</field>
+      </fields>
+      <libsource lib="CHAdeMO_V2.0-rescue" part="ROE-3.305S-SamacSys_Parts" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F8ABED4</tstamp>
+    </comp>
+    <comp ref="C41">
+      <value>330 pF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>https://jlcpcb.com/parts/componentSearch?searchTxt=C51207</datasheet>
+      <fields>
+        <field name="JLC Footprint">0805</field>
+        <field name="LCSC part number">C51207</field>
+        <field name="Manufacturer_Part_Number">CL21B331KBANNNC</field>
+        <field name="Mouser Part Number">80-C0805C331K5RAUTO</field>
+        <field name="Mouser link">https://nl.mouser.com/ProductDetail/KEMET/C0805C331K5RACAUTO?qs=2FIyTMJ0hNmLvA9xBDqn5g%3D%3D</field>
+        <field name="Stock type">Basic</field>
+        <field name="Type">SMD</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F8ABF34</tstamp>
+    </comp>
+    <comp ref="D1">
+      <value>1N4148W</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <datasheet>https://jlcpcb.com/parts/componentSearch?searchTxt=C81598</datasheet>
+      <fields>
+        <field name="JLC Footprint">SOD-123</field>
+        <field name="JLC-URL">https://jlcpcb.com/parts/componentSearch?searchTxt=C81598</field>
+        <field name="LCSC part number">C81598</field>
+        <field name="Manufacturer_Part_Number">1N4148W</field>
+        <field name="Mouser Part Number">621-1N4148W-F</field>
+        <field name="Mouser link">https://nl.mouser.com/ProductDetail/Diodes-Incorporated/1N4148W-7-F?qs=%2Fha2pyFadujYbUVm%252BOEfeV5LQgnaBS8zAQJ9gwbNRK0%3D</field>
+        <field name="Stock type">Basic</field>
+        <field name="Type">SMD</field>
+      </fields>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FDF3C3F</tstamp>
+    </comp>
+    <comp ref="H1">
+      <value>MountingHole</value>
+      <footprint>Components:JLCPCB-ToolingHole</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F7281B2</tstamp>
+    </comp>
+    <comp ref="H2">
+      <value>MountingHole</value>
+      <footprint>Components:JLCPCB-ToolingHole</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F74C3DF</tstamp>
+    </comp>
+    <comp ref="H3">
+      <value>MountingHole</value>
+      <footprint>Components:JLCPCB-ToolingHole</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F74D721</tstamp>
+    </comp>
+    <comp ref="R11">
+      <value>60 Ohm</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <datasheet>https://nl.mouser.com/ProductDetail/Vishay-Dale/CRCW120660R0KNEAIF?qs=0LP1uVfdam9gTU37MuGrNg%3D%3D</datasheet>
+      <fields>
+        <field name="JLC Footprint">1206</field>
+        <field name="Manufacturer_Part_Number">CRCW120660R0KNEAIF</field>
+        <field name="Mouser Part Number">71-CRCW120660R0KNAIF</field>
+        <field name="Mouser link">https://nl.mouser.com/ProductDetail/Vishay-Dale/CRCW120660R0KNEAIF?qs=0LP1uVfdam9gTU37MuGrNg%3D%3D</field>
+        <field name="Type">SMD</field>
+      </fields>
+      <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F7C9CDF</tstamp>
+    </comp>
+    <comp ref="JP1">
+      <value>SolderJumper_2_Open</value>
+      <footprint>Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Jumper" part="SolderJumper_2_Open" description="Solder Jumper, 2-pole, open"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F85D66A</tstamp>
+    </comp>
+    <comp ref="HLOGO1">
+      <value>MountingHole</value>
+      <footprint>Components:EVcreate_2500</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F8A9358</tstamp>
+    </comp>
+    <comp ref="C42">
+      <value>100 nF</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric</footprint>
+      <datasheet>https://jlcpcb.com/parts/componentSearch?searchTxt=CL31B104KBCNNNC</datasheet>
+      <fields>
+        <field name="JLC Footprint">1206</field>
+        <field name="LCSC part number">C24497</field>
+        <field name="Manufacturer_Part_Number">CL31B104KBCNNNC</field>
+        <field name="Mouser Part Number">80-C1206C104K5RAUTO</field>
+        <field name="Mouser link">https://nl.mouser.com/ProductDetail/KEMET/C1206C104K5RACAUTO?qs=8xX%252BF9%252BWV6EfUow3P%252BQkbA%3D%3D</field>
+        <field name="Stock type">Basic</field>
+        <field name="Type">SMD</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F600733</tstamp>
+    </comp>
+    <comp ref="C43">
+      <value>100 nF</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric</footprint>
+      <datasheet>https://jlcpcb.com/parts/componentSearch?searchTxt=CL31B104KBCNNNC</datasheet>
+      <fields>
+        <field name="JLC Footprint">1206</field>
+        <field name="LCSC part number">C24497</field>
+        <field name="Manufacturer_Part_Number">CL31B104KBCNNNC</field>
+        <field name="Mouser Part Number">80-C1206C104K5RAUTO</field>
+        <field name="Mouser link">https://nl.mouser.com/ProductDetail/KEMET/C1206C104K5RACAUTO?qs=8xX%252BF9%252BWV6EfUow3P%252BQkbA%3D%3D</field>
+        <field name="Stock type">Basic</field>
+        <field name="Type">SMD</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F601B5F</tstamp>
+    </comp>
+    <comp ref="R17">
+      <value>10 kOhm</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>https://nl.mouser.com/ProductDetail/Panasonic/ERJ-6ENF1002V?qs=4WZYzuGhm5pfKPfuMiCO5g%3D%3D</datasheet>
+      <fields>
+        <field name="JLC Footprint">0805</field>
+        <field name="JLC-URL">https://jlcpcb.com/parts/componentSearch?searchTxt=C25744</field>
+        <field name="LCSC part number">C25744</field>
+        <field name="Manufacturer_Part_Number">ERJ-6ENF1002V</field>
+        <field name="Mouser Part Number">667-ERJ-6ENF1002V</field>
+        <field name="Mouser link">https://nl.mouser.com/ProductDetail/Panasonic/ERJ-6ENF1002V?qs=4WZYzuGhm5pfKPfuMiCO5g%3D%3D</field>
+        <field name="Stock type">Basic</field>
+        <field name="Type">SMD</field>
+      </fields>
+      <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F59054E</tstamp>
+    </comp>
+    <comp ref="R15">
+      <value>1 kOhm</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>https://nl.mouser.com/ProductDetail/Panasonic/ERJ-6ENF1001V?qs=sGAEpiMZZMtG0KNrPCHnjWXb3yLuGJ27akbDirKvTYA%3D</datasheet>
+      <fields>
+        <field name="JLC Footprint">0805</field>
+        <field name="JLC-URL">https://jlcpcb.com/parts/componentSearch?searchTxt=C17513</field>
+        <field name="LCSC part number">C17513</field>
+        <field name="Manufacturer_Part_Number">0805W8F1001T5E</field>
+        <field name="Mouser Part Number">667-ERJ-6ENF1001V</field>
+        <field name="Mouser link">https://nl.mouser.com/ProductDetail/Panasonic/ERJ-6ENF1001V?qs=sGAEpiMZZMtG0KNrPCHnjWXb3yLuGJ27akbDirKvTYA%3D</field>
+        <field name="Stock type">Basic</field>
+        <field name="Type">SMD</field>
+      </fields>
+      <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F5331E0</tstamp>
+    </comp>
+    <comp ref="D3">
+      <value>D_TVS</value>
+      <footprint>Components:DIOM5436X261N</footprint>
+      <datasheet>https://jlcpcb.com/parts/componentSearch?searchTxt=C83327</datasheet>
+      <fields>
+        <field name="JLC Footprint">SMB,DO-214AA</field>
+        <field name="JLC-URL">https://jlcpcb.com/parts/componentSearch?searchTxt=C83327</field>
+        <field name="LCSC part number">C83327</field>
+        <field name="Manufacturer_Part_Number">SMBJ18CA</field>
+        <field name="Mouser Part Number">576-SMBJ18CA</field>
+        <field name="Mouser link">https://nl.mouser.com/ProductDetail/Littelfuse/SMBJ18CA?qs=%2Fha2pyFadujTLE5PdsD8k%252BKNvCbBqEMOxNF4nJsLbzk%3D</field>
+        <field name="Stock type">Extended</field>
+        <field name="Type">SMD</field>
+      </fields>
+      <libsource lib="Device" part="D_TVS" description="Bidirectional transient-voltage-suppression diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F524EC5</tstamp>
+    </comp>
+    <comp ref="U3">
+      <value>VOM617A-4T</value>
+      <footprint>Components:VOM617A8X001T</footprint>
+      <datasheet>https://nl.mouser.com/ProductDetail/78-VOM617A-4T</datasheet>
+      <fields>
+        <field name="Field4">7</field>
+        <field name="Field5">IPC-7351B</field>
+        <field name="JLC Footprint">SMD-4_4.6x6.5x2.54P</field>
+        <field name="JLC-URL">https://jlcpcb.com/parts/componentSearch?searchTxt=C106900</field>
+        <field name="LCSC part number">C106900</field>
+        <field name="Manufacturer_Part_Number">VOM617A-4T</field>
+        <field name="Mouser Part Number">78-VOM617A-4T</field>
+        <field name="Mouser link">https://nl.mouser.com/ProductDetail/78-VOM617A-4T</field>
+        <field name="Stock type">Basic</field>
+        <field name="Type">SMD</field>
+      </fields>
+      <libsource lib="CHAdeMO_V2.0-rescue" part="EL817S(TU)-EL817S_TU_" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F987C54</tstamp>
+    </comp>
+    <comp ref="J3">
+      <value>39-28-8020</value>
+      <footprint>Components:SHDR2W125P550X420_2X1_540X960X1310P</footprint>
+      <datasheet>http://www.molex.com/molex/products/datasheet.jsp?part=active/0039288020_PCB_HEADERS.xml</datasheet>
+      <fields>
+        <field name="Description">Header 4.20mm, dual row, vert, 2w, (sn) Molex MINI-FIT JR. Series, Series Number 5566, 4.2mm Pitch 2 Way 2 Row Shrouded Straight PCB Header, Through Hole</field>
+        <field name="Height">13.1</field>
+        <field name="Manufacturer_Name">Molex</field>
+        <field name="Manufacturer_Part_Number">39-28-8020</field>
+        <field name="Mouser Part Number">538-39-28-8020</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Molex/39-28-8020?qs=ZZBj1wiNDbnzWLcHr%2Fqwqw%3D%3D</field>
+        <field name="Type">THT</field>
+      </fields>
+      <libsource lib="CHAdeMO_V2.0-rescue" part="39-28-8020-39-28-8020" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6023F688</tstamp>
+    </comp>
+    <comp ref="R20">
+      <value>1 kOhm</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>https://nl.mouser.com/ProductDetail/Panasonic/ERJ-6ENF1001V?qs=sGAEpiMZZMtG0KNrPCHnjWXb3yLuGJ27akbDirKvTYA%3D</datasheet>
+      <fields>
+        <field name="JLC Footprint">0805</field>
+        <field name="JLC-URL">https://jlcpcb.com/parts/componentSearch?searchTxt=C17513</field>
+        <field name="LCSC part number">C17513</field>
+        <field name="Manufacturer_Part_Number">0805W8F1001T5E</field>
+        <field name="Mouser Part Number">667-ERJ-6ENF1001V</field>
+        <field name="Mouser link">https://nl.mouser.com/ProductDetail/Panasonic/ERJ-6ENF1001V?qs=sGAEpiMZZMtG0KNrPCHnjWXb3yLuGJ27akbDirKvTYA%3D</field>
+        <field name="Stock type">Basic</field>
+        <field name="Type">SMD</field>
+      </fields>
+      <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6085E269</tstamp>
+    </comp>
+    <comp ref="U5">
+      <value>VOM617A-4T</value>
+      <footprint>Components:VOM617A8X001T</footprint>
+      <datasheet>https://nl.mouser.com/ProductDetail/78-VOM617A-4T</datasheet>
+      <fields>
+        <field name="Field4">7</field>
+        <field name="Field5">IPC-7351B</field>
+        <field name="JLC Footprint">SMD-4_4.6x6.5x2.54P</field>
+        <field name="JLC-URL">https://jlcpcb.com/parts/componentSearch?searchTxt=C106900</field>
+        <field name="LCSC part number">C106900</field>
+        <field name="Manufacturer_Part_Number">VOM617A-4T</field>
+        <field name="Mouser Part Number">78-VOM617A-4T</field>
+        <field name="Mouser link">https://nl.mouser.com/ProductDetail/78-VOM617A-4T</field>
+        <field name="Stock type">Basic</field>
+        <field name="Type">SMD</field>
+      </fields>
+      <libsource lib="CHAdeMO_V2.0-rescue" part="EL817S(TU)-EL817S_TU_" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60860C58</tstamp>
+    </comp>
+    <comp ref="R23">
+      <value>10 kOhm</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>https://nl.mouser.com/ProductDetail/Panasonic/ERJ-6ENF1002V?qs=4WZYzuGhm5pfKPfuMiCO5g%3D%3D</datasheet>
+      <fields>
+        <field name="JLC Footprint">0402</field>
+        <field name="JLC-URL">https://jlcpcb.com/parts/componentSearch?searchTxt=C25744</field>
+        <field name="LCSC part number">C25744</field>
+        <field name="Manufacturer_Part_Number">ERJ-6ENF1002V</field>
+        <field name="Mouser Part Number">667-ERJ-6ENF1002V</field>
+        <field name="Mouser link">https://nl.mouser.com/ProductDetail/Panasonic/ERJ-6ENF1002V?qs=4WZYzuGhm5pfKPfuMiCO5g%3D%3D</field>
+        <field name="Stock type">Basic</field>
+        <field name="Type">SMD</field>
+      </fields>
+      <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6098C5CA</tstamp>
+    </comp>
+    <comp ref="R22">
+      <value>10 kOhm</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>https://nl.mouser.com/ProductDetail/Panasonic/ERJ-6ENF1002V?qs=4WZYzuGhm5pfKPfuMiCO5g%3D%3D</datasheet>
+      <fields>
+        <field name="JLC Footprint">0402</field>
+        <field name="JLC-URL">https://jlcpcb.com/parts/componentSearch?searchTxt=C25744</field>
+        <field name="LCSC part number">C25744</field>
+        <field name="Manufacturer_Part_Number">ERJ-6ENF1002V</field>
+        <field name="Mouser Part Number">667-ERJ-6ENF1002V</field>
+        <field name="Mouser link">https://nl.mouser.com/ProductDetail/Panasonic/ERJ-6ENF1002V?qs=4WZYzuGhm5pfKPfuMiCO5g%3D%3D</field>
+        <field name="Stock type">Basic</field>
+        <field name="Type">SMD</field>
+      </fields>
+      <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60EC9B55</tstamp>
+    </comp>
+    <comp ref="R24">
+      <value>10 kOhm</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>https://nl.mouser.com/ProductDetail/Panasonic/ERJ-6ENF1002V?qs=4WZYzuGhm5pfKPfuMiCO5g%3D%3D</datasheet>
+      <fields>
+        <field name="JLC Footprint">0402</field>
+        <field name="JLC-URL">https://jlcpcb.com/parts/componentSearch?searchTxt=C25744</field>
+        <field name="LCSC part number">C25744</field>
+        <field name="Manufacturer_Part_Number">ERJ-6ENF1002V</field>
+        <field name="Mouser Part Number">667-ERJ-6ENF1002V</field>
+        <field name="Mouser link">https://nl.mouser.com/ProductDetail/Panasonic/ERJ-6ENF1002V?qs=4WZYzuGhm5pfKPfuMiCO5g%3D%3D</field>
+        <field name="Stock type">Basic</field>
+        <field name="Type">SMD</field>
+      </fields>
+      <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60ECD1FE</tstamp>
+    </comp>
+    <comp ref="D7">
+      <value>1N4148W</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <datasheet>https://jlcpcb.com/parts/componentSearch?searchTxt=C81598</datasheet>
+      <fields>
+        <field name="JLC Footprint">SOD-123</field>
+        <field name="JLC-URL">https://jlcpcb.com/parts/componentSearch?searchTxt=C81598</field>
+        <field name="LCSC part number">C81598</field>
+        <field name="Manufacturer_Part_Number">1N4148W</field>
+        <field name="Mouser Part Number">621-1N4148W-F</field>
+        <field name="Mouser link">https://nl.mouser.com/ProductDetail/Diodes-Incorporated/1N4148W-7-F?qs=%2Fha2pyFadujYbUVm%252BOEfeV5LQgnaBS8zAQJ9gwbNRK0%3D</field>
+        <field name="Stock type">Basic</field>
+        <field name="Type">SMD</field>
+      </fields>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F6BF0B9</tstamp>
+    </comp>
+    <comp ref="R8">
+      <value>200 Ohm</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>https://nl.mouser.com/ProductDetail/Panasonic/ERJ-6ENF2000V?qs=sGAEpiMZZMtG0KNrPCHnjTg0x5DoQJ5PJPMScGb0Ra8%3D</datasheet>
+      <fields>
+        <field name="JLC Footprint">0805</field>
+        <field name="JLC-URL">https://jlcpcb.com/parts/componentSearch?searchTxt=C17540</field>
+        <field name="LCSC part number">C17540</field>
+        <field name="Manufacturer_Part_Number">0805W8F2000T5E</field>
+        <field name="Mouser Part Number">667-ERJ-6ENF2000V</field>
+        <field name="Mouser link">https://nl.mouser.com/ProductDetail/Panasonic/ERJ-6ENF2000V?qs=sGAEpiMZZMtG0KNrPCHnjTg0x5DoQJ5PJPMScGb0Ra8%3D</field>
+        <field name="Stock type">Basic</field>
+        <field name="Type">SMD</field>
+      </fields>
+      <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60DCEBBF</tstamp>
+    </comp>
+    <comp ref="R9">
+      <value>10 kOhm</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>https://nl.mouser.com/ProductDetail/Panasonic/ERJ-6ENF1002V?qs=4WZYzuGhm5pfKPfuMiCO5g%3D%3D</datasheet>
+      <fields>
+        <field name="JLC Footprint">0402</field>
+        <field name="JLC-URL">https://jlcpcb.com/parts/componentSearch?searchTxt=C25744</field>
+        <field name="LCSC part number">C25744</field>
+        <field name="Manufacturer_Part_Number">ERJ-6ENF1002V</field>
+        <field name="Mouser Part Number">667-ERJ-6ENF1002V</field>
+        <field name="Mouser link">https://nl.mouser.com/ProductDetail/Panasonic/ERJ-6ENF1002V?qs=4WZYzuGhm5pfKPfuMiCO5g%3D%3D</field>
+        <field name="Stock type">Basic</field>
+        <field name="Type">SMD</field>
+      </fields>
+      <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F859C87</tstamp>
+    </comp>
+    <comp ref="R19">
+      <value>10 kOhm</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>https://nl.mouser.com/ProductDetail/Panasonic/ERJ-6ENF1002V?qs=4WZYzuGhm5pfKPfuMiCO5g%3D%3D</datasheet>
+      <fields>
+        <field name="JLC Footprint">0402</field>
+        <field name="JLC-URL">https://jlcpcb.com/parts/componentSearch?searchTxt=C25744</field>
+        <field name="LCSC part number">C25744</field>
+        <field name="Manufacturer_Part_Number">ERJ-6ENF1002V</field>
+        <field name="Mouser Part Number">667-ERJ-6ENF1002V</field>
+        <field name="Mouser link">https://nl.mouser.com/ProductDetail/Panasonic/ERJ-6ENF1002V?qs=4WZYzuGhm5pfKPfuMiCO5g%3D%3D</field>
+        <field name="Stock type">Basic</field>
+        <field name="Type">SMD</field>
+      </fields>
+      <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FC6BE2F</tstamp>
+    </comp>
+    <comp ref="C34">
+      <value>47 nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>https://jlcpcb.com/parts/componentSearch?searchTxt=C1622</datasheet>
+      <fields>
+        <field name="JLC Footprint">0603</field>
+        <field name="LCSC part number">C1622</field>
+        <field name="Manufacturer_Part_Number">CL10B473KB8NNNC</field>
+        <field name="Mouser Part Number">810-CGA3E2X7R1H473K</field>
+        <field name="Mouser link">https://nl.mouser.com/ProductDetail/TDK/CGA3E2X7R1H473K080AA?qs=NRhsANhppD%252BXNlr9LoLgTw%3D%3D</field>
+        <field name="Stock type">Basic</field>
+        <field name="Type">SMD</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6020A248</tstamp>
+    </comp>
+    <comp ref="D5">
+      <value>PESD2CANFD24V-TR</value>
+      <footprint>Components:SOT95P230X110-3N</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/PESD2CANFD24V-T.pdf</datasheet>
+      <fields>
+        <field name="Description">ESD Suppressors / TVS Diodes DIODE ESD PROT</field>
+        <field name="Height">1.1</field>
+        <field name="Manufacturer_Name">Nexperia</field>
+        <field name="Manufacturer_Part_Number">PESD2CANFD24V-TR</field>
+        <field name="Mouser Part Number">771-PESD2CANFD24V-TR</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Nexperia/PESD2CANFD24V-TR?qs=xZ%2FP%252Ba9zWqbW0qDIUI%252BQ%2FA%3D%3D</field>
+        <field name="Mouser link">https://nl.mouser.com/ProductDetail/771-PESD2CANFD24V-TR</field>
+        <field name="Type">SMD</field>
+      </fields>
+      <libsource lib="CHAdeMO_V2.0-rescue" part="PESD2CANFD24V-TR-PESD2CANFD24V-TR" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6020FA00</tstamp>
+    </comp>
+    <comp ref="L5">
+      <value>ACT45B-101-2P-TL003</value>
+      <footprint>Components:ACT45B1012PTL003</footprint>
+      <fields>
+        <field name="Description">Common Mode Chokes / Filters AEC-Q200 Chip Choke 22uH .6Ohms Q200</field>
+        <field name="Height">3</field>
+        <field name="Manufacturer_Name">Pulse</field>
+        <field name="Manufacturer_Part_Number">ACT45B-101-2P-TL003</field>
+        <field name="Mouser Part Number">810-ACT45B1012PTL003</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Pulse-Electronics/PE-1812ACC220STS?qs=ar8LaIfZsbE4xU%2FWclqUyA%3D%3D</field>
+        <field name="Mouser link">https://nl.mouser.com/ProductDetail/810-ACT45B1012PTL003</field>
+        <field name="Type">SMD</field>
+      </fields>
+      <libsource lib="CHAdeMO_V2.0-rescue" part="PE-1812ACC220STS-PE-1812ACC220STS" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>602151D0</tstamp>
+    </comp>
+    <comp ref="R10">
+      <value>60 Ohm</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <datasheet>https://nl.mouser.com/ProductDetail/Vishay-Dale/CRCW120660R0KNEAIF?qs=0LP1uVfdam9gTU37MuGrNg%3D%3D</datasheet>
+      <fields>
+        <field name="JLC Footprint">1206</field>
+        <field name="Manufacturer_Part_Number">CRCW120660R0KNEAIF</field>
+        <field name="Mouser Part Number">71-CRCW120660R0KNAIF</field>
+        <field name="Mouser link">https://nl.mouser.com/ProductDetail/Vishay-Dale/CRCW120660R0KNEAIF?qs=0LP1uVfdam9gTU37MuGrNg%3D%3D</field>
+        <field name="Type">SMD</field>
+      </fields>
+      <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>603B173D</tstamp>
+    </comp>
+    <comp ref="L6">
+      <value>ACT45B-101-2P-TL003</value>
+      <footprint>Components:ACT45B1012PTL003</footprint>
+      <datasheet>https://nl.mouser.com/ProductDetail/TDK/ACT45B-101-2P-TL003?qs=%2Fha2pyFadujs04TstHZdSH64%2Fqz3QVaRHAbDdChFd7h6ykmpMYcHe5aZKAByiOKr</datasheet>
+      <fields>
+        <field name="Description">Common Mode Chokes / Filters AEC-Q200 Chip Choke 22uH .6Ohms Q200</field>
+        <field name="Height">3</field>
+        <field name="Manufacturer_Name">Pulse</field>
+        <field name="Manufacturer_Part_Number">ACT45B-101-2P-TL003</field>
+        <field name="Mouser Part Number">810-ACT45B1012PTL003</field>
+        <field name="Mouser Price/Stock">https://nl.mouser.com/ProductDetail/TDK/ACT45B-101-2P-TL003?qs=%2Fha2pyFadujs04TstHZdSH64%2Fqz3QVaRHAbDdChFd7h6ykmpMYcHe5aZKAByiOKr</field>
+        <field name="Mouser link">https://nl.mouser.com/ProductDetail/810-ACT45B1012PTL003</field>
+        <field name="Type">SMD</field>
+      </fields>
+      <libsource lib="CHAdeMO_V2.0-rescue" part="PE-1812ACC220STS-PE-1812ACC220STS" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6060111E</tstamp>
+    </comp>
+    <comp ref="R13">
+      <value>60 Ohm</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <datasheet>https://nl.mouser.com/ProductDetail/Vishay-Dale/CRCW120660R0KNEAIF?qs=0LP1uVfdam9gTU37MuGrNg%3D%3D</datasheet>
+      <fields>
+        <field name="JLC Footprint">1206</field>
+        <field name="Manufacturer_Part_Number">CRCW120660R0KNEAIF</field>
+        <field name="Mouser Part Number">71-CRCW120660R0KNAIF</field>
+        <field name="Mouser link">https://nl.mouser.com/ProductDetail/Vishay-Dale/CRCW120660R0KNEAIF?qs=0LP1uVfdam9gTU37MuGrNg%3D%3D</field>
+        <field name="Type">SMD</field>
+      </fields>
+      <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60697A7B</tstamp>
+    </comp>
+    <comp ref="C35">
+      <value>47 nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>https://jlcpcb.com/parts/componentSearch?searchTxt=C1622</datasheet>
+      <fields>
+        <field name="JLC Footprint">0603</field>
+        <field name="LCSC part number">C1622</field>
+        <field name="Manufacturer_Part_Number">CL10B473KB8NNNC</field>
+        <field name="Mouser Part Number">810-CGA3E2X7R1H473K</field>
+        <field name="Mouser link">https://nl.mouser.com/ProductDetail/TDK/CGA3E2X7R1H473K080AA?qs=NRhsANhppD%252BXNlr9LoLgTw%3D%3D</field>
+        <field name="Stock type">Basic</field>
+        <field name="Type">SMD</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60697A89</tstamp>
+    </comp>
+    <comp ref="D4">
+      <value>PESD2CANFD24V-TR</value>
+      <footprint>Components:SOT95P230X110-3N</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/PESD2CANFD24V-T.pdf</datasheet>
+      <fields>
+        <field name="Description">ESD Suppressors / TVS Diodes DIODE ESD PROT</field>
+        <field name="Height">1.1</field>
+        <field name="Manufacturer_Name">Nexperia</field>
+        <field name="Manufacturer_Part_Number">PESD2CANFD24V-TR</field>
+        <field name="Mouser Part Number">771-PESD2CANFD24V-TR</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Nexperia/PESD2CANFD24V-TR?qs=xZ%2FP%252Ba9zWqbW0qDIUI%252BQ%2FA%3D%3D</field>
+        <field name="Mouser link">https://nl.mouser.com/ProductDetail/771-PESD2CANFD24V-TR</field>
+        <field name="Type">SMD</field>
+      </fields>
+      <libsource lib="CHAdeMO_V2.0-rescue" part="PESD2CANFD24V-TR-PESD2CANFD24V-TR" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60697A99</tstamp>
+    </comp>
+    <comp ref="R12">
+      <value>60 Ohm</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <datasheet>https://nl.mouser.com/ProductDetail/Vishay-Dale/CRCW120660R0KNEAIF?qs=0LP1uVfdam9gTU37MuGrNg%3D%3D</datasheet>
+      <fields>
+        <field name="JLC Footprint">1206</field>
+        <field name="Manufacturer_Part_Number">CRCW120660R0KNEAIF</field>
+        <field name="Mouser Part Number">71-CRCW120660R0KNAIF</field>
+        <field name="Mouser link">https://nl.mouser.com/ProductDetail/Vishay-Dale/CRCW120660R0KNEAIF?qs=0LP1uVfdam9gTU37MuGrNg%3D%3D</field>
+        <field name="Type">SMD</field>
+      </fields>
+      <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60697AAA</tstamp>
+    </comp>
+    <comp ref="JP2">
+      <value>SolderJumper_2_Open</value>
+      <footprint>Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Jumper" part="SolderJumper_2_Open" description="Solder Jumper, 2-pole, open"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>606EE008</tstamp>
+    </comp>
+    <comp ref="S1">
+      <value>PTS647SM38SMTR2LFS</value>
+      <footprint>Components:PTS647SK38SMTR2LFS</footprint>
+      <datasheet>https://nl.mouser.com/ProductDetail/CK/PTS647SM38SMTR2LFS?qs=%2Fha2pyFadug0Azfe8RMwGeMURFOF4lLShtoDs41xX9HDzDA4uhrRnYE8%2F53wapal</datasheet>
+      <fields>
+        <field name="Description">Tactile Switches 50mA 12VDC, 1.8N 3.8mm H, G leads</field>
+        <field name="Manufacturer_Name">C &amp; K COMPONENTS</field>
+        <field name="Manufacturer_Part_Number">PTS647SM38SMTR2LFS</field>
+        <field name="Mouser Part Number">611-PTS647SM38SMTR2L</field>
+        <field name="Mouser Price/Stock">https://nl.mouser.com/ProductDetail/611-PTS647SM38SMTR2L</field>
+        <field name="Mouser link">https://nl.mouser.com/ProductDetail/CK/PTS647SM38SMTR2LFS?qs=%2Fha2pyFadug0Azfe8RMwGeMURFOF4lLShtoDs41xX9HDzDA4uhrRnYE8%2F53wapal</field>
+      </fields>
+      <libsource lib="CHAdeMO_V2.0-rescue" part="PTS647SM38SMTR2LFS-PTS647SM38SMTR2LFS" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6013313A</tstamp>
+    </comp>
+    <comp ref="S2">
+      <value>PTS647SM38SMTR2LFS</value>
+      <footprint>Components:PTS647SK38SMTR2LFS</footprint>
+      <datasheet>https://nl.mouser.com/ProductDetail/CK/PTS647SM38SMTR2LFS?qs=%2Fha2pyFadug0Azfe8RMwGeMURFOF4lLShtoDs41xX9HDzDA4uhrRnYE8%2F53wapal</datasheet>
+      <fields>
+        <field name="Description">Tactile Switches 50mA 12VDC, 1.8N 3.8mm H, G leads</field>
+        <field name="Manufacturer_Name">C &amp; K COMPONENTS</field>
+        <field name="Manufacturer_Part_Number">PTS647SM38SMTR2LFS</field>
+        <field name="Mouser Part Number">611-PTS647SM38SMTR2L</field>
+        <field name="Mouser Price/Stock">https://nl.mouser.com/ProductDetail/611-PTS647SM38SMTR2L</field>
+        <field name="Mouser link">https://nl.mouser.com/ProductDetail/CK/PTS647SM38SMTR2LFS?qs=%2Fha2pyFadug0Azfe8RMwGeMURFOF4lLShtoDs41xX9HDzDA4uhrRnYE8%2F53wapal</field>
+      </fields>
+      <libsource lib="CHAdeMO_V2.0-rescue" part="PTS647SM38SMTR2LFS-PTS647SM38SMTR2LFS" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6025062A</tstamp>
+    </comp>
+    <comp ref="F3">
+      <value>500 mA</value>
+      <footprint>Fuse:Fuse_1206_3216Metric</footprint>
+      <datasheet>https://nl.mouser.com/ProductDetail/652-MF-NSHT050KX-2</datasheet>
+      <fields>
+        <field name="Mouser Part Number">652-MF-NSHT050KX-2</field>
+        <field name="Mouser link">https://nl.mouser.com/ProductDetail/652-MF-NSHT050KX-2</field>
+        <field name="Type">SMD</field>
+      </fields>
+      <libsource lib="Device" part="Polyfuse" description="Resettable fuse, polymeric positive temperature coefficient"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60593973</tstamp>
+    </comp>
+    <comp ref="Q4">
+      <value>IRLML0060TRPBF</value>
+      <footprint>SamacSys_Parts:SOT95P237X112-3N</footprint>
+      <datasheet>https://nl.mouser.com/ProductDetail/Infineon-IR/IRLML0060TRPBF?qs=%2Fha2pyFaduhyxTHJ4eRB4Ob7c7xw%252B%252Bj1E7NBIFJv%252BeOHJMIp%252BS34Uzpwcws7%2FKTI</datasheet>
+      <fields>
+        <field name="Description">MOSFET N-Channel 60V 2.7A SOT23 Infineon IRLML0060TRPBF N-channel MOSFET Transistor, 2.7 A, 60 V, 3-Pin SOT-23</field>
+        <field name="Field10">https://www.infineon.com/dgdl/irlml0060pbf.pdf?fileId=5546d462533600a40153566493ef25e6</field>
+        <field name="Height">1.12</field>
+        <field name="Manufacturer_Name">Infineon</field>
+        <field name="Manufacturer_Part_Number">IRLML0060TRPBF</field>
+        <field name="Mouser Part Number">942-IRLML0060TRPBF</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Infineon-IR/IRLML0060TRPBF?qs=9%252BKlkBgLFf3sC4ri8n%252Bt9Q%3D%3D</field>
+        <field name="Mouser link">https://nl.mouser.com/ProductDetail/Infineon-IR/IRLML0060TRPBF?qs=%2Fha2pyFaduhyxTHJ4eRB4Ob7c7xw%252B%252Bj1E7NBIFJv%252BeOHJMIp%252BS34Uzpwcws7%2FKTI</field>
+        <field name="Type">SMD</field>
+      </fields>
+      <libsource lib="CHAdeMO_V2.0-rescue" part="IRLML0060TRPBF-IRLML0060TRPBF" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>606578BF</tstamp>
+    </comp>
+    <comp ref="Q3">
+      <value>IRLML0060TRPBF</value>
+      <footprint>SamacSys_Parts:SOT95P237X112-3N</footprint>
+      <datasheet>https://nl.mouser.com/ProductDetail/Infineon-IR/IRLML0060TRPBF?qs=%2Fha2pyFaduhyxTHJ4eRB4Ob7c7xw%252B%252Bj1E7NBIFJv%252BeOHJMIp%252BS34Uzpwcws7%2FKTI</datasheet>
+      <fields>
+        <field name="Description">MOSFET N-Channel 60V 2.7A SOT23 Infineon IRLML0060TRPBF N-channel MOSFET Transistor, 2.7 A, 60 V, 3-Pin SOT-23</field>
+        <field name="Field10">https://www.infineon.com/dgdl/irlml0060pbf.pdf?fileId=5546d462533600a40153566493ef25e6</field>
+        <field name="Height">1.12</field>
+        <field name="Manufacturer_Name">Infineon</field>
+        <field name="Manufacturer_Part_Number">IRLML0060TRPBF</field>
+        <field name="Mouser Part Number">942-IRLML0060TRPBF</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Infineon-IR/IRLML0060TRPBF?qs=9%252BKlkBgLFf3sC4ri8n%252Bt9Q%3D%3D</field>
+        <field name="Mouser link">https://nl.mouser.com/ProductDetail/Infineon-IR/IRLML0060TRPBF?qs=%2Fha2pyFaduhyxTHJ4eRB4Ob7c7xw%252B%252Bj1E7NBIFJv%252BeOHJMIp%252BS34Uzpwcws7%2FKTI</field>
+        <field name="Type">SMD</field>
+      </fields>
+      <libsource lib="CHAdeMO_V2.0-rescue" part="IRLML0060TRPBF-IRLML0060TRPBF" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>606DCFAB</tstamp>
+    </comp>
+    <comp ref="Q2">
+      <value>IRLML0060TRPBF</value>
+      <footprint>SamacSys_Parts:SOT95P237X112-3N</footprint>
+      <datasheet>https://nl.mouser.com/ProductDetail/Infineon-IR/IRLML0060TRPBF?qs=%2Fha2pyFaduhyxTHJ4eRB4Ob7c7xw%252B%252Bj1E7NBIFJv%252BeOHJMIp%252BS34Uzpwcws7%2FKTI</datasheet>
+      <fields>
+        <field name="Description">MOSFET N-Channel 60V 2.7A SOT23 Infineon IRLML0060TRPBF N-channel MOSFET Transistor, 2.7 A, 60 V, 3-Pin SOT-23</field>
+        <field name="Field10">https://www.infineon.com/dgdl/irlml0060pbf.pdf?fileId=5546d462533600a40153566493ef25e6</field>
+        <field name="Height">1.12</field>
+        <field name="Manufacturer_Name">Infineon</field>
+        <field name="Manufacturer_Part_Number">IRLML0060TRPBF</field>
+        <field name="Mouser Part Number">942-IRLML0060TRPBF</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Infineon-IR/IRLML0060TRPBF?qs=9%252BKlkBgLFf3sC4ri8n%252Bt9Q%3D%3D</field>
+        <field name="Mouser link">https://nl.mouser.com/ProductDetail/Infineon-IR/IRLML0060TRPBF?qs=%2Fha2pyFaduhyxTHJ4eRB4Ob7c7xw%252B%252Bj1E7NBIFJv%252BeOHJMIp%252BS34Uzpwcws7%2FKTI</field>
+        <field name="Type">SMD</field>
+      </fields>
+      <libsource lib="CHAdeMO_V2.0-rescue" part="IRLML0060TRPBF-IRLML0060TRPBF" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6075DD3A</tstamp>
+    </comp>
+    <comp ref="Q1">
+      <value>IRLML0060TRPBF</value>
+      <footprint>SamacSys_Parts:SOT95P237X112-3N</footprint>
+      <datasheet>https://nl.mouser.com/ProductDetail/Infineon-IR/IRLML0060TRPBF?qs=%2Fha2pyFaduhyxTHJ4eRB4Ob7c7xw%252B%252Bj1E7NBIFJv%252BeOHJMIp%252BS34Uzpwcws7%2FKTI</datasheet>
+      <fields>
+        <field name="Description">MOSFET N-Channel 60V 2.7A SOT23 Infineon IRLML0060TRPBF N-channel MOSFET Transistor, 2.7 A, 60 V, 3-Pin SOT-23</field>
+        <field name="Field10">https://www.infineon.com/dgdl/irlml0060pbf.pdf?fileId=5546d462533600a40153566493ef25e6</field>
+        <field name="Height">1.12</field>
+        <field name="Manufacturer_Name">Infineon</field>
+        <field name="Manufacturer_Part_Number">IRLML0060TRPBF</field>
+        <field name="Mouser Part Number">942-IRLML0060TRPBF</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Infineon-IR/IRLML0060TRPBF?qs=9%252BKlkBgLFf3sC4ri8n%252Bt9Q%3D%3D</field>
+        <field name="Mouser link">https://nl.mouser.com/ProductDetail/Infineon-IR/IRLML0060TRPBF?qs=%2Fha2pyFaduhyxTHJ4eRB4Ob7c7xw%252B%252Bj1E7NBIFJv%252BeOHJMIp%252BS34Uzpwcws7%2FKTI</field>
+        <field name="Type">SMD</field>
+      </fields>
+      <libsource lib="CHAdeMO_V2.0-rescue" part="IRLML0060TRPBF-IRLML0060TRPBF" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6082D5D3</tstamp>
+    </comp>
+    <comp ref="R27">
+      <value>10 kOhm</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>https://nl.mouser.com/ProductDetail/Panasonic/ERJ-6ENF1002V?qs=4WZYzuGhm5pfKPfuMiCO5g%3D%3D</datasheet>
+      <fields>
+        <field name="JLC Footprint">0402</field>
+        <field name="JLC-URL">https://jlcpcb.com/parts/componentSearch?searchTxt=C25744</field>
+        <field name="LCSC part number">C25744</field>
+        <field name="Manufacturer_Part_Number">ERJ-6ENF1002V</field>
+        <field name="Mouser Part Number">667-ERJ-6ENF1002V</field>
+        <field name="Mouser link">https://nl.mouser.com/ProductDetail/Panasonic/ERJ-6ENF1002V?qs=4WZYzuGhm5pfKPfuMiCO5g%3D%3D</field>
+        <field name="Stock type">Basic</field>
+        <field name="Type">SMD</field>
+      </fields>
+      <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60933104</tstamp>
+    </comp>
+    <comp ref="R25">
+      <value>1 kOhm</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>https://nl.mouser.com/ProductDetail/Panasonic/ERJ-6ENF1001V?qs=sGAEpiMZZMtG0KNrPCHnjWXb3yLuGJ27akbDirKvTYA%3D</datasheet>
+      <fields>
+        <field name="JLC Footprint">0805</field>
+        <field name="JLC-URL">https://jlcpcb.com/parts/componentSearch?searchTxt=C17513</field>
+        <field name="LCSC part number">C17513</field>
+        <field name="Manufacturer_Part_Number">0805W8F1001T5E</field>
+        <field name="Mouser Part Number">667-ERJ-6ENF1001V</field>
+        <field name="Mouser link">https://nl.mouser.com/ProductDetail/Panasonic/ERJ-6ENF1001V?qs=sGAEpiMZZMtG0KNrPCHnjWXb3yLuGJ27akbDirKvTYA%3D</field>
+        <field name="Stock type">Basic</field>
+        <field name="Type">SMD</field>
+      </fields>
+      <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60933134</tstamp>
+    </comp>
+    <comp ref="U6">
+      <value>VOM617A-4T</value>
+      <footprint>Components:VOM617A8X001T</footprint>
+      <datasheet>https://nl.mouser.com/ProductDetail/78-VOM617A-4T</datasheet>
+      <fields>
+        <field name="Field4">7</field>
+        <field name="Field5">IPC-7351B</field>
+        <field name="JLC Footprint">SMD-4_4.6x6.5x2.54P</field>
+        <field name="JLC-URL">https://jlcpcb.com/parts/componentSearch?searchTxt=C106900</field>
+        <field name="LCSC part number">C106900</field>
+        <field name="Manufacturer_Part_Number">VOM617A-4T</field>
+        <field name="Mouser Part Number">78-VOM617A-4T</field>
+        <field name="Mouser link">https://nl.mouser.com/ProductDetail/78-VOM617A-4T</field>
+        <field name="Stock type">Basic</field>
+        <field name="Type">SMD</field>
+      </fields>
+      <libsource lib="CHAdeMO_V2.0-rescue" part="EL817S(TU)-EL817S_TU_" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6093315D</tstamp>
+    </comp>
+    <comp ref="Q5">
+      <value>DMP4065SQ-7</value>
+      <footprint>Components:SOT96P240X110-3N</footprint>
+      <datasheet>https://nl.mouser.com/ProductDetail/Diodes-Incorporated/DMP4065SQ-7?qs=W0yvOO0ixfEjdY1la3hi%2FQ%3D%3D</datasheet>
+      <fields>
+        <field name="Description">MOSFET BVDSS: 31V40V SOT23 T&amp;R 3K</field>
+        <field name="Height">1.1</field>
+        <field name="Manufacturer_Name">Diodes Inc.</field>
+        <field name="Manufacturer_Part_Number">DMP4065SQ-7</field>
+        <field name="Mouser Part Number">621-DMP4065SQ-7</field>
+        <field name="Mouser Price/Stock">https://nl.mouser.com/ProductDetail/Diodes-Incorporated/DMP4065SQ-7?qs=W0yvOO0ixfEjdY1la3hi%2FQ%3D%3D</field>
+        <field name="Mouser link">https://nl.mouser.com/ProductDetail/Diodes-Incorporated/DMP4065SQ-7?qs=W0yvOO0ixfEjdY1la3hi%2FQ%3D%3D</field>
+        <field name="Type">SMD</field>
+      </fields>
+      <libsource lib="CHAdeMO_V2.0-rescue" part="DMP4065SQ-7-DMP4065SQ-7" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F6E2FD1</tstamp>
+    </comp>
+    <comp ref="R28">
+      <value>10 kOhm</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>https://nl.mouser.com/ProductDetail/Panasonic/ERJ-6ENF1002V?qs=4WZYzuGhm5pfKPfuMiCO5g%3D%3D</datasheet>
+      <fields>
+        <field name="JLC Footprint">0402</field>
+        <field name="JLC-URL">https://jlcpcb.com/parts/componentSearch?searchTxt=C25744</field>
+        <field name="LCSC part number">C25744</field>
+        <field name="Manufacturer_Part_Number">ERJ-6ENF1002V</field>
+        <field name="Mouser Part Number">667-ERJ-6ENF1002V</field>
+        <field name="Mouser link">https://nl.mouser.com/ProductDetail/Panasonic/ERJ-6ENF1002V?qs=4WZYzuGhm5pfKPfuMiCO5g%3D%3D</field>
+        <field name="Stock type">Basic</field>
+        <field name="Type">SMD</field>
+      </fields>
+      <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F75DC9C</tstamp>
+    </comp>
+    <comp ref="R26">
+      <value>1 kOhm</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>https://nl.mouser.com/ProductDetail/Panasonic/ERJ-6ENF1001V?qs=sGAEpiMZZMtG0KNrPCHnjWXb3yLuGJ27akbDirKvTYA%3D</datasheet>
+      <fields>
+        <field name="JLC Footprint">0805</field>
+        <field name="JLC-URL">https://jlcpcb.com/parts/componentSearch?searchTxt=C17513</field>
+        <field name="LCSC part number">C17513</field>
+        <field name="Manufacturer_Part_Number">0805W8F1001T5E</field>
+        <field name="Mouser Part Number">667-ERJ-6ENF1001V</field>
+        <field name="Mouser link">https://nl.mouser.com/ProductDetail/Panasonic/ERJ-6ENF1001V?qs=sGAEpiMZZMtG0KNrPCHnjWXb3yLuGJ27akbDirKvTYA%3D</field>
+        <field name="Stock type">Basic</field>
+        <field name="Type">SMD</field>
+      </fields>
+      <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F75DCBA</tstamp>
+    </comp>
+    <comp ref="U7">
+      <value>VOM617A-4T</value>
+      <footprint>Components:VOM617A8X001T</footprint>
+      <datasheet>https://nl.mouser.com/ProductDetail/78-VOM617A-4T</datasheet>
+      <fields>
+        <field name="Field4">7</field>
+        <field name="Field5">IPC-7351B</field>
+        <field name="JLC Footprint">SMD-4_4.6x6.5x2.54P</field>
+        <field name="JLC-URL">https://jlcpcb.com/parts/componentSearch?searchTxt=C106900</field>
+        <field name="LCSC part number">C106900</field>
+        <field name="Manufacturer_Part_Number">VOM617A-4T</field>
+        <field name="Mouser Part Number">78-VOM617A-4T</field>
+        <field name="Mouser link">https://nl.mouser.com/ProductDetail/78-VOM617A-4T</field>
+        <field name="Stock type">Basic</field>
+        <field name="Type">SMD</field>
+      </fields>
+      <libsource lib="CHAdeMO_V2.0-rescue" part="EL817S(TU)-EL817S_TU_" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F75DCCF</tstamp>
+    </comp>
+    <comp ref="J4">
+      <value>B2B-PH-K-S(LF)(SN)</value>
+      <footprint>Components:JST_B2B-PH-K-S(LF)(SN)</footprint>
+      <datasheet>B2B-PH-K-S_LF__SN_</datasheet>
+      <fields>
+        <field name="Field10">PH Series 2 Position 2 mm Pitch Through Hole Top Entry Shrouded Header</field>
+        <field name="Field4">IPC-7251</field>
+        <field name="Field5">https://www.digikey.com.ua/product-detail/en/jst-sales-america-inc/B2B-PH-K-S_LF__SN_/455-1704-ND/926611?utm_source=snapeda&amp;utm_medium=aggregator&amp;utm_campaign=symbol</field>
+        <field name="Field6">JST Sales</field>
+        <field name="Field7">None</field>
+        <field name="Field8">455-1704-ND</field>
+        <field name="Field9">N/A</field>
+      </fields>
+      <libsource lib="CHAdeMO_V2.0-rescue" part="B2B-PH-K-S(LF)(SN)-B2B-PH-K-S_LF__SN_" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F8C9289</tstamp>
+    </comp>
+    <comp ref="R29">
+      <value>5.1 kOhm</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>https://nl.mouser.com/ProductDetail/Panasonic/ERJ-6ENF5101V?qs=50QC8w71jAvpGnVxshBP5A%3D%3D</datasheet>
+      <fields>
+        <field name="JLC Footprint">0805</field>
+        <field name="Mouser Part Number">667-ERJ-6ENF5101V</field>
+        <field name="Mouser link">https://nl.mouser.com/ProductDetail/Panasonic/ERJ-6ENF5101V?qs=50QC8w71jAvpGnVxshBP5A%3D%3D</field>
+        <field name="Stock type">Basic</field>
+        <field name="Type">SMD</field>
+      </fields>
+      <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FF867DD</tstamp>
+    </comp>
+    <comp ref="R21">
+      <value>5.1 kOhm</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>https://nl.mouser.com/ProductDetail/Panasonic/ERJ-6ENF5101V?qs=50QC8w71jAvpGnVxshBP5A%3D%3D</datasheet>
+      <fields>
+        <field name="JLC Footprint">0805</field>
+        <field name="Mouser Part Number">667-ERJ-6ENF5101V</field>
+        <field name="Mouser link">https://nl.mouser.com/ProductDetail/Panasonic/ERJ-6ENF5101V?qs=50QC8w71jAvpGnVxshBP5A%3D%3D</field>
+        <field name="Stock type">Basic</field>
+        <field name="Type">SMD</field>
+      </fields>
+      <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FF91777</tstamp>
+    </comp>
+    <comp ref="D8">
+      <value>1N4148W</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <datasheet>https://jlcpcb.com/parts/componentSearch?searchTxt=C81598</datasheet>
+      <fields>
+        <field name="JLC Footprint">SOD-123</field>
+        <field name="JLC-URL">https://jlcpcb.com/parts/componentSearch?searchTxt=C81598</field>
+        <field name="LCSC part number">C81598</field>
+        <field name="Manufacturer_Part_Number">1N4148W</field>
+        <field name="Mouser Part Number">621-1N4148W-F</field>
+        <field name="Mouser link">https://nl.mouser.com/ProductDetail/Diodes-Incorporated/1N4148W-7-F?qs=%2Fha2pyFadujYbUVm%252BOEfeV5LQgnaBS8zAQJ9gwbNRK0%3D</field>
+        <field name="Stock type">Basic</field>
+        <field name="Type">SMD</field>
+      </fields>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>601FAB34</tstamp>
+    </comp>
+    <comp ref="LED2">
+      <value>LED</value>
+      <footprint>LED_SMD:LED_0603_1608Metric</footprint>
+      <datasheet>https://nl.mouser.com/ProductDetail/Wurth-Elektronik/150060GS84000?qs=GedFDFLaBXH09WUudWKJ5g%3D%3D</datasheet>
+      <fields>
+        <field name="JLC Footprint">LED_0603</field>
+        <field name="JLC-URL">https://jlcpcb.com/parts/componentSearch?searchTxt=C72043</field>
+        <field name="LCSC part number">C72043</field>
+        <field name="Manufacturer_Part_Number">19-217/GHC-YR1S2/3T</field>
+        <field name="Mouser Part Number">710-150060GS84000</field>
+        <field name="Mouser link">https://nl.mouser.com/ProductDetail/Wurth-Elektronik/150060GS84000?qs=GedFDFLaBXH09WUudWKJ5g%3D%3D</field>
+        <field name="Stock type">Basic</field>
+        <field name="Type">SMD</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60228A80</tstamp>
+    </comp>
+    <comp ref="R30">
+      <value>470 Ohm</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>https://nl.mouser.com/ProductDetail/Panasonic/ERJ-P06F4700V?qs=sGAEpiMZZMtG0KNrPCHnjYpPrk%252BOMd4bKtwYfDK0FOg%3D</datasheet>
+      <fields>
+        <field name="JLC Footprint">0805</field>
+        <field name="JLC-URL">https://jlcpcb.com/parts/componentSearch?searchTxt=C17710</field>
+        <field name="LCSC part number">C17710</field>
+        <field name="Manufacturer_Part_Number">0805W8F4700T5E</field>
+        <field name="Mouser Part Number">667-ERJ-P06F4700V</field>
+        <field name="Mouser link">https://nl.mouser.com/ProductDetail/Panasonic/ERJ-P06F4700V?qs=sGAEpiMZZMtG0KNrPCHnjYpPrk%252BOMd4bKtwYfDK0FOg%3D</field>
+        <field name="Stock type">Basic</field>
+        <field name="Type">SMD</field>
+      </fields>
+      <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60228A92</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="CHAdeMO_V2.0-rescue" part="39-28-8020-39-28-8020">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">39-28-8020-39-28-8020</field>
+        <field name="Footprint">SHDR2W125P550X420_2X1_540X960X1310P</field>
+        <field name="Datasheet">http://www.molex.com/molex/products/datasheet.jsp?part=active/0039288020_PCB_HEADERS.xml</field>
+        <field name="Description">Header 4.20mm, dual row, vert, 2w, (sn) Molex MINI-FIT JR. Series, Series Number 5566, 4.2mm Pitch 2 Way 2 Row Shrouded Straight PCB Header, Through Hole</field>
+        <field name="Height">13.1</field>
+        <field name="Mouser Part Number">538-39-28-8020</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Molex/39-28-8020?qs=ZZBj1wiNDbnzWLcHr%2Fqwqw%3D%3D</field>
+        <field name="Manufacturer_Name">Molex</field>
+        <field name="Manufacturer_Part_Number">39-28-8020</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="CHAdeMO_V2.0-rescue" part="5810132011-5810132011">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">5810132011-5810132011</field>
+        <field name="Footprint">5810132011</field>
+        <field name="Datasheet">https://www.belfuse.com/product/part-details?partn=5810132011</field>
+        <field name="Description">AUTOMOTIVE CONN, PLUG, 40POS, PCB; Product Range:ModICE ME-MX Series; Automotive Connector Shell Style:Panel Mount Plug; No. of Contacts:40Contacts; Automotive Contact Type:PCB Pin; Connector Body Material:Polymer, Glass Filled Body RoHS Compliant: Yes</field>
+        <field name="Height">40.9</field>
+        <field name="Manufacturer_Name">Cinch</field>
+        <field name="Manufacturer_Part_Number">5810132011</field>
+        <field name="Mouser Part Number">N/A</field>
+        <field name="Mouser Price/Stock">https://www.mouser.com/Search/Refine.aspx?Keyword=N%2FA</field>
+      </fields>
+      <pins>
+        <pin num="A1" name="A1" type="NotConnected"/>
+        <pin num="A2" name="A2" type="passive"/>
+        <pin num="A3" name="A3" type="NotConnected"/>
+        <pin num="A4" name="A4" type="BiDi"/>
+        <pin num="A5" name="A5" type="BiDi"/>
+        <pin num="A6" name="A6" type="BiDi"/>
+        <pin num="A7" name="A7" type="BiDi"/>
+        <pin num="A8" name="A8" type="BiDi"/>
+        <pin num="A9" name="A9" type="BiDi"/>
+        <pin num="A10" name="A10" type="BiDi"/>
+        <pin num="A11" name="A11" type="passive"/>
+        <pin num="A12" name="A12" type="input"/>
+        <pin num="A13" name="A13" type="NotConnected"/>
+        <pin num="A14" name="A14" type="passive"/>
+        <pin num="A15" name="A15" type="passive"/>
+        <pin num="A16" name="A16" type="BiDi"/>
+        <pin num="A17" name="A17" type="BiDi"/>
+        <pin num="A18" name="A18" type="passive"/>
+        <pin num="A19" name="A19" type="passive"/>
+        <pin num="A20" name="A20" type="passive"/>
+        <pin num="B1" name="B1" type="passive"/>
+        <pin num="B2" name="B2" type="BiDi"/>
+        <pin num="B3" name="B3" type="BiDi"/>
+        <pin num="B4" name="B4" type="BiDi"/>
+        <pin num="B5" name="B5" type="BiDi"/>
+        <pin num="B6" name="B6" type="BiDi"/>
+        <pin num="B7" name="B7" type="passive"/>
+        <pin num="B8" name="B8" type="BiDi"/>
+        <pin num="B9" name="B9" type="BiDi"/>
+        <pin num="B10" name="B10" type="BiDi"/>
+        <pin num="B11" name="B11" type="BiDi"/>
+        <pin num="B12" name="B12" type="BiDi"/>
+        <pin num="MH1" name="MH1" type="NotConnected"/>
+      </pins>
+    </libpart>
+    <libpart lib="CHAdeMO_V2.0-rescue" part="ATSAM3X8EA-AU-ATSAM3X8EA-AU">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">ATSAM3X8EA-AU-ATSAM3X8EA-AU</field>
+        <field name="Footprint">QFP50P2200X2200X145-144N</field>
+        <field name="Datasheet">IPC-7351B</field>
+        <field name="Field4">MICROCHIP</field>
+        <field name="Field5">11057C</field>
+      </fields>
+      <pins>
+        <pin num="1" name="PB26" type="BiDi"/>
+        <pin num="2" name="PA9" type="BiDi"/>
+        <pin num="3" name="PA10" type="BiDi"/>
+        <pin num="4" name="PA11" type="BiDi"/>
+        <pin num="5" name="PA12" type="BiDi"/>
+        <pin num="6" name="PA13" type="BiDi"/>
+        <pin num="7" name="PA14" type="BiDi"/>
+        <pin num="8" name="PA15" type="BiDi"/>
+        <pin num="9" name="PA17" type="BiDi"/>
+        <pin num="10" name="VDDCORE" type="power_in"/>
+        <pin num="11" name="VDDIO" type="power_in"/>
+        <pin num="12" name="GND" type="power_in"/>
+        <pin num="13" name="PD0" type="BiDi"/>
+        <pin num="14" name="PD1" type="BiDi"/>
+        <pin num="15" name="PD2" type="BiDi"/>
+        <pin num="16" name="PD3" type="BiDi"/>
+        <pin num="17" name="PD4" type="BiDi"/>
+        <pin num="18" name="PD5" type="BiDi"/>
+        <pin num="19" name="PD6" type="BiDi"/>
+        <pin num="20" name="PD7" type="BiDi"/>
+        <pin num="21" name="PD8" type="BiDi"/>
+        <pin num="22" name="PD9" type="BiDi"/>
+        <pin num="23" name="PA0" type="BiDi"/>
+        <pin num="24" name="PA1" type="BiDi"/>
+        <pin num="25" name="PA5" type="BiDi"/>
+        <pin num="26" name="PA7" type="BiDi"/>
+        <pin num="27" name="PA8" type="BiDi"/>
+        <pin num="28" name="PB28" type="BiDi"/>
+        <pin num="29" name="PB29" type="BiDi"/>
+        <pin num="30" name="PB30" type="BiDi"/>
+        <pin num="31" name="PB31" type="BiDi"/>
+        <pin num="32" name="PD10" type="BiDi"/>
+        <pin num="33" name="GNDPLL" type="power_in"/>
+        <pin num="34" name="VDDPLL" type="power_in"/>
+        <pin num="35" name="XOUT" type="output"/>
+        <pin num="36" name="XIN" type="input"/>
+        <pin num="37" name="DHSDP" type="BiDi"/>
+        <pin num="38" name="DHSDM" type="BiDi"/>
+        <pin num="39" name="VBUS" type="input"/>
+        <pin num="40" name="VBG" type="input"/>
+        <pin num="41" name="VDDUTMI" type="power_in"/>
+        <pin num="42" name="DFSDP" type="BiDi"/>
+        <pin num="43" name="DFSDM" type="BiDi"/>
+        <pin num="44" name="GNDUTMI" type="power_in"/>
+        <pin num="45" name="VDDCORE" type="power_in"/>
+        <pin num="46" name="JTAGSEL" type="input"/>
+        <pin num="47" name="NRSTB" type="input"/>
+        <pin num="48" name="XIN32" type="input"/>
+        <pin num="49" name="XOUT32" type="output"/>
+        <pin num="50" name="SHDN" type="output"/>
+        <pin num="51" name="TST" type="input"/>
+        <pin num="52" name="VDDBU" type="power_in"/>
+        <pin num="53" name="FWUP" type="input"/>
+        <pin num="54" name="GNDBU" type="power_in"/>
+        <pin num="55" name="PC1" type="BiDi"/>
+        <pin num="56" name="VDDOUT" type="power_in"/>
+        <pin num="57" name="VDDIN" type="power_in"/>
+        <pin num="58" name="GND" type="power_in"/>
+        <pin num="59" name="PC2" type="BiDi"/>
+        <pin num="60" name="PC3" type="BiDi"/>
+        <pin num="61" name="VDDCORE" type="power_in"/>
+        <pin num="62" name="VDDIO" type="power_in"/>
+        <pin num="63" name="PC5" type="BiDi"/>
+        <pin num="64" name="PC6" type="BiDi"/>
+        <pin num="65" name="PC7" type="BiDi"/>
+        <pin num="66" name="PC8" type="BiDi"/>
+        <pin num="67" name="PC9" type="BiDi"/>
+        <pin num="68" name="PB27" type="BiDi"/>
+        <pin num="69" name="NRST" type="BiDi"/>
+        <pin num="70" name="PA18" type="BiDi"/>
+        <pin num="71" name="PA19" type="BiDi"/>
+        <pin num="72" name="PA20" type="BiDi"/>
+        <pin num="73" name="VDDANA" type="power_in"/>
+        <pin num="74" name="GNDANA" type="power_in"/>
+        <pin num="75" name="ADVREF" type="input"/>
+        <pin num="76" name="PB15" type="BiDi"/>
+        <pin num="77" name="PB16" type="BiDi"/>
+        <pin num="78" name="PA16" type="BiDi"/>
+        <pin num="79" name="PA24" type="BiDi"/>
+        <pin num="80" name="PA23" type="BiDi"/>
+        <pin num="81" name="PA22" type="BiDi"/>
+        <pin num="82" name="PA6" type="BiDi"/>
+        <pin num="83" name="PA4" type="BiDi"/>
+        <pin num="84" name="PA3" type="BiDi"/>
+        <pin num="85" name="PA2" type="BiDi"/>
+        <pin num="86" name="PB12" type="BiDi"/>
+        <pin num="87" name="PB13" type="BiDi"/>
+        <pin num="88" name="PB17" type="BiDi"/>
+        <pin num="89" name="PB18" type="BiDi"/>
+        <pin num="90" name="PB19" type="BiDi"/>
+        <pin num="91" name="PB20" type="BiDi"/>
+        <pin num="92" name="PB21" type="BiDi"/>
+        <pin num="93" name="PC11" type="BiDi"/>
+        <pin num="94" name="PC12" type="BiDi"/>
+        <pin num="95" name="PC13" type="BiDi"/>
+        <pin num="96" name="PC14" type="BiDi"/>
+        <pin num="97" name="PC15" type="BiDi"/>
+        <pin num="98" name="PC16" type="BiDi"/>
+        <pin num="99" name="PC17" type="BiDi"/>
+        <pin num="100" name="PC18" type="BiDi"/>
+        <pin num="101" name="PC19" type="BiDi"/>
+        <pin num="102" name="PC29" type="BiDi"/>
+        <pin num="103" name="PC30" type="BiDi"/>
+        <pin num="104" name="VDDCORE" type="power_in"/>
+        <pin num="105" name="VDDIO" type="power_in"/>
+        <pin num="106" name="GND" type="power_in"/>
+        <pin num="107" name="PA21" type="BiDi"/>
+        <pin num="108" name="PA25" type="BiDi"/>
+        <pin num="109" name="PA26" type="BiDi"/>
+        <pin num="110" name="PA27" type="BiDi"/>
+        <pin num="111" name="PA28" type="BiDi"/>
+        <pin num="112" name="PA29" type="BiDi"/>
+        <pin num="113" name="PB0" type="BiDi"/>
+        <pin num="114" name="PB1" type="BiDi"/>
+        <pin num="115" name="PB2" type="BiDi"/>
+        <pin num="116" name="PC4" type="BiDi"/>
+        <pin num="117" name="PC10" type="BiDi"/>
+        <pin num="118" name="PB3" type="BiDi"/>
+        <pin num="119" name="PB4" type="BiDi"/>
+        <pin num="120" name="PB5" type="BiDi"/>
+        <pin num="121" name="PB6" type="BiDi"/>
+        <pin num="122" name="PB7" type="BiDi"/>
+        <pin num="123" name="PB8" type="BiDi"/>
+        <pin num="124" name="VDDCORE" type="power_in"/>
+        <pin num="125" name="VDDIO" type="power_in"/>
+        <pin num="126" name="GND" type="power_in"/>
+        <pin num="127" name="PB9" type="BiDi"/>
+        <pin num="128" name="PB10" type="BiDi"/>
+        <pin num="129" name="PB11" type="BiDi"/>
+        <pin num="130" name="PC0" type="BiDi"/>
+        <pin num="131" name="PC20" type="BiDi"/>
+        <pin num="132" name="PC21" type="BiDi"/>
+        <pin num="133" name="PC22" type="BiDi"/>
+        <pin num="134" name="PC23" type="BiDi"/>
+        <pin num="135" name="PC24" type="BiDi"/>
+        <pin num="136" name="PC25" type="BiDi"/>
+        <pin num="137" name="PC26" type="BiDi"/>
+        <pin num="138" name="PC27" type="BiDi"/>
+        <pin num="139" name="PC28" type="BiDi"/>
+        <pin num="140" name="PB14" type="BiDi"/>
+        <pin num="141" name="PB22" type="BiDi"/>
+        <pin num="142" name="PB23" type="BiDi"/>
+        <pin num="143" name="PB24" type="BiDi"/>
+        <pin num="144" name="PB25" type="BiDi"/>
+      </pins>
+    </libpart>
+    <libpart lib="CHAdeMO_V2.0-rescue" part="B2B-PH-K-S(LF)(SN)-B2B-PH-K-S_LF__SN_">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">B2B-PH-K-S(LF)(SN)-B2B-PH-K-S_LF__SN_</field>
+        <field name="Footprint">JST_B2B-PH-K-S(LF)(SN)</field>
+        <field name="Datasheet">B2B-PH-K-S_LF__SN_</field>
+        <field name="Field4">IPC-7251</field>
+        <field name="Field5">https://www.digikey.com.ua/product-detail/en/jst-sales-america-inc/B2B-PH-K-S_LF__SN_/455-1704-ND/926611?utm_source=snapeda&amp;utm_medium=aggregator&amp;utm_campaign=symbol</field>
+        <field name="Field6">JST Sales</field>
+        <field name="Field7">None</field>
+        <field name="Field8">455-1704-ND</field>
+        <field name="Field9">N/A</field>
+        <field name="Field10">PH Series 2 Position 2 mm Pitch Through Hole Top Entry Shrouded Header</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="CHAdeMO_V2.0-rescue" part="DMP4065SQ-7-DMP4065SQ-7">
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">DMP4065SQ-7-DMP4065SQ-7</field>
+        <field name="Footprint">SOT96P240X110-3N</field>
+        <field name="Datasheet">https://www.arrow.com/en/products/dmp4065sq-7/diodes-incorporated</field>
+        <field name="Description">MOSFET BVDSS: 31V40V SOT23 T&amp;R 3K</field>
+        <field name="Height">1.1</field>
+        <field name="Mouser Part Number">621-DMP4065SQ-7</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Diodes-Incorporated/DMP4065SQ-7?qs=W0yvOO0ixfEjdY1la3hi%2FQ%3D%3D</field>
+        <field name="Manufacturer_Name">Diodes Inc.</field>
+        <field name="Manufacturer_Part_Number">DMP4065SQ-7</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="input"/>
+        <pin num="2" name="~" type="passive"/>
+        <pin num="3" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="CHAdeMO_V2.0-rescue" part="EL817S(TU)-EL817S_TU_">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">EL817S(TU)-EL817S_TU_</field>
+        <field name="Footprint">SOIC254P1030X460-4N</field>
+        <field name="Datasheet">Everlight</field>
+        <field name="Field4">7</field>
+        <field name="Field5">IPC-7351B</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+        <pin num="3" name="~" type="passive"/>
+        <pin num="4" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="CHAdeMO_V2.0-rescue" part="IRLML0060TRPBF-IRLML0060TRPBF">
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">IRLML0060TRPBF-IRLML0060TRPBF</field>
+        <field name="Footprint">SOT95P237X112-3N</field>
+        <field name="Datasheet">https://www.infineon.com/dgdl/irlml0060pbf.pdf?fileId=5546d462533600a40153566493ef25e6</field>
+        <field name="Description">MOSFET N-Channel 60V 2.7A SOT23 Infineon IRLML0060TRPBF N-channel MOSFET Transistor, 2.7 A, 60 V, 3-Pin SOT-23</field>
+        <field name="Height">1.12</field>
+        <field name="Mouser Part Number">942-IRLML0060TRPBF</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Infineon-IR/IRLML0060TRPBF?qs=9%252BKlkBgLFf3sC4ri8n%252Bt9Q%3D%3D</field>
+        <field name="Manufacturer_Name">Infineon</field>
+        <field name="Manufacturer_Part_Number">IRLML0060TRPBF</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+        <pin num="3" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="CHAdeMO_V2.0-rescue" part="ISO1050DUBR-SamacSys_Parts">
+      <fields>
+        <field name="Reference">IC</field>
+        <field name="Value">ISO1050DUBR-SamacSys_Parts</field>
+        <field name="Footprint">SOP254P1040X485-8N</field>
+        <field name="Datasheet">http://www.ti.com/lit/ds/symlink/iso1050.pdf</field>
+        <field name="Description">Digital Isolators Iso 5V CAN Xcvr</field>
+        <field name="Height">4.85</field>
+        <field name="Mouser Part Number">595-ISO1050DUBR</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Texas-Instruments/ISO1050DUBR?qs=IK5e5L0zOXhhp9hdAolE%252BA%3D%3D</field>
+        <field name="Manufacturer_Name">Texas Instruments</field>
+        <field name="Manufacturer_Part_Number">ISO1050DUBR</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VCC1" type="power_in"/>
+        <pin num="2" name="RXD" type="passive"/>
+        <pin num="3" name="TXD" type="passive"/>
+        <pin num="4" name="GND1" type="passive"/>
+        <pin num="5" name="GND2" type="passive"/>
+        <pin num="6" name="CANL" type="passive"/>
+        <pin num="7" name="CANH" type="passive"/>
+        <pin num="8" name="VCC2" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="CHAdeMO_V2.0-rescue" part="M24M02-DRMN6TP-SamacSys_Parts">
+      <fields>
+        <field name="Reference">IC</field>
+        <field name="Value">M24M02-DRMN6TP-SamacSys_Parts</field>
+        <field name="Footprint">SOIC127P600X175-8N</field>
+        <field name="Datasheet">http://www.st.com/content/ccc/resource/technical/document/datasheet/b7/de/9b/f6/03/28/4e/8e/CD00290537.pdf/files/CD00290537.pdf/jcr:content/translations/en.CD00290537.pdf</field>
+        <field name="Description">STMicroelectronics M24M02-DRMN6TP EEPROM Memory, 2Mbit, 450ns, 1.8  5.5 V 8-Pin SOIC</field>
+        <field name="Height">1.75</field>
+        <field name="Mouser Part Number">511-M24M02-DRMN6TP</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/STMicroelectronics/M24M02-DRMN6TP?qs=0gj%2FgiofzsPtgZ8EdVfF5w%3D%3D</field>
+        <field name="Manufacturer_Name">STMicroelectronics</field>
+        <field name="Manufacturer_Part_Number">M24M02-DRMN6TP</field>
+      </fields>
+      <pins>
+        <pin num="1" name="DU_1" type="passive"/>
+        <pin num="2" name="DU_2" type="passive"/>
+        <pin num="3" name="E2" type="passive"/>
+        <pin num="4" name="VSS" type="passive"/>
+        <pin num="5" name="SDA" type="passive"/>
+        <pin num="6" name="SCL" type="passive"/>
+        <pin num="7" name="~WC" type="passive"/>
+        <pin num="8" name="VCC" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="CHAdeMO_V2.0-rescue" part="PE-1812ACC220STS-PE-1812ACC220STS">
+      <fields>
+        <field name="Reference">L</field>
+        <field name="Value">PE-1812ACC220STS-PE-1812ACC220STS</field>
+        <field name="Footprint">PE1812ACC220STS</field>
+        <field name="Datasheet">https://productfinder.pulseeng.com/doc_type/WEB301/doc_num/W717/doc_part/W717.pdf</field>
+        <field name="Description">Common Mode Chokes / Filters AEC-Q200 Chip Choke 22uH .6Ohms Q200</field>
+        <field name="Height">3</field>
+        <field name="Mouser Part Number">673-PE-1812ACC220STS</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Pulse-Electronics/PE-1812ACC220STS?qs=ar8LaIfZsbE4xU%2FWclqUyA%3D%3D</field>
+        <field name="Manufacturer_Name">Pulse</field>
+        <field name="Manufacturer_Part_Number">PE-1812ACC220STS</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="CHAdeMO_V2.0-rescue" part="PESD2CANFD24V-TR-PESD2CANFD24V-TR">
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">PESD2CANFD24V-TR-PESD2CANFD24V-TR</field>
+        <field name="Footprint">SOT95P230X110-3N</field>
+        <field name="Datasheet">https://assets.nexperia.com/documents/data-sheet/PESD2CANFD24V-T.pdf</field>
+        <field name="Description">ESD Suppressors / TVS Diodes DIODE ESD PROT</field>
+        <field name="Height">1.1</field>
+        <field name="Mouser Part Number">771-PESD2CANFD24V-TR</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Nexperia/PESD2CANFD24V-TR?qs=xZ%2FP%252Ba9zWqbW0qDIUI%252BQ%2FA%3D%3D</field>
+        <field name="Manufacturer_Name">Nexperia</field>
+        <field name="Manufacturer_Part_Number">PESD2CANFD24V-TR</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K1" type="passive"/>
+        <pin num="2" name="K2" type="passive"/>
+        <pin num="3" name="CC" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="CHAdeMO_V2.0-rescue" part="PTS647SM38SMTR2LFS-PTS647SM38SMTR2LFS">
+      <fields>
+        <field name="Reference">S</field>
+        <field name="Value">PTS647SM38SMTR2LFS-PTS647SM38SMTR2LFS</field>
+        <field name="Footprint">PTS645V(31)</field>
+        <field name="Datasheet">https://www.ckswitches.com/media/2567/pts647.pdf</field>
+        <field name="Description">Tactile Switches 50mA 12VDC, 1.8N 3.8mm H, G leads</field>
+        <field name="Manufacturer_Name">C &amp; K COMPONENTS</field>
+        <field name="Manufacturer_Part_Number">PTS647SM38SMTR2LFS</field>
+        <field name="Arrow Part Number">PTS647SM38SMTR2LFS</field>
+        <field name="Mouser Part Number">611-PTS647SM38SMTR2L</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/CK/PTS647SM38SMTR2LFS?qs=PqoDHHvF648URW%252BUYk9ZBg%3D%3D</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="CHAdeMO_V2.0-rescue" part="ROE-3.305S-SamacSys_Parts">
+      <fields>
+        <field name="Reference">PS</field>
+        <field name="Value">ROE-3.305S-SamacSys_Parts</field>
+        <field name="Footprint">ROE3305S</field>
+        <field name="Datasheet">https://www.recom-power.com/pdf/Econoline/ROE.pdf</field>
+        <field name="Description">Recom Through Hole 1W Isolated DC-DC Converter, I/O isolation 1kV dc, Vout 5V dc</field>
+        <field name="Height">10.5</field>
+        <field name="Mouser Part Number">919-ROE-3.305S</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/RECOM-Power/ROE-3305S?qs=wlO1EFRhkBCdowjFZq2Hcg%3D%3D</field>
+        <field name="Manufacturer_Name">RECOM Power</field>
+        <field name="Manufacturer_Part_Number">ROE-3.305S</field>
+      </fields>
+      <pins>
+        <pin num="1" name="-VIN" type="passive"/>
+        <pin num="2" name="+VIN" type="passive"/>
+        <pin num="3" name="-VOUT" type="passive"/>
+        <pin num="4" name="+VOUT" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="CHAdeMO_V2.0-rescue" part="TR2024S3V3-SamacSys_Parts">
+      <fields>
+        <field name="Reference">PS</field>
+        <field name="Value">TR2024S3V3-SamacSys_Parts</field>
+        <field name="Footprint">TR2024S3V3</field>
+        <field name="Datasheet">https://www.xppower.com/portals/0/pdfs/SF_TR20.pdf</field>
+        <field name="Description">Non-Isolated DC/DC Converters DC-DC Converter, Switching Regulator, 2A</field>
+        <field name="Height">10.1</field>
+        <field name="Mouser Part Number">209-TR2024S3V3</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/XP-Power/TR2024S3V3?qs=xZ%2FP%252Ba9zWqaTWxzsWP9Idw%3D%3D</field>
+        <field name="Manufacturer_Name">XP POWER</field>
+        <field name="Manufacturer_Part_Number">TR2024S3V3</field>
+      </fields>
+      <pins>
+        <pin num="1" name="+VIN" type="passive"/>
+        <pin num="2" name="GROUND" type="passive"/>
+        <pin num="3" name="+VOUT" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="CHAdeMO_V2.0-rescue" part="UJ2-BV-1-TH-UJ2-BV-1-TH">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">UJ2-BV-1-TH-UJ2-BV-1-TH</field>
+        <field name="Footprint">UJ2BV1TH</field>
+        <field name="Datasheet">https://www.cui.com/product/resource/uj2-bv-1-th.pdf</field>
+        <field name="Description">USB Connectors USB 2.0 type B jack 4 pin Vertical TH</field>
+        <field name="Height">15.8</field>
+        <field name="Manufacturer_Name">CUI Devices</field>
+        <field name="Manufacturer_Part_Number">UJ2-BV-1-TH</field>
+        <field name="Mouser Part Number">490-UJ2-BV-1-TH</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/CUI-Devices/UJ2-BV-1-TH?qs=5mqXD9RfOg3Kkui4GUMMeg%3D%3D</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="power_in"/>
+        <pin num="2" name="2" type="BiDi"/>
+        <pin num="3" name="3" type="BiDi"/>
+        <pin num="4" name="4" type="passive"/>
+        <pin num="5" name="5" type="passive"/>
+        <pin num="6" name="6" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="CHAdeMO_V2.0-rescue" part="V23086C1001A403-EV-BLBOX-SamacSys_Parts">
+      <fields>
+        <field name="Reference">K</field>
+        <field name="Value">V23086C1001A403-EV-BLBOX-SamacSys_Parts</field>
+        <field name="Footprint">V23086C1001A403EVBLBOX</field>
+        <field name="Description">Automotive Relays V23086C1001A403-EV-BLBOX</field>
+        <field name="Height">10</field>
+        <field name="Mouser Part Number">655-1-1414761-0</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/TE-Connectivity-AMP/V23086C1001A403-EV-BLBOX?qs=0kFKDc1CZSmi6Mk74Rg5kg%3D%3D</field>
+        <field name="Manufacturer_Name">TE Connectivity</field>
+        <field name="Manufacturer_Part_Number">V23086C1001A403-EV-BLBOX</field>
+      </fields>
+      <pins>
+        <pin num="1" name="COIL_1" type="passive"/>
+        <pin num="2" name="COIL_2" type="passive"/>
+        <pin num="3" name="N.C." type="passive"/>
+        <pin num="4" name="COM" type="passive"/>
+        <pin num="5" name="N.O." type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="CP1">
+      <description>Polarized capacitor, US symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>CP_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">CP1</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Crystal">
+      <description>Two pin crystal</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Crystal*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Y</field>
+        <field name="Value">Crystal</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Crystal_GND24">
+      <description>Four pin crystal, GND on pins 2 and 4</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Crystal*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Y</field>
+        <field name="Value">Crystal_GND24</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="D">
+      <description>Diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>TO-???*</fp>
+        <fp>*_Diode_*</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>D_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="D_TVS">
+      <description>Bidirectional transient-voltage-suppression diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>TO-???*</fp>
+        <fp>*_Diode_*</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>D_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D_TVS</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A1" type="passive"/>
+        <pin num="2" name="A2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="LED">
+      <description>Light emitting diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>LED*</fp>
+        <fp>LED_SMD:*</fp>
+        <fp>LED_THT:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="L_Core_Ferrite">
+      <description>Inductor with ferrite core</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Choke_*</fp>
+        <fp>*Coil*</fp>
+        <fp>Inductor_*</fp>
+        <fp>L_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">L</field>
+        <field name="Value">L_Core_Ferrite</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Polyfuse">
+      <description>Resettable fuse, polymeric positive temperature coefficient</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>*polyfuse*</fp>
+        <fp>*PTC*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">F</field>
+        <field name="Value">Polyfuse</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R_Small_US">
+      <description>Resistor, small US symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R_Small_US</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Jumper" part="SolderJumper_2_Open">
+      <description>Solder Jumper, 2-pole, open</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>SolderJumper*Open*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">JP</field>
+        <field name="Value">SolderJumper_2_Open</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="B" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Mechanical" part="MountingHole">
+      <description>Mounting Hole without connection</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>MountingHole*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">H</field>
+        <field name="Value">MountingHole</field>
+      </fields>
+    </libpart>
+    <libpart lib="pspice" part="INDUCTOR">
+      <description>Capacitor symbol for simulation only</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">L</field>
+        <field name="Value">INDUCTOR</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="input"/>
+        <pin num="2" name="2" type="input"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="CHAdeMO_V2.0-rescue">
+      <uri>/Users/lars/Documents/GitHub/CHAdeMO-hardware/CHAdeMO_V2.0-rescue.lib</uri>
+    </library>
+    <library logical="Device">
+      <uri>/Library/Application Support/kicad/library/Device.lib</uri>
+    </library>
+    <library logical="Jumper">
+      <uri>/Library/Application Support/kicad/library/Jumper.lib</uri>
+    </library>
+    <library logical="Mechanical">
+      <uri>/Library/Application Support/kicad/library/Mechanical.lib</uri>
+    </library>
+    <library logical="pspice">
+      <uri>/Library/Application Support/kicad/library/pspice.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="Net-(U2-Pad1)">
+      <node ref="U2" pin="1"/>
+    </net>
+    <net code="2" name="Net-(U2-Pad100)">
+      <node ref="U2" pin="100"/>
+    </net>
+    <net code="3" name="Net-(U2-Pad101)">
+      <node ref="U2" pin="101"/>
+    </net>
+    <net code="4" name="Net-(U2-Pad102)">
+      <node ref="U2" pin="102"/>
+    </net>
+    <net code="5" name="Net-(U2-Pad103)">
+      <node ref="U2" pin="103"/>
+    </net>
+    <net code="6" name="Net-(U2-Pad107)">
+      <node ref="U2" pin="107"/>
+    </net>
+    <net code="7" name="Net-(U2-Pad108)">
+      <node ref="U2" pin="108"/>
+    </net>
+    <net code="8" name="Net-(U2-Pad109)">
+      <node ref="U2" pin="109"/>
+    </net>
+    <net code="9" name="Net-(U2-Pad110)">
+      <node ref="U2" pin="110"/>
+    </net>
+    <net code="10" name="Net-(U2-Pad111)">
+      <node ref="U2" pin="111"/>
+    </net>
+    <net code="11" name="Net-(U2-Pad112)">
+      <node ref="U2" pin="112"/>
+    </net>
+    <net code="12" name="Net-(U2-Pad113)">
+      <node ref="U2" pin="113"/>
+    </net>
+    <net code="13" name="Net-(U2-Pad114)">
+      <node ref="U2" pin="114"/>
+    </net>
+    <net code="14" name="Net-(U2-Pad115)">
+      <node ref="U2" pin="115"/>
+    </net>
+    <net code="15" name="Net-(U2-Pad116)">
+      <node ref="U2" pin="116"/>
+    </net>
+    <net code="16" name="Net-(U2-Pad117)">
+      <node ref="U2" pin="117"/>
+    </net>
+    <net code="17" name="Net-(U2-Pad118)">
+      <node ref="U2" pin="118"/>
+    </net>
+    <net code="18" name="Net-(U2-Pad119)">
+      <node ref="U2" pin="119"/>
+    </net>
+    <net code="19" name="Net-(U2-Pad120)">
+      <node ref="U2" pin="120"/>
+    </net>
+    <net code="20" name="Net-(U2-Pad121)">
+      <node ref="U2" pin="121"/>
+    </net>
+    <net code="21" name="Net-(U2-Pad122)">
+      <node ref="U2" pin="122"/>
+    </net>
+    <net code="22" name="Net-(U2-Pad123)">
+      <node ref="U2" pin="123"/>
+    </net>
+    <net code="23" name="Net-(U2-Pad127)">
+      <node ref="U2" pin="127"/>
+    </net>
+    <net code="24" name="Net-(U2-Pad128)">
+      <node ref="U2" pin="128"/>
+    </net>
+    <net code="25" name="Net-(U2-Pad129)">
+      <node ref="U2" pin="129"/>
+    </net>
+    <net code="26" name="Net-(U2-Pad13)">
+      <node ref="U2" pin="13"/>
+    </net>
+    <net code="27" name="Net-(S2-Pad4)">
+      <node ref="U2" pin="130"/>
+      <node ref="S2" pin="4"/>
+    </net>
+    <net code="28" name="Net-(U2-Pad131)">
+      <node ref="U2" pin="131"/>
+    </net>
+    <net code="29" name="Net-(U2-Pad132)">
+      <node ref="U2" pin="132"/>
+    </net>
+    <net code="30" name="Net-(U2-Pad133)">
+      <node ref="U2" pin="133"/>
+    </net>
+    <net code="31" name="Net-(U2-Pad136)">
+      <node ref="U2" pin="136"/>
+    </net>
+    <net code="32" name="Net-(U2-Pad137)">
+      <node ref="U2" pin="137"/>
+    </net>
+    <net code="33" name="Net-(U2-Pad138)">
+      <node ref="U2" pin="138"/>
+    </net>
+    <net code="34" name="Net-(U2-Pad139)">
+      <node ref="U2" pin="139"/>
+    </net>
+    <net code="35" name="Net-(U2-Pad14)">
+      <node ref="U2" pin="14"/>
+    </net>
+    <net code="36" name="Net-(U2-Pad141)">
+      <node ref="U2" pin="141"/>
+    </net>
+    <net code="37" name="Net-(U2-Pad142)">
+      <node ref="U2" pin="142"/>
+    </net>
+    <net code="38" name="Net-(U2-Pad143)">
+      <node ref="U2" pin="143"/>
+    </net>
+    <net code="39" name="Net-(U2-Pad144)">
+      <node ref="U2" pin="144"/>
+    </net>
+    <net code="40" name="Net-(U2-Pad16)">
+      <node ref="U2" pin="16"/>
+    </net>
+    <net code="41" name="Net-(U2-Pad17)">
+      <node ref="U2" pin="17"/>
+    </net>
+    <net code="42" name="Net-(U2-Pad18)">
+      <node ref="U2" pin="18"/>
+    </net>
+    <net code="43" name="Net-(U2-Pad19)">
+      <node ref="U2" pin="19"/>
+    </net>
+    <net code="44" name="Net-(U2-Pad2)">
+      <node ref="U2" pin="2"/>
+    </net>
+    <net code="45" name="Net-(U2-Pad21)">
+      <node ref="U2" pin="21"/>
+    </net>
+    <net code="46" name="Net-(U2-Pad22)">
+      <node ref="U2" pin="22"/>
+    </net>
+    <net code="47" name="Net-(U2-Pad25)">
+      <node ref="U2" pin="25"/>
+    </net>
+    <net code="48" name="Net-(U2-Pad26)">
+      <node ref="U2" pin="26"/>
+    </net>
+    <net code="49" name="Net-(U2-Pad27)">
+      <node ref="U2" pin="27"/>
+    </net>
+    <net code="50" name="Net-(U2-Pad28)">
+      <node ref="U2" pin="28"/>
+    </net>
+    <net code="51" name="Net-(U2-Pad29)">
+      <node ref="U2" pin="29"/>
+    </net>
+    <net code="52" name="Net-(U2-Pad3)">
+      <node ref="U2" pin="3"/>
+    </net>
+    <net code="53" name="Net-(U2-Pad30)">
+      <node ref="U2" pin="30"/>
+    </net>
+    <net code="54" name="Net-(U2-Pad31)">
+      <node ref="U2" pin="31"/>
+    </net>
+    <net code="55" name="Net-(U2-Pad32)">
+      <node ref="U2" pin="32"/>
+    </net>
+    <net code="56" name="Net-(C3-Pad1)">
+      <node ref="Y1" pin="3"/>
+      <node ref="C3" pin="1"/>
+      <node ref="U2" pin="35"/>
+    </net>
+    <net code="57" name="+5V_USB">
+      <node ref="J1" pin="1"/>
+      <node ref="R21" pin="1"/>
+      <node ref="U2" pin="39"/>
+      <node ref="J2" pin="A15"/>
+    </net>
+    <net code="58" name="Net-(U2-Pad4)">
+      <node ref="U2" pin="4"/>
+    </net>
+    <net code="59" name="/MASTER-RESET">
+      <node ref="S1" pin="4"/>
+      <node ref="C27" pin="2"/>
+      <node ref="U2" pin="47"/>
+    </net>
+    <net code="60" name="Net-(U2-Pad5)">
+      <node ref="U2" pin="5"/>
+    </net>
+    <net code="61" name="Net-(U2-Pad50)">
+      <node ref="U2" pin="50"/>
+    </net>
+    <net code="62" name="Net-(U2-Pad51)">
+      <node ref="U2" pin="51"/>
+    </net>
+    <net code="63" name="+3V3">
+      <node ref="C31" pin="1"/>
+      <node ref="C27" pin="1"/>
+      <node ref="U2" pin="105"/>
+      <node ref="R18" pin="1"/>
+      <node ref="U1" pin="8"/>
+      <node ref="R17" pin="1"/>
+      <node ref="R30" pin="1"/>
+      <node ref="R27" pin="1"/>
+      <node ref="L3" pin="1"/>
+      <node ref="U2" pin="125"/>
+      <node ref="R3" pin="2"/>
+      <node ref="U2" pin="62"/>
+      <node ref="C1" pin="1"/>
+      <node ref="IC2" pin="1"/>
+      <node ref="C30" pin="1"/>
+      <node ref="C47" pin="1"/>
+      <node ref="L7" pin="1"/>
+      <node ref="C36" pin="1"/>
+      <node ref="L8" pin="1"/>
+      <node ref="IC1" pin="1"/>
+      <node ref="S2" pin="1"/>
+      <node ref="C37" pin="1"/>
+      <node ref="R28" pin="1"/>
+      <node ref="U2" pin="11"/>
+      <node ref="C7" pin="1"/>
+      <node ref="C12" pin="1"/>
+      <node ref="U2" pin="57"/>
+      <node ref="R4" pin="1"/>
+      <node ref="PS3" pin="3"/>
+      <node ref="R5" pin="1"/>
+      <node ref="L2" pin="1"/>
+      <node ref="L1" pin="1"/>
+      <node ref="C21" pin="1"/>
+      <node ref="C11" pin="1"/>
+      <node ref="C19" pin="1"/>
+      <node ref="C16" pin="1"/>
+      <node ref="C14" pin="1"/>
+      <node ref="C9" pin="1"/>
+      <node ref="U2" pin="52"/>
+    </net>
+    <net code="64" name="Net-(U2-Pad55)">
+      <node ref="U2" pin="55"/>
+    </net>
+    <net code="65" name="Net-(U2-Pad59)">
+      <node ref="U2" pin="59"/>
+    </net>
+    <net code="66" name="Net-(U2-Pad6)">
+      <node ref="U2" pin="6"/>
+    </net>
+    <net code="67" name="Net-(U2-Pad60)">
+      <node ref="U2" pin="60"/>
+    </net>
+    <net code="68" name="Net-(U2-Pad63)">
+      <node ref="U2" pin="63"/>
+    </net>
+    <net code="69" name="Net-(U2-Pad64)">
+      <node ref="U2" pin="64"/>
+    </net>
+    <net code="70" name="Net-(U2-Pad65)">
+      <node ref="U2" pin="65"/>
+    </net>
+    <net code="71" name="Net-(U2-Pad66)">
+      <node ref="U2" pin="66"/>
+    </net>
+    <net code="72" name="Net-(U2-Pad67)">
+      <node ref="U2" pin="67"/>
+    </net>
+    <net code="73" name="Net-(U2-Pad69)">
+      <node ref="U2" pin="69"/>
+    </net>
+    <net code="74" name="Net-(U2-Pad7)">
+      <node ref="U2" pin="7"/>
+    </net>
+    <net code="75" name="Net-(U2-Pad70)">
+      <node ref="U2" pin="70"/>
+    </net>
+    <net code="76" name="Net-(U2-Pad71)">
+      <node ref="U2" pin="71"/>
+    </net>
+    <net code="77" name="Net-(U2-Pad72)">
+      <node ref="U2" pin="72"/>
+    </net>
+    <net code="78" name="Net-(U2-Pad77)">
+      <node ref="U2" pin="77"/>
+    </net>
+    <net code="79" name="Net-(U2-Pad78)">
+      <node ref="U2" pin="78"/>
+    </net>
+    <net code="80" name="Net-(U2-Pad79)">
+      <node ref="U2" pin="79"/>
+    </net>
+    <net code="81" name="Net-(U2-Pad8)">
+      <node ref="U2" pin="8"/>
+    </net>
+    <net code="82" name="Net-(U2-Pad80)">
+      <node ref="U2" pin="80"/>
+    </net>
+    <net code="83" name="Net-(U2-Pad81)">
+      <node ref="U2" pin="81"/>
+    </net>
+    <net code="84" name="Net-(U2-Pad82)">
+      <node ref="U2" pin="82"/>
+    </net>
+    <net code="85" name="Net-(U2-Pad83)">
+      <node ref="U2" pin="83"/>
+    </net>
+    <net code="86" name="Net-(U2-Pad84)">
+      <node ref="U2" pin="84"/>
+    </net>
+    <net code="87" name="Net-(U2-Pad85)">
+      <node ref="U2" pin="85"/>
+    </net>
+    <net code="88" name="Net-(U2-Pad88)">
+      <node ref="U2" pin="88"/>
+    </net>
+    <net code="89" name="Net-(U2-Pad89)">
+      <node ref="U2" pin="89"/>
+    </net>
+    <net code="90" name="Net-(U2-Pad9)">
+      <node ref="U2" pin="9"/>
+    </net>
+    <net code="91" name="Net-(U2-Pad90)">
+      <node ref="U2" pin="90"/>
+    </net>
+    <net code="92" name="Net-(U2-Pad91)">
+      <node ref="U2" pin="91"/>
+    </net>
+    <net code="93" name="Net-(U2-Pad92)">
+      <node ref="U2" pin="92"/>
+    </net>
+    <net code="94" name="Net-(U2-Pad93)">
+      <node ref="U2" pin="93"/>
+    </net>
+    <net code="95" name="Net-(U2-Pad94)">
+      <node ref="U2" pin="94"/>
+    </net>
+    <net code="96" name="Net-(U2-Pad95)">
+      <node ref="U2" pin="95"/>
+    </net>
+    <net code="97" name="Net-(U2-Pad98)">
+      <node ref="U2" pin="98"/>
+    </net>
+    <net code="98" name="Net-(U2-Pad99)">
+      <node ref="U2" pin="99"/>
+    </net>
+    <net code="99" name="Net-(J2-PadA1)">
+      <node ref="J2" pin="A1"/>
+    </net>
+    <net code="100" name="Net-(J2-PadA13)">
+      <node ref="J2" pin="A13"/>
+    </net>
+    <net code="101" name="Net-(J2-PadA3)">
+      <node ref="J2" pin="A3"/>
+    </net>
+    <net code="102" name="Net-(J2-PadB11)">
+      <node ref="J2" pin="B11"/>
+    </net>
+    <net code="103" name="Net-(J2-PadB12)">
+      <node ref="J2" pin="B12"/>
+    </net>
+    <net code="104" name="Net-(J2-PadB3)">
+      <node ref="J2" pin="B3"/>
+    </net>
+    <net code="105" name="Net-(J2-PadB5)">
+      <node ref="J2" pin="B5"/>
+    </net>
+    <net code="106" name="Net-(J2-PadB6)">
+      <node ref="J2" pin="B6"/>
+    </net>
+    <net code="107" name="Net-(J2-PadMH1)">
+      <node ref="J2" pin="MH1"/>
+    </net>
+    <net code="108" name="/VDD_ANA">
+      <node ref="L2" pin="2"/>
+      <node ref="U2" pin="73"/>
+      <node ref="C26" pin="1"/>
+      <node ref="C25" pin="1"/>
+    </net>
+    <net code="109" name="/VDD_OUT_MI">
+      <node ref="L3" pin="2"/>
+      <node ref="U2" pin="41"/>
+      <node ref="C23" pin="1"/>
+      <node ref="C24" pin="1"/>
+    </net>
+    <net code="110" name="/VDD_PLL">
+      <node ref="C29" pin="1"/>
+      <node ref="C28" pin="1"/>
+      <node ref="U2" pin="34"/>
+      <node ref="L4" pin="2"/>
+    </net>
+    <net code="111" name="/USB_D-">
+      <node ref="J1" pin="2"/>
+      <node ref="R6" pin="1"/>
+      <node ref="J2" pin="A4"/>
+      <node ref="U2" pin="38"/>
+    </net>
+    <net code="112" name="Net-(R6-Pad2)">
+      <node ref="R6" pin="2"/>
+      <node ref="U2" pin="43"/>
+    </net>
+    <net code="113" name="/USB_D+">
+      <node ref="U2" pin="37"/>
+      <node ref="J2" pin="A5"/>
+      <node ref="R7" pin="1"/>
+      <node ref="J1" pin="3"/>
+    </net>
+    <net code="114" name="Net-(R7-Pad2)">
+      <node ref="U2" pin="42"/>
+      <node ref="R7" pin="2"/>
+    </net>
+    <net code="115" name="/CAR-12V_always-on">
+      <node ref="J2" pin="A8"/>
+      <node ref="F1" pin="1"/>
+      <node ref="J3" pin="1"/>
+    </net>
+    <net code="116" name="Earth">
+      <node ref="R22" pin="2"/>
+      <node ref="D7" pin="2"/>
+      <node ref="C8" pin="2"/>
+      <node ref="C6" pin="2"/>
+      <node ref="U2" pin="74"/>
+      <node ref="J3" pin="2"/>
+      <node ref="U4" pin="2"/>
+      <node ref="U4" pin="3"/>
+      <node ref="Y1" pin="2"/>
+      <node ref="Y1" pin="4"/>
+      <node ref="C2" pin="2"/>
+      <node ref="U3" pin="3"/>
+      <node ref="U1" pin="7"/>
+      <node ref="U3" pin="2"/>
+      <node ref="C26" pin="2"/>
+      <node ref="C3" pin="2"/>
+      <node ref="U1" pin="4"/>
+      <node ref="U1" pin="3"/>
+      <node ref="U1" pin="2"/>
+      <node ref="U1" pin="1"/>
+      <node ref="C25" pin="2"/>
+      <node ref="D3" pin="2"/>
+      <node ref="R9" pin="2"/>
+      <node ref="LED2" pin="1"/>
+      <node ref="U7" pin="3"/>
+      <node ref="J2" pin="B1"/>
+      <node ref="LED1" pin="1"/>
+      <node ref="C30" pin="2"/>
+      <node ref="PS1" pin="1"/>
+      <node ref="C46" pin="2"/>
+      <node ref="C47" pin="2"/>
+      <node ref="C45" pin="2"/>
+      <node ref="R1" pin="1"/>
+      <node ref="C13" pin="2"/>
+      <node ref="C24" pin="2"/>
+      <node ref="R19" pin="2"/>
+      <node ref="C44" pin="2"/>
+      <node ref="D6" pin="2"/>
+      <node ref="C41" pin="1"/>
+      <node ref="C7" pin="2"/>
+      <node ref="C36" pin="2"/>
+      <node ref="PS2" pin="1"/>
+      <node ref="C40" pin="1"/>
+      <node ref="IC2" pin="4"/>
+      <node ref="C23" pin="2"/>
+      <node ref="IC1" pin="4"/>
+      <node ref="R29" pin="2"/>
+      <node ref="C10" pin="2"/>
+      <node ref="C37" pin="2"/>
+      <node ref="C18" pin="2"/>
+      <node ref="C21" pin="2"/>
+      <node ref="U2" pin="44"/>
+      <node ref="C4" pin="2"/>
+      <node ref="C19" pin="2"/>
+      <node ref="C5" pin="2"/>
+      <node ref="C12" pin="2"/>
+      <node ref="U2" pin="58"/>
+      <node ref="C11" pin="2"/>
+      <node ref="U2" pin="12"/>
+      <node ref="PS3" pin="2"/>
+      <node ref="C16" pin="2"/>
+      <node ref="U2" pin="54"/>
+      <node ref="C14" pin="2"/>
+      <node ref="C9" pin="2"/>
+      <node ref="U2" pin="46"/>
+      <node ref="J2" pin="A2"/>
+      <node ref="C15" pin="2"/>
+      <node ref="U2" pin="33"/>
+      <node ref="J1" pin="4"/>
+      <node ref="J1" pin="5"/>
+      <node ref="J1" pin="6"/>
+      <node ref="S1" pin="1"/>
+      <node ref="U2" pin="126"/>
+      <node ref="C1" pin="2"/>
+      <node ref="U6" pin="3"/>
+      <node ref="U2" pin="106"/>
+      <node ref="J2" pin="A14"/>
+      <node ref="J2" pin="A19"/>
+      <node ref="Q1" pin="2"/>
+      <node ref="Q2" pin="2"/>
+      <node ref="Q3" pin="2"/>
+      <node ref="Q4" pin="2"/>
+      <node ref="C28" pin="2"/>
+      <node ref="C22" pin="2"/>
+      <node ref="C20" pin="2"/>
+      <node ref="C17" pin="2"/>
+      <node ref="C31" pin="2"/>
+      <node ref="C29" pin="2"/>
+    </net>
+    <net code="117" name="Net-(C13-Pad1)">
+      <node ref="R1" pin="2"/>
+      <node ref="U2" pin="40"/>
+      <node ref="C13" pin="1"/>
+    </net>
+    <net code="118" name="Net-(C4-Pad1)">
+      <node ref="Y2" pin="2"/>
+      <node ref="C4" pin="1"/>
+      <node ref="U2" pin="48"/>
+    </net>
+    <net code="119" name="Net-(C5-Pad1)">
+      <node ref="Y2" pin="1"/>
+      <node ref="C5" pin="1"/>
+      <node ref="U2" pin="49"/>
+    </net>
+    <net code="120" name="Net-(C2-Pad1)">
+      <node ref="Y1" pin="1"/>
+      <node ref="C2" pin="1"/>
+      <node ref="U2" pin="36"/>
+    </net>
+    <net code="121" name="Net-(C18-Pad1)">
+      <node ref="L1" pin="2"/>
+      <node ref="U2" pin="75"/>
+      <node ref="C18" pin="1"/>
+    </net>
+    <net code="122" name="Net-(R3-Pad1)">
+      <node ref="U2" pin="53"/>
+      <node ref="R3" pin="1"/>
+    </net>
+    <net code="123" name="/CAN0-TX">
+      <node ref="IC1" pin="3"/>
+      <node ref="U2" pin="23"/>
+    </net>
+    <net code="124" name="/CAN0-RX">
+      <node ref="U2" pin="24"/>
+      <node ref="IC1" pin="2"/>
+    </net>
+    <net code="125" name="/EEPROM-SDA">
+      <node ref="R5" pin="2"/>
+      <node ref="U1" pin="5"/>
+      <node ref="U2" pin="86"/>
+    </net>
+    <net code="126" name="/EEPROM-SCL">
+      <node ref="U2" pin="87"/>
+      <node ref="R4" pin="2"/>
+      <node ref="U1" pin="6"/>
+    </net>
+    <net code="127" name="/CAN1-TX">
+      <node ref="IC2" pin="3"/>
+      <node ref="U2" pin="140"/>
+    </net>
+    <net code="128" name="/CAN1-RX">
+      <node ref="IC2" pin="2"/>
+      <node ref="U2" pin="76"/>
+    </net>
+    <net code="129" name="/NCCAN0_N">
+      <node ref="IC1" pin="6"/>
+      <node ref="L6" pin="1"/>
+    </net>
+    <net code="130" name="/NCCAN0_P">
+      <node ref="IC1" pin="7"/>
+      <node ref="L6" pin="2"/>
+    </net>
+    <net code="131" name="Net-(R2-Pad1)">
+      <node ref="U2" pin="68"/>
+      <node ref="R2" pin="1"/>
+    </net>
+    <net code="132" name="Net-(LED1-Pad2)">
+      <node ref="LED1" pin="2"/>
+      <node ref="R2" pin="2"/>
+    </net>
+    <net code="133" name="/CHAdeMO_charge_enable">
+      <node ref="J2" pin="B4"/>
+      <node ref="R8" pin="1"/>
+    </net>
+    <net code="134" name="/Relay_CHAdeMO_contactors_GND">
+      <node ref="K1" pin="2"/>
+      <node ref="D1" pin="2"/>
+      <node ref="Q2" pin="3"/>
+    </net>
+    <net code="135" name="/relay-CHAdeMO-contactors-signal_D49">
+      <node ref="Q2" pin="1"/>
+      <node ref="R19" pin="1"/>
+      <node ref="U2" pin="96"/>
+    </net>
+    <net code="136" name="/CHAdeMO-charge-start1_3.3Vsignal_IN1_D6">
+      <node ref="R17" pin="2"/>
+      <node ref="U2" pin="135"/>
+      <node ref="U3" pin="4"/>
+    </net>
+    <net code="137" name="Net-(R16-Pad1)">
+      <node ref="R16" pin="1"/>
+      <node ref="U4" pin="1"/>
+    </net>
+    <net code="138" name="/CHAdeMO-charge-start2_3.3Vsignal_IN2_D7">
+      <node ref="U2" pin="134"/>
+      <node ref="R18" pin="2"/>
+      <node ref="U4" pin="4"/>
+    </net>
+    <net code="139" name="+12V">
+      <node ref="Q5" pin="3"/>
+      <node ref="C44" pin="1"/>
+      <node ref="U7" pin="1"/>
+      <node ref="F2" pin="2"/>
+      <node ref="K1" pin="1"/>
+      <node ref="D1" pin="1"/>
+      <node ref="R14" pin="1"/>
+      <node ref="L9" pin="1"/>
+      <node ref="C45" pin="1"/>
+      <node ref="C46" pin="1"/>
+      <node ref="D7" pin="1"/>
+      <node ref="U6" pin="1"/>
+    </net>
+    <net code="140" name="Net-(K1-Pad3)">
+      <node ref="K1" pin="3"/>
+    </net>
+    <net code="141" name="/CHAdeMO_contactors_GND">
+      <node ref="K1" pin="5"/>
+      <node ref="D2" pin="2"/>
+      <node ref="J2" pin="A6"/>
+    </net>
+    <net code="142" name="/CHAdeMO-CHARGE-START2_IN2">
+      <node ref="R14" pin="2"/>
+      <node ref="K1" pin="4"/>
+      <node ref="J2" pin="B10"/>
+      <node ref="R16" pin="2"/>
+    </net>
+    <net code="143" name="Net-(L9-Pad2)">
+      <node ref="L9" pin="2"/>
+      <node ref="PS3" pin="1"/>
+    </net>
+    <net code="144" name="Net-(C38-Pad2)">
+      <node ref="PS1" pin="2"/>
+      <node ref="L7" pin="2"/>
+      <node ref="C38" pin="2"/>
+    </net>
+    <net code="145" name="Net-(C39-Pad2)">
+      <node ref="PS2" pin="2"/>
+      <node ref="L8" pin="2"/>
+      <node ref="C39" pin="2"/>
+    </net>
+    <net code="146" name="GND_CAN1">
+      <node ref="IC2" pin="5"/>
+      <node ref="C43" pin="1"/>
+      <node ref="PS2" pin="3"/>
+      <node ref="C34" pin="2"/>
+      <node ref="C41" pin="2"/>
+      <node ref="C33" pin="1"/>
+      <node ref="D5" pin="3"/>
+    </net>
+    <net code="147" name="+5V_0">
+      <node ref="C32" pin="2"/>
+      <node ref="IC1" pin="8"/>
+      <node ref="PS1" pin="4"/>
+      <node ref="C42" pin="1"/>
+      <node ref="C38" pin="1"/>
+    </net>
+    <net code="148" name="GND_CAN0">
+      <node ref="C35" pin="2"/>
+      <node ref="D4" pin="3"/>
+      <node ref="C40" pin="2"/>
+      <node ref="IC1" pin="5"/>
+      <node ref="C42" pin="2"/>
+      <node ref="PS1" pin="3"/>
+      <node ref="C32" pin="1"/>
+    </net>
+    <net code="149" name="/NCCAN1_P">
+      <node ref="L5" pin="1"/>
+      <node ref="IC2" pin="7"/>
+    </net>
+    <net code="150" name="Net-(F2-Pad1)">
+      <node ref="F2" pin="1"/>
+      <node ref="J2" pin="A7"/>
+    </net>
+    <net code="151" name="/CHAdeMO-CHARGE-START1_IN1">
+      <node ref="R15" pin="2"/>
+      <node ref="D3" pin="1"/>
+      <node ref="J2" pin="A9"/>
+      <node ref="D2" pin="1"/>
+      <node ref="J2" pin="B2"/>
+    </net>
+    <net code="152" name="/CHAdeMO_PROXIMITY">
+      <node ref="J2" pin="B7"/>
+      <node ref="R20" pin="2"/>
+    </net>
+    <net code="153" name="/VDD_OUT">
+      <node ref="U2" pin="124"/>
+      <node ref="U2" pin="56"/>
+      <node ref="U2" pin="61"/>
+      <node ref="U2" pin="104"/>
+      <node ref="U2" pin="10"/>
+      <node ref="L4" pin="1"/>
+      <node ref="C6" pin="1"/>
+      <node ref="C8" pin="1"/>
+      <node ref="C10" pin="1"/>
+      <node ref="C15" pin="1"/>
+      <node ref="C17" pin="1"/>
+      <node ref="C20" pin="1"/>
+      <node ref="C22" pin="1"/>
+      <node ref="U2" pin="45"/>
+    </net>
+    <net code="154" name="+12VA">
+      <node ref="R23" pin="1"/>
+      <node ref="U5" pin="1"/>
+      <node ref="F1" pin="2"/>
+      <node ref="R24" pin="1"/>
+      <node ref="Q5" pin="2"/>
+      <node ref="D6" pin="1"/>
+    </net>
+    <net code="155" name="/NCCAN1_N">
+      <node ref="L5" pin="2"/>
+      <node ref="IC2" pin="6"/>
+    </net>
+    <net code="156" name="+5V_1">
+      <node ref="IC2" pin="8"/>
+      <node ref="C33" pin="2"/>
+      <node ref="PS2" pin="4"/>
+      <node ref="C43" pin="2"/>
+      <node ref="C39" pin="1"/>
+    </net>
+    <net code="157" name="Net-(JP1-Pad2)">
+      <node ref="R12" pin="1"/>
+      <node ref="JP1" pin="2"/>
+    </net>
+    <net code="158" name="Net-(R15-Pad1)">
+      <node ref="R15" pin="1"/>
+      <node ref="U3" pin="1"/>
+    </net>
+    <net code="159" name="/ACTIVE-LOW-WAKEUP">
+      <node ref="J2" pin="A17"/>
+      <node ref="F3" pin="2"/>
+    </net>
+    <net code="160" name="Net-(R20-Pad1)">
+      <node ref="U5" pin="2"/>
+      <node ref="R20" pin="1"/>
+    </net>
+    <net code="161" name="Net-(D8-Pad1)">
+      <node ref="R22" pin="1"/>
+      <node ref="U5" pin="3"/>
+      <node ref="D8" pin="1"/>
+      <node ref="Q4" pin="1"/>
+      <node ref="Q3" pin="1"/>
+    </net>
+    <net code="162" name="Net-(R23-Pad2)">
+      <node ref="R29" pin="1"/>
+      <node ref="R23" pin="2"/>
+      <node ref="U5" pin="4"/>
+    </net>
+    <net code="163" name="/PROXIMITY-PRESENT">
+      <node ref="Q3" pin="3"/>
+      <node ref="R24" pin="2"/>
+      <node ref="Q5" pin="1"/>
+    </net>
+    <net code="164" name="Net-(D8-Pad2)">
+      <node ref="D8" pin="2"/>
+      <node ref="R21" pin="2"/>
+    </net>
+    <net code="165" name="Net-(Q1-Pad3)">
+      <node ref="R8" pin="2"/>
+      <node ref="Q1" pin="3"/>
+    </net>
+    <net code="166" name="/CHAdeMO-charge-enable-signal_D48">
+      <node ref="U2" pin="97"/>
+      <node ref="Q1" pin="1"/>
+      <node ref="R9" pin="1"/>
+    </net>
+    <net code="167" name="Net-(C34-Pad1)">
+      <node ref="R11" pin="1"/>
+      <node ref="C34" pin="1"/>
+      <node ref="R10" pin="2"/>
+    </net>
+    <net code="168" name="Net-(JP2-Pad1)">
+      <node ref="JP2" pin="1"/>
+      <node ref="R13" pin="2"/>
+    </net>
+    <net code="169" name="Net-(C35-Pad1)">
+      <node ref="R13" pin="1"/>
+      <node ref="R12" pin="2"/>
+      <node ref="C35" pin="1"/>
+    </net>
+    <net code="170" name="/CAN0_N">
+      <node ref="D4" pin="1"/>
+      <node ref="L6" pin="4"/>
+      <node ref="J2" pin="A20"/>
+      <node ref="J2" pin="A12"/>
+      <node ref="JP1" pin="1"/>
+    </net>
+    <net code="171" name="/CAN0_P">
+      <node ref="J2" pin="A10"/>
+      <node ref="J2" pin="A11"/>
+      <node ref="L6" pin="3"/>
+      <node ref="D4" pin="2"/>
+      <node ref="JP2" pin="2"/>
+    </net>
+    <net code="176" name="Net-(S1-Pad2)">
+      <node ref="S1" pin="2"/>
+    </net>
+    <net code="177" name="Net-(S1-Pad3)">
+      <node ref="S1" pin="3"/>
+    </net>
+    <net code="178" name="Net-(S2-Pad2)">
+      <node ref="S2" pin="2"/>
+    </net>
+    <net code="179" name="Net-(S2-Pad3)">
+      <node ref="S2" pin="3"/>
+    </net>
+    <net code="180" name="Net-(F3-Pad1)">
+      <node ref="Q4" pin="3"/>
+      <node ref="F3" pin="1"/>
+    </net>
+    <net code="181" name="/CHAdeMO_contactor1-feedbackIN">
+      <node ref="J2" pin="A16"/>
+      <node ref="R25" pin="2"/>
+    </net>
+    <net code="182" name="Net-(R25-Pad1)">
+      <node ref="U6" pin="2"/>
+      <node ref="R25" pin="1"/>
+    </net>
+    <net code="183" name="/CHAdeMO_contactor1-feedback_D27">
+      <node ref="R27" pin="2"/>
+      <node ref="U2" pin="15"/>
+      <node ref="U6" pin="4"/>
+    </net>
+    <net code="188" name="/CHAdeMO_contactor2-feedbackIN">
+      <node ref="R26" pin="2"/>
+      <node ref="J2" pin="A18"/>
+    </net>
+    <net code="189" name="Net-(R26-Pad1)">
+      <node ref="R26" pin="1"/>
+      <node ref="U7" pin="2"/>
+    </net>
+    <net code="190" name="/CHAdeMO_contactor2-feedback_D11">
+      <node ref="R28" pin="2"/>
+      <node ref="U2" pin="20"/>
+      <node ref="U7" pin="4"/>
+    </net>
+    <net code="191" name="/CAN1_N">
+      <node ref="J2" pin="B9"/>
+      <node ref="R11" pin="2"/>
+      <node ref="D5" pin="2"/>
+      <node ref="L5" pin="3"/>
+      <node ref="J4" pin="1"/>
+    </net>
+    <net code="192" name="/CAN1_P">
+      <node ref="J4" pin="2"/>
+      <node ref="R10" pin="1"/>
+      <node ref="L5" pin="4"/>
+      <node ref="D5" pin="1"/>
+      <node ref="J2" pin="B8"/>
+    </net>
+    <net code="193" name="Net-(LED2-Pad2)">
+      <node ref="LED2" pin="2"/>
+      <node ref="R30" pin="2"/>
+    </net>
+  </nets>
+</export>
